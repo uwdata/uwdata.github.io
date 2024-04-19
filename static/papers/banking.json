@@ -1,0 +1,36 @@
+{
+  "title": "Multi-Scale Banking to 45 Degrees",
+  "year": 2006,
+  "start_page": 701,
+  "end_page": 708,
+  "volume": 12,
+  "issue": 5,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2006-Banking-InfoVis.pdf",
+  "abstract": "In his text Visualizing Data, William Cleveland demonstrates how the aspect ratio of a line chart can affect an analyst's perception of trends in the data. Cleveland proposes an optimization technique for computing the aspect ratio such that the average absolute orientation of line segments in the chart is equal to 45 degrees. This technique, called banking to 45 degrees, is designed to maximize the discriminability of the orientations of the line segments in the chart. In this paper, we revisit this classic result and describe two new extensions. First, we propose alternate optimization criteria designed to further improve the visual perception of line segment orientations. Second, we develop multi-scale banking, a technique that combines spectral analysis with banking to 45 degrees. Our technique automatically identifies trends at various frequency scales and then generates a banked chart for each of these scales. We demonstrate the utility of our techniques in a range of visualization tools and analysis examples.",
+  "thumbnail": "images/thumbs/banking.gif",
+  "figure": "images/figures/co2.gif",
+  "caption": "Two plots of monthly atmospheric carbon dioxide measurements, taken from 1959 to 1990. The first plot, with an aspect ratio of 1.17, reveals an accelerating increase in CO_2 levels. The second plot, with an aspect ratio of 7.87, facilitates closer inspection of seasonal fluctuations, revealing a gradual attack followed by a steeper decay. These aspect ratios were automatically determined using multi-scale banking.",
+  "web_name": "banking",
+  "visible": true,
+  "mod_date": "2009-08-04",
+  "note": null,
+  "pub_date": "2006-10-01",
+  "venue": "InfoVis",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Maneesh",
+      "last_name": "Agrawala",
+      "url": "http://graphics.stanford.edu/~maneesh/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

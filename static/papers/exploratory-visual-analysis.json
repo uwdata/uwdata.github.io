@@ -1,0 +1,41 @@
+{
+  "title": "Characterizing Exploratory Visual Analysis: A Literature Review and Evaluation of Analytic Provenance in Tableau",
+  "year": 2019,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2019-CharacterizingEVA-EuroVis.pdf",
+  "abstract": "Supporting exploratory visual analysis (EVA) is a central goal of visualization research, and yet our understanding of the process is arguably vague and piecemeal. We contribute a consistent definition of EVA through review of the relevant literature, and an empirical evaluation of existing assumptions regarding how analysts perform EVA using Tableau, a popular visual analysis tool. We present the results of a study where 27 Tableau users answered various analysis questions across 3 datasets. We measure task performance, identify recurring patterns across participants' analyses, and assess variance from task specificity and dataset. We find striking differences between existing assumptions and the collected data. Participants successfully completed a variety of tasks, with over 80% accuracy across focused tasks with measurably correct answers. The observed cadence of analyses is surprisingly slow compared to popular assumptions from the database community. We find significant overlap in analyses across participants, showing that EVA behaviors can be predictable. Furthermore, we find few structural differences between behavior graphs for open-ended and more focused exploration tasks.",
+  "thumbnail": "images/thumbs/exploratory-visual-analysis.png",
+  "figure": "",
+  "caption": "",
+  "web_name": "exploratory-visual-analysis",
+  "visible": true,
+  "mod_date": "2019-06-04",
+  "note": null,
+  "pub_date": "2019-06-04",
+  "venue": "EuroVis",
+  "authors": [
+    {
+      "first_name": "Leilani",
+      "last_name": "Battle",
+      "url": "https://homes.cs.washington.edu/~leibatt/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Data",
+      "link": "https://github.com/leibatt/characterizing-eva-tableau"
+    }
+  ],
+  "tags": []
+}

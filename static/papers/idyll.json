@@ -1,0 +1,47 @@
+{
+  "title": "Idyll: A Markup Language for Authoring and Publishing Interactive Articles on the Web",
+  "year": 2018,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2018-Idyll-UIST.pdf",
+  "abstract": "The web has matured as a publishing platform: news outlets regularly publish rich, interactive stories while technical writers use animation and interaction to communicate complex ideas. This style of interactive media has the potential to engage a large audience and more clearly explain concepts, but is expensive and time consuming to produce. Drawing on industry experience and interviews with domain experts, we contribute design tools to make it easier to author and publish interactive articles. We introduce Idyll, a novel \"compile-to- the-web\" language for web-based interactive narratives. Idyll implements a flexible article model, allowing authors control over document style and layout, reader-driven events (such as button clicks and scroll triggers), and a structured interface to JavaScript components. Through both examples and first-use results from undergraduate computer science students, we show how Idyll reduces the amount of effort and custom code required to create interactive articles.",
+  "thumbnail": "images/thumbs/idyll.png",
+  "figure": "images/figures/idyll.png",
+  "caption": "A gallery of interactive articles created with Idyll.",
+  "web_name": "idyll",
+  "visible": true,
+  "mod_date": "2018-10-11",
+  "note": null,
+  "pub_date": "2018-10-11",
+  "venue": "UIST",
+  "authors": [
+    {
+      "first_name": "Matt",
+      "last_name": "Conlen",
+      "url": "https://mathisonian.com/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "https://idyll-lang.org/"
+    },
+    {
+      "name": "Talk Video",
+      "link": "https://www.youtube.com/watch?v=KnPe6dZuwlg"
+    }
+  ],
+  "tags": [
+    "communication"
+  ]
+}

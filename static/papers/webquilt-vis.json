@@ -1,0 +1,53 @@
+{
+  "title": "What Did They Do? Understanding Clickstreams with the  WebQuilt Visualization System",
+  "year": 2002,
+  "start_page": 94,
+  "end_page": 102,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2002-WebQuilt-AVI.pdf",
+  "abstract": "This paper describes the visual analysis tool WebQuilt, a web usability logging and visualization system that helps web design teams record and analyze usability tests. The logging portion of WebQuilt unobtrusively gathers clickstream data as users complete specified tasks. This data is then aggregated and presented as an interactive graph, where nodes of the graph are images of the web pages visited, and arrows are the transitions between pages. To aid analysis of the gathered usability test data, the WebQuilt visualization provides filtering capabilities and semantic zooming, allowing the designer to understand the test results at the gestalt view of the entire graph, and then drill down to sub-paths and single pages. The visualization highlights important usability issues, such as pages where users spent a lot of time, pages where users get off track during the task, navigation patterns, and exit pages, all within the context of a specific task. WebQuilt is designed to conduct remote usability testing on a variety of Internet-enabled devices and provide a way to identify potential usability problems when the tester cannot be present to observe and record user actions.",
+  "thumbnail": "images/thumbs/webquilt-vis.gif",
+  "figure": "",
+  "caption": "",
+  "web_name": "webquilt-vis",
+  "visible": true,
+  "mod_date": "2009-08-04",
+  "note": null,
+  "pub_date": "2002-06-01",
+  "venue": "AVI",
+  "authors": [
+    {
+      "first_name": "Sarah",
+      "last_name": "Waterson"
+    },
+    {
+      "first_name": "Jason",
+      "last_name": "Hong",
+      "url": "http://www.cs.cmu.edu/~jasonh/"
+    },
+    {
+      "first_name": "Tim",
+      "last_name": "Sohn"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Tara",
+      "last_name": "Matthews"
+    },
+    {
+      "first_name": "James",
+      "last_name": "Landay",
+      "url": "http://www.cs.washington.edu/homes/landay/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

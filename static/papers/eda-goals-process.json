@@ -1,0 +1,46 @@
+{
+  "title": "Goals, Process, and Challenges of Exploratory Data Analysis: An Interview Study",
+  "year": 2019,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": 1911.00568,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2019-GoalsProcessEDA-arXiv.pdf",
+  "abstract": "How do analysis goals and context affect exploratory data analysis (EDA)? To investigate this question, we conducted semi-structured interviews with 18 data analysts. We characterize common exploration goals: profiling (assessing data quality) and discovery (gaining new insights). Though the EDA literature primarily emphasizes discovery, we observe that discovery only reliably occurs in the context of open-ended analyses, whereas all participants engage in profiling across all of their analyses. We describe the process and challenges of EDA highlighted by our interviews. We find that analysts must perform repetitive tasks (e.g., examine numerous variables), yet they may have limited time or lack domain knowledge to explore data. Analysts also often have to consult other stakeholders and oscillate between exploration and other tasks, such as acquiring and wrangling additional data. Based on these observations, we identify design opportunities for exploratory analysis tools, such as augmenting exploration with automation and guidance.",
+  "thumbnail": "images/thumbs/eda-goals-process.gif",
+  "figure": "",
+  "caption": "",
+  "web_name": "eda-goals-process",
+  "visible": true,
+  "mod_date": "2019-11-01",
+  "note": null,
+  "pub_date": "2019-11-01",
+  "venue": "arXiv",
+  "authors": [
+    {
+      "first_name": "Kanit",
+      "last_name": "Wongsuphasawat",
+      "url": "https://kanitw.github.io/"
+    },
+    {
+      "first_name": "Yang",
+      "last_name": "Liu",
+      "url": "http://yangliu.life/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Preprint",
+      "link": "https://arxiv.org/abs/1911.00568"
+    }
+  ],
+  "tags": []
+}

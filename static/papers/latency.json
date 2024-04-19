@@ -1,0 +1,38 @@
+{
+  "title": "The Effects of Interactive Latency on Exploratory Visual Analysis",
+  "year": 2014,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2014-Latency-InfoVis.pdf",
+  "abstract": "To support effective exploration, it is often stated that interactive visualizations should provide rapid response times. However, the effects of interactive latency on the process and outcomes of exploratory visual analysis have not been systematically studied. We present an experiment measuring user behavior and knowledge discovery with interactive visualizations under varying latency conditions. We observe that an additional delay of 500ms incurs significant costs, decreasing user activity and data set coverage. Analyzing verbal data from think-aloud protocols, we find that increased latency reduces the rate at which users make observations, draw generalizations and generate hypotheses. Moreover, we note interaction effects in which initial exposure to higher latencies leads to subsequently reduced performance in a low-latency setting. Overall, increased latency causes users to shift exploration strategy, in turn affecting performance. We discuss how these results can inform the design of interactive analysis tools.",
+  "thumbnail": "images/thumbs/latency.gif",
+  "figure": "images/figures/latency.png",
+  "caption": "An analysis scenario used in our experiment. Interactive, coordinated visualizations enable exploration of millions of user check-ins on a mobile social application.",
+  "web_name": "latency",
+  "visible": true,
+  "mod_date": "2014-11-14",
+  "note": null,
+  "pub_date": "2014-11-14",
+  "venue": "InfoVis",
+  "authors": [
+    {
+      "first_name": "Zhicheng",
+      "last_name": "Liu",
+      "url": "http://www.zcliu.org/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": [
+    "scalable"
+  ]
+}

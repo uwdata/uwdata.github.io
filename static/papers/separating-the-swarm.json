@@ -1,0 +1,35 @@
+{
+  "title": "Separating the Swarm: Categorization Methods for User Sessions on the Web",
+  "year": 2002,
+  "start_page": 243,
+  "end_page": 250,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2002-Lumberjack-CHI.pdf",
+  "abstract": "Understanding user behaviors on Web sites enables site owners to make sites more usable, ultimately helping users to achieve their goals more quickly. Accordingly, researchers have devised methods for categorizing user sessions in hopes of revealing user interests. These techniques build user profiles by combining users’ navigation paths with other data features, such as page viewing time, hyperlink structure, and page content.  Previously, we have presented complex techniques of combining many of these data features to cluster user profiles. In this paper, we introduce a user study and a systematic evaluation of these different data features and their associated weighting schemes. We present the results of our study, including accuracy measures for a number of clustering approaches, and offer recommendations for  Web analysts. While further investigation over more sites is needed to definitively settle on a robust scheme, we have characterized this analytic space.",
+  "thumbnail": "images/thumbs/separating-the-swarm.gif",
+  "figure": "",
+  "caption": "",
+  "web_name": "separating-the-swarm",
+  "visible": true,
+  "mod_date": "2009-08-04",
+  "note": null,
+  "pub_date": "2002-04-01",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Ed",
+      "last_name": "Chi"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

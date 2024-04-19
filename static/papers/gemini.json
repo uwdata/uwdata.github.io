@@ -1,0 +1,45 @@
+{
+  "title": "Gemini: A Grammar and Recommender System for Animated Transitions in Statistical Graphics",
+  "year": 2021,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2021-Gemini-InfoVis.pdf",
+  "abstract": "Animated transitions help viewers follow changes between related visualizations. Specifying effective animations demands significant effort: authors must select the elements and properties to animate, provide transition parameters, and coordinate the timing of stages. To facilitate this process, we present Gemini, a declarative grammar and recommendation system for animated transitions between single-view statistical graphics. Gemini specifications define transition “steps” in terms of high-level visual components (marks, axes, legends) and composition rules to synchronize and concatenate steps. With this grammar, Gemini can recommend animation designs to augment and accelerate designers work. Gemini enumerates staged animation designs for given start and end states, and ranks those designs using a cost function informed by prior perceptual studies. To evaluate Gemini, we conduct both a formative study on Mechanical Turk to assess and tune our ranking function, and a summative study in which 8 experienced visualization developers implement animations in D3 that we then compare to Geminis suggestions. We find that most designs (9/11) are exactly replicable in Gemini, with many (8/11) achievable via edits to suggestions, and that Gemini suggestions avoid multiple participant errors.",
+  "thumbnail": "images/thumbs/gemini.png",
+  "figure": "images/figures/gemini.png",
+  "caption": "An animated transition zooms a line chart to a larger time window. The timeline indicates the animation sequence; the enlarged gray interval indicates a pause. Right: The Gemini specification for the transition, which changes the scales of the axes and lines (1), pauses (2), and then extends the lines (3). The numbered items represent steps, the basic units of the Gemini grammar.",
+  "web_name": "gemini",
+  "visible": true,
+  "mod_date": "2021-01-02",
+  "note": null,
+  "pub_date": "2021-01-02",
+  "venue": "VIS",
+  "authors": [
+    {
+      "first_name": "Younghoon",
+      "last_name": "Kim",
+      "url": "https://yhoonkim.github.io/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Supplement",
+      "link": "https://github.com/uwdata/gemini-supplemental-material"
+    },
+    {
+      "name": "Software",
+      "link": "https://github.com/uwdata/gemini"
+    }
+  ],
+  "tags": []
+}

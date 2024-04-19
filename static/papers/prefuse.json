@@ -1,0 +1,50 @@
+{
+  "title": "Prefuse: A Toolkit for Interactive Information Visualization",
+  "year": 2005,
+  "start_page": 421,
+  "end_page": 430,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2005-prefuse-CHI.pdf",
+  "abstract": "Although information visualization (infovis) technologies have proven indispensable tools for making sense of complex data, wide-spread deployment has yet to take hold, as successful infovis applications are often difficult to author and require domain-specific customization. To address these issues, we have created prefuse, a software framework for creating dynamic visualizations of both structured and unstructured data. prefuse provides theoretically-motivated abstractions for the design of a wide range of visualization applications, enabling programmers to string together desired components quickly to create and customize working visualizations. To evaluate prefuse we have built both existing and novel visualizations testing the toolkit's flexibility and performance, and have run usability studies and usage surveys finding that programmers find the toolkit usable and effective.\r\n\r\nThe prefuse toolkit is open source software and can be downloaded from http://prefuse.org.",
+  "thumbnail": "images/thumbs/prefuse.gif",
+  "figure": "images/figures/prefuse-banner.gif",
+  "caption": "",
+  "web_name": "prefuse",
+  "visible": true,
+  "mod_date": "2011-01-28",
+  "note": "",
+  "pub_date": "2005-04-01",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Stuart",
+      "last_name": "Card",
+      "url": "http://www2.parc.com/istl/groups/uir/people/stuart/stuart.htm"
+    },
+    {
+      "first_name": "James",
+      "last_name": "Landay",
+      "url": "http://www.cs.washington.edu/homes/landay/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Video",
+      "link": "http://vimeo.com/19278481"
+    },
+    {
+      "name": "Website",
+      "link": "http://prefuse.org/"
+    }
+  ],
+  "tags": []
+}

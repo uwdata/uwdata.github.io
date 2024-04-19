@@ -1,0 +1,46 @@
+{
+  "title": "Designing Animated Transitions to Convey Aggregate Operations",
+  "year": 2019,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2019-AnimatedAggregates-EuroVis.pdf",
+  "abstract": "Data can be aggregated in many ways before being visualized in charts, profoundly affecting what a chart conveys. Despite this importance, the type of aggregation is often communicated only via axis titles. In this paper, we investigate the use of animation to disambiguate different types of aggregation and communicate the meaning of aggregate operations. We present design ra- tionales for animated transitions depicting aggregate operations and present the results of an experiment assessing the impact of these different transitions on identification tasks. We find that judiciously staged animated transitions can improve subjects' accuracy at identifying the aggregation performed, though sometimes with longer response times than with static transitions. Through an analysis of participants' rankings and qualitative responses, we find a consistent preference for animation over static transitions and highlight visual features subjects report relying on to make their judgments. We conclude by extending our animation designs to more complex charts of aggregated data such as box plots and bootstrapped confidence intervals.",
+  "thumbnail": "images/thumbs/animated-aggregate-operations.png",
+  "figure": "images/figures/animated-aggregate-operations.png",
+  "caption": "Staged animated transition for conveying the arithmetic mean (average). Individual data points shift and transform to lines to convey residual values. The residual lines then collapse synchronously, such that the upper and lower parts cancel out to form the average.",
+  "web_name": "animated-aggregate-operations",
+  "visible": true,
+  "mod_date": "2019-06-04",
+  "note": null,
+  "pub_date": "2019-06-04",
+  "venue": "EuroVis",
+  "authors": [
+    {
+      "first_name": "Younghoon",
+      "last_name": "Kim",
+      "url": "https://yhoonkim.github.io/"
+    },
+    {
+      "first_name": "Michael",
+      "last_name": "Correll",
+      "url": "http://pages.cs.wisc.edu/~mcorrell/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Data",
+      "link": "https://github.com/uwdata/aggregate-animation-data"
+    }
+  ],
+  "tags": []
+}

@@ -1,0 +1,54 @@
+{
+  "title": "Wrangler: Interactive Visual Specification of Data Transformation Scripts",
+  "year": 2011,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2011-Wrangler-CHI.pdf",
+  "abstract": "Though data analysis tools continue to improve, analysts still expend an inordinate amount of time and effort manipulating data and assessing data quality issues. Such \"data wrangling\" regularly involves reformatting data values or layout, correcting erroneous or missing values, and integrating multiple data sources. These transforms are often difficult to specify and difficult to reuse across analysis tasks, teams, and tools. In response, we introduce Wrangler, an interactive system for creating data transformations. Wrangler combines direct manipulation of visualized data with automatic inference of relevant transforms, enabling analysts to iteratively explore the space of applicable operations and preview their effects. Wrangler leverages semantic data types (e.g., geographic locations, dates, classification codes) to aid validation and type conversion. Interactive histories support review, refinement, and annotation of transformation scripts. User study results show that Wrangler significantly reduces specification time and promotes the use of robust, auditable transforms instead of manual editing.",
+  "thumbnail": "images/thumbs/wrangler.gif",
+  "figure": "images/figures/wrangler.png",
+  "caption": "The Wrangler Interface. The left panel contains (from top-to-bottom) a history of transforms, a transform selection menu, and automatically suggested transforms based on the current selection. Bold text within the transform descriptions indicate parameters that can be clicked and revised. The right panel contains an interactive data table; above each column is a data quality meter.",
+  "web_name": "wrangler",
+  "visible": true,
+  "mod_date": "2011-02-02",
+  "note": "",
+  "pub_date": "2011-05-02",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Sean",
+      "last_name": "Kandel",
+      "url": "http://skandel.us"
+    },
+    {
+      "first_name": "Andreas",
+      "last_name": "Paepcke"
+    },
+    {
+      "first_name": "Joseph",
+      "last_name": "Hellerstein",
+      "url": "http://db.cs.berkeley.edu/jmh/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Video",
+      "link": "http://vimeo.com/19185801"
+    },
+    {
+      "name": "Website",
+      "link": "http://vis.stanford.edu/wrangler"
+    }
+  ],
+  "tags": []
+}

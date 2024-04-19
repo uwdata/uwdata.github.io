@@ -1,0 +1,48 @@
+{
+  "title": "Visualizing Collaboration and Influence in the Open-Source Software Community",
+  "year": 2011,
+  "start_page": 223,
+  "end_page": 226,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2011-GotHub-MSR.pdf",
+  "abstract": "We apply visualization techniques to user profiles and repository metadata from the GitHub source code hosting service. Our motivation is to identify patterns within this development community that might otherwise remain obscured. Such patterns include the effect of geographic distance on developer relationships, social connectivity and influence among cities, and variation in project-specific contribution styles (e.g., centralized vs. distributed). Our analysis examines directed graphs in which nodes represent users' geographic locations and edges represent (a) follower relationships, (b) successive commits, or (c) contributions to the same project. We inspect this data using a set of visualization techniques: geo-scatter maps, small multiple displays, and matrix diagrams. Using these representations, and tools based on them, we develop hypotheses about the larger GitHub community that would be difficult to discern using traditional lists, tables, or descriptive statistics. These methods are not intended to provide conclusive answers; instead, they provide a way for researchers to explore the question space and communicate initial insights.",
+  "thumbnail": "images/thumbs/gothub.gif",
+  "figure": "images/figures/gothub.png",
+  "caption": "Developer distribution and collaboration patterns for different projects.",
+  "web_name": "gothub",
+  "visible": true,
+  "mod_date": "2011-06-21",
+  "note": "",
+  "pub_date": "2011-05-21",
+  "venue": "MSR",
+  "authors": [
+    {
+      "first_name": "Brandon",
+      "last_name": "Heller"
+    },
+    {
+      "first_name": "Eli",
+      "last_name": "Marschner"
+    },
+    {
+      "first_name": "Evan",
+      "last_name": "Rosenfeld"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Website",
+      "link": "http://gothub.stanford.edu"
+    }
+  ],
+  "tags": []
+}

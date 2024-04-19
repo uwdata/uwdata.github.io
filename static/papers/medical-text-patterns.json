@@ -1,0 +1,49 @@
+{
+  "title": "Induced Lexico-syntactic Patterns Improve Information Extraction from Online Medical Forums",
+  "year": 2014,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "",
+  "abstract": "Objective: To reliably extract two entity types, symptoms and conditions (SCs), and drugs and treatments (DTs), from patient-authored text (PAT) by learning lexico-syntactic patterns from data annotated with seed dictionaries.\n\nBackground and significance: Despite the increasing quantity of PAT (e.g., online discussion threads), tools for identifying medical entities in PAT are limited. When applied to PAT, existing tools either fail to identify specific entity types or perform poorly. Identification of SC and DT terms in PAT would enable exploration of efficacy and side effects for not only pharmaceutical drugs, but also for home remedies and components of daily care.\n\nMaterials and methods: We use SC and DT term dictionaries compiled from online sources to label several discussion forums from MedHelp (http://www.medhelp.org). We then iteratively induce lexico-syntactic patterns corresponding strongly to each entity type to extract new SC and DT terms.\n\nResults: Our system is able to extract symptom descriptions and treatments absent from our original dictionaries, such as 'LADA', 'stabbing pain', and 'cinnamon pills'. Our system extracts DT terms with 58–70% F1 score and SC terms with 66–76% F1 score on two forums from MedHelp. We show improvements over MetaMap, OBA, a conditional random field-based classifier, and a previous pattern learning approach.\n\nConclusions: Our entity extractor based on lexico-syntactic patterns is a successful and preferable technique for identifying specific entity types in PAT. To the best of our knowledge, this is the first paper to extract SC and DT entities from PAT. We exhibit learning of informal terms often used in PAT but missing from typical dictionaries.",
+  "thumbnail": "images/thumbs/medical-text-patterns.png",
+  "figure": "",
+  "caption": "",
+  "web_name": "medical-text-patterns",
+  "visible": true,
+  "mod_date": "2014-06-28",
+  "note": null,
+  "pub_date": "2014-06-28",
+  "venue": "JAMIA",
+  "authors": [
+    {
+      "first_name": "Sonal",
+      "last_name": "Gupta"
+    },
+    {
+      "first_name": "Diana",
+      "last_name": "MacLean",
+      "url": "http://www.stanford.edu/~malcdi/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Christopher",
+      "last_name": "Manning"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Journal",
+      "link": "http://jamia.bmj.com/content/early/2014/06/26/amiajnl-2014-002669.full"
+    }
+  ],
+  "tags": []
+}

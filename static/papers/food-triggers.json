@@ -1,0 +1,52 @@
+{
+  "title": "Supporting Patient-Provider Collaboration to Identify Individual Triggers using Food and Symptom Journals",
+  "year": 2017,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2017-Triggers-CSCW.pdf",
+  "abstract": "Patient-generated data can allow patients and providers to collaboratively develop accurate diagnoses and actionable treatment plans. Unfortunately, patients and providers often lack effective support to make use of such data. We examine patient-provider collaboration to interpret patient-generated data. We focus on irritable bowel syndrome (IBS), a chronic illness in which particular foods can exacerbate symptoms. IBS management often requires patient-provider collaboration using a patient’s food and symptom journal to identify the patient’s triggers. We contribute interactive visualizations to support exploration of such journals, as well as an examination of patient-provider collaboration in interpreting the journals. Drawing upon individual and collaborative interviews with patients and providers, we find that collaborative review helps improve data comprehension and build mutual trust. We also find a desire to use tools like our interactive visualizations within and beyond clinic appointments. We discuss these findings and present guidance for the design of future tools.",
+  "thumbnail": "images/thumbs/triggers.png",
+  "figure": "images/figures/triggers.png",
+  "caption": "Nutrient plot visualizations to support patient-provider collaboration.",
+  "web_name": "food-triggers",
+  "visible": true,
+  "mod_date": "2017-02-25",
+  "note": null,
+  "pub_date": "2017-02-25",
+  "venue": "CSCW",
+  "authors": [
+    {
+      "first_name": "Jessica",
+      "last_name": "Schroeder"
+    },
+    {
+      "first_name": "Jane",
+      "last_name": "Hoffswell",
+      "url": "https://jhoffswell.github.io/"
+    },
+    {
+      "first_name": "Chia-Fang",
+      "last_name": "Chung"
+    },
+    {
+      "first_name": "James",
+      "last_name": "Fogarty",
+      "url": "https://homes.cs.washington.edu/~jfogarty/"
+    },
+    {
+      "first_name": "Sean",
+      "last_name": "Munson"
+    },
+    {
+      "first_name": "Jasmine",
+      "last_name": "Zia"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Generalized Selection via Interactive Query Relaxation",
+  "year": 2008,
+  "start_page": 959,
+  "end_page": 968,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2008-GeneralizedSelection-CHI.pdf",
+  "abstract": "Selection is a fundamental task in interactive applications, typically performed by clicking or lassoing items of interest. However, users may require more nuanced forms of selection. Selecting regions or attributes may be more important than selecting individual items. Selections may be over dynamic items and selections might be more easily created by relaxing simpler selections (e.g., \"select all items like this one\"). Creating such selections requires that interfaces model the declarative structure of the selection, not just individually selected items. We present direct manipulation techniques that couple declarative selection queries with a query relaxation engine that enables users to interactively generalize their selections. We apply our selection techniques in both information visualization and graphics editing applications, enabling generalized selection over both static and dynamic interface objects. A controlled study finds that users create more accurate selection queries when using our generalization techniques.",
+  "thumbnail": "images/thumbs/generalized-selection.gif",
+  "figure": "images/figures/relaxation.gif",
+  "caption": "Relaxation of date ranges: an initial query is repeatedly relaxed to generalize the selection. One click selects an incident, two clicks selects the day on which the incident occurred, three clicks selects the entire week, four clicks selects the month.",
+  "web_name": "generalized-selection",
+  "visible": true,
+  "mod_date": "2011-01-28",
+  "note": "",
+  "pub_date": "2008-04-01",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Maneesh",
+      "last_name": "Agrawala",
+      "url": "http://graphics.stanford.edu/~maneesh/"
+    },
+    {
+      "first_name": "Wesley",
+      "last_name": "Willett",
+      "url": "http://vis.berkeley.edu/~willettw/portfolio/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Video",
+      "link": "http://vimeo.com/19278343"
+    }
+  ],
+  "tags": []
+}

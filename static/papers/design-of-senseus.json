@@ -1,0 +1,36 @@
+{
+  "title": "The Design of Sense.us",
+  "year": 2009,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "T. Segaran & J. Hammerbacher",
+  "publisher": "O'Reilly",
+  "location": "",
+  "pdf": "",
+  "abstract": "",
+  "thumbnail": "images/thumbs/design-of-senseus.gif",
+  "figure": "images/figures/senseus-gallery.png",
+  "caption": "Visualizations from sense.us. (a) Interactive state map. The image shows the male/female ratio of the\r\nstates in 2005. (b) Stacked time-series of immigration data, showing the birthplace of U.S. residents over the last 150 years. The image shows the number of U.S. residents born in European countries. (c) Population pyramid, showing population variation across gender and age groups. Additional variables are encoded using stacked, colored bands. The image visualizes school attendance in 2000; an annotation highlights the prevalence of adult education.",
+  "web_name": "design-of-senseus",
+  "visible": true,
+  "mod_date": "2009-08-19",
+  "note": "",
+  "pub_date": "2009-08-01",
+  "venue": "Beautiful Data",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Website",
+      "link": "http://oreilly.com/catalog/9780596157111/"
+    }
+  ],
+  "tags": []
+}

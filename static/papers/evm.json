@@ -1,0 +1,54 @@
+{
+  "title": "EVM: Incorporating Model Checking into Exploratory Visual Analysis",
+  "year": 2024,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2024-EVM-TVCG.pdf",
+  "abstract": "Visual analytics (VA) tools support data exploration by helping analysts quickly and iteratively generate views of data which\nreveal interesting patterns. However, these tools seldom enable explicit checks of the resulting interpretations of data—e.g., whether\npatterns can be accounted for by a model that implies a particular structure in the relationships between variables. We present EVM,\na data exploration tool that enables users to express and check provisional interpretations of data in the form of statistical models.\nEVM integrates support for visualization-based model checks by rendering distributions of model predictions alongside user-generated\nviews of data. In a user study with data scientists practicing in the private and public sector, we evaluate how model checks influence\nanalysts’ thinking during data exploration. Our analysis characterizes how participants use model checks to scrutinize expectations\nabout data generating process and surfaces further opportunities to scaffold model exploration in VA tools.",
+  "thumbnail": "images/thumbs/evm.png",
+  "figure": "images/figures/evm.png",
+  "caption": "Model checks modify the typical visual analytics workflow by enabling users to assess the plausibility of interpretations of\ndiscovered patterns. A⃝ The analyst discovers that accounting for time spent studying appears to help explain student absences. B⃝\nThe analyst facets this view by the highest level of education achieved by each student’s guardian. He wonders if study time is\npredictive of absences after accounting for guardian education. C⃝ The analyst specifies models asserting that absences are explained\nby either: guardian education alone (orange); or guardian education and study time (red). Seeing that predictions from the second\nmodel do a better job of capturing the largest numbers of absences, he concludes that both guardian education and study time are\nimportant explanatory variables.",
+  "web_name": "evm",
+  "visible": true,
+  "mod_date": "2023-10-21",
+  "note": null,
+  "pub_date": "2023-10-21",
+  "venue": "VIS",
+  "authors": [
+    {
+      "first_name": "Alex",
+      "last_name": "Kale",
+      "url": "https://people.cs.uchicago.edu/~kalea/"
+    },
+    {
+      "first_name": "Ziyang",
+      "last_name": "Guo"
+    },
+    {
+      "first_name": "Xiaoli",
+      "last_name": "Qiao"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Jessica",
+      "last_name": "Hullman",
+      "url": "http://faculty.washington.edu/jhullman"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "https://github.com/MUCollective/evm/"
+    }
+  ],
+  "tags": []
+}

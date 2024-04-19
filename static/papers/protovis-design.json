@@ -1,0 +1,36 @@
+{
+  "title": "Declarative Language Design for Interactive Visualization",
+  "year": 2010,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2010-Protovis-InfoVis.pdf",
+  "abstract": "We investigate the design of declarative, domain-specific languages for constructing interactive visualizations. By separating specification from execution, declarative languages can simplify development, enable unobtrusive optimization, and support retargeting across platforms. We describe the design of the Protovis specification language and its implementation within an object-oriented, statically-typed programming language (Java). We demonstrate how to support rich visualizations without requiring a toolkit-specific data model and extend Protovis to enable declarative specification of animated transitions. To support cross-platform deployment, we introduce rendering and event-handling infrastructures decoupled from the runtime platform, letting designers retarget visualization specifications (e.g., from desktop to mobile phone) with reduced effort. We also explore optimizations such as runtime compilation of visualization specifications, parallelized execution, and hardware-accelerated rendering. We present benchmark studies measuring the performance gains provided by these optimizations and compare performance to existing Java-based visualization tools, demonstrating scalability improvements exceeding an order of magnitude.",
+  "thumbnail": "images/thumbs/protovis-design.png",
+  "figure": "images/figures/pv-android.png",
+  "caption": "Protovis running on an Android phone. The image sequence shows a touch-initiated animated scale transition in a scatter plot.",
+  "web_name": "protovis-design",
+  "visible": true,
+  "mod_date": "2010-10-11",
+  "note": "Best Paper Honorable Mention",
+  "pub_date": "2010-10-27",
+  "venue": "InfoVis",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Michael",
+      "last_name": "Bostock",
+      "url": "http://bost.ocks.org/mike/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

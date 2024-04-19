@@ -1,0 +1,56 @@
+{
+  "title": "Webzeitgeist: Design Mining the Web",
+  "year": 2013,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2013-Webzeitgeist-CHI.pdf",
+  "abstract": "Advances in data mining and knowledge discovery have transformed the way Web sites are designed. However, while visual presentation is an intrinsic part of the Web, traditional data mining techniques ignore render-time page structures and their attributes. This paper introduces design mining for the Web: using knowledge discovery techniques to understand design demographics, automate design curation, and support data-driven design tools. This idea is manifest in Webzeitgeist, a platform for large-scale design mining comprising a repository of over 100,000 Web pages and 100 million design elements. This paper describes the principles driving design mining, the implementation of the Webzeitgeist architecture, and the new class of data-driven design applications it enables.",
+  "thumbnail": "images/thumbs/webzeitgeist.png",
+  "figure": "",
+  "caption": "",
+  "web_name": "webzeitgeist",
+  "visible": true,
+  "mod_date": "2013-02-24",
+  "note": "Best Paper Award",
+  "pub_date": "2013-01-20",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Ranjitha",
+      "last_name": "Kumar"
+    },
+    {
+      "first_name": "Arvind",
+      "last_name": "Satyanarayan",
+      "url": "http://arvindsatya.com/"
+    },
+    {
+      "first_name": "Cesar",
+      "last_name": "Torres"
+    },
+    {
+      "first_name": "Maxine",
+      "last_name": "Lim"
+    },
+    {
+      "first_name": "Salman",
+      "last_name": "Ahmad"
+    },
+    {
+      "first_name": "Scott",
+      "last_name": "Klemmer",
+      "url": "http://hci.stanford.edu/srk"
+    },
+    {
+      "first_name": "Talton",
+      "last_name": "Jerry"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

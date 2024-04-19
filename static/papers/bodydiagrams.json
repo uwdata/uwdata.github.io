@@ -1,0 +1,45 @@
+{
+  "title": "BodyDiagrams: Improving Communication of Pain Symptoms through Drawing",
+  "year": 2014,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2014-BodyDiagrams-CHI.pdf",
+  "abstract": "Thousands of people use the Internet to discuss pain symptoms. While communication between patients and physicians involves both verbal and physical interactions, online discussions of symptoms typically comprise text only. We present BodyDiagrams, an online interface for expressing symptoms via drawings and text. BodyDiagrams augment textual descriptions with pain diagrams drawn over a reference body and annotated with severity and temporal metadata. The resulting diagrams can easily be shared to solicit feedback and advice. We also conduct a two-phase user study to assess BodyDiagrams’ communicative efficacy. In the first phase, users describe pain symptoms using BodyDiagrams and a text-only interface; in the second phase, medical professionals evaluate these descriptions. We find that patients are significantly more confident that their BodyDiagrams will be correctly interpreted, while medical professionals rated BodyDiagrams as significantly more informative than text descriptions. Both groups indicated a preference for using diagrams to communicate physical symptoms in the future.",
+  "thumbnail": "images/thumbs/bodydiagrams.png",
+  "figure": "images/figures/bodydiagrams.png",
+  "caption": "Pain annotation using BodyDiagrams.",
+  "web_name": "bodydiagrams",
+  "visible": true,
+  "mod_date": "2014-03-15",
+  "note": null,
+  "pub_date": "2014-04-28",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Amy",
+      "last_name": "Jang"
+    },
+    {
+      "first_name": "Diana",
+      "last_name": "MacLean",
+      "url": "http://www.stanford.edu/~malcdi/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Video",
+      "link": "http://vimeo.com/93181322"
+    }
+  ],
+  "tags": []
+}

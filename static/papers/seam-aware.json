@@ -1,0 +1,36 @@
+{
+  "title": "Wideband Displays: Mitigating Multiple Monitor Seams",
+  "year": 2004,
+  "start_page": 1521,
+  "end_page": 1524,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2004-Wideband-CHI.pdf",
+  "abstract": "Wideband displays fill our field of view, creating new opportunities to develop effective visual interfaces. Although multiple monitors are becoming an affordable way to create wideband displays, the resulting seams create gaps in words and divide diagonal lines into nonaligned segments. We present several novel user interface techniques for creating seam-aware applications, showing that vendors need not wait for affordable seamless displays to exploit the potential of wideband displays.",
+  "thumbnail": "images/thumbs/seam-aware.gif",
+  "figure": "images/figures/seamaware.gif",
+  "caption": "The left display shows a graph layout without seam-awareness. The circle indicates a line segment that does not appear to be part of a link between nodes. The oval indicates split nodes. The right display shows a seam-aware layout, links are drawn under seams and nodes are moved off of seams.",
+  "web_name": "seam-aware",
+  "visible": true,
+  "mod_date": "2009-08-04",
+  "note": null,
+  "pub_date": "2004-04-01",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Jock",
+      "last_name": "Mackinlay",
+      "url": "https://research.tableau.com/user/jock-mackinlay"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

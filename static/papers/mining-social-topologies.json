@@ -1,0 +1,53 @@
+{
+  "title": "Groups Without Tears: Mining Social Topologies from Email",
+  "year": 2011,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2011-SocialTopologies-IUI.pdf",
+  "abstract": "As people accumulate hundreds of “friends” in social media, a flat list of connections becomes unmanageable. Interfaces agnostic to social structure hinder the nuanced sharing of personal data such as photos, status updates, news feeds, and comments. To address this problem, we propose social topologies, a set of potentially overlapping and nested social groups, that represent the structure and content of a person’s social network as a first-class object. We contribute an algorithm for creating social topologies by mining communication history and identifying likely groups based on co-occurrence patterns. We use our algorithm to populate a browser interface that supports creation and editing of social groups via direct manipulation. A user study confirms that our approach models subjects’ social topologies well, and that our interface enables intuitive browsing and management of a personal social landscape.",
+  "thumbnail": "images/thumbs/mining-social-topologies.gif",
+  "figure": "images/figures/socialflows-ui.png",
+  "caption": "The SocialFlows interface for managing social topologies. Users can explore, browse and edit their social topology. Annotated points of interest highlight: (a) hierarchical nesting of subsets; (b) editable group labels; (c) tooltip and delete option on mouse hover; (d) new group creation; (e) group merge tools; (f) additional group editing tools; and (g) option to add a new contact.",
+  "web_name": "mining-social-topologies",
+  "visible": true,
+  "mod_date": "2011-01-27",
+  "note": "",
+  "pub_date": "2011-02-10",
+  "venue": "IUI",
+  "authors": [
+    {
+      "first_name": "Diana",
+      "last_name": "MacLean",
+      "url": "http://www.stanford.edu/~malcdi/"
+    },
+    {
+      "first_name": "Sudheendra",
+      "last_name": "Hangal"
+    },
+    {
+      "first_name": "Seng Keat",
+      "last_name": "Teh"
+    },
+    {
+      "first_name": "Monica",
+      "last_name": "Lam"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Website",
+      "link": "http://mobisocial.stanford.edu/socialflows/"
+    }
+  ],
+  "tags": []
+}

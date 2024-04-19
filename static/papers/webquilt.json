@@ -1,0 +1,45 @@
+{
+  "title": "WebQuilt: A Proxy-based Approach to  Remote Web Usability Testing",
+  "year": 2001,
+  "start_page": 263,
+  "end_page": 285,
+  "volume": 19,
+  "issue": 3,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2002-WebQuilt-TOIS.pdf",
+  "abstract": "WebQuilt is a web logging and visualization system that helps web design teams run usability tests (both local and remote) and analyze the collected data. Logging is done through a proxy, overcoming many of the problems with server-side and client-side logging. Captured usage traces can be aggregated and visualized in a zooming interface that shows the web pages people viewed. The visualization also shows the most common paths taken through the web site for a given task, as well as the optimal path for that task, as designated by the designer. This paper discusses the architecture of WebQuilt and describes how it can be extended for new kinds of analyses and visualizations.",
+  "thumbnail": "images/thumbs/webquilt.gif",
+  "figure": "",
+  "caption": "",
+  "web_name": "webquilt",
+  "visible": true,
+  "mod_date": "2010-08-23",
+  "note": "",
+  "pub_date": "2001-07-01",
+  "venue": "ACM TOIS",
+  "authors": [
+    {
+      "first_name": "Jason",
+      "last_name": "Hong",
+      "url": "http://www.cs.cmu.edu/~jasonh/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Sarah",
+      "last_name": "Waterson"
+    },
+    {
+      "first_name": "James",
+      "last_name": "Landay",
+      "url": "http://www.cs.washington.edu/homes/landay/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

@@ -1,0 +1,41 @@
+{
+  "title": "A Tour through the Visualization Zoo",
+  "year": 2010,
+  "start_page": 59,
+  "end_page": 67,
+  "volume": 53,
+  "issue": 6,
+  "editors": "",
+  "publisher": "ACM",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2012-VisualizationZoo-CACM.pdf",
+  "abstract": "A survey of powerful visualization techniques, from the obvious to the obscure.",
+  "thumbnail": "images/thumbs/visualization-zoo.png",
+  "figure": "images/figures/arc-les-miserables.png",
+  "caption": "Arc diagram of character co-occurrences in chapters of Victor Hugo's Les Miserables.",
+  "web_name": "visualization-zoo",
+  "visible": true,
+  "mod_date": "2013-11-17",
+  "note": null,
+  "pub_date": "2010-06-01",
+  "venue": "CACM",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Michael",
+      "last_name": "Bostock",
+      "url": "http://bost.ocks.org/mike/"
+    },
+    {
+      "first_name": "Vadim",
+      "last_name": "Ogievetsky",
+      "url": "http://vadim.ogievetsky.com/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

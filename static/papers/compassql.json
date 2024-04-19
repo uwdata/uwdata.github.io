@@ -1,0 +1,62 @@
+{
+  "title": "Towards A General-Purpose Query Language for Visualization Recommendation",
+  "year": 2016,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2016-CompassQL-HILDA.pdf",
+  "abstract": "Creating effective visualizations requires domain familiarity as well as design and analysis expertise, and may impose a tedious specification process. To address these difficulties, many visualization tools complement manual specification with recommendations. However, designing interfaces, ranking metrics, and scalable recommender systems remain important research challenges. In this paper, we propose a common framework for facilitating the development of visualization recommender systems in the form of a specification language for querying over the space of visualizations. We present the preliminary design of CompassQL, which defines (1) a partial specification that describes enumeration constraints, and (2) methods for choosing, ranking, and grouping recommended visualizations. To demonstrate the expressivity of the language, we describe existing recommender systems in terms of CompassQL queries. Finally, we discuss the prospective benefits of a common language for future visualization recommender systems.",
+  "thumbnail": "images/thumbs/compassql.png",
+  "figure": "images/figures/compassql.png",
+  "caption": "CompassQL queries expressing recommendations in the Voyager system. (a) The Main View shows visualizations with different data queries, promoting exploration of different fields. The Exact Match section (1) contains all and only the selected fields. The Suggestion section (2) contain all selected fields and one extra field to encourage further exploration. (b) The Expanded View (3) displays various encodings of the same data query. (c) Groups of enumerated visualizations. The Main View only displays the top item from each group (highlighted with green border). (d-f) CompassQL queries for each section.",
+  "web_name": "compassql",
+  "visible": true,
+  "mod_date": "2016-06-20",
+  "note": null,
+  "pub_date": "2016-06-20",
+  "venue": "HILDA",
+  "authors": [
+    {
+      "first_name": "Kanit",
+      "last_name": "Wongsuphasawat",
+      "url": "https://kanitw.github.io/"
+    },
+    {
+      "first_name": "Dominik",
+      "last_name": "Moritz",
+      "url": "http://domoritz.de/"
+    },
+    {
+      "first_name": "Anushka",
+      "last_name": "Anand"
+    },
+    {
+      "first_name": "Jock",
+      "last_name": "Mackinlay",
+      "url": "https://research.tableau.com/user/jock-mackinlay"
+    },
+    {
+      "first_name": "Bill",
+      "last_name": "Howe",
+      "url": "https://faculty.washington.edu/billhowe/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "https://github.com/vega/compassql"
+    }
+  ],
+  "tags": [
+    "recommendation"
+  ]
+}

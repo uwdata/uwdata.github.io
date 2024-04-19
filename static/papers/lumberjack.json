@@ -1,0 +1,39 @@
+{
+  "title": "LumberJack: Intelligent Discovery and Analysis of Web User Traffic Composition",
+  "year": 2002,
+  "start_page": 1,
+  "end_page": 16,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2002-Lumberjack-WEBKDD.pdf",
+  "abstract": "Web Usage Mining enables new understanding of user goals on the Web. This understanding has broad applications, and traditional mining techniques such as association rules have been used in business applications. We have developed an automated method to directly infer the major groupings of user traffic on a Web site [Heer01]. We do this by utilizing multiple data features in a clustering analysis. We have performed an extensive, systematic evaluation of the proposed approach, and have discovered that certain clustering schemes can achieve categorization accuracies as high as 99% [Heer02b]. In this paper, we describe the further development of this work into a prototype service called LumberJack, a push-button analysis system that is both more automated and accurate than past systems.",
+  "thumbnail": "images/thumbs/lumberjack.gif",
+  "figure": "",
+  "caption": "",
+  "web_name": "lumberjack",
+  "visible": true,
+  "mod_date": "2009-08-04",
+  "note": null,
+  "pub_date": "2002-04-02",
+  "venue": "WEBKDD",
+  "authors": [
+    {
+      "first_name": "Ed",
+      "last_name": "Chi"
+    },
+    {
+      "first_name": "Adam",
+      "last_name": "Rosien"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

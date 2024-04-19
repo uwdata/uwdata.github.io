@@ -1,0 +1,41 @@
+{
+  "title": "Predictive Interaction for Data Transformation",
+  "year": 2015,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2015-PredictiveInteraction-CIDR.pdf",
+  "abstract": "The human work involved in data transformation represents a major bottleneck for today’s data-driven organizations. In response, we present Predictive Interaction, a framework for interactive systems that shifts the burden of technical specification from users to algorithms, while preserving human guidance and expressive power.",
+  "thumbnail": "images/thumbs/predictive-interaction.png",
+  "figure": "images/figures/predictive-interaction.png",
+  "caption": "Predictive Interaction: The Guide/Decide loop. We augment previous lifting schemes to guide the system via ambiguous interaction, visualize a predicted distribution of next steps, and decide on their desired results.",
+  "web_name": "predictive-interaction",
+  "visible": true,
+  "mod_date": "2015-01-05",
+  "note": null,
+  "pub_date": "2015-01-05",
+  "venue": "CIDR",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Joseph",
+      "last_name": "Hellerstein",
+      "url": "http://db.cs.berkeley.edu/jmh/"
+    },
+    {
+      "first_name": "Sean",
+      "last_name": "Kandel",
+      "url": "http://skandel.us"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

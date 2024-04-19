@@ -1,0 +1,36 @@
+{
+  "title": "Interactive Dynamics for Visual Analysis",
+  "year": 2012,
+  "start_page": 45,
+  "end_page": 54,
+  "volume": 55,
+  "issue": 4,
+  "editors": "",
+  "publisher": "ACM",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2012-InteractiveDynamics-CACM.pdf",
+  "abstract": "A taxonomy of tools that support the fluent and flexible use of visualizations.",
+  "thumbnail": "images/thumbs/interactive-dynamics.png",
+  "figure": "images/figures/crimespotting.png",
+  "caption": "Interactive map from CrimeSpotting.org, with filtering controls for category, day and time.",
+  "web_name": "interactive-dynamics",
+  "visible": true,
+  "mod_date": "2013-11-17",
+  "note": null,
+  "pub_date": "2012-04-01",
+  "venue": "CACM",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Ben",
+      "last_name": "Shneiderman",
+      "url": "http://www.cs.umd.edu/~ben/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

@@ -1,0 +1,43 @@
+{
+  "title": "EnsembleMatrix: Interactive Visualization to Support Machine Learning with Multiple Classifiers",
+  "year": 2009,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2009-EnsembleMatrix-CHI.pdf",
+  "abstract": "Machine learning is an increasingly used computational tool within human-computer interaction research. While most researchers currently utilize an iterative approach to ensemble classification techniques may be a viable and even preferable alternative. In ensemble learning, algorithms combine multiple classifiers to build one that is superior to its components. In this paper, we present EnsembleMatrix, an interactive visualization system that presents a graphical view of confusion matrices to help users understand relative merits of various classifiers. EnsembleMatrix allows users to directly interact with the visualizations in order to explore and build combination models. We evaluate the efficacy of the system and the approach in a user study. Results show that users are able to quickly combine multiple classifiers operating on multiple feature sets to produce an ensemble classifier with accuracy that approaches best-reported performance classifying images in the CalTech-101 dataset.",
+  "thumbnail": "images/thumbs/ensemblematrix.gif",
+  "figure": "images/figures/ensemblematrix.png",
+  "caption": "Primary view in EnsembleMatrix. Confusion matrices of component classifiers are shown in thumbnails on the right. The matrix on the left shows the confusion matrix of the current ensemble classifier built by the user.",
+  "web_name": "ensemblematrix",
+  "visible": false,
+  "mod_date": "2009-08-06",
+  "note": "",
+  "pub_date": "2009-04-01",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Justin",
+      "last_name": "Talbot",
+      "url": "http://www.justintalbot.com/"
+    },
+    {
+      "first_name": "Bongshin",
+      "last_name": "Lee"
+    },
+    {
+      "first_name": "Ashish",
+      "last_name": "Kapoor"
+    },
+    {
+      "first_name": "Desney",
+      "last_name": "Tan"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

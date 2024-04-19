@@ -1,0 +1,35 @@
+{
+  "title": "A Knowledge Tracing Model of Learning from a Social Tagging System",
+  "year": 2013,
+  "start_page": 139,
+  "end_page": 168,
+  "volume": 23,
+  "issue": 2,
+  "editors": "",
+  "publisher": "Springer",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2012-KnowledgeTracingModel-UMUAI.pdf",
+  "abstract": "We propose a user model to support personalized learning paths through online material. Our approach is a variant of student modeling using the computer tutoring concept of knowledge tracing. Knowledge tracing involves representing the knowledge required to master a domain, and, from traces of online user behavior, diagnosing user knowledge states as a profile over those elements. The user model is induced from documents tagged by an expert in a social tagging system. Tags identified with \"expertise\" in a domain can be used to identify a corpus of domain documents. That corpus can be fed to an automated process that distills a topic model representation characteristic of the domain. As a learner navigates and reads online material, inferences can be made about the degree to which topics in the target domain have been learned. We validate this knowledge tracing approach against data from a social tagging study. As part of this evaluation, we match the predictions of the knowledge- tracing model to individual participant responses made to individual question items used to test domain knowledge.",
+  "thumbnail": "images/thumbs/knowledge-tracing-model.png",
+  "figure": "",
+  "caption": "",
+  "web_name": "knowledge-tracing-model",
+  "visible": true,
+  "mod_date": "2013-11-17",
+  "note": null,
+  "pub_date": "2013-04-01",
+  "venue": "UMUAI",
+  "authors": [
+    {
+      "first_name": "Peter",
+      "last_name": "Pirolli"
+    },
+    {
+      "first_name": "Sanjay",
+      "last_name": "Kairam",
+      "url": "http://www.sanjaykairam.com/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

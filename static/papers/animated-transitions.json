@@ -1,0 +1,40 @@
+{
+  "title": "Animated Transitions in Statistical Data Graphics",
+  "year": 2007,
+  "start_page": 1240,
+  "end_page": 1247,
+  "volume": 13,
+  "issue": 6,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2007-AnimatedTransitions-InfoVis.pdf",
+  "abstract": "In this paper we investigate the effectiveness of animated transitions between common statistical data graphics such as bar charts, pie charts, and scatter plots. We extend theoretical models of data graphics to include such transitions, introducing a taxonomy of transition types. We then propose design principles for creating effective transitions and illustrate the application of these principles in DynaVis, a visualization system featuring animated data graphics. Two controlled experiments were conducted to assess the efficacy of various transition types, finding that animated transitions can significantly improve graphical perception.",
+  "thumbnail": "images/thumbs/animated-transitions.gif",
+  "figure": "images/figures/animated_transitions.gif",
+  "caption": "Animating from a scatter plot to a bar chart (replacing a numerical dimension with a categorical dimension). The top path directly interpolates between the starting and ending states. The bottom path is staged: the first stage moves points to their x-coordinates and updates the x-axis to form a dot plot, the second stage morphs the points into bars.",
+  "web_name": "animated-transitions",
+  "visible": true,
+  "mod_date": "2011-01-28",
+  "note": "",
+  "pub_date": "2007-10-02",
+  "venue": "InfoVis",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "George",
+      "last_name": "Robertson"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Video",
+      "link": "http://vimeo.com/19278444"
+    }
+  ],
+  "tags": []
+}

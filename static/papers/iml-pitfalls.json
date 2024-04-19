@@ -1,0 +1,41 @@
+{
+  "title": "Local Decision Pitfalls in Interactive Machine Learning: An Investigation into Feature Selection in Sentiment Analysis",
+  "year": 2019,
+  "start_page": null,
+  "end_page": null,
+  "volume": 26,
+  "issue": 4,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2019-IMLPitfalls-TOCHI.pdf",
+  "abstract": "Tools for Interactive Machine Learning (IML) enable end users to update models in a \"rapid, focused, and incremental\"—yet local—manner. In this work, we study the question of local decision making in an IML context around feature selection for a sentiment classification task. Specifically, we characterize the utility of interactive feature selection through a combination of human-subjects experiments and computational simulations. We find that, in expectation, interactive modification fails to improve model performance and may hamper generalization due to overfitting. We examine how these trends are affected by the dataset, learning algorithm, and the training set size. Across these factors we observe consistent generalization issues. Our results suggest that rapid iterations with IML systems can be dangerous if they encourage local actions divorced from global context, degrading overall model performance. We conclude by discussing the implications of our feature selection results to the broader area of IML systems and research.",
+  "thumbnail": "images/thumbs/iml-pitfalls.png",
+  "figure": "images/figures/iml-pitfalls.png",
+  "caption": "Performance trajectory examples for four participants in our user study, with different performance impact on the development set and the test set. Even for individuals who successfully reach an improved model ((a), with increased performance on both sets), the model performance oscillates as they revise the feature space.",
+  "web_name": "iml-pitfalls",
+  "visible": true,
+  "mod_date": "2019-07-01",
+  "note": null,
+  "pub_date": "2019-07-01",
+  "venue": "ACM TOCHI",
+  "authors": [
+    {
+      "first_name": "Tongshuang",
+      "last_name": "Wu",
+      "url": "https://homes.cs.washington.edu/~wtshuang/"
+    },
+    {
+      "first_name": "Dan",
+      "last_name": "Weld",
+      "url": "https://www.cs.washington.edu/people/faculty/weld"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

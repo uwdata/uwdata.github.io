@@ -1,0 +1,31 @@
+{
+  "title": "Exploratory Analysis and Its Malcontents",
+  "year": 2021,
+  "start_page": null,
+  "end_page": null,
+  "volume": 3,
+  "issue": 3,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2021-EDA-HDSR.pdf",
+  "abstract": "Over a half-century ago, Tukey and Wilk (1966) launched a rhetorical broadside against purely formal approaches to data analysis. In the intervening decades, software support for statistical modeling and exploratory visualization has made great strides. Despite these advances - or perhaps because of them - we also find ourselves in the midst of a reckoning on issues of analytic transparency, reliability, and replication. Might the time be right for rapprochement?",
+  "thumbnail": "images/thumbs/eda-malcontents.png",
+  "figure": "",
+  "caption": "",
+  "web_name": "eda-malcontents",
+  "visible": true,
+  "mod_date": "2021-07-30",
+  "note": null,
+  "pub_date": "2021-07-30",
+  "venue": "HDSR",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

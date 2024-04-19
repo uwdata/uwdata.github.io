@@ -1,0 +1,70 @@
+{
+  "title": "Voyager: Exploratory Analysis via Faceted Browsing of Visualization Recommendations",
+  "year": 2016,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2015-Voyager-InfoVis.pdf",
+  "abstract": "General visualization tools typically require manual specification of views: analysts must select data variables and then choose which transformations and visual encodings to apply. These decisions often involve both domain and visualization design expertise, and may impose a tedious specification process that impedes exploration. In this paper, we seek to complement manual chart construction with interactive navigation of a gallery of automatically-generated visualizations. We contribute Voyager, a mixed-initiative system that supports faceted browsing of recommended charts chosen according to statistical and perceptual measures. We describe Voyager’s architecture, motivating design principles, and methods for generating and interacting with visualization recommendations. In a study comparing Voyager to a manual visualization specification tool, we find that Voyager facilitates exploration of previously unseen data and leads to increased data variable coverage. We then distill design implications for visualization tools, in particular the need to balance rapid exploration and targeted question-answering.",
+  "thumbnail": "images/thumbs/voyager.png",
+  "figure": "images/figures/voyager.png",
+  "caption": "Voyager: a recommendation-powered visualization browser. The schema panel (left) lists data variables selectable by users. The main gallery (right) presents suggested visualizations of different variable subsets and transformations.",
+  "web_name": "voyager",
+  "visible": true,
+  "mod_date": "2015-08-03",
+  "note": null,
+  "pub_date": "2016-01-03",
+  "venue": "InfoVis",
+  "authors": [
+    {
+      "first_name": "Kanit",
+      "last_name": "Wongsuphasawat",
+      "url": "https://kanitw.github.io/"
+    },
+    {
+      "first_name": "Dominik",
+      "last_name": "Moritz",
+      "url": "http://domoritz.de/"
+    },
+    {
+      "first_name": "Anushka",
+      "last_name": "Anand"
+    },
+    {
+      "first_name": "Jock",
+      "last_name": "Mackinlay",
+      "url": "https://research.tableau.com/user/jock-mackinlay"
+    },
+    {
+      "first_name": "Bill",
+      "last_name": "Howe",
+      "url": "https://faculty.washington.edu/billhowe/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Video",
+      "link": "http://vimeo.com/135417594"
+    },
+    {
+      "name": "Software",
+      "link": "https://vega.github.io/"
+    },
+    {
+      "name": "Application",
+      "link": "https://vega.github.io/voyager/"
+    }
+  ],
+  "tags": [
+    "recommendation"
+  ]
+}

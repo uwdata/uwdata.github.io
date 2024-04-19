@@ -1,0 +1,49 @@
+{
+  "title": "Termite: Visualization Techniques for  Assessing Textual Topic Models",
+  "year": 2012,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2012-Termite-AVI.pdf",
+  "abstract": "Topic models aid analysis of text corpora by identifying latent topics based on co-occurring words. Real-world deployments of topic models, however, often require intensive expert verification and model refinement. In this paper we present Termite, a visual analysis tool for assessing topic model quality. Termite uses a tabular layout to promote comparison of terms both within and across latent topics. We contribute a novel saliency measure for selecting relevant terms and a seriation algorithm that both reveals clustering structure and promotes the legibility of related terms. In a series of examples, we demonstrate how Termite allows analysts to identify coherent and significant themes.",
+  "thumbnail": "images/thumbs/termite.png",
+  "figure": "images/figures/termite.png",
+  "caption": "The Termite system. A tabular view (left) displays term-topic distributions for an LDA topic model. A bar chart (right) shows the marginal probability of each term.",
+  "web_name": "termite",
+  "visible": true,
+  "mod_date": "2012-04-03",
+  "note": "",
+  "pub_date": "2012-04-03",
+  "venue": "AVI",
+  "authors": [
+    {
+      "first_name": "Jason",
+      "last_name": "Chuang",
+      "url": "http://jason.chuang.info"
+    },
+    {
+      "first_name": "Christopher",
+      "last_name": "Manning"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Website",
+      "link": "http://termite.stanford.edu/"
+    },
+    {
+      "name": "Software",
+      "link": "http://github.com/StanfordHCI/termite"
+    }
+  ],
+  "tags": []
+}

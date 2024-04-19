@@ -1,0 +1,55 @@
+{
+  "title": "Towards Design Principles for Visual Analytics in Operations Contexts",
+  "year": 2018,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2018-Meridian-CHI.pdf",
+  "abstract": "Operations engineering teams interact with complex data systems to make technical decisions that ensure the operational efficacy of their missions. To support these decision-making tasks, which may require elastic prioritization of goals dependent on changing conditions, custom analytics tools are often developed. We were asked to develop such a tool by a team at the NASA Jet Propulsion Laboratory, where rover telecom operators make decisions based on models predicting how much data rovers can transfer from the surface of Mars. Through research, design, implementation, and informal evaluation of our new tool, we developed principles to inform the design of visual analytics systems in operations contexts. We offer these principles as a step towards understanding the complex task of designing these systems. The principles we present are applicable to designers and developers tasked with building analytics systems in domains that face complex operations challenges such as scheduling, routing, and logistics.",
+  "thumbnail": "images/thumbs/meridian.png",
+  "figure": "images/figures/meridian.png",
+  "caption": "The Meridian system was designed for operations engineers at the NASA Jet Propulsion Laboratory. Engineers using the system are tasked with selecting a heading at which to park the rover and an overpassing satellite to connect to in order to maximize the amount of data transferred back to Earth. Through research, design, implementation, and informal evaluation of our new tool, we developed principles to inform the design of visual analytics systems in operations contexts.",
+  "web_name": "meridian",
+  "visible": true,
+  "mod_date": "2018-05-01",
+  "note": null,
+  "pub_date": "2018-05-01",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Matt",
+      "last_name": "Conlen",
+      "url": "https://mathisonian.com/"
+    },
+    {
+      "first_name": "Sara",
+      "last_name": "Stalla"
+    },
+    {
+      "first_name": "Chelly",
+      "last_name": "Jin"
+    },
+    {
+      "first_name": "Maggie",
+      "last_name": "Hendrie"
+    },
+    {
+      "first_name": "Hillary",
+      "last_name": "Muskin"
+    },
+    {
+      "first_name": "Santiago",
+      "last_name": "Lombeyda"
+    },
+    {
+      "first_name": "Scott",
+      "last_name": "Davidoff"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Orion: A System for Modeling, Transformation and Visualization of Multidimensional Heterogeneous Networks",
+  "year": 2014,
+  "start_page": 111,
+  "end_page": 133,
+  "volume": 13,
+  "issue": 2,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2014-Orion-IVS.pdf",
+  "abstract": "The study of complex activities such as scientific production and software development often requires modeling connections among heterogeneous entities including people, institutions, and artifacts. Despite advances in algorithms and visualization techniques for understanding such social networks, the process of constructing network models and performing exploratory analysis remains difficult and time-consuming. In this article, we present Orion, a system for interactive modeling, transformation, and visualization of network data. Orion’s interface enables the rapid manipulation of large graphs - including the specification of complex linking relationships - using simple drag-and-drop operations with desired node types. Orion maps these user interactions to statements in a declarative workflow language that incorporates both relational operators (e.g., selection, aggregation, and joins) and network analytics (e.g., centrality measures). We demonstrate how these features enable analysts to flexibly construct and compare networks in domains such as online health communities, electronic medical records, academic collaboration, and distributed software development.",
+  "thumbnail": "images/thumbs/orion.png",
+  "figure": "images/figures/orion-graphs.png",
+  "caption": "Orion Visualizations of Online Health Communities. From left-to-right: (a) A sorted matrix view of an online asthma forum. A few central leaders divide up responses among incoming questions. (b) Node-link diagram of highly active cluster of the same forum. (c) Plot of betweenness centrality values for two different network models, sized by number of posts. The models have similar centrality distributions.",
+  "web_name": "orion-ivs",
+  "visible": true,
+  "mod_date": "2014-02-01",
+  "note": null,
+  "pub_date": "2014-02-01",
+  "venue": "IV Journal",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Adam",
+      "last_name": "Perer"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

@@ -1,0 +1,50 @@
+{
+  "title": "ScatterShot: Interactive In-context Example Curation for Text Transformation",
+  "year": 2023,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2023-ScatterShot-IUI.pdf",
+  "abstract": "The in-context learning capabilities of LLMs like GPT-3 allow annotators to customize an LLM to their specific tasks with a small number of examples. However, users tend to include only the most obvious patterns when crafting examples, resulting in underspecified in-context functions that fall short on unseen cases. Further, it is hard to know when “enough” examples have been included even for known patterns. In this work, we present ScatterShot, an interactive system for building high-quality demonstration sets for in-context learning. ScatterShot iteratively slices unlabeled data into task-specific patterns, samples informative inputs from underexplored or not-yet-saturated slices in an active learning manner, and helps users label more efficiently with the help of an LLM and the current example set. In simulation studies on two text perturbation scenarios, ScatterShot sampling improves the resulting few-shot functions by 4-5 percentage points over random sampling, with less variance as more examples are added. In a user study, ScatterShot greatly helps users in covering different patterns in the input space and labeling in-context examples more efficiently, resulting in better in-context learning and less user effort.",
+  "thumbnail": "images/thumbs/scattershot.png",
+  "figure": "images/figures/scattershot.png",
+  "caption": "An overview of how human annotators can use ScatterShot to iteratively collect effective in-context examples for temporal expression extraction and normalization. The function extracts phrases with temporal meaning from sentences (e.g.,“Oct. 23, 1999” in “Slepian was killed on Oct. 23, 1999”), and normalizes them into standard formats (“Oct. 23, 1999 == 1999-10-23”) — the red spans represent information deleted from the input, and the green ones represent information generated in the output. Given an in-context example set that is likely underspecifying the intended functionality (A), ScatterShot applies slice-based sampling to return unlabeled inputs that either have novel patterns or are difficult cases, and uses the existing examples to drive an LLM (e.g., GPT-3) to suggest (possibly noisy) annotations, such that humans can correct the suggested annotations and possibly expand the in-context example bucket. Compared to random sampling and manual labeling (B), ScatterShot helps humans re-allocate annotation budgets towards informative examples, and increases the in-context function performance.",
+  "web_name": "scattershot",
+  "visible": true,
+  "mod_date": "03-27-2023",
+  "note": "Best Paper Honorable Mention",
+  "pub_date": "03-27-2023",
+  "venue": "IUI",
+  "authors": [
+    {
+      "first_name": "Tongshuang",
+      "last_name": "Wu",
+      "url": "https://homes.cs.washington.edu/~wtshuang/"
+    },
+    {
+      "first_name": "Hua",
+      "last_name": "Shen"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Dan",
+      "last_name": "Weld",
+      "url": "https://www.cs.washington.edu/people/faculty/weld"
+    },
+    {
+      "first_name": "Marco",
+      "last_name": "Ribeiro",
+      "url": "https://homes.cs.washington.edu/~marcotcr/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

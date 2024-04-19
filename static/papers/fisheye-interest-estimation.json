@@ -1,0 +1,36 @@
+{
+  "title": "Efficient User Interest Estimation in Fisheye Views",
+  "year": 2003,
+  "start_page": 836,
+  "end_page": 837,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2003-InterestEstimation-CHI.pdf",
+  "abstract": "We present a new technique for efficiently computing Degree-of-Interest distributions to inform the visualization of graph-structured data. The technique is independent of the interest distribution used, and enables fluid interaction with very large data sets (over 100,000 nodes).",
+  "thumbnail": "images/thumbs/fisheye-interest-estimation.gif",
+  "figure": "",
+  "caption": "",
+  "web_name": "fisheye-interest-estimation",
+  "visible": true,
+  "mod_date": "2009-08-04",
+  "note": null,
+  "pub_date": "2003-04-01",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Stuart",
+      "last_name": "Card",
+      "url": "http://www2.parc.com/istl/groups/uir/people/stuart/stuart.htm"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

@@ -1,0 +1,51 @@
+{
+  "title": "Too Many Cooks: Exploring How Graphical Perception Studies Influence Visualization Recommendations in Draco",
+  "year": 2024,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2024-TooManyCooks-TVCG.pdf",
+  "abstract": "Findings from graphical perception can guide visualization recommendation algorithms in identifying effective visualization designs. However, existing algorithms use knowledge from, at best, a few studies, limiting our understanding of how complementary (or contradictory) graphical perception results influence generated recommendations. In this paper, we present a pipeline of applying a large body of graphical perception results to develop new visualization recommendation algorithms and conduct an exploratory study to investigate how results from graphical perception can alter the behavior of downstream algorithms. Specifically, we model graphical perception results from 30 papers in Draco — a framework to model visualization knowledge — to develop new recommendation algorithms. By analyzing Draco-generated algorithms, we showcase the feasibility of our method to (1) identify gaps in existing graphical perception literature informing recommendation algorithms, (2) cluster papers by their preferred design rules and constraints, and (3) investigate why certain studies can dominate Draco’s recommendations, whereas others may have little influence. Given our findings, we discuss the potential for mutually reinforcing advancements in graphical perception and visualization recommendation research.",
+  "thumbnail": "images/thumbs/too-many-cooks.png",
+  "figure": "images/figures/too-many-cooks.png",
+  "caption": "Clustering graphical perception papers based on their covered Draco soft constraints.",
+  "web_name": "too-many-cooks",
+  "visible": true,
+  "mod_date": "2023-10-21",
+  "note": null,
+  "pub_date": "2023-10-21",
+  "venue": "VIS",
+  "authors": [
+    {
+      "first_name": "Zehua",
+      "last_name": "Zeng"
+    },
+    {
+      "first_name": "Junran",
+      "last_name": "Yang"
+    },
+    {
+      "first_name": "Dominik",
+      "last_name": "Moritz",
+      "url": "http://domoritz.de/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Leilani",
+      "last_name": "Battle",
+      "url": "https://homes.cs.washington.edu/~leibatt/"
+    }
+  ],
+  "materials": [],
+  "tags": [
+    "recommendation"
+  ]
+}

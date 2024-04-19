@@ -1,0 +1,39 @@
+{
+  "title": "Finding a Clear Path: Structuring Strategies for Visualization Sequences",
+  "year": 2017,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2017-SequenceStructure-EuroVis.pdf",
+  "abstract": "Little is known about how people structure sets of visualizations to support sequential viewing. We contribute findings from several studies examining visualization sequencing and reception. In our first study, people made decisions between various possible structures as they ordered a set of related visualizations (consisting of either bar charts or thematic maps) into what they considered the clearest sequence for showing the data. We find that most people structure visualization sequences hierarchically: they create high level groupings based on shared data properties like time period, measure, level of aggregation, and spatial region, then order the views within these groupings. We also observe a tendency for certain types of similarities between views, like a common spatial region or aggregation level, to be seen as more appropriate categories for organizing views in a sequence than others, like a common time period or measure. In a second study, we find that viewers' perceptions of the quality and intention of different sequences are largely consistent with the perceptions of the users who created them. The understanding of sequence preferences and perceptions that emerges from our studies has implications for the development of visualization authoring tools and sequence recommendations for guided analysis.",
+  "thumbnail": "images/thumbs/sequence-structure.png",
+  "figure": "images/figures/sequence-structure.png",
+  "caption": "Two visualization sequences that use parallel structure. Sequence A groups views by the country for which data is shown; Sequence B groups the views according to the measure (M1, M2). We identify systematic preferences among authors and viewers that suggest that some aspects of data, such as the spatial dimension or level of aggregation, are preferred for grouping views in visualization sequences than other aspects, such as the measure or time period shown.",
+  "web_name": "sequence-structure",
+  "visible": true,
+  "mod_date": "2017-06-12",
+  "note": null,
+  "pub_date": "2017-06-12",
+  "venue": "EuroVis",
+  "authors": [
+    {
+      "first_name": "Jessica",
+      "last_name": "Hullman",
+      "url": "http://faculty.washington.edu/jhullman"
+    },
+    {
+      "first_name": "Robert",
+      "last_name": "Kosara"
+    },
+    {
+      "first_name": "Heidi",
+      "last_name": "Lam"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

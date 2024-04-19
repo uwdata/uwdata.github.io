@@ -1,0 +1,40 @@
+{
+  "title": "\"Without the Clutter of Unimportant Words\": Descriptive Keyphrases for Text Visualization",
+  "year": 2012,
+  "start_page": 1,
+  "end_page": 29,
+  "volume": 19,
+  "issue": 3,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2012-Keyphrases-TOCHI.pdf",
+  "abstract": "Keyphrases aid the exploration of text collections by communicating salient aspects of documents and are often used to create effective visualizations of text. While prior work in HCI and visualization has proposed a variety of ways of presenting keyphrases, less attention has been paid to selecting the best descriptive terms. In this article, we investigate the statistical and linguistic properties of keyphrases chosen by human judges and determine which features are most predictive of high-quality descriptive phrases. Based on 5,611 responses from 69 graduate students describing a corpus of dissertation abstracts, we analyze characteristics of human-generated keyphrases, including phrase length, commonness, position, and part of speech. Next, we systematically assess the contribution of each feature within statistical models of keyphrase quality. We then introduce a method for grouping similar terms and varying the specificity of displayed phrases so that applications can select phrases dynamically based on the available screen space and current context of interaction. Precision-recall measures find that our technique generates keyphrases that match those selected by human judges. Crowdsourced ratings of tag cloud visualizations rank our approach above other automatic techniques. Finally, we discuss the role of HCI methods in developing new algorithmic techniques suitable for user-facing applications.",
+  "thumbnail": "images/thumbs/keyphrases.gif",
+  "figure": "images/figures/keyphrases.png",
+  "caption": "Tag cloud visualizations of an online biography of the pop singer Lady Gaga. (left) Single-word phrases (unigrams) weighted using G2. (right) Multiword phrases, including significant places and song titles, selected using our corpus-independent model.",
+  "web_name": "keyphrases",
+  "visible": true,
+  "mod_date": "2012-11-14",
+  "note": "",
+  "pub_date": "2012-10-31",
+  "venue": "ACM TOCHI",
+  "authors": [
+    {
+      "first_name": "Jason",
+      "last_name": "Chuang",
+      "url": "http://jason.chuang.info"
+    },
+    {
+      "first_name": "Christopher",
+      "last_name": "Manning"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

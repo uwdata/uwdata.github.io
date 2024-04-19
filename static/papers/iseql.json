@@ -1,0 +1,45 @@
+{
+  "title": "iSeqL: Interactive Sequence Learning",
+  "year": 2020,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2020-iSeqL-IUI.pdf",
+  "abstract": "Exploratory analysis of unstructured text is a difficult task, particularly when defining and extracting domain-specific concepts. We present iSeqL, an interactive tool for the rapid construction of customized text mining models through sequence labeling. With iSeqL, analysts engage in an active learning loop, labeling text instances and iteratively assessing trained models by viewing model predictions in the context of both individual text instances and task-specific visualizations of the full dataset. To build suitable models with limited training data, iSeqL leverages transfer learning and pre-trained contextual word embeddings within a recurrent neural architecture. Through case studies and an online experiment, we demonstrate the use of iSeqL to quickly bootstrap models sufficiently accurate to perform in-depth exploratory analysis. With less than an hour of annotation effort, iSeqL users are able to generate stable outputs over custom extracted entities, including context-sensitive discovery of phrases that were never manually labeled.",
+  "thumbnail": "images/thumbs/iseql.png",
+  "figure": "images/figures/iseql.png",
+  "caption": "The iSeqL tool for interactive text sequence learning. A) Users label sampled instances; user-annotated entities are highlighted in yellow. B) Predictions from the current model are underlined to expedite annotation and convey model performance. The right-most panel contains evaluation aids: C) the count of labels that “flipped” in the last round, D) a model quality (F1) score against held out data; and E) an entity rank chart that shows the top predicted, labeled, and discovered entities.",
+  "web_name": "iseql",
+  "visible": true,
+  "mod_date": "2020-03-17",
+  "note": null,
+  "pub_date": "2020-03-17",
+  "venue": "IUI",
+  "authors": [
+    {
+      "first_name": "Akshat",
+      "last_name": "Shrivastava",
+      "url": "https://akshatsh.github.io/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Appendix",
+      "link": "http://idl.cs.washington.edu/files/2020-iSeqL-IUI-Appendix.pdf"
+    },
+    {
+      "name": "Software",
+      "link": "http://www.github.com/AkshatSh/iSeqL"
+    }
+  ],
+  "tags": []
+}

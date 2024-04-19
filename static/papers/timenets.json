@@ -1,0 +1,41 @@
+{
+  "title": "Tracing Genealogical Data with TimeNets",
+  "year": 2010,
+  "start_page": 241,
+  "end_page": 248,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2010-TimeNets-AVI.pdf",
+  "abstract": "We present TimeNets, a new visualization technique for genealogical data. Most genealogical diagrams prioritize the display of generational relations. To enable analysis of families over time, TimeNets prioritize temporal relationships in addition to family structure. Individuals are represented using timelines that converge and diverge to indicate marriage and divorce; directional edges connect parents and children. This representation both facilitates perception of temporal trends and provides a substrate for communicating non-hierarchical patterns such as divorce, remarriage, and plural marriage. We also apply degree-of-interest techniques to enable scalable, interactive exploration. We present our design decisions, layout algorithm, and a study finding that TimeNets accelerate analysis tasks involving temporal data.",
+  "thumbnail": "images/thumbs/timenets.png",
+  "figure": "images/figures/family.png",
+  "caption": "TimeNet visualization of the first author’s family. Lifelines represent people, converging lines signify marriage, and drop lines indicate children. Annotations show both historical and personal events.",
+  "web_name": "timenets",
+  "visible": true,
+  "mod_date": "2010-08-18",
+  "note": "",
+  "pub_date": "2010-05-24",
+  "venue": "AVI",
+  "authors": [
+    {
+      "first_name": "Nam Wook",
+      "last_name": "Kim",
+      "url": "http://namwkim.org/"
+    },
+    {
+      "first_name": "Stuart",
+      "last_name": "Card",
+      "url": "http://www2.parc.com/istl/groups/uir/people/stuart/stuart.htm"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

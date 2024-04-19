@@ -1,0 +1,53 @@
+{
+  "title": "Communicating with Interactive Articles",
+  "year": 2020,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "",
+  "abstract": "Examining the design of interactive articles by synthesizing theory from disciplines such as education, journalism, and visualization.",
+  "thumbnail": "images/thumbs/comm-interactive-articles.png",
+  "figure": "images/figures/comm-interactive-articles.png",
+  "caption": "Exemplary interactive articles from around the Web.",
+  "web_name": "comm-interactive-articles",
+  "visible": true,
+  "mod_date": "2020-09-11",
+  "note": null,
+  "pub_date": "2020-09-11",
+  "venue": "Distill",
+  "authors": [
+    {
+      "first_name": "Fred",
+      "last_name": "Hohman",
+      "url": "https://fredhohman.com/"
+    },
+    {
+      "first_name": "Matt",
+      "last_name": "Conlen",
+      "url": "https://mathisonian.com/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Duen Horng",
+      "last_name": "Chau",
+      "url": "https://poloclub.github.io/polochau/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Journal",
+      "link": "https://distill.pub/2020/communicating-with-interactive-articles/"
+    }
+  ],
+  "tags": [
+    "communication"
+  ]
+}

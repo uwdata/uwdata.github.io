@@ -1,0 +1,41 @@
+{
+  "title": "Scented Widgets: Improving Navigation Cues with Embedded Visualizations",
+  "year": 2007,
+  "start_page": 1129,
+  "end_page": 1136,
+  "volume": 13,
+  "issue": 6,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2007-ScentedWidgets-InfoVis.pdf",
+  "abstract": "This paper presents scented widgets, graphical user interface controls enhanced with embedded visualizations that facilitate navigation in information spaces. We describe design guidelines for adding visual cues to common user interface widgets such as radio buttons, sliders, and combo boxes and contribute a general software framework for applying scented widgets within applications with minimal modifications to existing source code. We provide a number of example applications and describe a controlled experiment which finds that users exploring unfamiliar data make up to twice as many unique discoveries using widgets imbued with social navigation data. However, these differences equalize as familiarity with the data increases.",
+  "thumbnail": "images/thumbs/scented-widgets.gif",
+  "figure": "images/figures/scented-widgets.gif",
+  "caption": "Widgets with visual information scent cues. Left: Radio buttons with comment counts. Right: Histogram slider with data totals.",
+  "web_name": "scented-widgets",
+  "visible": true,
+  "mod_date": "2009-08-06",
+  "note": null,
+  "pub_date": "2007-10-02",
+  "venue": "InfoVis",
+  "authors": [
+    {
+      "first_name": "Wesley",
+      "last_name": "Willett",
+      "url": "http://vis.berkeley.edu/~willettw/portfolio/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Maneesh",
+      "last_name": "Agrawala",
+      "url": "http://graphics.stanford.edu/~maneesh/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

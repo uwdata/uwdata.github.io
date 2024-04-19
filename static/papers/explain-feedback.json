@@ -1,0 +1,59 @@
+{
+  "title": "No Explainability without Accountability: An Empirical Study of Explanations and Feedback in Interactive ML",
+  "year": 2020,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2020-ExplainFeedback-CHI.pdf",
+  "abstract": "Automatically generated explanations of how machine learning (ML) models reason can help users understand and accept them. However, explanations can have unintended consequences: promoting over-reliance or undermining trust. This paper investigates how explanations shape users' perceptions of ML models with or without the ability to provide feedback to them: (1) does revealing model flaws increase users' desire to \"fix\" them; (2) does providing explanations cause users to believe--wrongly--that models are introspective, and will thus improve over time. Through two controlled experiments--varying model quality--we show how the combination of explanations and user feedback impacted perceptions, such as frustration and expectations of model improvement. Explanations without opportunity for feedback were frustrating with a lower quality model, while interactions between explanation and feedback for the higher quality model suggest that detailed feedback should not be requested without explanation. Users expected model correction, regardless of whether they provided feedback or received explanations.",
+  "thumbnail": "images/thumbs/explain-feedback.png",
+  "figure": "images/figures/explain-feedback.png",
+  "caption": "Participant's ratings of their expected model changes show: (1) In general, participants expected improvements (green bars), but more in feature-level feedback conditions (E[xpectation]-F[eature-level feedback] and N[o expectation]-F[eature-level feedback]). (2) More surprisingly, a large portion of participants who did not provide any feedback to the model (conditions *-N[o feedback]) thought the model would somehow correct itself.",
+  "web_name": "explain-feedback",
+  "visible": true,
+  "mod_date": "2020-04-24",
+  "note": null,
+  "pub_date": "2020-04-24",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Alison",
+      "last_name": "Smith-Renner",
+      "url": "https://www.cs.umd.edu/people/amsmit"
+    },
+    {
+      "first_name": "Ron",
+      "last_name": "Fan"
+    },
+    {
+      "first_name": "Melissa",
+      "last_name": "Birchfield"
+    },
+    {
+      "first_name": "Tongshuang",
+      "last_name": "Wu",
+      "url": "https://homes.cs.washington.edu/~wtshuang/"
+    },
+    {
+      "first_name": "Jordan",
+      "last_name": "Boyd-Graber",
+      "url": "http://users.umiacs.umd.edu/~jbg/"
+    },
+    {
+      "first_name": "Dan",
+      "last_name": "Weld",
+      "url": "https://www.cs.washington.edu/people/faculty/weld"
+    },
+    {
+      "first_name": "Leah",
+      "last_name": "Findlater",
+      "url": "https://faculty.washington.edu/leahkf/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

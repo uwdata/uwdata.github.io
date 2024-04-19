@@ -1,0 +1,48 @@
+{
+  "title": "Colony Life History and Lifetime Reproductive Success of Red Harvester Ant Colonies",
+  "year": 2013,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "",
+  "abstract": "We estimate colony reproductive success, in numbers of offspring colonies arising from a colony's daughter queens, of colonies of the red harvester ant, Pogonomyrmex barbatus. A measure of lifetime reproductive success is essential to understand the relation of ecological factors, phenotype and fitness in a natural population. This was possible for the first time in a natural population of ant colonies using data from long-term study of a population of colonies in south-eastern Arizona, for which ages of all colonies are known from census data collected since 1985. Parentage analyses of microsatellite data from 5 highly polymorphic loci were used to assign offspring colonies to maternal parent colonies in a population of about 265 colonies, ages 1–28 years, sampled in 2010. The estimated population growth rate Ro was 1-69 and generation time was 7-8 years. There was considerable variation among colonies in reproductive success: of 199 possible parent colonies, only 49 (~25%) had offspring colonies on the site. The mean number of offspring colonies per maternal parent colony was 2·94 and ranged from 1 to 8. A parent was identified for the queen of 146 of 247 offspring colonies. There was no evidence for reproductive senescence; fecundity was about the same throughout the 25–30 year lifespan of a colony. There were no trends in the distance or direction of the dispersal of an offspring relative to its maternal parent colony. There was no relationship between the number of gynes produced by a colony in 1 year and the number of offspring colonies subsequently founded by its daughter reproductive females. The results provide the first estimate of a life table for a population of ant colonies and the first estimate of the female component of colony lifetime reproductive success. The results suggest that commonly used measures of reproductive output may not be correlated with realized reproductive success. This is the starting point for future investigation asking whether variation in reproductive success is related to phenotypic variation among colonies in behavioural and ecological traits.",
+  "thumbnail": "images/thumbs/colony-life-history.png",
+  "figure": "images/figures/ant-colony-map.png",
+  "caption": "All parent-offspring pairs of ant colonies. Parents are shown linked to offspring by arrows. Red and circles, J1 lineage; Blue and squares, J2 lineage. The size of the circles and squares indicates number of offspring; the smallest size had no offspring. Upward-pointing triangles represent colonies that were too young to be parents. Downward-pointing triangles represent colonies that were not genotyped. North is at the top of the figure.",
+  "web_name": "colony-life-history",
+  "visible": true,
+  "mod_date": "2013-10-24",
+  "note": "",
+  "pub_date": "2013-02-01",
+  "venue": "J Anim Eco",
+  "authors": [
+    {
+      "first_name": "Krista",
+      "last_name": "Ingram"
+    },
+    {
+      "first_name": "Anna",
+      "last_name": "Pilko"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Deborah",
+      "last_name": "Gordon"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Journal",
+      "link": "http://onlinelibrary.wiley.com/doi/10.1111/1365-2656.12036/abstract"
+    }
+  ],
+  "tags": []
+}

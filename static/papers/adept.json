@@ -1,0 +1,45 @@
+{
+  "title": "Identifying Medical Terms in Patient-Authored Text: A Crowdsourcing-based Approach",
+  "year": 2013,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2013-ADEPT-JAMIA.pdf",
+  "abstract": "Background and objective: As people increasingly engage in online health-seeking behavior and contribute to health-oriented websites, the volume of medical text authored by patients and other medical novices grows rapidly. However, we lack an effective method for automatically identifying medical terms in patient-authored text (PAT). We demonstrate that crowdsourcing PAT medical term identification tasks to non-experts is a viable method for creating large, accurately-labeled PAT datasets; moreover, such datasets can be used to train classifiers that outperform existing medical term identification tools.\r\n\r\nMaterials and methods: To evaluate the viability of using non-expert crowds to label PAT, we compare expert (registered nurses) and non-expert (Amazon Mechanical Turk workers; Turkers) responses to a PAT medical term identification task. Next, we build a crowd-labeled dataset comprising 10 000 sentences from MedHelp. We train two models on this dataset and evaluate their performance, as well as that of MetaMap, Open Biomedical Annotator (OBA), and NaCTeM's TerMINE, against two gold standard datasets: one from MedHelp and the other from CureTogether.\r\n\r\nResults: When aggregated according to a corroborative voting policy, Turker responses predict expert responses with an F1 score of 84%. A conditional random field (CRF) trained on 10 000 crowd-labeled MedHelp sentences achieves an F1 score of 78% against the CureTogether gold standard, widely outperforming OBA (47%), TerMINE (43%), and MetaMap (39%). A failure analysis of the CRF suggests that misclassified terms are likely to be either generic or rare.\r\n\r\nConclusions: Our results show that combining statistical models sensitive to sentence-level context with crowd-labeled data is a scalable and effective technique for automatically identifying medical terms in PAT.",
+  "thumbnail": "images/thumbs/adept.png",
+  "figure": "images/figures/adept.png",
+  "caption": "A comparison of terms identified as medically-relevant (shown in black) by different models in five sample sentences. OBA and MetaMap are run using the SNOMED CT ontology.",
+  "web_name": "adept",
+  "visible": true,
+  "mod_date": "2013-05-07",
+  "note": "",
+  "pub_date": "2013-05-06",
+  "venue": "JAMIA",
+  "authors": [
+    {
+      "first_name": "Diana",
+      "last_name": "MacLean",
+      "url": "http://www.stanford.edu/~malcdi/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Journal",
+      "link": "http://jamia.bmj.com/content/early/2013/05/04/amiajnl-2012-001110.full"
+    },
+    {
+      "name": "Software",
+      "link": "http://vis.stanford.edu/projects/adept"
+    }
+  ],
+  "tags": []
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Talking in Circles: Selective Sharing in Google+",
+  "year": 2012,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2012-SelectiveSharing-CHI.pdf",
+  "abstract": "Online social networks have become indispensable tools for information sharing, but existing \"all-or-nothing\" models for sharing have made it difficult for users to target information to specific parts of their networks. In this paper, we study Google+, which enables users to selectively share content with specific \"Circles\" of people. Through a combination of log analysis with surveys and interviews, we investigate how active users organize and select audiences for shared content. We find that these users frequently engaged in selective sharing, creating circles to manage content across particular life facets, ties of varying strength, and interest-based groups. Motivations to share spanned personal and informational reasons, and users frequently weighed \"limiting\" factors (e.g. privacy, relevance, and social norms) against the desire to reach a large audience. Our work identifies implications for the design of selective sharing mechanisms in social networks.",
+  "thumbnail": "images/thumbs/selective-sharing.png",
+  "figure": "",
+  "caption": "",
+  "web_name": "selective-sharing",
+  "visible": true,
+  "mod_date": "2013-11-17",
+  "note": null,
+  "pub_date": "2012-01-18",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Sanjay",
+      "last_name": "Kairam",
+      "url": "http://www.sanjaykairam.com/"
+    },
+    {
+      "first_name": "Michael",
+      "last_name": "Brzozowski"
+    },
+    {
+      "first_name": "David",
+      "last_name": "Huffaker"
+    },
+    {
+      "first_name": "Ed",
+      "last_name": "Chi"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

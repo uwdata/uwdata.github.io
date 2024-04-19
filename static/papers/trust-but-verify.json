@@ -1,0 +1,51 @@
+{
+  "title": "Trust, but Verify: Optimistic Visualizations of Approximate Queries for Exploring Big Data",
+  "year": 2017,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2017-TrustButVerify-CHI.pdf",
+  "abstract": "Analysts need interactive speed for exploratory analysis, but big data systems are often slow. With sampling, data systems can produce approximate answers fast enough for exploratory visualization, at the cost of accuracy and trust. We propose optimistic visualization, which approaches these issues from a user experience perspective. This method lets analysts explore approximate results interactively, and provides a way to detect and recover from errors later. Pangloss implements these ideas. We discuss design issues raised by optimistic visualization systems. We test this concept with five expert visualizers in a laboratory study and three case studies at Microsoft. Analysts reported that they felt more confident in their results, and used optimistic visualization to check that their preliminary results were correct.",
+  "thumbnail": "images/thumbs/trust-but-verify.png",
+  "figure": "images/figures/trust-but-verify.png",
+  "caption": "The Pangloss UI, exploring a flight delay dataset, with a list of fields (A), chart specification forms (B), a textfield for filters (C), zoom specification (D), approximate visualization (E), visualization of the uncertainty (F), field for annotations and \"remember\" button (G), and a list of views in the history (H). Two precise results are ready, while a third is loading.",
+  "web_name": "trust-but-verify",
+  "visible": true,
+  "mod_date": "2017-05-01",
+  "note": null,
+  "pub_date": "2017-05-01",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Dominik",
+      "last_name": "Moritz",
+      "url": "http://domoritz.de/"
+    },
+    {
+      "first_name": "Danyel",
+      "last_name": "Fisher",
+      "url": "https://danyelfisher.info/"
+    },
+    {
+      "first_name": "Bolin",
+      "last_name": "Ding"
+    },
+    {
+      "first_name": "Chi",
+      "last_name": "Wang"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Video Preview",
+      "link": "https://www.youtube.com/watch?v=cfdzi92r4sM"
+    }
+  ],
+  "tags": [
+    "scalable"
+  ]
+}

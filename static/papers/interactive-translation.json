@@ -1,0 +1,53 @@
+{
+  "title": "Human Effort and Machine Learnability in Computer Aided Translation",
+  "year": 2014,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2014-InteractiveTranslation-EMNLP.pdf",
+  "abstract": "Analyses of computer aided translation typically focus on either frontend interfaces and human effort, or backend translation and machine learnability of corrections. However, this distinction is artificial in practice since the frontend and backend must work in concert. We present the first holistic, quantitative evaluation of these issues by contrasting two assistive modes: post-editing and interactive machine translation (MT). We describe a new translator interface, extensive modifications to a phrase-based MT system, and a novel objective function for re-tuning to human corrections. Evaluation with professional bilingual translators shows that post-edit is faster than interactive at the cost of translation quality for French-English and English-German. However, re-tuning the MT system to interactive output leads to larger, statistically significant reductions in HTER versus re-tuning to post-edit. Analysis shows that tuning directly to HTER results in fine-grained corrections to subsequent machine output.",
+  "thumbnail": "images/thumbs/ptm.png",
+  "figure": "",
+  "caption": "",
+  "web_name": "interactive-translation",
+  "visible": true,
+  "mod_date": "2014-10-25",
+  "note": null,
+  "pub_date": "2014-10-25",
+  "venue": "EMNLP",
+  "authors": [
+    {
+      "first_name": "Spence",
+      "last_name": "Green",
+      "url": "http://www.spencegreen.com/"
+    },
+    {
+      "first_name": "Sida",
+      "last_name": "Wang"
+    },
+    {
+      "first_name": "Jason",
+      "last_name": "Chuang",
+      "url": "http://jason.chuang.info"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Sebastian",
+      "last_name": "Schuster"
+    },
+    {
+      "first_name": "Christopher",
+      "last_name": "Manning"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

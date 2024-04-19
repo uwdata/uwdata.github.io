@@ -1,0 +1,53 @@
+{
+  "title": "Urban Accessibility as a Socio-Political Problem: A Multi-Stakeholder Analysis",
+  "year": 2020,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2020-UrbanAccessibilityMultiStakeholder-CSCW.pdf",
+  "abstract": "Traditionally, urban accessibility is defined as the ease of reaching destinations. Studies on urban accessibility for pedestrians with mobility disabilities (e.g., wheelchair users) have primarily focused on understanding the challenges that the built environment imposes and how they overcome them. In this paper, we move beyond physical barriers and focus on socio-political challenges in the civic ecosystem that impedes accessible infrastructure development. Using a multi-stakeholder approach, we interviewed five primary stakeholder groups (N=25): (1) people with mobility disabilities, (2) caregivers, (3) accessibility advocates, (4) department officials, and (5) policymakers. We discussed their current accessibility assessment and decision-making practices. We identified the key needs and desires of each group, how they differed, and how they interacted with each other in the civic ecosystem to bring about change. We found that people, politics, and money were intrinsically tied to underfunded accessibility improvement projects — without continued support from the public and the political leadership, existing funding may also disappear. Using the insights from these interviews, we explore how may technology enhance our stakeholders'' decision-making processes and facilitate accessible infrastructure development.",
+  "thumbnail": "images/thumbs/urban-access-multi-stakeholder.png",
+  "figure": "images/figures/urban-access-multi-stakeholder.png",
+  "caption": "Examples of sidewalk accessibility barriers. The last sub-figure shows multiple barriers present together: missing ramp, no sidewalk, and uneven surface. Images from Project Sidewalk.",
+  "web_name": "urban-access-multi-stakeholder",
+  "visible": true,
+  "mod_date": "2020-10-17",
+  "note": null,
+  "pub_date": "2020-10-17",
+  "venue": "CSCW",
+  "authors": [
+    {
+      "first_name": "Manaswi",
+      "last_name": "Saha",
+      "url": "https://homes.cs.washington.edu/~manaswi/"
+    },
+    {
+      "first_name": "Devanshi",
+      "last_name": "Chauhan"
+    },
+    {
+      "first_name": "Siddhant",
+      "last_name": "Patil"
+    },
+    {
+      "first_name": "Rachel",
+      "last_name": "Kangas"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Jon",
+      "last_name": "Froehlich",
+      "url": "https://jonfroehlich.github.io/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

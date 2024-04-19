@@ -1,0 +1,40 @@
+{
+  "title": "Extracting and Retargeting Color Mappings from Bitmap Images of Visualizations",
+  "year": 2018,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2018-ExtractingColorMappings-InfoVis.pdf",
+  "abstract": "Visualization designers regularly use color to encode quantitative or categorical data. However, visualizations \"in the wild\" often violate perceptual color design principles and may only be available as bitmap images. In this work, we contribute a method to semi-automatically extract color encodings from a bitmap visualization image. Given an image and a legend location, we classify the legend as describing either a discrete or continuous color encoding, identify the colors used, and extract legend text using OCR methods. We then combine this information to recover the specific color mapping. Users can also correct interpretation errors using an annotation interface. We evaluate our techniques using a corpus of images extracted from scientific papers and demonstrate accurate automatic inference of color mappings across a variety of chart types. In addition, we present two applications of our method: automatic recoloring to improve perceptual effectiveness, and interactive overlays to enable improved reading of static visualizations.",
+  "thumbnail": "images/thumbs/extracting-color-mappings.png",
+  "figure": "images/figures/extracting-color-mappings.png",
+  "caption": "Automatic extraction and redesign of color mappings for a geographic heatmap. The bitmap image on the left uses a questionable rainbow color palette. Our methods automatically recover the color mapping, enabling applications such as automatic recoloring. The generated image on the right replaces the original color palette with a perceptually-motivated diverging color scheme.",
+  "web_name": "extracting-color-mappings",
+  "visible": true,
+  "mod_date": "2017-08-12",
+  "note": null,
+  "pub_date": "2018-01-01",
+  "venue": "InfoVis",
+  "authors": [
+    {
+      "first_name": "Jorge",
+      "last_name": "Poco",
+      "url": "https://vgc.poly.edu/~jpocom/"
+    },
+    {
+      "first_name": "Angela",
+      "last_name": "Mayhua"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

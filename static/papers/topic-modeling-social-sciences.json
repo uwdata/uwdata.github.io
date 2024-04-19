@@ -1,0 +1,52 @@
+{
+  "title": "Topic Modeling for the Social Sciences",
+  "year": 2009,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2009-TopicModels-NIPS-Workshop.pdf",
+  "abstract": "As textual datasets grow in size and scope, social scientists need better tools to help make sense of that data. Despite the natural applicability of topic modeling to many such problems, word counts and tag clouds are often used as the primary means of gleaning information from textual data. We characterize two barriers to adoption encountered during a collaboration between the Stanford NLP group and social scientists in the school of education: accessibility and trust. Accessibility refers to the technical barriers that make text processing and topic modeling difficult. Trust comes when practitioners can explore and validate a model being used to discover or support a hypothesis. We introduce recent work aimed at solving these challenges including the Stanford Topic Modeling Toolbox software.",
+  "thumbnail": "images/thumbs/topic-modeling-social-sciences.png",
+  "figure": "",
+  "caption": "",
+  "web_name": "topic-modeling-social-sciences",
+  "visible": true,
+  "mod_date": "2010-08-23",
+  "note": "",
+  "pub_date": "2009-09-01",
+  "venue": "NIPS Topic Model Ws",
+  "authors": [
+    {
+      "first_name": "Daniel",
+      "last_name": "Ramage"
+    },
+    {
+      "first_name": "Evan",
+      "last_name": "Rosen"
+    },
+    {
+      "first_name": "Jason",
+      "last_name": "Chuang",
+      "url": "http://jason.chuang.info"
+    },
+    {
+      "first_name": "Christopher",
+      "last_name": "Manning"
+    },
+    {
+      "first_name": "Dan",
+      "last_name": "McFarland"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "http://nlp.stanford.edu/software/tmt/tmt-0.2/"
+    }
+  ],
+  "tags": []
+}

@@ -1,0 +1,58 @@
+{
+  "title": "Latent Space Cartography: Visual Analysis of Vector Space Embeddings",
+  "year": 2019,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2019-LatentSpaceCartography-EuroVis.pdf",
+  "abstract": "Latent spaces - reduced-dimensionality vector space embeddings of data, fit via machine learning — have been shown to capture interesting semantic properties and support data analysis and synthesis within a domain. Interpretation of latent spaces is challenging because prior knowledge, sometimes subtle and implicit, is essential to the process. We contribute methods for \"latent space cartography\", the process of mapping and comparing meaningful semantic dimensions within latent spaces. We first perform a literature survey of relevant machine learning, natural language processing, and scientific research to distill common tasks and propose a workflow process. Next, we present an integrated visual analysis system for supporting this workflow, enabling users to discover, define, and verify meaningful relationships among data points, encoded within latent space dimensions. Three case studies demonstrate how users of our system can compare latent space variants in image generation, challenge existing findings on cancer transcriptomes, and assess a word embedding benchmark.",
+  "thumbnail": "images/thumbs/latent-space-cartography.png",
+  "figure": "images/figures/latent-space-cartography.png",
+  "caption": "Interpreting latent spaces from variational autoencoders trained on emoji images. (a) The user starts with summary metrics for latent space variants, (b) then drills down to an overview distribution of a chosen latent space. (c) To map out a semantic relationship, the user defines an attribute vector, examines the custom projection to the vector axis, applies analogies and assesses the relationship uncertainty.",
+  "web_name": "latent-space-cartography",
+  "visible": true,
+  "mod_date": "2019-06-04",
+  "note": null,
+  "pub_date": "2019-06-04",
+  "venue": "EuroVis",
+  "authors": [
+    {
+      "first_name": "Yang",
+      "last_name": "Liu",
+      "url": "http://yangliu.life/"
+    },
+    {
+      "first_name": "Eunice",
+      "last_name": "Jun",
+      "url": "https://homes.cs.washington.edu/~emjun/"
+    },
+    {
+      "first_name": "Qisheng",
+      "last_name": "Li"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Supplement",
+      "link": "http://idl.cs.washington.edu/files/2019-LatentSpaceCartography-EuroVis-Supplement.pdf"
+    },
+    {
+      "name": "Software",
+      "link": "https://github.com/uwdata/latent-space-cartography"
+    },
+    {
+      "name": "Video",
+      "link": "https://youtu.be/war0DRbRGNE"
+    }
+  ],
+  "tags": []
+}

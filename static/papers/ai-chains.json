@@ -1,0 +1,39 @@
+{
+  "title": "AI Chains: Transparent and Controllable Human-AI Interaction by Chaining Large Language Model Prompts",
+  "year": 2022,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2022-AIChains-CHI.pdf",
+  "abstract": "Although large language models (LLMs) have demonstrated impressive potential on simple tasks, their breadth of scope, lack of transparency, and insufficient controllability can make them less effective when assisting humans on more complex tasks. In response, we introduce the concept of Chaining LLM steps together, where the output of one step becomes the input for the next, thus aggregating the gains per step. We first define a set of LLM primitive operations useful for Chain construction, then present an interactive system where users can modify these Chains, along with their intermediate results, in a modular way. In a 20-person user study, we found that Chaining not only improved the quality of task outcomes, but also significantly enhanced system transparency, controllability, and sense of collaboration. Additionally, we saw that users developed new ways of interacting with LLMs through Chains: they leveraged sub-tasks to calibrate model expectations, compared and contrasted alternative strategies by observing parallel downstream effects, and debugged unexpected model outputs by \"unit-testing\" sub-components of a Chain. In two case studies, we further explore how LLM Chains may be used in future applications.",
+  "thumbnail": "images/thumbs/ai-chains.png",
+  "figure": "images/figures/ai-chains.png",
+  "caption": "A walkthrough example illustrating the differences between no-Chaining (A) and Chaining (B), using the example task of writing a peer review to be more constructive. With a single call to the model in (A), even though the prompt (italicized) clearly describes the task, the generated paragraph remains mostly impersonal and does not provide concrete suggestions for all 3 of Alex’s presentation problems. In (B), we instead use an LLM Chain with three steps, each for a distinct sub-task: (b1) A Split points step that extracts each individual presentation problem from the original feedback, (b2) An Ideation step that brainstorms suggestions per problem, and (b3) A Compose points step that synthesizes all the problems and suggestions into a final friendly paragraph. The result is noticeably improved.",
+  "web_name": "ai-chains",
+  "visible": true,
+  "mod_date": "2022-05-16",
+  "note": null,
+  "pub_date": "2022-05-16",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Tongshuang",
+      "last_name": "Wu",
+      "url": "https://homes.cs.washington.edu/~wtshuang/"
+    },
+    {
+      "first_name": "Michael",
+      "last_name": "Terry"
+    },
+    {
+      "first_name": "Carrie",
+      "last_name": "Cai"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

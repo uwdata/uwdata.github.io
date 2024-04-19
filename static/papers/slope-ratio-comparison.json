@@ -1,0 +1,41 @@
+{
+  "title": "An Empirical Model of Slope Ratio Comparisons",
+  "year": 2012,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2012-SlopeComparison-InfoVis.pdf",
+  "abstract": "Comparing slopes is a fundamental graph reading task and the aspect ratio chosen for a plot influences how easy these comparisons are to make. According to Banking to 45°, a classic design guideline first proposed and studied by Cleveland et al., aspect ratios that center slopes around 45° minimize errors in visual judgments of slope ratios. This paper revisits this earlier work. Through exploratory pilot studies that expand Cleveland et al.’s experimental design, we develop an empirical model of slope ratio estimation that fits more extreme slope ratio judgments and two common slope ratio estimation strategies. We then run two experiments to validate our model. In the first, we show that our model fits more generally than the one proposed by Cleveland et al. and we find that, in general, slope ratio errors are not minimized around 45°. In the second experiment, we explore a novel hypothesis raised by our model: that visible baselines can substantially mitigate errors made in slope judgments. We conclude with an application of our model to aspect ratio selection.",
+  "thumbnail": "images/thumbs/slope-ratio-comparison.png",
+  "figure": "images/figures/slope-comparison.png",
+  "caption": "Both plots show the same data set - the change in the length of a day (in microseconds) over 140 years - with different aspect ratios. The segment redness corresponds to the error that viewers will make when comparing the slope of that segment to all other slopes in the plot - as predicted by our empirical model. The aspect ratio on the right minimizes the total absolute predicted error.",
+  "web_name": "slope-ratio-comparison",
+  "visible": false,
+  "mod_date": "2012-10-02",
+  "note": "",
+  "pub_date": "2012-09-02",
+  "venue": "InfoVis",
+  "authors": [
+    {
+      "first_name": "Justin",
+      "last_name": "Talbot",
+      "url": "http://www.justintalbot.com/"
+    },
+    {
+      "first_name": "John",
+      "last_name": "Gerth",
+      "url": "http://graphics.stanford.edu/~gerth"
+    },
+    {
+      "first_name": "Pat",
+      "last_name": "Hanrahan",
+      "url": "http://graphics.stanford.edu/~hanrahan"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

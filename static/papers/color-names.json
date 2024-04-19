@@ -1,0 +1,46 @@
+{
+  "title": "A Probabilistic Model of the Categorical Association between Colors",
+  "year": 2008,
+  "start_page": 6,
+  "end_page": 11,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2008-ColorNames-CIC.pdf",
+  "abstract": "In this paper we describe a non-parametric probabilistic model that can be used to encode relationships in color naming datasets. This model can be used with datasets with any number of color terms and expressions, as well as terms from multiple languages. Because the model is based on probability theory, we can use classic statistics to compute features of interest to color scientists. In particular, we show that the uniqueness of a color name (color saliency) can be captured using the entropy of the probability distribution. We demonstrate this approach by applying this model to two different datasets: the multi-lingual World Color Survey (WCS), and a database collected via the web by Dolores Labs. We demonstrate how saliency clusters similarly named colors for both datasets, and compare our WCS results to those of Kay and his colleagues. We compare the two datasets to each other by converting them to a common colorspace (IPT).",
+  "thumbnail": "images/thumbs/color-names.png",
+  "figure": "",
+  "caption": "",
+  "web_name": "color-names",
+  "visible": true,
+  "mod_date": "2010-08-23",
+  "note": "",
+  "pub_date": "2008-11-15",
+  "venue": "Color Imaging Conf.",
+  "authors": [
+    {
+      "first_name": "Jason",
+      "last_name": "Chuang",
+      "url": "http://jason.chuang.info"
+    },
+    {
+      "first_name": "Maureen",
+      "last_name": "Stone",
+      "url": "https://research.tableau.com/user/maureen-stone"
+    },
+    {
+      "first_name": "Pat",
+      "last_name": "Hanrahan",
+      "url": "http://graphics.stanford.edu/~hanrahan"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Presentation",
+      "link": "http://idl.cs.washington.edu/files/2008-ColorNames-CIC-Talk.pdf"
+    }
+  ],
+  "tags": []
+}

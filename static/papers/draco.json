@@ -1,0 +1,66 @@
+{
+  "title": "Formalizing Visualization Design Knowledge as Constraints: Actionable and Extensible Models in Draco",
+  "year": 2019,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2019-Draco-InfoVis.pdf",
+  "abstract": "There exists a gap between visualization design guidelines and their application in visualization tools. While empirical studies can provide design guidance, we lack a formal framework for representing design knowledge, integrating results across studies, and applying this knowledge in automated design tools that promote effective encodings and facilitate visual exploration. We propose modeling visualization design knowledge as a collection of constraints, in conjunction with a method to learn weights for soft constraints from experimental data. Using constraints, we can take theoretical design knowledge and express it in a concrete, extensible, and testable form: the resulting models can recommend visualization designs and can easily be augmented with additional constraints or updated weights. We implement our approach in Draco, a constraint-based system based on Answer Set Programming (ASP). We demonstrate how to construct increasingly sophisticated automated visualization design systems, including systems based on weights learned directly from the results of graphical perception experiments.",
+  "thumbnail": "images/thumbs/draco.png",
+  "figure": "images/figures/draco.png",
+  "caption": "Our implementation of the optimal encoding search process using constraints. Draco compiles a user query (including the dataset, the partial specification, and the task) into a set of rules and combines them with the existing knowledge base to form an ASP program. Draco then calls Clingo to solve the program to obtain the optimal answer set. Finally, Draco translates the answer set into a Vega-Lite specification.",
+  "web_name": "draco",
+  "visible": true,
+  "mod_date": "2019-01-01",
+  "note": "Best Paper Award",
+  "pub_date": "2019-01-03",
+  "venue": "InfoVis",
+  "authors": [
+    {
+      "first_name": "Dominik",
+      "last_name": "Moritz",
+      "url": "http://domoritz.de/"
+    },
+    {
+      "first_name": "Chenglong",
+      "last_name": "Wang"
+    },
+    {
+      "first_name": "Gregory",
+      "last_name": "Nelson",
+      "url": "http://www.greglnelson.info"
+    },
+    {
+      "first_name": "Halden",
+      "last_name": "Lin",
+      "url": "https://haldenl.com/"
+    },
+    {
+      "first_name": "Adam",
+      "last_name": "Smith"
+    },
+    {
+      "first_name": "Bill",
+      "last_name": "Howe",
+      "url": "https://faculty.washington.edu/billhowe/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "https://uwdata.github.io/draco"
+    }
+  ],
+  "tags": [
+    "recommendation"
+  ]
+}

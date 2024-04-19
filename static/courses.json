@@ -1,0 +1,57 @@
+[
+	{
+		"name": "CSE510: Topics in HCI",
+		"level": "Graduate",
+		"link": "http://courses.cs.washington.edu/courses/cse510/"
+	},
+	{
+		"name": "CSE512: Data Visualization",
+		"level": "Graduate",
+		"link": "http://courses.cs.washington.edu/courses/cse512/"
+	},
+	{
+		"name": "CSE544: Database Systems",
+		"level": "Graduate",
+		"link": "http://courses.cs.washington.edu/courses/cse544/"
+	},
+	{
+		"name": "CSE546: Machine Learning",
+		"level": "Graduate",
+		"link": "http://courses.cs.washington.edu/courses/cse546/"
+	},
+	{
+		"name": "CSE547: ML for Big Data",
+		"level": "Graduate",
+		"link": "http://courses.cs.washington.edu/courses/cse547/"
+	},
+	{
+		"name": "CSE440: Intro to HCI",
+		"level": "Undergraduate",
+		"link": "http://courses.cs.washington.edu/courses/cse440/"
+	},
+	{
+		"name": "CSE441: Advanced HCI",
+		"level": "Undergraduate",
+		"link": "http://courses.cs.washington.edu/courses/cse441/"
+	},
+	{
+		"name": "CSE442: Data Visualization",
+		"level": "Undergraduate",
+		"link": "http://courses.cs.washington.edu/courses/cse442/"
+	},
+	{
+		"name": "CSE444: Database Systems",
+		"level": "Undergraduate",
+		"link": "http://courses.cs.washington.edu/courses/cse444/"
+	},
+	{
+		"name": "CSE446: Machine Learning",
+		"level": "Undergraduate",
+		"link": "http://courses.cs.washington.edu/courses/cse446/"
+	},
+	{
+		"name": "CSE457: Computer Graphics",
+		"level": "Undergraduate",
+		"link": "http://courses.cs.washington.edu/courses/cse457/"
+	}
+]
