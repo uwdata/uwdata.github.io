@@ -1,7 +1,6 @@
 {
 	"name": "idlweb",
 	"description": "Interactive Data Lab Website",
-	"homepage": "http://uwdata.github.io/idlweb",
 	"version": "2.0.0",
 	"private": true,
 	"scripts": {
