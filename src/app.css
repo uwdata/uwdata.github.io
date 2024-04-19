@@ -2,24 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@layer base {
-    html {
-        font-family: Avenir, Helvetica Neue, Helvetica, Arial;
-    }
-}
-
-body {
-    font-family: Avenir, Helvetica Neue, Helvetica, Arial;
-    padding-left: 12px;
-    padding-top: 8px;
-}
-
-a {
-    color: #000;
-    text-decoration: none;
-}
-
 a:hover {
     color: #8a5ed3;
 }
@@ -52,11 +34,6 @@ strong, b {
     letter-spacing: 1px;
 }
 
-.uw {
-    font-weight: 500;
-    color: #652c90;
-}
-
 /* --- */
 
 .header {
@@ -78,10 +55,6 @@ strong, b {
     color: #666;
     text-transform: uppercase;
     letter-spacing: 2px;
-}
-
-.footer {
-    height: 16px;
 }
 
 /* --- */

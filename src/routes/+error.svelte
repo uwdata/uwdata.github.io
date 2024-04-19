@@ -46,12 +46,6 @@
 </div>
 
 <style type="text/css" media="screen">
-	body {
-		background-color: #f1f1f1;
-		margin: 0;
-		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	}
-
 	.container {
 		margin: 50px auto 40px auto;
 		width: 600px;
@@ -81,17 +75,6 @@
 		color: rgba(0, 0, 0, 0.5);
 		margin: 20px 0;
 		line-height: 1.6;
-	}
-
-	ul {
-		list-style: none;
-		margin: 25px 0;
-		padding: 0;
-	}
-	li {
-		display: table-cell;
-		font-weight: bold;
-		width: 1%;
 	}
 
 	.logo {

@@ -37,11 +37,12 @@ However! It is unlikely you will need to run the website locally. Mostly the bui
 - [x] Describe build process
 - [x] Add integrity checks for adding new people / new papers
 - [x] Mobile?
-- [ ] Dark mode?
+- [x] Dark mode? Wont fix
 - [x] File stuff?
+- [x] github.io confusion
+- [ ] Add tags throughout
 - [ ] "YOU ARE GOING TO DIE" preservation issues
 - [ ] Point old site at new one
-- [x] github.io confusion
 
 ## FAQ
 
