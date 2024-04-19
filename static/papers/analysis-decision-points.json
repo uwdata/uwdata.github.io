@@ -1,0 +1,46 @@
+{
+  "title": "Paths Explored, Paths Omitted, Paths Obscured: Decision Points & Selective Reporting in End-to-End Data Analysis",
+  "year": 2020,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2020-AnalysisDecisionPoints-CHI.pdf",
+  "abstract": "Drawing reliable inferences from data involves many, sometimes arbitrary, decisions across phases of data collection, wrangling, and modeling. As different choices can lead to diverging conclusions, understanding how researchers make analytic decisions is important for supporting robust and replicable analysis. In this study, we pore over nine published research studies and conduct semi-structured interviews with their authors. We observe that researchers often base their decisions on methodological or theoretical concerns, but subject to constraints arising from the data, expertise, or perceived interpretability. We confirm that researchers may experiment with choices in search of desirable results, but also identify other reasons why researchers explore alternatives yet omit findings. In concert with our interviews, we also contribute visualizations for communicating decision processes throughout an analysis. Based on our results, we identify design opportunities for strengthening end-to-end analysis, for instance via tracking and meta-analysis of multiple decision paths.",
+  "thumbnail": "images/thumbs/analysis-decision-points.png",
+  "figure": "images/figures/analysis-decision-points.png",
+  "caption": "Analytic Decision Graph representing a controlled experiment to investigate the impact of web design on reading performance. At several steps, the analyst revised her analytic decisions based on end results and reviewer feedback, for instance merging two levels of an IV because effect sizes were similar. While she examined model specification options thoroughly, she appeared to place less emphasis on inference decisions such as choosing which significance test to use.",
+  "web_name": "analysis-decision-points",
+  "visible": true,
+  "mod_date": "2020-04-24",
+  "note": null,
+  "pub_date": "2020-04-24",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Yang",
+      "last_name": "Liu",
+      "url": "http://yangliu.life/"
+    },
+    {
+      "first_name": "Tim",
+      "last_name": "Althoff",
+      "url": "http://timalthoff.de/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Supplement",
+      "link": "https://osf.io/m5cph/"
+    }
+  ],
+  "tags": []
+}

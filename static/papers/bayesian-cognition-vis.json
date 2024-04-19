@@ -1,0 +1,44 @@
+{
+  "title": "A Bayesian Cognition Approach to Improve Data Visualization",
+  "year": 2019,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2019-BayesCogVis-CHI.pdf",
+  "abstract": "People naturally bring their prior beliefs to bear on how they interpret the new information, yet few formal models exist for accounting for the influence of users' prior beliefs in interactions with data presentations like visualizations. We demonstrate a Bayesian cognitive model for understanding how people interpret visualizations in light of prior beliefs and show how this model provides a guide for improving visualization evaluation. In a first study, we show how applying a Bayesian cognition model to a simple visualization scenario indicates that people's judgments are consistent with a hypothesis that they are doing approximate Bayesian inference. In a second study, we evaluate how sensitive our observations of Bayesian behavior are to different techniques for eliciting people subjective distributions, and to different datasets. We find that people don't behave consistently with Bayesian predictions for large sample size datasets, and this difference cannot be explained by elicitation technique. In a final study, we show how normative Bayesian inference can be used as an evaluation framework for visualizations, including of uncertainty.",
+  "thumbnail": "images/thumbs/bayesian-cognition-vis.png",
+  "figure": "images/figures/bayesian-cognition-vis.png",
+  "caption": "When people view a visualization, do they update their prior beliefs in a manner consistent with Bayesian statistics?",
+  "web_name": "bayesian-cognition-vis",
+  "visible": true,
+  "mod_date": "2019-05-03",
+  "note": null,
+  "pub_date": "2019-05-03",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Yea-Seul",
+      "last_name": "Kim",
+      "url": "https://pages.cs.wisc.edu/~yeaseulkim/"
+    },
+    {
+      "first_name": "Logan",
+      "last_name": "Walls"
+    },
+    {
+      "first_name": "Peter",
+      "last_name": "Krafft"
+    },
+    {
+      "first_name": "Jessica",
+      "last_name": "Hullman",
+      "url": "http://faculty.washington.edu/jhullman"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

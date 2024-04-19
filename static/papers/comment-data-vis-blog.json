@@ -1,0 +1,43 @@
+{
+  "title": "Content, Context, and Critique: Commenting on a Data Visualization Blog",
+  "year": 2015,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2015-CommentingDataVisBlog-CSCW.pdf",
+  "abstract": "Online data journalism, including visualizations and other manifestations of data stories, has seen a recent surge of interest. User comments add a dynamic, social layer to interpretation, enabling users to learn from others' observations and social interact around news issues. We present the results of a qualitative study of commenting around visualizations published on a mainstream news outlet, The Economist's Graphic Detail blog. We find that surprisingly, only 42% of the comments discuss the visualization and/or article content. Over 60% of comments discuss matters of context, including how the issue is framed and the relation to outside data. Further, over one third of total comments provide direct critical feedback on the content of presented visualizations and text articles as well as on contextual aspects of the presentation. Our findings suggest using critical social feedback from comments in the design process, and motivate the development of more sophisticated commenting interfaces that distinguish comments by reference.",
+  "thumbnail": "images/thumbs/comment-data-vis-blog.png",
+  "figure": "images/figures/comment-data-vis-blog.png",
+  "caption": "An example post from the Economist Graphic Detail blog (left) and graph showing the percentage of comments discussing the context versus content of posts among singleton and repeat commenters (right). Singletons are more likely than repeat commenters to provide comments on content.",
+  "web_name": "comment-data-vis-blog",
+  "visible": true,
+  "mod_date": "2015-03-01",
+  "note": null,
+  "pub_date": "2015-03-01",
+  "venue": "CSCW",
+  "authors": [
+    {
+      "first_name": "Jessica",
+      "last_name": "Hullman",
+      "url": "http://faculty.washington.edu/jhullman"
+    },
+    {
+      "first_name": "Nicholas",
+      "last_name": "Diakopoulos"
+    },
+    {
+      "first_name": "Elaheh",
+      "last_name": "Roochi"
+    },
+    {
+      "first_name": "Eytan",
+      "last_name": "Adar"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

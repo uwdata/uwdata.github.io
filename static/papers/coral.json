@@ -1,0 +1,49 @@
+{
+  "title": "CORAL: COde RepresentAtion Learning with Weakly-Supervised Transformers for Analyzing Data Analysis",
+  "year": 2022,
+  "start_page": null,
+  "end_page": null,
+  "volume": 11,
+  "issue": 14,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2022-CORAL-EPJ.pdf",
+  "abstract": "Large scale analysis of source code, and in particular scientific source code, holds the promise of better understanding the data science process, identifying analytical best practices, and providing insights to the builders of scientific toolkits. However, large corpora have remained unanalyzed in depth, as descriptive labels are absent and require expert domain knowledge to generate. We propose a novel weakly supervised transformer-based architecture for computing joint representations of code from both abstract syntax trees and surrounding natural language comments. We then evaluate the model on a new classification task for labeling computational notebook cells as stages in the data analysis process from data import to wrangling, exploration, modeling, and evaluation. We show that our model, leveraging only easily-available weak supervision, achieves a 38% increase in accuracy over expert-supplied heuristics and outperforms a suite of baselines. Our model enables us to examine a set of 118,000 Jupyter Notebooks to uncover common data analysis patterns. Focusing on notebooks with relationships to academic articles, we conduct the largest study of scientific code to date and find that notebooks which devote an higher fraction of code to the typically labor-intensive process of wrangling data in expectation exhibit decreased citation counts for corresponding papers. We also show significant differences between academic and non-academic notebooks, including that academic notebooks devote substantially more code to wrangling and exploring data, and less on modeling.",
+  "thumbnail": "images/thumbs/coral.png",
+  "figure": "images/figures/coral.png",
+  "caption": "An overview of the architecture of our CORAL model, which combines weak supervision and unsupervised topic modeling into a multitask objective.",
+  "web_name": "coral",
+  "visible": true,
+  "mod_date": "2022-03-18",
+  "note": null,
+  "pub_date": "2022-03-18",
+  "venue": "EPJ-DS",
+  "authors": [
+    {
+      "first_name": "Ge",
+      "last_name": "Zhang"
+    },
+    {
+      "first_name": "Mike",
+      "last_name": "Merrill"
+    },
+    {
+      "first_name": "Yang",
+      "last_name": "Liu",
+      "url": "http://yangliu.life/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Tim",
+      "last_name": "Althoff",
+      "url": "http://timalthoff.de/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

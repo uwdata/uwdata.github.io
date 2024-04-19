@@ -1,0 +1,36 @@
+{
+  "title": "Crowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design",
+  "year": 2010,
+  "start_page": 203,
+  "end_page": 212,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2010-MTurk-CHI.pdf",
+  "abstract": "Understanding perception is critical to effective visualization design. With its low cost and scalability, crowdsourcing presents an attractive option for evaluating the large design space of visualizations; however, it first requires validation. In this paper, we assess the viability of Amazon’s Mechanical Turk as a platform for graphical perception experiments. We replicate previous studies of spatial encoding and luminance contrast and compare our results. We also conduct new experiments on rectangular area perception (as in treemaps or cartograms) and on chart size and gridline spacing. Our results demonstrate that crowdsourced perception experiments are viable and contribute new insights for visualization design. Lastly, we report cost and performance data from our experiments and distill recommendations for the design of crowdsourced studies.",
+  "thumbnail": "images/thumbs/crowdsourcing-graphical-perception.png",
+  "figure": "images/figures/stimuli.png",
+  "caption": "Experimental stimuli in which participants were asked to estimate what percentage the smaller value was of the larger.",
+  "web_name": "crowdsourcing-graphical-perception",
+  "visible": true,
+  "mod_date": "2010-08-18",
+  "note": "Best Paper Nominee",
+  "pub_date": "2010-04-05",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Michael",
+      "last_name": "Bostock",
+      "url": "http://bost.ocks.org/mike/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Dziban: Balancing Agency & Automation in Visualization Design via Anchored Recommendations",
+  "year": 2020,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2020-Dziban-CHI.pdf",
+  "abstract": "Visualization recommender systems attempt to automate design decisions spanning choices of selected data, transformations, and visual encodings. However, across invocations such recommenders may lack the context of prior results, producing unstable outputs that override earlier design choices. To better balance automated suggestions with user intent, we contribute Dziban, a visualization API that supports both ambiguous specification and a novel anchoring mechanism for conveying desired context. Dziban uses the Draco knowledge base to automatically complete partial specifications and suggest appropriate visualizations. In addition, it extends Draco with chart similarity logic, enabling recommendations that also remain perceptually similar to a provided “anchor” chart. Existing APIs for exploratory visualization, such as ggplot2 and Vega-Lite, require fully specified chart definitions. In contrast, Dziban provides a more concise and flexible authoring experience through automated design, while preserving predictability and control through anchored recommendations.",
+  "thumbnail": "images/thumbs/dziban.png",
+  "figure": "images/figures/dziban.png",
+  "caption": "Anchored recommendation (c) from a prior (a) is better suited than cold recommendation (b) when elaborating an analysis question. This may be useful when adding supplementary information to an existing visualization. In this example, adding MPAA Rating as supplementary to the distribution of movies by Genre is better achieved by using an anchored recommendation, as the cold recommendation completely changes the relationship in focus by swapping channel assignments.",
+  "web_name": "dziban",
+  "visible": true,
+  "mod_date": "2020-04-24",
+  "note": null,
+  "pub_date": "2020-04-24",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Halden",
+      "last_name": "Lin",
+      "url": "https://haldenl.com/"
+    },
+    {
+      "first_name": "Dominik",
+      "last_name": "Moritz",
+      "url": "http://domoritz.de/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "https://www.github.com/uwdata/dziban"
+    }
+  ],
+  "tags": [
+    "recommendation"
+  ]
+}

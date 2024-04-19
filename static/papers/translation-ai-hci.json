@@ -1,0 +1,49 @@
+{
+  "title": "Natural Language Translation at the Intersection of AI and HCI",
+  "year": 2015,
+  "start_page": 46,
+  "end_page": 53,
+  "volume": 58,
+  "issue": 9,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "",
+  "abstract": "The failed dreams of early machine translation researchers are not merely historical curiosities, but illustrations of how intellectual biases can marginalize pragmatic solutions, in this case a human-machine partnership for translation. As practicing AI and HCI researchers, we have found that the conversation today has many of the same features, so the historical narrative can be instructive. In this article, we first recount that history. Then we summarize the recent breakthroughs in translation made possible by a healthy AI-HCI collaboration.",
+  "thumbnail": "images/thumbs/translation-ai-hci.png",
+  "figure": "images/figures/translation-ai-hci.png",
+  "caption": "A mixed-initiative language translation process.",
+  "web_name": "translation-ai-hci",
+  "visible": true,
+  "mod_date": "2015-08-25",
+  "note": null,
+  "pub_date": "2015-08-25",
+  "venue": "CACM",
+  "authors": [
+    {
+      "first_name": "Spence",
+      "last_name": "Green",
+      "url": "http://www.spencegreen.com/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Christopher",
+      "last_name": "Manning"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Journal",
+      "link": "http://cacm.acm.org/magazines/2015/9/191190-natural-language-translation-at-the-intersection-of-ai-and-hci/fulltext"
+    },
+    {
+      "name": "ACM Queue",
+      "link": "http://queue.acm.org/detail.cfm?id=2798086"
+    }
+  ],
+  "tags": []
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Parting Crowds: Characterizing Divergent Interpretations in Crowdsourced Annotation Tasks",
+  "year": 2016,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2016-CrowdParting-CSCW.pdf",
+  "abstract": "Crowdsourcing is a common strategy for collecting the \"gold standard\" labels required for many natural language applications. Crowdworkers differ in their responses for many reasons, but existing approaches often treat disagreements as \"noise\" to be removed through filtering or aggregation. In this paper, we introduce the workflow design pattern of crowd-parting: separating workers based on shared patterns in responses to a crowdsourcing task. We illustrate this idea using an automated clustering-based method to identify divergent, but valid, worker interpretations in crowdsourced entity annotations collected over two distinct corpora – Wikipedia articles and Tweets. We demonstrate how the intermediate-level view provide by crowd-parting analysis provides insight into sources of disagreement not easily gleaned from viewing either individual annotation sets or aggregated results. We discuss several concrete applications for how this approach could be applied directly to improving the quality and efficiency of crowdsourced annotation tasks.",
+  "thumbnail": "images/thumbs/crowd-parting.png",
+  "figure": "images/figures/crowd-parting.png",
+  "caption": "Subgroups of annotators for each dataset, plotted using principal components analysis (PCA). Expert labels are shown in each figure as a larger gold dot. For each dataset, we observe that no single cluster surrounds the \"expert\" labels: subgroups of annotators differ from these points in systematic ways.",
+  "web_name": "crowd-parting",
+  "visible": true,
+  "mod_date": "2016-02-27",
+  "note": null,
+  "pub_date": "2016-02-27",
+  "venue": "CSCW",
+  "authors": [
+    {
+      "first_name": "Sanjay",
+      "last_name": "Kairam",
+      "url": "http://www.sanjaykairam.com/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

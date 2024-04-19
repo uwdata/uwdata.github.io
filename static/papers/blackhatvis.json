@@ -1,0 +1,36 @@
+{
+  "title": "Black Hat Visualization",
+  "year": 2017,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2017-BlackHatVis-DECISIVe.pdf",
+  "abstract": "People lie, mislead, and bullshit in a myriad of ways. Visualizations, as a form of communication, are no exception to these tendencies. Yet, the language we use to describe how people can use visualizations to mislead can be relatively sparse. For instance, one can be “lying with vis” or using “deceptive visualizations.” In this paper, we use the language of computer security to expand the space of ways that unscrupulous people (black hats) can manipulate visualizations for nefarious ends. In addition to forms of deception well-covered in the visualization literature, we also focus on visualizations which have fidelity to the underlying data (and so may not be considered deceptive in the ordinary use of the term in visualization), but still have negative impact on how data are perceived. We encourage designers to think defensively and comprehensively about how their visual designs can result in data being misinterpreted.",
+  "thumbnail": "images/thumbs/blackhatvis.png",
+  "figure": "images/figures/blackhatvis.png",
+  "caption": "A model of a visualization \"attack.\" Data scientist Alex has a dataset they wish to communicate to stakeholder Brook. Unfortunately, Alex must go through visualization designer Erin, who has malicious intent. Erin has many potential visualization designs at their disposal, but chooses one that is likely to cause Brook to have an incorrect impression of the data.",
+  "web_name": "blackhatvis",
+  "visible": true,
+  "mod_date": "2017-10-02",
+  "note": null,
+  "pub_date": "2017-10-02",
+  "venue": "DECISIVe",
+  "authors": [
+    {
+      "first_name": "Michael",
+      "last_name": "Correll",
+      "url": "http://pages.cs.wisc.edu/~mcorrell/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

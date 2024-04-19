@@ -1,0 +1,50 @@
+{
+  "title": "Perfopticon: Visual Query Analysis for Distributed Databases",
+  "year": 2015,
+  "start_page": null,
+  "end_page": null,
+  "volume": 34,
+  "issue": 3,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2015-Perfopticon-EuroVis.pdf",
+  "abstract": "Distributed database performance is often unpredictable due to issues such as system complexity, network congestion, or imbalanced data distribution. These issues are difficult for users to assess in part due to the opaque mapping between declaratively-specified queries and actual physical execution plans. Database developers currently must expend significant time and effort scanning log files to isolate and debug the root causes of performance issues. In response, we present Perfopticon, an interactive query profiling tool that enables rapid insight into common problems such as performance bottlenecks and data skew. Perfopticon combines interactive visualizations of (1) query plans, (2) overall query execution, (3) data flow among servers, and (4) execution traces. These views coordinate multiple levels of abstraction to enable detection, isolation, and understanding of performance issues. We evaluate our design choices through engagements with system developers, scientists, and students. We demonstrate that Perfopticon enables performance debugging for real-world tasks.",
+  "thumbnail": "images/thumbs/perfopticon.png",
+  "figure": "images/figures/perfopticon.png",
+  "caption": "Perfopticon visualizing a query that estimates species abundance in an oceanography dataset. The left panel displays the optimized query execution plan. The right panel includes (top) a divided bar chart showing the runtime contribution of individual query operators, and (bottom) a focus+context view of detailed per-worker execution traces.",
+  "web_name": "perfopticon",
+  "visible": true,
+  "mod_date": "2015-04-11",
+  "note": null,
+  "pub_date": "2015-06-02",
+  "venue": "EuroVis",
+  "authors": [
+    {
+      "first_name": "Dominik",
+      "last_name": "Moritz",
+      "url": "http://domoritz.de/"
+    },
+    {
+      "first_name": "Daniel",
+      "last_name": "Halperin"
+    },
+    {
+      "first_name": "Bill",
+      "last_name": "Howe",
+      "url": "https://faculty.washington.edu/billhowe/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Video",
+      "link": "http://vimeo.com/127110709"
+    }
+  ],
+  "tags": []
+}

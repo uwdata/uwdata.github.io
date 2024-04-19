@@ -1,0 +1,52 @@
+{
+  "title": "Reactive Vega: A Streaming Dataflow Architecture for Declarative Interactive Visualization",
+  "year": 2016,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2015-ReactiveVega-InfoVis.pdf",
+  "abstract": "We present Reactive Vega, a system architecture that provides the first robust and comprehensive treatment of declarative visual and interaction design for data visualization. Starting from a single declarative specification, Reactive Vega constructs a dataflow graph in which input data, scene graph elements, and interaction events are all treated as first-class streaming data sources. To support expressive interactive visualizations that may involve time-varying scalar, relational, or hierarchical data, Reactive Vega’s dataflow graph can dynamically re-write itself at runtime by extending or pruning branches in a data-driven fashion. We discuss both compile- and run-time optimizations applied within Reactive Vega, and share the results of benchmark studies that indicate superior interactive performance to both D3 and the original, non-reactive Vega system.",
+  "thumbnail": "images/thumbs/reactive-vega-architecture.png",
+  "figure": "images/figures/reactive-vega-streaming.png",
+  "caption": "The Reactive Vega dataflow graph created from a declarative specification for a interactive index chart of streaming financial data. As streaming data arrives from the Yahoo! Finance API, or as a user moves their mouse pointer across the chart, an update cycle propagates through the graph and triggers an efficient update and re-render of the visualization.",
+  "web_name": "reactive-vega-architecture",
+  "visible": true,
+  "mod_date": "2015-08-01",
+  "note": null,
+  "pub_date": "2016-01-01",
+  "venue": "InfoVis",
+  "authors": [
+    {
+      "first_name": "Arvind",
+      "last_name": "Satyanarayan",
+      "url": "http://arvindsatya.com/"
+    },
+    {
+      "first_name": "Ryan",
+      "last_name": "Russell"
+    },
+    {
+      "first_name": "Jane",
+      "last_name": "Hoffswell",
+      "url": "https://jhoffswell.github.io/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "http://vega.github.io/vega/"
+    }
+  ],
+  "tags": [
+    "vega"
+  ]
+}

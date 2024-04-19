@@ -1,0 +1,50 @@
+{
+  "title": "The VERP Explorer: A Tool for Exploring Eye Movements of Visual-Cognitive Tasks Using Recurrence Plots",
+  "year": 2015,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2015-VERP-ETVIS.pdf",
+  "abstract": "Evaluating the effectiveness of the visual design of an interface is an important yet challenging problem. In this paper, we introduce the VERP (Visualization of Eye movements with Recurrence Plots) Explorer, a visual analysis tool for exploring eye movements during visual-cognitive tasks. The VERP Explorer couples conventional visualizations of eye movements with recurrence plots that reveal patterns of revisitation over time. We contribute a set of methods for the analysis of eye movement sequences, including recurrence motifs for identifying behavioral eye movement patterns. We apply the VERP Explorer to the domain of medical checklist design, analyzing eye movements of doctors searching for information in checklists under time pressure. We use these results to introduce the notion of visual micro-foraging, which generalizes information foraging theory to visual design.",
+  "thumbnail": "images/thumbs/verp.png",
+  "figure": "images/figures/verp.png",
+  "caption": "Information Foraging analysis of eye movements and recurrence plots for a standard emergency checklist. Information patches are automatically detected and numbered.",
+  "web_name": "verp",
+  "visible": true,
+  "mod_date": "2015-10-20",
+  "note": null,
+  "pub_date": "2015-10-01",
+  "venue": "ETVIS",
+  "authors": [
+    {
+      "first_name": "Çağatay",
+      "last_name": "Demiralp",
+      "url": "https://cagataydemiralp.io/"
+    },
+    {
+      "first_name": "Jesse",
+      "last_name": "Cirimele"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Stuart",
+      "last_name": "Card",
+      "url": "http://www2.parc.com/istl/groups/uir/people/stuart/stuart.htm"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "http://github.com/uwdata/verp/"
+    }
+  ],
+  "tags": []
+}

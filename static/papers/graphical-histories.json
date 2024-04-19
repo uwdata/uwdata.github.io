@@ -1,0 +1,46 @@
+{
+  "title": "Graphical Histories for Visualization: Supporting Analysis, Communication, and Evaluation",
+  "year": 2008,
+  "start_page": 1189,
+  "end_page": 1196,
+  "volume": 14,
+  "issue": 6,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2008-GraphicalHistories-InfoVis.pdf",
+  "abstract": "Interactive history tools, ranging from basic undo and redo to branching timelines of user actions, facilitate iterative forms of interaction. In this paper, we investigate the design of history mechanisms for information visualization. We present a design space analysis of both architectural and interface issues, identifying design decisions and associated trade-offs. Based on this analysis, we contribute a design study of graphical history tools for Tableau, a database visualization system. These tools record and visualize interaction histories, support data analysis and communication of findings, and contribute novel mechanisms for presenting, managing, and exporting histories. Furthermore, we have analyzed aggregated collections of history sessions to evaluate Tableau usage. We describe additional tools for analyzing users’ history logs and how they have been applied to study usage patterns in Tableau.",
+  "thumbnail": "images/thumbs/graphical-histories.gif",
+  "figure": "images/figures/histories.gif",
+  "caption": "Graphical Histories for Visualization. The top image shows a graphical history tool for a visual analysis session. The bottom image shows a behavior graph visualization of a user's iterative exploration pattern.",
+  "web_name": "graphical-histories",
+  "visible": true,
+  "mod_date": "2009-08-04",
+  "note": null,
+  "pub_date": "2008-10-01",
+  "venue": "InfoVis",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Jock",
+      "last_name": "Mackinlay",
+      "url": "https://research.tableau.com/user/jock-mackinlay"
+    },
+    {
+      "first_name": "Chris",
+      "last_name": "Stolte",
+      "url": "http://graphics.stanford.edu/~cstolte/"
+    },
+    {
+      "first_name": "Maneesh",
+      "last_name": "Agrawala",
+      "url": "http://graphics.stanford.edu/~maneesh/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

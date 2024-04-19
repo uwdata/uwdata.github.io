@@ -1,0 +1,39 @@
+{
+  "title": "Does Binding of Synesthetic Color to the Evoking Grapheme Require Attention?",
+  "year": 2006,
+  "start_page": 232,
+  "end_page": 242,
+  "volume": 42,
+  "issue": 4,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2005-Synesthesia-Cortex.pdf",
+  "abstract": "The neural mechanisms involved in binding features such as shape and color are a matter of some debate. Does accurate binding rely on spatial attention functions of the parietal lobe or can it occur without attentional input? One extraordinary phenomenon that may shed light on this question is that of chromatic-graphemic synesthesia, a rare condition in which letter shapes evoke color perceptions. A popular suggestion is that synesthesia results from cross-activation between different functional regions (e.g., between shape and color areas of the ventral pathway). Under such conditions binding may not require parietal involvement and could occur preattentively. We tested this hypothesis in two synesthetes who perceived grayscale letters and digits in color. We found no evidence for preattentive binding using a visual search paradigm in which the target was a synesthetic inducer. In another experiment involving color judgments, we show that the congruency of target color and the synesthetic color of irrelevant digits modulates performance more when the digits are included within the attended region of space. We propose that the mechanisms giving rise to this type of synesthesia appear to follow at least some principles of normal binding, and even synesthetic binding seems to require attention.",
+  "thumbnail": "images/thumbs/synesthetic-binding.gif",
+  "figure": "images/figures/synesthesia_exp2.gif",
+  "caption": "Sample displays used in experiment 2. Throughout each block, target colored dots appeared in positions that motivated diffuse or focused attention, putting the previously presented digits either inside (a) or outside (b) the attentional window.",
+  "web_name": "synesthetic-binding",
+  "visible": true,
+  "mod_date": "2009-08-04",
+  "note": null,
+  "pub_date": "2006-01-01",
+  "venue": "Cortex",
+  "authors": [
+    {
+      "first_name": "Noam",
+      "last_name": "Sagiv"
+    },
+    {
+      "first_name": "Lynn",
+      "last_name": "Robertson"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

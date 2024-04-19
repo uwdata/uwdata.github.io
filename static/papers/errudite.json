@@ -1,0 +1,55 @@
+{
+  "title": "Errudite: Scalable, Reproducible, and Testable Error Analysis",
+  "year": 2019,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2019-Errudite-ACL.pdf",
+  "abstract": "Though error analysis is crucial to understanding and improving NLP models, the common practice of manual, subjective categorization of a small sample of errors can yield biased and incomplete conclusions. This paper codifies model and task agnostic principles for informative error analysis, and presents Errudite, an interactive tool for better supporting this process. First, error groups should be precisely defined for reproducibility; Errudite supports this with an expressive domainspecific language. Second, to avoid spurious conclusions, a large set of instances should be analyzed, including both positive and negative examples; Errudite enables systematic grouping of relevant instances with filtering queries. Third, hypotheses about the cause of errors should be explicitly tested; Errudite supports this via automated counterfactual rewriting. We validate our approach with a user study, finding that Errudite (1) enables users to perform high quality and reproducible error analyses with less effort, (2) reveals substantial ambiguities in prior published error analyses practices, and (3) enhances the error analysis experience by allowing users to test and revise prior beliefs.",
+  "thumbnail": "images/thumbs/errudite.png",
+  "figure": "images/figures/errudite.png",
+  "caption": "Hypothesized error causes should be (1) formalized in a precise and reproducible manner, (2) applied to all instances rather than a small sample of errors, and (3) tested explicitly via counterfactual analysis.",
+  "web_name": "errudite",
+  "visible": true,
+  "mod_date": "2019-07-28",
+  "note": null,
+  "pub_date": "2019-07-28",
+  "venue": "ACL",
+  "authors": [
+    {
+      "first_name": "Tongshuang",
+      "last_name": "Wu",
+      "url": "https://homes.cs.washington.edu/~wtshuang/"
+    },
+    {
+      "first_name": "Dan",
+      "last_name": "Weld",
+      "url": "https://www.cs.washington.edu/people/faculty/weld"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Marco",
+      "last_name": "Ribeiro",
+      "url": "https://homes.cs.washington.edu/~marcotcr/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Code",
+      "link": "https://github.com/uwdata/errudite"
+    },
+    {
+      "name": "Video",
+      "link": "https://www.youtube.com/watch?v=Dil5i0AYyu8"
+    }
+  ],
+  "tags": []
+}

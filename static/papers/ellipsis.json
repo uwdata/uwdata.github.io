@@ -1,0 +1,53 @@
+{
+  "title": "Authoring Narrative Visualizations with Ellipsis",
+  "year": 2014,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2014-Ellipsis-EuroVis.pdf",
+  "abstract": "Data visualization is now a popular medium for journalistic storytelling. However, current visualization tools either lack support for storytelling or require significant technical expertise. Informed by interviews with journalists, we introduce a model of storytelling abstractions that includes state-based scene structure, dynamic annotations and decoupled coordination of multiple visualization components. We instantiate our model in Ellipsis: a system that combines a domain-specific language (DSL) for storytelling with a graphical interface for story authoring. User interactions are automatically translated into statements in the Ellipsis DSL. By enabling storytelling without programming, the Ellipsis interface lowers the threshold for authoring narrative visualizations. We evaluate Ellipsis through example applications and user studies with award-winning journalists. Study participants find Ellipsis to be a valuable prototyping tool that can empower journalists in the creation of interactive narratives.",
+  "thumbnail": "images/thumbs/ellipsis.png",
+  "figure": "images/figures/ellipsis.png",
+  "caption": "Crafting narrative visualizations by building scenes and adding annotations to existing visualizations using the Ellipsis interface.",
+  "web_name": "ellipsis",
+  "visible": true,
+  "mod_date": "2014-04-22",
+  "note": null,
+  "pub_date": "2014-06-04",
+  "venue": "EuroVis",
+  "authors": [
+    {
+      "first_name": "Arvind",
+      "last_name": "Satyanarayan",
+      "url": "http://arvindsatya.com/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Supplement",
+      "link": "http://idl.cs.washington.edu/files/2014-Ellipsis-Supplement.pdf"
+    },
+    {
+      "name": "Application",
+      "link": "http://idl.cs.washington.edu/projects/ellipsis/"
+    },
+    {
+      "name": "Software",
+      "link": "https://github.com/uwdata/ellipsis"
+    },
+    {
+      "name": "Video",
+      "link": "http://vimeo.com/96648854"
+    }
+  ],
+  "tags": []
+}

@@ -1,0 +1,52 @@
+{
+  "title": "Declarative Interaction Design for Data Visualization",
+  "year": 2014,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2014-DeclarativeInteraction-UIST.pdf",
+  "abstract": "Declarative visualization grammars can accelerate development, facilitate retargeting across platforms, and allow language-level optimizations. However, existing declarative visualization languages are primarily concerned with visual encoding, and rely on imperative event handlers for interactive behaviors. In response, we introduce a model of declarative interaction design for data visualizations. Adopting methods from reactive programming, we model low-level events as composable data streams from which we form higher-level semantic signals. Signals feed predicates and scale inversions, which allow us to generalize interactive selections at the level of item geometry (pixels) into interactive queries over the data domain. Production rules then use these queries to manipulate the visualization’s appearance. To facilitate reuse and sharing, these constructs can be encapsulated as named interactors: standalone, purely declarative specifications of interaction techniques. We assess our model’s feasibility and expressivity by instantiating it with extensions to the Vega visualization grammar. Through a diverse range of examples, we demonstrate coverage over an established taxonomy of visualization interaction techniques.",
+  "thumbnail": "images/thumbs/reactive-vega.png",
+  "figure": "images/figures/reactive-vega.png",
+  "caption": "Schematic for declarative overview + detail interaction. Mouse events in an overview (top) feed selection predicates based on drag start and end coordinates. Scale inversion is used to map the pixel range to date values, lifting the pixel-level selection to a query over the source data. This query is used to drive a filter transform for the focus view (bottom).",
+  "web_name": "reactive-vega",
+  "visible": true,
+  "mod_date": "2014-10-06",
+  "note": null,
+  "pub_date": "2014-10-06",
+  "venue": "UIST",
+  "authors": [
+    {
+      "first_name": "Arvind",
+      "last_name": "Satyanarayan",
+      "url": "http://arvindsatya.com/"
+    },
+    {
+      "first_name": "Kanit",
+      "last_name": "Wongsuphasawat",
+      "url": "https://kanitw.github.io/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Supplement",
+      "link": "http://idl.cs.washington.edu/files/2014-DeclarativeInteraction-Supplement.zip"
+    },
+    {
+      "name": "Video",
+      "link": "http://vimeo.com/100936827"
+    }
+  ],
+  "tags": [
+    "vega"
+  ]
+}

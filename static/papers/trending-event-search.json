@@ -1,0 +1,47 @@
+{
+  "title": "Towards Supporting Search over Trending Events with Social Media",
+  "year": 2013,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2013-TrendingEventSearch-ICWSM.pdf",
+  "abstract": "Many search engines identify bursts of activity around particular topics and reflect these back to users as Popular Now or Hot Searches. Activity around these topics typically evolves quickly in real-time during the course of a trending event. Users’ informational needs when searching for such topics will vary depending on the stage at which they engage with an event. Through a survey and log study, we observe that interaction with content about trending events varies significantly with prior awareness of the event. Building on this observation, we conduct a larger-scale analysis of query logs and social media data associated with hundreds of trending events. We find that search and social media activity tend to follow similar temporal patterns, but that social media activity leads by a few hours. While user interest in trending event content predictably diverges during peak activity periods, the overlap between content searched and shared increases. We discuss how these findings relate to the design of interfaces to better support sensemaking around trending events by integrating real-time social media content with traditional search results.",
+  "thumbnail": "images/thumbs/trending-event-search.png",
+  "figure": "",
+  "caption": "",
+  "web_name": "trending-event-search",
+  "visible": true,
+  "mod_date": "2013-11-17",
+  "note": "Best Paper Honorable Mention",
+  "pub_date": "2013-07-08",
+  "venue": "ICWSM",
+  "authors": [
+    {
+      "first_name": "Sanjay",
+      "last_name": "Kairam",
+      "url": "http://www.sanjaykairam.com/"
+    },
+    {
+      "first_name": "Meredith",
+      "last_name": "Morris"
+    },
+    {
+      "first_name": "Jaime",
+      "last_name": "Teevan"
+    },
+    {
+      "first_name": "Dan",
+      "last_name": "Liebling"
+    },
+    {
+      "first_name": "Susan",
+      "last_name": "Dumais"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

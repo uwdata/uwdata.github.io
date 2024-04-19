@@ -1,0 +1,49 @@
+{
+  "title": "In Pursuit of Error: A Survey of Uncertainty Visualization Evaluation",
+  "year": 2019,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2019-UncertaintyEval-InfoVis.pdf",
+  "abstract": "Understanding and accounting for uncertainty is critical to effectively reasoning about visualized data. However, evaluating the impact of an uncertainty visualization is complex due to the difficulties that people have interpreting uncertainty and the challenge of defining correct behavior with uncertainty information. Currently, evaluators of uncertainty visualization must rely on general purpose visualization evaluation frameworks which can be ill-equipped to provide guidance with the unique difficulties of assessing judgments under uncertainty. To help evaluators navigate these complexities, we present a taxonomy for characterizing decisions made in designing an evaluation of an uncertainty visualization. Our taxonomy differentiates six levels of decisions that comprise an uncertainty visualization evaluation: the behavioral targets of the study, expected effects from an uncertainty visualization, evaluation goals, measures, elicitation techniques, and analysis approaches. Applying our taxonomy to 86 user studies of uncertainty visualizations, we find that existing evaluation practice, particularly in visualization research, focuses on Performance and Satisfaction-based measures that assume more predictable and statistically-driven judgment behavior than is suggested by research on human judgment and decision making. We reflect on common themes in evaluation practice concerning the interpretation and semantics of uncertainty, the use of confidence reporting, and a bias toward evaluating performance as accuracy rather than decision quality. We conclude with a concrete set of recommendations for evaluators designed to reduce the mismatch between the conceptualization of uncertainty in visualization versus other fields.",
+  "thumbnail": "images/thumbs/uncertainty-eval-survey.png",
+  "figure": "images/figures/uncertainty-eval-survey.png",
+  "caption": "A collection of 372 evaluation paths observed across a sample of 86 publications with uncertainty visualization evaluations.",
+  "web_name": "uncertainty-eval-survey",
+  "visible": true,
+  "mod_date": "2019-01-01",
+  "note": null,
+  "pub_date": "2019-01-01",
+  "venue": "InfoVis",
+  "authors": [
+    {
+      "first_name": "Jessica",
+      "last_name": "Hullman",
+      "url": "http://faculty.washington.edu/jhullman"
+    },
+    {
+      "first_name": "Xiaoli",
+      "last_name": "Qiao"
+    },
+    {
+      "first_name": "Michael",
+      "last_name": "Correll",
+      "url": "http://pages.cs.wisc.edu/~mcorrell/"
+    },
+    {
+      "first_name": "Alex",
+      "last_name": "Kale",
+      "url": "https://people.cs.uchicago.edu/~kalea/"
+    },
+    {
+      "first_name": "Matthew",
+      "last_name": "Kay"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

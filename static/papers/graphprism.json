@@ -1,0 +1,46 @@
+{
+  "title": "GraphPrism: Compact Visualization of Network Structure",
+  "year": 2012,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2012-GraphPrism-AVI.pdf",
+  "abstract": "Visual methods for supporting the characterization, comparison, and classification of large networks remain an open challenge. Ideally, such techniques should surface useful structural features (e.g., effective diameter, small-world properties, and structural holes) not always apparent from either summary statistics or typical network visualizations. In this paper, we present GraphPrism, a technique for visually summarizing arbitrarily large graphs through combinations of 'facets', each corresponding to a single node- or edge-specific metric (e.g., transitivity). We describe a generalized approach for constructing facets by calculating distributions of graph metrics over increasingly large local neighborhoods and representing these as a stacked multi-scale histogram. Evaluation with paper prototypes shows that, with minimal training, static GraphPrism diagrams can aid network analysis experts in performing basic analysis tasks with network data. Finally, we contribute the design of an interactive system using linked selection between GraphPrism overviews and node-link detail views. Using a case study of data from a co-authorship network, we illustrate how GraphPrism facilitates interactive exploration of network data.",
+  "thumbnail": "images/thumbs/graphprism.png",
+  "figure": "images/figures/graphprism.png",
+  "caption": "GraphPrism facets and node-link diagram for the largest component of a network science co-authorship graph.",
+  "web_name": "graphprism",
+  "visible": true,
+  "mod_date": "2012-04-03",
+  "note": "",
+  "pub_date": "2012-04-03",
+  "venue": "AVI",
+  "authors": [
+    {
+      "first_name": "Sanjay",
+      "last_name": "Kairam",
+      "url": "http://www.sanjaykairam.com/"
+    },
+    {
+      "first_name": "Diana",
+      "last_name": "MacLean",
+      "url": "http://www.stanford.edu/~malcdi/"
+    },
+    {
+      "first_name": "Manolis",
+      "last_name": "Savva",
+      "url": "http://graphics.stanford.edu/~msavva/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

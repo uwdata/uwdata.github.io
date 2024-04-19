@@ -1,0 +1,41 @@
+{
+  "title": "Modeling How People Extract Color Themes from Images",
+  "year": 2013,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2013-ColorThemes-CHI.pdf",
+  "abstract": "Color choice plays an important role in works of graphic art and design. However, it can be difficult to choose a compelling set of colors, or color theme, from scratch. In this work, we present a method for extracting color themes from images using a regression model trained on themes created by people. We collect 1600 themes from Mechanical Turk as well as from artists. We find that themes extracted by Turk participants were similar to ones extracted by artists. In addition, people tended to select diverse colors and focus on colors in salient image regions. We show that our model can match human-extracted themes more closely compared to previous work. Themes extracted by our model were also rated higher as representing the image than previous approaches in a Mechanical Turk study.",
+  "thumbnail": "images/thumbs/color-themes.png",
+  "figure": "images/figures/structure.png",
+  "caption": "All the color themes for the source image. The color swatch options are shown down the middle. The human-extracted themes are on the right, with each column being a separate theme. The themes chosen by k-means (KM) and c-means (CM) are shown on the left. Image credit: Homer",
+  "web_name": "color-themes",
+  "visible": false,
+  "mod_date": "2013-09-01",
+  "note": "Best Paper Nominee",
+  "pub_date": "2013-01-19",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Sharon",
+      "last_name": "Lin",
+      "url": "http://graphics.stanford.edu/~sharonl/"
+    },
+    {
+      "first_name": "Pat",
+      "last_name": "Hanrahan",
+      "url": "http://graphics.stanford.edu/~hanrahan"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "https://github.com/sharondl/color-themes"
+    }
+  ],
+  "tags": []
+}

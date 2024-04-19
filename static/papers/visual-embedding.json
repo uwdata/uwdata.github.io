@@ -1,0 +1,53 @@
+{
+  "title": "Visual Embedding: A Model for Visualization",
+  "year": 2014,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2014-VisualEmbedding-CGA.pdf",
+  "abstract": "We propose visual embedding as a model for automatically generating and evaluating visualizations. A visual embedding is a function from data points to a space of visual primitives that measurably preserves structures in the data (domain) within the mapped perceptual space (range). Visual embedding can serve as both a generative and an evaluative model. We demonstrate its use with three examples: coloring of neural tracts, scatter plots with icons, and evaluation of alternative diffusion tensor glyphs. We discuss several techniques for generating visual embedding functions, including probabilistic graphical models for embedding within discrete visual spaces. We also describe two complementary approaches - crowdsourcing and visual product spaces - for  building visual spaces with associated perceptual distance measures. Finally, we present future research directions for further developing the visual embedding model.",
+  "thumbnail": "images/thumbs/visual-embedding.png",
+  "figure": "images/figures/tract-embedding.jpg",
+  "caption": "Neural tracts colored by visual embedding of shape distances into CIELAB color space.",
+  "web_name": "visual-embedding",
+  "visible": true,
+  "mod_date": "2013-10-24",
+  "note": "",
+  "pub_date": "2014-01-01",
+  "venue": "CG&A",
+  "authors": [
+    {
+      "first_name": "Çağatay",
+      "last_name": "Demiralp",
+      "url": "https://cagataydemiralp.io/"
+    },
+    {
+      "first_name": "Carlos",
+      "last_name": "Scheidegger"
+    },
+    {
+      "first_name": "Gordon",
+      "last_name": "Kindlmann"
+    },
+    {
+      "first_name": "David",
+      "last_name": "Laidlaw"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "http://github.com/uwdata/visual-embedding/"
+    }
+  ],
+  "tags": []
+}

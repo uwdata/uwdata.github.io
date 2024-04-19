@@ -1,0 +1,50 @@
+{
+  "title": "Techniques for Flexible Responsive Visualization Design",
+  "year": 2020,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2020-ResponsiveVis-CHI.pdf",
+  "abstract": "Responsive visualizations adapt to effectively present information based on the device context. Such adaptations are essential for news content that is increasingly consumed on mobile devices. However, existing tools provide little support for responsive visualization design. We analyze a corpus of 231 responsive news visualizations and discuss formative interviews with five journalists about responsive visualization design. These interviews motivate four central design guidelines: enable simultaneous cross-device edits, facilitate device-specific customization, show cross-device previews, and support propagation of edits. Based on these guidelines, we present a prototype system that allows users to preview and edit multiple visualization versions simultaneously. We demonstrate the utility of the system features by recreating four real-world responsive visualizations from our corpus.",
+  "thumbnail": "images/thumbs/responsive-vis.png",
+  "figure": "images/figures/responsive-vis.png",
+  "caption": "Desktop (left) and mobile (right) visualizations from the New York Times article “The Places in the U.S. Where Disaster Strikes Again and Again” [A13]. This example demonstrates responsive techniques that: (A) resize the view to compress the width; (B) reposition content (e.g., axes, labels, and title); (C) remove unnecessary labels; (D) modify the text and axis labels to reduce complexity; and (E) add new line marks to annotate the bars.",
+  "web_name": "responsive-vis",
+  "visible": true,
+  "mod_date": "2020-04-25",
+  "note": "Best Paper Award",
+  "pub_date": "2020-04-25",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Jane",
+      "last_name": "Hoffswell",
+      "url": "https://jhoffswell.github.io/"
+    },
+    {
+      "first_name": "Wilmot",
+      "last_name": "Li",
+      "url": "https://wilmotli.com/"
+    },
+    {
+      "first_name": "Zhicheng",
+      "last_name": "Liu",
+      "url": "http://www.zcliu.org/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Video",
+      "link": "http://idl.cs.washington.edu/files/2020-ResponsiveVis-CHI.mp4"
+    },
+    {
+      "name": "Supplement",
+      "link": "http://idl.cs.washington.edu/files/2020-ResponsiveVis-CHI-Supplement.zip"
+    }
+  ],
+  "tags": []
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Balancing Exertion Experiences",
+  "year": 2012,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2012-BalancingExertionExperiences-CHI.pdf",
+  "abstract": "Exercising with others, such as jogging in pairs, can be socially engaging. However, if exercise partners have different fitness levels then the activity can be too strenuous for one and not challenging enough for the other, compromising engagement and health benefits. Our system, Jogging over a Distance, uses heart rate data and spatialized sound to create an equitable, balanced experience between joggers of different fitness levels who are geographically distributed. We extend this prior work by analyzing the experience of 32 joggers to detail how specific design features facilitated, and hindered, an engaging and balanced exertion experience. With this knowledge, we derive four dimensions that describe a design space for balancing exertion experiences: Measurement, Adjustment, Presentation and Control. We also present six design tactics for creating balanced exertion experiences described by these dimensions. By aiding designers in supporting participants of different physical abilities, we hope to increase participation and engagement with physical activity and facilitate the many benefits it brings about.",
+  "thumbnail": "images/thumbs/balancing-exertion-experiences.gif",
+  "figure": "images/figures/balancing-exertion-experiences.png",
+  "caption": "Jogging over a Distance.",
+  "web_name": "balancing-exertion-experiences",
+  "visible": true,
+  "mod_date": "2012-04-05",
+  "note": "Best Paper Nominee",
+  "pub_date": "2012-02-06",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Florian",
+      "last_name": "Mueller"
+    },
+    {
+      "first_name": "Frank",
+      "last_name": "Vetere"
+    },
+    {
+      "first_name": "Martin",
+      "last_name": "Gibbs"
+    },
+    {
+      "first_name": "Darren",
+      "last_name": "Edge"
+    },
+    {
+      "first_name": "Stefan",
+      "last_name": "Agamanolis"
+    },
+    {
+      "first_name": "Jennifer",
+      "last_name": "Sheridan"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Snap Decisions? How Users, Content, and Aesthetics Interact to Shape Photo Sharing Behaviors",
+  "year": 2016,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2016-SnapDecisions-CHI.pdf",
+  "abstract": "Participants in social media systems must balance many considerations when choosing what to share and with whom. Sharing with others invites certain risks, as well as potential benefits; achieving the right balance is even more critical when sharing photos, which can be particularly engaging, but potentially compromising. In this paper, we examine photo-sharing decisions as an interaction between high-level user preferences and specific features of the images being shared. Our analysis combines insights from a 96-user survey with metadata from 10.4M photos to develop a model integrating these perspectives to predict permissions settings for uploaded photos. We discuss implications, including how such a model can be applied to provide online sharing experiences that are more safe, more scalable, and more satisfying.",
+  "thumbnail": "images/thumbs/snap-decisions.png",
+  "figure": "images/figures/snap-decisions.png",
+  "caption": "Distribution of aesthetics scores for photos shared with each permission setting. We observe that the distribution of Public photos is shifted towards higher aesthetics scores than Private or Selective.",
+  "web_name": "snap-decisions",
+  "visible": true,
+  "mod_date": "2016-04-30",
+  "note": null,
+  "pub_date": "2016-04-30",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Sanjay",
+      "last_name": "Kairam",
+      "url": "http://www.sanjaykairam.com/"
+    },
+    {
+      "first_name": "Joseph",
+      "last_name": "Kaye"
+    },
+    {
+      "first_name": "John",
+      "last_name": "Guerra-Gomez"
+    },
+    {
+      "first_name": "David",
+      "last_name": "Shamma"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

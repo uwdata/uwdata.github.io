@@ -1,0 +1,35 @@
+{
+  "title": "Seeing the Invisible",
+  "year": 2004,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2004-Invisibility-AVI-ITI.pdf",
+  "abstract": "In this article we attempt a closer examination of the notion of invisibility as it has been used within the ubiquitous computing community. We seek to tease apart various understandings of invisibility as an emergent attribute of technology use, examining what true “invisible technology” might be, in what ways it is beneficial, and how it might be designed for. We propose a theoretical model consisting of two complementary concepts: invisibility-in-use, the experience of direct interaction with artifacts and tools largely free of conscious monitoring, and infrastructural invisibility, the capacity of physical, organizational, or technological infrastructures to become tacit in the thoughts and actions of human actors. Underlying our approach is the belief that invisibility is fundamentally a phenomenological human construct, an experience of being in the world that is socially and psychologically created by humans as they go about their various activities.",
+  "thumbnail": "images/thumbs/seeing-the-invisible.gif",
+  "figure": "",
+  "caption": "",
+  "web_name": "seeing-the-invisible",
+  "visible": true,
+  "mod_date": "2010-08-23",
+  "note": "",
+  "pub_date": "2004-05-25",
+  "venue": "AVI ITI",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Peter",
+      "last_name": "Khooshabeh"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

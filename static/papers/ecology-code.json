@@ -1,0 +1,46 @@
+{
+  "title": "Elevating the Status of Code in Ecology",
+  "year": 2016,
+  "start_page": 4,
+  "end_page": 7,
+  "volume": 31,
+  "issue": 1,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "",
+  "abstract": "Code is increasingly central to ecological research but often remains unpublished and insufficiently recognized. Making code available allows analyses to be more easily reproduced and can facilitate research by other scientists. We evaluate journal handling of code, discuss barriers to its publication, and suggest approaches for promoting and archiving code.",
+  "thumbnail": "images/thumbs/ecology-code.png",
+  "figure": "images/figures/ecology-code.jpg",
+  "caption": "Recommended Journal Page Layouts. (A) For the table of contents of a journal. (B) For the first page of a journal article. The recommendations are for all formats of the journal including html, pdf, and print versions. An important feature is that active links can be clicked in electronic versions to directly access the code. The article titles and author names were made-up for the examples.",
+  "web_name": "ecology-code",
+  "visible": true,
+  "mod_date": "2016-01-04",
+  "note": null,
+  "pub_date": "2016-01-04",
+  "venue": "TREE",
+  "authors": [
+    {
+      "first_name": "Allison",
+      "last_name": "Smith",
+      "url": "http://www.kallisonsmith.us/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Ethan",
+      "last_name": "White",
+      "url": "http://whitelab.weecology.org/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Journal",
+      "link": "http://www.sciencedirect.com/science/article/pii/S0169534715002906"
+    }
+  ],
+  "tags": []
+}

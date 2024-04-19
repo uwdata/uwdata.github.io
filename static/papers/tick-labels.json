@@ -1,0 +1,46 @@
+{
+  "title": "An Extension of Wilkinson’s Algorithm for Positioning Tick Labels on Axes",
+  "year": 2010,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2010-TickLabels-InfoVis.pdf",
+  "abstract": "The non-data components of a visualization, such as axes and legends, can often be just as important as the data itself. They provide contextual information essential to interpreting the data. In this paper, we describe an automated system for choosing positions and labels for axis tick marks. Our system extends Wilkinson’s optimization-based labeling approach to create a more robust, full-featured axis labeler. We define an expanded space of axis labelings by automatically generating additional nice numbers as needed and by permitting the extreme labels to occur inside the data range. These changes provide flexibility in problematic cases, without degrading quality elsewhere. We also propose an additional optimization criterion, legibility, which allows us to simultaneously optimize over label formatting, font size, and orientation. To solve this revised optimization problem, we describe the optimization function and an efficient search algorithm. Finally, we compare our method to previous work using both quantitative and qualitative metrics. This paper is a good example of how ideas from automated graphic design can be applied to information visualization.",
+  "thumbnail": "images/thumbs/tick-labels.png",
+  "figure": "images/figures/tick-labels.png",
+  "caption": "Comparison of axis labeling algorithms. Our extension of Wilkinson’s optimization approach produces nice labelings while maintaining good visual density of the labels and coverage of the data.",
+  "web_name": "tick-labels",
+  "visible": false,
+  "mod_date": "2010-09-15",
+  "note": "",
+  "pub_date": "2010-10-29",
+  "venue": "InfoVis",
+  "authors": [
+    {
+      "first_name": "Justin",
+      "last_name": "Talbot",
+      "url": "http://www.justintalbot.com/"
+    },
+    {
+      "first_name": "Sharon",
+      "last_name": "Lin",
+      "url": "http://graphics.stanford.edu/~sharonl/"
+    },
+    {
+      "first_name": "Pat",
+      "last_name": "Hanrahan",
+      "url": "http://graphics.stanford.edu/~hanrahan"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "http://www.justintalbot.com/research/axis-labeling/"
+    }
+  ],
+  "tags": []
+}

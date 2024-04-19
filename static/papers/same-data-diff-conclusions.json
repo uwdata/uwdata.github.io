@@ -1,0 +1,54 @@
+{
+  "title": "Same Data, Different Conclusions: Radical Dispersion in Empirical Results when Independent Analysts Operationalize and Test the Same Hypothesis",
+  "year": 2021,
+  "start_page": null,
+  "end_page": null,
+  "volume": 165,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2021-SameDataDiffConclusions-OBHDP.pdf",
+  "abstract": "In this crowdsourced initiative, independent analysts used the same dataset to test two hypotheses regarding the effects of scientists' gender and professional status on verbosity during group meetings. Not only the analytic approach but also the operationalizations of key variables were left unconstrained and up to individual analysts. For instance, analysts could choose to operationalize status as job title, institutional ranking, citation counts, or some combination. To maximize transparency regarding the process by which analytic choices are made, the analysts used a platform we developed called DataExplained to justify both preferred and rejected analytic paths in real time. Analyses lacking sufficient detail, reproducible code, or with statistical errors were excluded, resulting in 29 analyses in the final sample. Researchers reported radically different analyses and dispersed empirical outcomes, in a number of cases obtaining significant effects in opposite directions for the same research question. A Boba multiverse analysis demonstrates that decisions about how to operationalize variables explain variability in outcomes above and beyond statistical choices (e.g., covariates). Subjective researcher decisions play a critical role in driving the reported empirical results, underscoring the need for open data, systematic robustness checks, and transparency regarding both analytic paths taken and not taken. Implications for organizations and leaders, whose decision making relies in part on scientific findings, consulting reports, and internal analyses by data scientists, are discussed.",
+  "thumbnail": "images/thumbs/same-data-diff-conclusions.png",
+  "figure": "",
+  "caption": "",
+  "web_name": "same-data-diff-conclusions",
+  "visible": true,
+  "mod_date": "2021-07-30",
+  "note": null,
+  "pub_date": "2021-07-30",
+  "venue": "OBHDP",
+  "authors": [
+    {
+      "first_name": "Martin",
+      "last_name": "Schweinsberg"
+    },
+    {
+      "first_name": "Yang",
+      "last_name": "Liu",
+      "url": "http://yangliu.life/"
+    },
+    {
+      "first_name": "Tim",
+      "last_name": "Althoff",
+      "url": "http://timalthoff.de/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Alex",
+      "last_name": "Kale",
+      "url": "https://people.cs.uchicago.edu/~kalea/"
+    },
+    {
+      "first_name": "Eric",
+      "last_name": "Uhlmann"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

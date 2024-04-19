@@ -1,0 +1,39 @@
+{
+  "title": "The Life and Death of Online Groups: Predicting Group Growth and Longevity",
+  "year": 2012,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2012-PredictingGroupGrowth-WSDM.pdf",
+  "abstract": "We pose a fundamental question in understanding how to identify and design successful communities: What factors predict whether a community will grow and survive in the long term? Social scientists have addressed this question extensively by analyzing offline groups which endeavor to attract new members, such as social movements, finding that new individuals are influenced strongly by their ties to members of the group. As a result, prior work on the growth of communities has treated growth primarily as a diffusion processes, leading to findings about group evolution which can be difficult to explain. The proliferation of online social networks and communities, however, has created new opportunities to study, at a large scale and with very fine resolution, the mechanisms which lead to the formation, growth, and demise of online groups. In this paper, we analyze data from several thousand online social networks built on the Ning platform with the goal of understanding the factors contributing to the growth and longevity of groups within these networks. Specifically, we investigate the role that two types of growth (growth through diffusion and growth by other means) play during a group’s formative stages from the perspectives of both the individual member and the group. Applying these insights to a population of groups of different ages and sizes, we build a model to classify groups which will grow rapidly over the short-term and long-term. Our model achieves over 79% accuracy in predicting group growth over the following two months and over 78% accuracy in predictions over the following two years. We utilize a similar approach to predict which groups will die within a year. The results of our combined analysis provide insight into how both early non-diffusion growth and a complex set of network constraints appear to contribute to the initial and continued growth and success of groups within social networks. Finally we discuss implications of this work for the design, maintenance, and analysis of online communities.",
+  "thumbnail": "images/thumbs/predicting-group-growth.png",
+  "figure": "",
+  "caption": "",
+  "web_name": "predicting-group-growth",
+  "visible": true,
+  "mod_date": "2013-11-17",
+  "note": null,
+  "pub_date": "2012-02-08",
+  "venue": "WSDM",
+  "authors": [
+    {
+      "first_name": "Sanjay",
+      "last_name": "Kairam",
+      "url": "http://www.sanjaykairam.com/"
+    },
+    {
+      "first_name": "Dan",
+      "last_name": "Wang"
+    },
+    {
+      "first_name": "Jure",
+      "last_name": "Leskovec"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

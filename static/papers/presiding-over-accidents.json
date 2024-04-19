@@ -1,0 +1,47 @@
+{
+  "title": "Presiding Over Accidents: System Direction of Human Action",
+  "year": 2004,
+  "start_page": 463,
+  "end_page": 470,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2004-Direction-CHI.pdf",
+  "abstract": "As human-computer interaction becomes more closely modeled on human-human interaction, new techniques and strategies for human-computer interaction are required. In response to the inevitable shortcomings of recognition technologies, researchers have studied mediation: interaction techniques by which users can resolve system ambiguity and error. In this paper we approach the human-computer dialogue from the other side, examining system-initiated direction and mediation of human action. We \r\nconducted contextual interviews with a variety of experts in fields involving human-human direction, including a film director, photographer, golf instructor, and 911 operator. Informed by these interviews and a review of prior work, we present strategies for directing physical human action and an associated design space for systems that perform such direction. We illustrate these concepts with excerpts from our interviews and with our implemented system for automated media capture or “Active Capture,” in which an unaided computer system uses techniques identified in our design space to act as a photographer, film director, and \r\ncinematographer. ",
+  "thumbnail": "images/thumbs/presiding-over-accidents.gif",
+  "figure": "",
+  "caption": "",
+  "web_name": "presiding-over-accidents",
+  "visible": true,
+  "mod_date": "2009-08-04",
+  "note": null,
+  "pub_date": "2004-04-02",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Nathan",
+      "last_name": "Good"
+    },
+    {
+      "first_name": "Ana",
+      "last_name": "Chang"
+    },
+    {
+      "first_name": "Marc",
+      "last_name": "Davis"
+    },
+    {
+      "first_name": "Jennifer",
+      "last_name": "Mankoff"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

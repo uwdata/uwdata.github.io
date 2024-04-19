@@ -1,0 +1,44 @@
+{
+  "title": "Voyagers and Voyeurs: Supporting Asynchronous Collaborative Visualization",
+  "year": 2009,
+  "start_page": 87,
+  "end_page": 97,
+  "volume": 52,
+  "issue": 1,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2009-Voyagers-CACM.pdf",
+  "abstract": "This article describes mechanisms for asynchronous collaboration in the context of information visualization, recasting visualizations as not just analytic tools, but social spaces. We contribute the design and implementation of sense.us, a Web site supporting asynchronous collaboration across a variety of visualization types. The site supports view sharing, discussion, graphical annotation, and social navigation and includes novel interaction elements. We report the results of user studies of the system, observing emergent patterns of social data analysis, including cycles of observation and hypothesis, and the complementary roles of social navigation and data-driven exploration.",
+  "thumbnail": "images/thumbs/voyagers-and-voyeurs-cacm.gif",
+  "figure": "images/figures/sense.us.png",
+  "caption": "The sense.us collaborative visualization system. (a) An interactive visualization applet, with a graphical annotation for the currently selected comment. The visualization is a stacked time-series visualization of the U.S. labor force, broken down by gender. Here the percentage of the work force in military jobs is shown. (b) A set of graphical annotation tools. (c) A bookmark trail of saved views. (d) Text-entry field for adding comments. Bookmarks can be dragged onto the text field to add a link to that view in the comment. (e) Threaded comments attached to the current view. (f) URL for the current state of the application. The URL is updated automatically as the visualization state changes.",
+  "web_name": "voyagers-and-voyeurs-cacm",
+  "visible": true,
+  "mod_date": "2009-08-04",
+  "note": null,
+  "pub_date": "2009-01-01",
+  "venue": "CACM",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Fernanda",
+      "last_name": "Viégas"
+    },
+    {
+      "first_name": "Martin",
+      "last_name": "Wattenberg"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Video",
+      "link": "http://vis.stanford.edu/files/sense.us/"
+    }
+  ],
+  "tags": []
+}

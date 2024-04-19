@@ -1,0 +1,50 @@
+{
+  "title": "Draco 2: An Extensible Platform to Model Visualization Design",
+  "year": 2023,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2023-Draco2-VIS.pdf",
+  "abstract": "Draco introduced a constraint-based framework to model visualization design in an extensible and testable form. It provides a way to abstract design guidelines from theoretical and empirical studies and applies the knowledge in automated design tools. However, Draco is challenging to use because there is limited tooling and documentation. In response, we present Draco 2, the successor with (1) a more flexible visualization specification format, (2) a comprehensive test suite and documentation, and (3) flexible and convenient APIs. We designed Draco 2 to be more extensible and easier to integrate into visualization systems. We demonstrate these advantages and believe that they make Draco 2 a platform for future research.",
+  "thumbnail": "images/thumbs/draco2.png",
+  "figure": "images/figures/draco2.png",
+  "caption": "Draco2 specification format.  (a) Chart specification as a nested dictionary (left, here as a Python dict), (b) flattened list of logical facts (middle, in Answer Set Programming), (c) the rendered visualization result, and (d) the skeleton abstracted from the logical format.",
+  "web_name": "draco2",
+  "visible": true,
+  "mod_date": "2023-10-21",
+  "note": "Best Paper Honorable Mention",
+  "pub_date": "2023-10-21",
+  "venue": "VIS-Short",
+  "authors": [
+    {
+      "first_name": "Junran",
+      "last_name": "Yang"
+    },
+    {
+      "first_name": "Péter",
+      "last_name": "Gyarmati"
+    },
+    {
+      "first_name": "Zehua",
+      "last_name": "Zeng"
+    },
+    {
+      "first_name": "Dominik",
+      "last_name": "Moritz",
+      "url": "http://domoritz.de/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "https://github.com/cmudig/draco2"
+    }
+  ],
+  "tags": [
+    "recommendation"
+  ]
+}

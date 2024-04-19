@@ -1,0 +1,80 @@
+{
+  "title": "Similarity in Transgender and Cisgender Children’s Gender Development",
+  "year": 2019,
+  "start_page": 24480,
+  "end_page": 24485,
+  "volume": 116,
+  "issue": 49,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2019-TransgenderSimilarity-PNAS.pdf",
+  "abstract": "Gender is one of the central categories organizing children’s social world. Clear patterns of gender development have been well-documented among cisgender children (i.e., children who identify as a gender that is typically associated with their sex assigned at birth). We present a comprehensive study of gender development (e.g., gender identity and gender expression) in a cohort of 3- to 12-y-old transgender children (n = 317) who, in early childhood, are identifying and living as a gender different from their assigned sex. Four primary findings emerged. First, transgender children strongly identify as members of their current gender group and show gender-typed preferences and behaviors that are strongly associated with their current gender, not the gender typically associated with their sex assigned at birth. Second, transgender children’s gender identity (i.e., the gender they feel they are) and gender-typed preferences generally did not differ from 2 comparison groups: cisgender siblings (n = 189) and cisgender controls (n = 316). Third, transgender and cisgender children’s patterns of gender development showed coherence across measures. Finally, we observed minimal or no differences in gender identity or preferences as a function of how long transgender children had lived as their current gender. Our findings suggest that early sex assignment and parental rearing based on that sex assignment do not always define how a child identifies or expresses gender later.",
+  "thumbnail": "images/thumbs/transgender-similarity.png",
+  "figure": "images/figures/transgender-similarity.png",
+  "caption": "Density plots depicting distributions of girls’ and boys’ responses on each child measure across the 3 participant groups. Higher scores on the x axis indicate greater identification/association with girls; lower scores on the x-axis indicate greater identification/association with boys. Vertical dotted lines in graphs represent means.",
+  "web_name": "transgender-similarity",
+  "visible": true,
+  "mod_date": "2019-12-03",
+  "note": null,
+  "pub_date": "2019-12-03",
+  "venue": "PNAS",
+  "authors": [
+    {
+      "first_name": "Selin",
+      "last_name": "Gülgöz"
+    },
+    {
+      "first_name": "Jessica",
+      "last_name": "Glazier"
+    },
+    {
+      "first_name": "Elizabeth",
+      "last_name": "Enright"
+    },
+    {
+      "first_name": "Daniel",
+      "last_name": "Alonso"
+    },
+    {
+      "first_name": "Lily",
+      "last_name": "Durwood"
+    },
+    {
+      "first_name": "Anne",
+      "last_name": "Fast"
+    },
+    {
+      "first_name": "Riley",
+      "last_name": "Lowe"
+    },
+    {
+      "first_name": "Chonghui",
+      "last_name": "Ji"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Carol",
+      "last_name": "Martin"
+    },
+    {
+      "first_name": "Kristina",
+      "last_name": "Olson"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Journal",
+      "link": "https://doi.org/10.1073/pnas.1909367116"
+    },
+    {
+      "name": "Data",
+      "link": "https://osf.io/q2kuw/"
+    }
+  ],
+  "tags": []
+}

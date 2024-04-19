@@ -1,0 +1,31 @@
+{
+  "title": "Socializing Visualization",
+  "year": 2006,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2006-SocialVis-CHI.pdf",
+  "abstract": "The immersive and compelling nature of many social visualizations arise not only from the nature and presentation of the data under consideration, but also from the social interactions, both implicit and explicit, surrounding the use of the visualization. Across numerous examples, “the social life of visualization” (to borrow a phrase from Wattenberg) has shown to be an important factor shaping the adoption, use, and efficacy of a visualization—an aspect often overlooked by the psychological / analytic orientation of contemporary information visualization. This position paper attempts a preliminary exploration of the consequences of this insight for the design of social visualizations by recasting visualization applications as not just external cognitive artifacts, but social artifacts. Key components of this re-thinking include the move from purely task-based considerations to that of ludic, or playful, activity and an exploration of fundamental design considerations for facilitating the social dimension of visualization use.",
+  "thumbnail": "images/thumbs/socializing-visualization.gif",
+  "figure": "images/figures/socializing-vis.png",
+  "caption": "Usage observations of the Vizster (by Heer and boyd) and NameVoyager (by Wattenberg) visualizations revealed strong tendencies towards social use of the visualizations by groups of people, with meaningful analytic activty conducted within a context of play.",
+  "web_name": "socializing-visualization",
+  "visible": true,
+  "mod_date": "2010-08-23",
+  "note": "",
+  "pub_date": "2006-01-01",
+  "venue": "CHI Social Vis",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

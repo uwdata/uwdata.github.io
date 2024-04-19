@@ -1,0 +1,48 @@
+{
+  "title": "TimeTree: Exploring Time Changing Hierarchies",
+  "year": 2006,
+  "start_page": 3,
+  "end_page": 10,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2006-TimeTree-VAST.pdf",
+  "abstract": "Intelligence analysis often involves the task of gathering information about an organization. Knowledge about individuals in an organization and their relationships, often represented as a hierarchical organization chart, is crucial for understanding the organization. However, it is difficult for intelligence analysts to follow all individuals in an organization. Existing hierarchy visualizations have largely focused on the visualization of fixed structures and can not effectively depict the evolution of a hierarchy over time. We introduce TimeTree, a novel visualization tool designed to enable exploration of a changing hierarchy. TimeTree enables analysts to navigate the history of an organization, identify events associated with a specific entity (visualized on a TimeSlider), and explore an aggregate view of an individual's career path (a CareerTree). We demonstrate the utility of TimeTree by investigating a set of scenarios developed by an expert intelligence analyst. The scenarios are evaluated using a real dataset composed of eighteen thousand career events from more than eight thousand individuals. Insights gained from this analysis are presented.",
+  "thumbnail": "images/thumbs/timetree.gif",
+  "figure": "images/figures/timetree.gif",
+  "caption": "A TimeTree visualization of a dynamic organization chart. Nodes colored in red are those being actively tracked over time. The TimeSlider in the bottom panel allows navigation to a particular time point and provides a visualization of career events.",
+  "web_name": "timetree",
+  "visible": true,
+  "mod_date": "2009-08-04",
+  "note": null,
+  "pub_date": "2006-10-01",
+  "venue": "VAST",
+  "authors": [
+    {
+      "first_name": "Stuart",
+      "last_name": "Card",
+      "url": "http://www2.parc.com/istl/groups/uir/people/stuart/stuart.htm"
+    },
+    {
+      "first_name": "Bongwon",
+      "last_name": "Suh"
+    },
+    {
+      "first_name": "Bryan",
+      "last_name": "Pendleton"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "John",
+      "last_name": "Bodnar"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

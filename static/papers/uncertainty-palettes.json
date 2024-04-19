@@ -1,0 +1,46 @@
+{
+  "title": "Value-Suppressing Uncertainty Palettes",
+  "year": 2018,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2018-UncertaintyPalettes-CHI.pdf",
+  "abstract": "Understanding uncertainty is critical for many analytical tasks. One common approach is to encode data values and uncertainty values independently, using two visual variables. These resulting bivariate maps can be difficult to interpret, and interference between visual channels can reduce the discriminability of marks. To address this issue, we contribute Value-Suppressing Uncertainty Palettes (VSUPs). VSUPs allocate larger ranges of a visual channel to data when uncertainty is low, and smaller ranges when uncertainty is high. This non-uniform budgeting of the visual channels makes more economical use of the limited visual encoding space when uncertainty is low, and encourages more cautious decision-making when uncertainty is high. We demonstrate several examples of VSUPs, and present a crowdsourced evaluation showing that, compared to traditional bivariate maps, VSUPs encourage people to more heavily weight uncertainty information in decision-making tasks.",
+  "thumbnail": "images/thumbs/uncertainty-palettes.png",
+  "figure": "images/figures/uncertainty-palettes.png",
+  "caption": "A standard bivariate map and a Value-Suppressing Uncertainty Palette (VSUP), used to encode an identical 10x10 grid of random data. Both use the same visual channels to encode value (the Viridis color map) and uncertainty (lightness and saturation). However, the VSUP uses a tree-like structure to allocate colors, defining more bins when uncertainty is low. This non-uniform budgeting affords better discrimination between values when uncertainty is low, even though the VSUP has fewer color bins. This tree-like structure also discourages analysis in regions where uncertainty may be unacceptably high.",
+  "web_name": "uncertainty-palettes",
+  "visible": true,
+  "mod_date": "2018-05-01",
+  "note": null,
+  "pub_date": "2018-05-01",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Michael",
+      "last_name": "Correll",
+      "url": "http://pages.cs.wisc.edu/~mcorrell/"
+    },
+    {
+      "first_name": "Dominik",
+      "last_name": "Moritz",
+      "url": "http://domoritz.de/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Data",
+      "link": "https://github.com/uwdata/papers-vsup/"
+    }
+  ],
+  "tags": []
+}

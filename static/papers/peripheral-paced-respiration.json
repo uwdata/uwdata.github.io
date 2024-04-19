@@ -1,0 +1,55 @@
+{
+  "title": "Peripheral Paced Respiration: Influencing User Physiology during Information Work",
+  "year": 2011,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2011-PPR-UIST.pdf",
+  "abstract": "We present the design and evaluation of a technique for influencing user respiration by integrating respiration-pacing methods into the desktop operating system in a peripheral manner. Peripheral paced respiration differs from prior techniques in that it does not require the user’s full attention. We conducted a within-subjects study to evaluate the efficacy of peripheral paced respiration, as compared to no feedback, in an ecologically valid environment. Participant respiration decreased significantly in the pacing condition. Upon further analysis, we attribute this difference to a significant decrease in breath rate while the intermittent pacing feedback is active, rather than a persistent change in respiratory pattern. The results have implications for researchers in physiological computing, biofeedback designers, and human-computer interaction researchers concerned with user stress and affect.",
+  "thumbnail": "images/thumbs/peripheral-paced-respiration.png",
+  "figure": "images/figures/ppr-sensor.png",
+  "caption": "Our thoracic circumference sensor for tracking breath rate.",
+  "web_name": "peripheral-paced-respiration",
+  "visible": true,
+  "mod_date": "2011-08-05",
+  "note": "",
+  "pub_date": "2011-08-02",
+  "venue": "UIST",
+  "authors": [
+    {
+      "first_name": "Neema",
+      "last_name": "Moraveji"
+    },
+    {
+      "first_name": "Ben",
+      "last_name": "Olson"
+    },
+    {
+      "first_name": "Truc",
+      "last_name": "Nguyen"
+    },
+    {
+      "first_name": "Mahmoud",
+      "last_name": "Saadat"
+    },
+    {
+      "first_name": "Yaser",
+      "last_name": "Khalighi"
+    },
+    {
+      "first_name": "Roy",
+      "last_name": "Pea"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

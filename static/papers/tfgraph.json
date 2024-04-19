@@ -1,0 +1,68 @@
+{
+  "title": "Visualizing Dataflow Graphs of Deep Learning Models in TensorFlow",
+  "year": 2018,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2018-TensorFlowGraph-VAST.pdf",
+  "abstract": "We present a design study of the TensorFlow Graph Visualizer, part of the TensorFlow machine intelligence platform. This tool helps users understand complex machine learning architectures by visualizing their underlying dataflow graphs. The tool works by applying a series of graph transformations that enable standard layout techniques to produce a legible interactive diagram. To declutter the graph, we decouple non-critical nodes from the layout. To provide an overview, we build a clustered graph using the hierarchical structure annotated in the source code. To support exploration of nested structure on demand, we perform edge bundling to enable stable and responsive cluster expansion. Finally, we detect and highlight repeated structures to emphasize a model's modular composition. To demonstrate the utility of the visualizer, we describe example usage scenarios and report user feedback. Overall, users find the visualizer useful for understanding, debugging, and sharing the structures of their models.",
+  "thumbnail": "images/thumbs/tfgraph.png",
+  "figure": "images/figures/tfgraph.png",
+  "caption": "The TensorFlow Graph Visualizer shows a convolutional network for classifying images (tf_cifar). (a) An overview displays a dataflow between groups of operations, with auxiliary nodes extracted to the side. (b) Expanding a group shows its nested structure.",
+  "web_name": "tfgraph",
+  "visible": true,
+  "mod_date": "2018-01-05",
+  "note": "Best Paper Award",
+  "pub_date": "2018-01-05",
+  "venue": "VAST-TVCG",
+  "authors": [
+    {
+      "first_name": "Kanit",
+      "last_name": "Wongsuphasawat",
+      "url": "https://kanitw.github.io/"
+    },
+    {
+      "first_name": "Daniel",
+      "last_name": "Smilkov"
+    },
+    {
+      "first_name": "James",
+      "last_name": "Wexler"
+    },
+    {
+      "first_name": "Jimbo",
+      "last_name": "Wilson"
+    },
+    {
+      "first_name": "Dandelion",
+      "last_name": "Mané"
+    },
+    {
+      "first_name": "Doug",
+      "last_name": "Fritz"
+    },
+    {
+      "first_name": "Dilip",
+      "last_name": "Krishnan"
+    },
+    {
+      "first_name": "Fernanda",
+      "last_name": "Viégas"
+    },
+    {
+      "first_name": "Martin",
+      "last_name": "Wattenberg"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Video",
+      "link": "https://vimeo.com/232930758"
+    }
+  ],
+  "tags": []
+}

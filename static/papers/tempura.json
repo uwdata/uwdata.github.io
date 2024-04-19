@@ -1,0 +1,56 @@
+{
+  "title": "Tempura: Query Analysis with Structural Templates",
+  "year": 2020,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2020-Tempura-CHI.pdf",
+  "abstract": "Analyzing queries from search engines and intelligent assistants is difficult. A key challenge is organizing queries into interpretable, context-preserving, representative, and flexible groups. We present structural templates, abstract queries that replace tokens with their linguistic feature forms, as a query grouping method. The templates allow analysts to create query groups with structural similarity at different granularities. We introduce Tempura, an interactive tool that lets analysts explore a query dataset with structural templates. Tempura summarizes a query dataset by selecting a representative subset of templates to show the query distribution. The tool also helps analysts navigate the template space by suggesting related templates likely to yield further explorations. Our user study shows that Tempura helps analysts examine the distribution of a query dataset, find labeling errors, and discover model error patterns and outliers.",
+  "thumbnail": "images/thumbs/tempura.png",
+  "figure": "images/figures/tempura.png",
+  "caption": "Structural templates abstract textual queries by replacing certain tokens with their linguistic features, so the queries with shared templates can be examined from different angles. For example, in q1, by replacing \"Bill Gates\" with its named entity \"PERSON\" (t2), we can find celebrities users care about when asking \"how rich\" questions. Or, we can collect and explore queries on \"Bill Gates\" if we abstract \"rich\" to its part-of-speech tag, adjective (t4). Such templates are useful for both dataset exploration (e.g., recognize \"how rich is PERSON\" is a common question pattern in a query dataset) and model error analysis (e.g., distinguish a model’s ability in retrieving information about \"rich\" and recognizing \"Bill Gates\").",
+  "web_name": "tempura",
+  "visible": true,
+  "mod_date": "2020-04-24",
+  "note": null,
+  "pub_date": "2020-04-24",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Tongshuang",
+      "last_name": "Wu",
+      "url": "https://homes.cs.washington.edu/~wtshuang/"
+    },
+    {
+      "first_name": "Kanit",
+      "last_name": "Wongsuphasawat",
+      "url": "https://kanitw.github.io/"
+    },
+    {
+      "first_name": "Donghao",
+      "last_name": "Ren",
+      "url": "https://donghaoren.org/"
+    },
+    {
+      "first_name": "Kayur",
+      "last_name": "Patel",
+      "url": "http://www.kayur.org/"
+    },
+    {
+      "first_name": "Chris",
+      "last_name": "DuBois",
+      "url": "http://chrisdubois.org/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Video",
+      "link": "https://youtu.be/s_ODGuZU4G8"
+    }
+  ],
+  "tags": []
+}

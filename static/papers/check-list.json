@@ -1,0 +1,51 @@
+{
+  "title": "Beyond Accuracy: Behavioral Testing of NLP Models with CheckList",
+  "year": 2020,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2020-CheckList-ACL.pdf",
+  "abstract": "Although measuring held-out accuracy has been the primary approach to evaluate generalization, it often overestimates the performance of NLP models, while alternative approaches for evaluating models either focus on individual tasks or on specific behaviors. Inspired by principles of behavioral testing in software engineering, we introduce CheckList, a task-agnostic methodology for testing NLP models. CheckList includes a matrix of general linguistic capabilities and test types that facilitate comprehensive test ideation, as well as a software tool to generate a large and diverse number of test cases quickly. We illustrate the utility of CheckList with tests for three tasks, identifying critical failures in both commercial and state-of-art models. In a user study, a team responsible for a commercial sentiment analysis model found new and actionable bugs in an extensively tested model. In another user study, NLP practitioners with CheckList created twice as many tests, and found almost three times as many bugs as users without it.",
+  "thumbnail": "images/thumbs/check-list.png",
+  "figure": "",
+  "caption": "",
+  "web_name": "check-list",
+  "visible": true,
+  "mod_date": "2020-08-11",
+  "note": "Best Paper Award",
+  "pub_date": "2020-08-11",
+  "venue": "ACL",
+  "authors": [
+    {
+      "first_name": "Marco",
+      "last_name": "Ribeiro",
+      "url": "https://homes.cs.washington.edu/~marcotcr/"
+    },
+    {
+      "first_name": "Tongshuang",
+      "last_name": "Wu",
+      "url": "https://homes.cs.washington.edu/~wtshuang/"
+    },
+    {
+      "first_name": "Carlos",
+      "last_name": "Guestrin",
+      "url": "https://homes.cs.washington.edu/~guestrin/"
+    },
+    {
+      "first_name": "Sameer",
+      "last_name": "Singh",
+      "url": "http://sameersingh.org/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "https://github.com/marcotcr/checklist"
+    }
+  ],
+  "tags": []
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Predictive Translation Memory: A Mixed-Initiative System for Human Language Translation",
+  "year": 2014,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2014-PTM-UIST.pdf",
+  "abstract": "The standard approach to computer-aided language translation is post-editing: a machine generates a single translation that a human translator corrects. Recent studies have shown this simple technique to be surprisingly effective, yet it underutilizes the complementary strengths of precision-oriented humans and recall-oriented machines. We present Predictive Translation Memory, an interactive, mixed-initiative system for human language translation. Translators build translations incrementally by considering machine suggestions that update according to the user’s current partial translation. In a large-scale study, we find that professional translators are slightly slower in the interactive mode yet produce slightly higher quality translations despite significant prior experience with the baseline post-editing condition. Our analysis identifies significant predictors of time and quality, and also characterizes interactive aid usage. Subjects entered over 99% of characters via interactive aids, a significantly higher fraction than that shown in previous work.",
+  "thumbnail": "images/thumbs/ptm.png",
+  "figure": "images/figures/ptm.png",
+  "caption": "The Predictive Translation Memory (PTM) interface. The interface shows the full document context, with English source inputs (A) interleaved with suggested target translations (B). The sentence in focus is indicated by the blue rectangle, with translated source words colored (C). The user can navigate between sentences via hot keys. An autocomplete dropdown (D) provides updated translations in response to user text input, which modify the initial full translation suggestion in gray (E).",
+  "web_name": "ptm",
+  "visible": true,
+  "mod_date": "2014-10-05",
+  "note": null,
+  "pub_date": "2014-10-05",
+  "venue": "UIST",
+  "authors": [
+    {
+      "first_name": "Spence",
+      "last_name": "Green",
+      "url": "http://www.spencegreen.com/"
+    },
+    {
+      "first_name": "Jason",
+      "last_name": "Chuang",
+      "url": "http://jason.chuang.info"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Christopher",
+      "last_name": "Manning"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Video",
+      "link": "http://vimeo.com/101349836"
+    }
+  ],
+  "tags": []
+}

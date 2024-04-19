@@ -1,0 +1,56 @@
+{
+  "title": "How Do Data Analysts Respond to AI Assistance? A Wizard-of-Oz Study",
+  "year": 2024,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://arxiv.org/pdf/2309.10108.pdf",
+  "abstract": "Data analysis is challenging as analysts must navigate nuanced decisions that may yield divergent conclusions. AI assistants have the potential to support analysts in planning their analyses, enabling more robust decision making. Though AI-based assistants that target code execution (e.g., Github Copilot) have received significant attention, limited research addresses assistance for both analysis execution and planning. In this work, we characterize helpful planning suggestions and their impacts on analysts' workflows. We first review the analysis planning literature and crowd-sourced analysis studies to categorize suggestion content. We then conduct a Wizard-of-Oz study (n=13) to observe analysts' preferences and reactions to planning assistance in a realistic scenario. Our findings highlight subtleties in contextual factors that impact suggestion helpfulness, emphasizing design implications for supporting different abstractions of assistance, forms of initiative, increased engagement, and alignment of goals between analysts and assistants.",
+  "thumbnail": "images/thumbs/ai-wiz.png",
+  "figure": "images/figures/ai-wiz.png",
+  "caption": "Execution and planning assistance during data analysis. During an ongoing analysis, analysts may be focusing on the execution of an analysis decision (left) or planning their next decisions (right). During execution, analysts have a clear intent of what they want to do (e.g., specify a model formula). Meanwhile, during planning, analysts are reasoning about potential decisions they are considering. Existing systems powered by Large Language Models (e.g., ChatGPT and Github Copilot), focus on providing execution assistance, helping the analyst carry out a decision (A). However, analysts can also benefit from planning assistance. Planning assistance helps analysts reason about the analysis decisions. This can occur as analysts are explicitly planning their decisions (B) or even during execution when analysts are unaware of plausible alternatives (C)",
+  "web_name": "ai-wiz",
+  "visible": true,
+  "mod_date": "2024-05-11",
+  "note": "",
+  "pub_date": "2024-05-11",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Ken",
+      "last_name": "Gu",
+      "url": "https://kenqgu.com/"
+    },
+    {
+      "first_name": "Madeleine",
+      "last_name": "Grunde-McLaughlin",
+      "url": "https://madeleinegrunde.github.io/"
+    },
+    {
+      "first_name": "Andrew",
+      "last_name": "McNutt",
+      "url": "http://mcnutt.in/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Tim",
+      "last_name": "Althoff",
+      "url": "http://timalthoff.de/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Supplement",
+      "link": "https://osf.io/9x8bj/"
+    }
+  ],
+  "tags": []
+}

@@ -1,0 +1,36 @@
+{
+  "title": "DOITrees Revisited: Scalable, Space-Constrained Visualization of Hierarchical Data",
+  "year": 2004,
+  "start_page": 421,
+  "end_page": 424,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2004-DOITree-AVI.pdf",
+  "abstract": "This paper extends previous work on focus+context visualizations of tree-structured data, introducing an efficient, space-constrained, multi-focal tree layout algorithm (\"TreeBlock\") and techniques at both the system and interactive levels for dealing with scale. These contributions are realized in a new version of the Degree-Of-Interest Tree browser, supporting real-time interactive visualization and exploration of data sets containing on the order of a million nodes.",
+  "thumbnail": "images/thumbs/doitrees-revisited.gif",
+  "figure": "images/figures/doitree_dmoz.gif",
+  "caption": "A Degree-Of-Interest Tree visualization of the Open Directory Project (http://dmoz.org). The tree contains over 600,000 nodes, laid out in a right-to-left orientation. Multiple foci have been selected and the various expanded branches are allocated as much space as possible given the display constraints.",
+  "web_name": "doitrees-revisited",
+  "visible": true,
+  "mod_date": "2010-08-23",
+  "note": "",
+  "pub_date": "2004-05-30",
+  "venue": "AVI",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Stuart",
+      "last_name": "Card",
+      "url": "http://www2.parc.com/istl/groups/uir/people/stuart/stuart.htm"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

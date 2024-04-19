@@ -1,0 +1,74 @@
+{
+  "title": "Voyager 2: Augmenting Visual Analysis with Partial View Specifications",
+  "year": 2017,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2017-Voyager2-CHI.pdf",
+  "abstract": "Visual data analysis involves both open-ended and focused exploration. Manual chart specification tools support question answering, but are often tedious for early-stage exploration where systematic data coverage is needed. Visualization recommenders can encourage broad coverage, but irrelevant suggestions may distract users once they commit to specific questions. We present Voyager 2, a mixed-initiative system that blends manual and automated chart specification to help analysts engage in both open-ended exploration and targeted question answering. We contribute two partial specification interfaces: wildcards let users specify multiple charts in parallel, while related views suggest visualizations relevant to the currently specified chart. We present our interface design and applications of the CompassQL visualization query language to enable these interfaces. In a controlled study we find that Voyager 2 leads to increased data field coverage compared to a traditional specification tool, while still allowing analysts to flexibly drill-down and answer specific questions.",
+  "thumbnail": "images/thumbs/voyager2.png",
+  "figure": "images/figures/voyager2.png",
+  "caption": "The Voyager 2 interface. The top panel (A) provides bookmark gallery and undo commands. The data panel (B) contains the dataset name, data fields (C), and wildcard fields (D). Wildcard fields let users create multiple views in parallel by serving as \"variables\" over an enumerated set of fields. Categorical, temporal, and quantitative field wildcards are provided by default, though users can manually author custom wildcards containing desired fields (E). The encoding panel (F) contains shelves for mapping fields to visual channels via drag-and-drop, and a control for selecting mark type. A wildcard shelf (G) lets users add fields without selecting a specific channel, allowing the system to suggest appropriate encodings. The filter panel (H) shows dynamic query controls for filtering. The primary focus view (I) displays the currently specified chart. Related views (J) show recommended plots relevant to the focus view. Related summaries (K) suggest aggregate plots to summarize the data. Field suggestions (L) show the results of encoding one additional field within the focus view.",
+  "web_name": "voyager2",
+  "visible": true,
+  "mod_date": "2017-05-04",
+  "note": null,
+  "pub_date": "2017-05-04",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Kanit",
+      "last_name": "Wongsuphasawat",
+      "url": "https://kanitw.github.io/"
+    },
+    {
+      "first_name": "Zening",
+      "last_name": "Qu"
+    },
+    {
+      "first_name": "Dominik",
+      "last_name": "Moritz",
+      "url": "http://domoritz.de/"
+    },
+    {
+      "first_name": "Riley",
+      "last_name": "Chang"
+    },
+    {
+      "first_name": "Felix",
+      "last_name": "Ouk"
+    },
+    {
+      "first_name": "Anushka",
+      "last_name": "Anand"
+    },
+    {
+      "first_name": "Jock",
+      "last_name": "Mackinlay",
+      "url": "https://research.tableau.com/user/jock-mackinlay"
+    },
+    {
+      "first_name": "Bill",
+      "last_name": "Howe",
+      "url": "https://faculty.washington.edu/billhowe/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Video",
+      "link": "https://vimeo.com/199084718"
+    }
+  ],
+  "tags": [
+    "recommendation"
+  ]
+}

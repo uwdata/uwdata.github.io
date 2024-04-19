@@ -1,0 +1,45 @@
+{
+  "title": "Decision-Making Under Uncertainty in Research Synthesis: Designing for the Garden of Forking Paths",
+  "year": 2019,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2019-UncertaintyResearchSynthesis-CHI.pdf",
+  "abstract": "To make evidence-based recommendations to decision-makers, researchers conducting systematic reviews and meta-analyses must navigate a garden of forking paths: a series of analytical decision-points, each of which has the potential to influence findings. To identify challenges and opportunities related to designing systems to help researchers manage uncertainty around which of multiple analyses is best, we interviewed 11 professional researchers who conduct research synthesis to inform decision-making within three organizations. We conducted a qualitative analysis identifying 480 analytical decisions made by researchers throughout the scientific process. We present descriptions of current practices in applied research synthesis and corresponding design challenges: making it more feasible for researchers to try and compare analyses, shifting researchers' attention from rationales for decisions to impacts on results, and supporting communication techniques that acknowledge decision-makers' aversions to uncertainty. We identify opportunities to design systems which help researchers explore, reason about, and communicate uncertainty in decision-making about possible analyses in research synthesis.",
+  "thumbnail": "images/thumbs/uncertainty-research-synthesis.png",
+  "figure": "images/figures/uncertainty-research-synthesis.png",
+  "caption": "A pictorial representation of strategies used to navigate the garden of forking paths. The diagram at the top depicts observed temporal orderings of these strategies, e.g., multiplexing across choices in a loop of acknowledgement and reduction.",
+  "web_name": "uncertainty-research-synthesis",
+  "visible": true,
+  "mod_date": "2019-05-03",
+  "note": null,
+  "pub_date": "2019-05-03",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Alex",
+      "last_name": "Kale",
+      "url": "https://people.cs.uchicago.edu/~kalea/"
+    },
+    {
+      "first_name": "Matthew",
+      "last_name": "Kay"
+    },
+    {
+      "first_name": "Jessica",
+      "last_name": "Hullman",
+      "url": "http://faculty.washington.edu/jhullman"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Supplement",
+      "link": "https://github.com/kalealex/analysis_paths_research_synthesis"
+    }
+  ],
+  "tags": []
+}

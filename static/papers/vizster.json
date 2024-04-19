@@ -1,0 +1,44 @@
+{
+  "title": "Vizster: Visualizing Online Social Networks",
+  "year": 2005,
+  "start_page": 32,
+  "end_page": 39,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2005-Vizster-InfoVis.pdf",
+  "abstract": "Recent years have witnessed the dramatic popularity of online social networking services, in which millions of members publicly articulate mutual \"friendship\" relations. Guided by ethnographic research of these online communities, we have designed and implemented a visualization system for playful end-user exploration and navigation of large-scale online social networks. Our design builds upon familiar node-link network layouts to contribute customized techniques for exploring connectivity in large graph structures, supporting visual search and analysis, and automatically identifying and visualizing community structures. Both public installation and controlled studies of the system provide evidence of the system's usability, capacity for facilitating discovery, and potential for fun and engaged social activity.",
+  "thumbnail": "images/thumbs/vizster.gif",
+  "figure": "images/figures/vizster_paper.gif",
+  "caption": "The Vizster social network visualization system. The view on the left shows a egocentric social network with the results of automated community analysis shown. The view on the right shows the system in \"X-Ray\" mode, where color is used to visualize values of a selected data attribute (in this case gender).",
+  "web_name": "vizster",
+  "visible": true,
+  "mod_date": "2011-01-28",
+  "note": "",
+  "pub_date": "2005-10-01",
+  "venue": "InfoVis (Pre-TVCG)",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "danah",
+      "last_name": "boyd"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Video",
+      "link": "http://vimeo.com/19278513"
+    },
+    {
+      "name": "Website",
+      "link": "http://vis.stanford.edu/jheer/projects/vizster"
+    }
+  ],
+  "tags": []
+}

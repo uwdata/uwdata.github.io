@@ -1,0 +1,35 @@
+{
+  "title": "Profiles as Conversation: Networked Identity Performance on Friendster",
+  "year": 2006,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2006-Friendster-HICSS.pdf",
+  "abstract": "Profiles have become a common mechanism for presenting one's identity online. With the popularity of online social networking services such as Friendster.com, Profiles have been extended to include explicitly social information such as articulated \"Friend\" relationships and Testimonials. With such Profiles, users do not just depict themselves, but help shape the representation of others on the system. In this paper, we will discuss how the performance of social identity and relationships shifted the Profile from being a static representation of self to a communicative body in conversation with the other represented bodies.\r\n\r\nWe draw on data gathered through ethnography and reaffirmed through data collection and visualization to analyze the communicative aspects of Profiles within the Friendster service. We focus on the role of Profiles in context creation and interpretation, negotiating unknown audiences, and initiating conversations. Additionally, we explore the shift from conversation to static representation, as active Profiles fossilize into recorded traces.",
+  "thumbnail": "images/thumbs/friendster-profiles.gif",
+  "figure": "",
+  "caption": "",
+  "web_name": "friendster-profiles",
+  "visible": true,
+  "mod_date": "2009-08-04",
+  "note": null,
+  "pub_date": "2006-02-01",
+  "venue": "HICSS",
+  "authors": [
+    {
+      "first_name": "danah",
+      "last_name": "boyd"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

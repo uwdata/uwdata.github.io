@@ -1,0 +1,53 @@
+{
+  "title": "invis: Exploring High-Dimensional RNA Sequences from In Vitro Selection",
+  "year": 2013,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2013-invis-BioVis.pdf",
+  "abstract": "In vitro selection and evolution is a powerful method for discovering RNA molecules based on their binding and catalysis properties. It has important applications to the study of genetic variation and molecular evolution. However, the resulting RNA sequences form a large, high-dimensional space and biologists lack adequate tools to explore and interpret these sequences. We present invis, the first visual analysis tool to facilitate exploration of in vitro selection sequence spaces. invis introduces a novel configuration of coordinated views that enables simultaneous inspection of global projections of sequence data alongside local regions of selected dimensions and sequence clusters. It allows scientists to isolate related sequences for further data analysis, compare sequence populations over varying conditions, filter sequences based on their similarities, and visualize likely pathways of genetic evolution. User feedback indicates that invis enables effective exploration of in vitro RNA selection sequences.",
+  "thumbnail": "images/thumbs/invis.png",
+  "figure": "images/figures/invis.png",
+  "caption": "The invis interface. The scatterplot shows a projection of high-dimensional RNA sequences; sequence maps enable inspection of nucleotide-level patterns. invis is the first tool for interactive exploration of sequences from in vitro selection experiments.",
+  "web_name": "invis",
+  "visible": true,
+  "mod_date": "2013-10-24",
+  "note": "",
+  "pub_date": "2013-10-12",
+  "venue": "BioVis",
+  "authors": [
+    {
+      "first_name": "Çağatay",
+      "last_name": "Demiralp",
+      "url": "https://cagataydemiralp.io/"
+    },
+    {
+      "first_name": "Eric",
+      "last_name": "Hayden"
+    },
+    {
+      "first_name": "Jeff",
+      "last_name": "Hammerbacher"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "https://github.com/StanfordHCI/invis"
+    },
+    {
+      "name": "Video",
+      "link": "http://vimeo.com/77718464"
+    }
+  ],
+  "tags": []
+}

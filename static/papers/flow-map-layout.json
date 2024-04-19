@@ -1,0 +1,49 @@
+{
+  "title": "Flow Map Layout",
+  "year": 2005,
+  "start_page": 219,
+  "end_page": 224,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2005-FlowMapLayout-InfoVis.pdf",
+  "abstract": "Cartographers have long used flow maps to show the movement of objects from one location to another, such as the number of people in a migration, the amount of goods being traded, or the number of packets in a network. The advantage of flow maps is that they reduce visual clutter by merging edges. Most flow maps are drawn by hand and there are few computer algorithms available. We present a method for generating flow maps using hierarchical clustering given a set of nodes, positions, and flow data between the nodes. Our techniques are inspired by graph layout algorithms that minimize edge crossings and distort node positions while maintaining their relative position to one another. We demonstrate our technique by producing flow maps for network traffic, census data, and trade data.",
+  "thumbnail": "images/thumbs/flow-map-layout.gif",
+  "figure": "images/figures/flowmaps.png",
+  "caption": "Flow Maps. (a) Minard’s 1864 flow map of wine exports from France (b) Tobler’s computer generated flow map of migration from California from 1995 - 2000. (c) A flow map produced by our system that shows the same migration data.",
+  "web_name": "flow-map-layout",
+  "visible": false,
+  "mod_date": "2009-08-06",
+  "note": "",
+  "pub_date": "2005-10-01",
+  "venue": "InfoVis (Pre-TVCG)",
+  "authors": [
+    {
+      "first_name": "Doantam",
+      "last_name": "Phan",
+      "url": "http://graphics.stanford.edu/~dphan/"
+    },
+    {
+      "first_name": "Ling",
+      "last_name": "Xiao",
+      "url": "http://www.stanford.edu/~lingxiao/"
+    },
+    {
+      "first_name": "Ron",
+      "last_name": "Yeh"
+    },
+    {
+      "first_name": "Pat",
+      "last_name": "Hanrahan",
+      "url": "http://graphics.stanford.edu/~hanrahan"
+    },
+    {
+      "first_name": "Terry",
+      "last_name": "Winograd"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

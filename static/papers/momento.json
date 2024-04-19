@@ -1,0 +1,39 @@
+{
+  "title": "Momento: Support for Situated Ubicomp Experimentation",
+  "year": 2007,
+  "start_page": 125,
+  "end_page": 134,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2007-Momento-CHI.pdf",
+  "abstract": "We present the iterative design of Momento, a tool that provides integrated support for situated evaluation of ubiquitous computing applications. We derived requirements for Momento from a user-centered design process that included interviews, observations and field studies of early versions of the tool. Motivated by our findings, Momento supports remote testing of ubicomp applications, helps with participant adoption and retention by minimizing the need for new hardware, and supports mid-to-long term studies to address infrequently occurring data. Also, Momento can gather log data, experience sampling, diary, and other qualitative data.",
+  "thumbnail": "images/thumbs/momento.gif",
+  "figure": "images/figures/momento.gif",
+  "caption": "On the left, part of an overview display for use by remote experimenters while a study is running. This display is especially valuable during lengthy studies with sparse data. On the right, part of a detailed view of a message.",
+  "web_name": "momento",
+  "visible": true,
+  "mod_date": "2009-08-04",
+  "note": null,
+  "pub_date": "2007-04-01",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Scott",
+      "last_name": "Carter"
+    },
+    {
+      "first_name": "Jennifer",
+      "last_name": "Mankoff"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

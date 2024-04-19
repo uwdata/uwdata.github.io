@@ -1,0 +1,55 @@
+{
+  "title": "Polyjuice: Generating Counterfactuals for Explaining, Evaluating, and Improving Models",
+  "year": 2021,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2021-Polyjuice-ACL.pdf",
+  "abstract": "While counterfactual examples are useful for analysis and training of NLP models, current generation methods either rely on manual labor to create very few counterfactuals, or only instantiate limited types of perturbations such as paraphrases or word substitutions. We present Polyjuice, a general-purpose counterfactual generator that allows for control over perturbation types and locations, trained by finetuning GPT-2 on multiple datasets of paired sentences. We show that Polyjuice produces diverse sets of realistic counterfactuals, which in turn are useful in various distinct applications: improving training and evaluation on three different tasks (with around 70% less annotation effort than manual generation), augmenting state-of-the-art explanation techniques, and supporting systematic counterfactual error analysis by revealing behaviors easily missed by human experts.",
+  "thumbnail": "images/thumbs/polyjuice.png",
+  "figure": "images/figures/polyjuice.png",
+  "caption": "We designed a list of control codes to guide counterfactual generation. Here we show Polyjuice-generated examples, and the representative training datasets for each corresponding pattern.",
+  "web_name": "polyjuice",
+  "visible": true,
+  "mod_date": "2021-08-02",
+  "note": null,
+  "pub_date": "2021-08-02",
+  "venue": "ACL",
+  "authors": [
+    {
+      "first_name": "Tongshuang",
+      "last_name": "Wu",
+      "url": "https://homes.cs.washington.edu/~wtshuang/"
+    },
+    {
+      "first_name": "Marco",
+      "last_name": "Ribeiro",
+      "url": "https://homes.cs.washington.edu/~marcotcr/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Dan",
+      "last_name": "Weld",
+      "url": "https://www.cs.washington.edu/people/faculty/weld"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "https://github.com/tongshuangwu/polyjuice"
+    },
+    {
+      "name": "Video",
+      "link": "https://www.youtube.com/watch?v=94lzCQ0BURs"
+    }
+  ],
+  "tags": []
+}

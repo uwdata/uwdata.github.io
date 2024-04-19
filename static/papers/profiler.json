@@ -1,0 +1,55 @@
+{
+  "title": "Profiler: Integrated Statistical Analysis and Visualization for Data Quality Assessment",
+  "year": 2012,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2012-Profiler-AVI.pdf",
+  "abstract": "Data quality issues such as missing, erroneous, extreme and duplicate values undermine analysis and are time-consuming to find and fix. Automated methods can help identify anomalies, but determining what constitutes an error is context-dependent and so requires human judgment. While visualization tools can facilitate this process, analysts must often manually construct the necessary views, requiring significant expertise. We present Profiler, a visual analysis tool for assessing quality issues in tabular data. Profiler applies data mining methods to automatically flag problematic data and suggests coordinated summary visualizations for assessing the data in context. The system contributes novel methods for integrated statistical and visual analysis, automatic view suggestion, and scalable visual summaries that support real-time interaction with millions of data points. We present Profiler's architecture -- including modular components for custom data types, anomaly detection routines and summary visualizations -- and describe its application to motion picture, natural disaster and water quality data sets.",
+  "thumbnail": "images/thumbs/profiler.gif",
+  "figure": "images/figures/profiler-arch.png",
+  "caption": "The Profiler Architecture. An (a) input table is analyzed to (b) infer types for each column. Type information is used to (c) generate features prior to running (d) anomaly detection routines. The results of anomaly detection and mutual information analysis are used to perform (e) view recommendation and populate a set of (f) interactive visualizations.",
+  "web_name": "profiler",
+  "visible": true,
+  "mod_date": "2012-04-04",
+  "note": "",
+  "pub_date": "2012-04-03",
+  "venue": "AVI",
+  "authors": [
+    {
+      "first_name": "Sean",
+      "last_name": "Kandel",
+      "url": "http://skandel.us"
+    },
+    {
+      "first_name": "Ravi",
+      "last_name": "Parikh",
+      "url": "http://www.ravi.io/"
+    },
+    {
+      "first_name": "Andreas",
+      "last_name": "Paepcke"
+    },
+    {
+      "first_name": "Joseph",
+      "last_name": "Hellerstein",
+      "url": "http://db.cs.berkeley.edu/jmh/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "http://vis.stanford.edu/projects/datavore/"
+    }
+  ],
+  "tags": []
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Interpretation and Trust: Designing Model-Driven Visualizations for Text Analysis",
+  "year": 2012,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2012-InterpretationTrust-CHI.pdf",
+  "abstract": "Statistical topic models can help analysts discover patterns in large text corpora by identifying recurring sets of words and enabling exploration by topical concepts. However, understanding and validating the output of these models can itself be a challenging analysis task. In this paper, we offer two design considerations - interpretation and trust - for designing visualizations based on data-driven models. Interpretation refers to the facility with which an analyst makes inferences about the data through the lens of a model abstraction. Trust refers to the actual and perceived accuracy of an analyst's inferences. These considerations derive from our experiences developing the Stanford Dissertation Browser, a tool for exploring over 9,000 Ph.D. theses by topical similarity, and a subsequent review of existing literature. We contribute a novel similarity measure for text collections based on a notion of \"word-borrowing\" that arose from an iterative design process. Based on our experiences and a literature review, we distill a set of design recommendations and describe how they promote interpretable and trustworthy visual analysis tools.",
+  "thumbnail": "images/thumbs/designing-model-driven-vis.png",
+  "figure": "images/figures/interpretation-trust.gif",
+  "caption": "The Stanford Dissertation Browser is a visual analysis tool for investigating shared ideas and interdisciplinary collaboration between academic departments. Our initial visualization revealed unexpected shortcomings in the underlying model; our subsequent design work instead involved developing models that better support analysis goals.",
+  "web_name": "designing-model-driven-vis",
+  "visible": true,
+  "mod_date": "2012-02-09",
+  "note": "",
+  "pub_date": "2012-02-07",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Jason",
+      "last_name": "Chuang",
+      "url": "http://jason.chuang.info"
+    },
+    {
+      "first_name": "Daniel",
+      "last_name": "Ramage"
+    },
+    {
+      "first_name": "Christopher",
+      "last_name": "Manning"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Website",
+      "link": "http://vis.stanford.edu/dissertations"
+    }
+  ],
+  "tags": []
+}

@@ -1,0 +1,50 @@
+{
+  "title": "D3: Data-Driven Documents",
+  "year": 2011,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2011-D3-InfoVis.pdf",
+  "abstract": "Data-Driven Documents (D3) is a novel representation-transparent approach to visualization for the web. Rather than hide the underlying scenegraph within a toolkit-specific abstraction, D3 enables direct inspection and manipulation of a native representation: the standard document object model (DOM). With D3, designers selectively bind input data to arbitrary document elements, applying dynamic transforms to both generate and modify content. We show how representational transparency improves expressiveness and better integrates with developer tools than prior approaches, while offering comparable notational efficiency and retaining powerful declarative components. Immediate evaluation of operators further simplifies debugging and allows iterative development. Additionally, we demonstrate how D3 transforms naturally enable animation and interaction with dramatic performance improvements over intermediate representations.",
+  "thumbnail": "images/thumbs/d3.gif",
+  "figure": "images/figures/d3.png",
+  "caption": "Interactive visualizations built with D3. From left to right: calendar view, chord diagram, choropleth map, hierarchical edge bundling, scatterplot matrix, grouped & stacked bars, force-directed graph clusters, Voronoi tessellation.",
+  "web_name": "d3",
+  "visible": true,
+  "mod_date": "2011-09-30",
+  "note": "",
+  "pub_date": "2011-08-05",
+  "venue": "InfoVis",
+  "authors": [
+    {
+      "first_name": "Michael",
+      "last_name": "Bostock",
+      "url": "http://bost.ocks.org/mike/"
+    },
+    {
+      "first_name": "Vadim",
+      "last_name": "Ogievetsky",
+      "url": "http://vadim.ogievetsky.com/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "http://vis.stanford.edu/d3"
+    },
+    {
+      "name": "Video",
+      "link": "http://vimeo.com/29862153"
+    }
+  ],
+  "tags": []
+}

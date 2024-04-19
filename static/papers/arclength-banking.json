@@ -1,0 +1,41 @@
+{
+  "title": "Arc Length-based Aspect Ratio Selection",
+  "year": 2011,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2011-ArclengthBanking-InfoVis.pdf",
+  "abstract": "The aspect ratio of a plot has a dramatic impact on our ability to perceive trends and patterns in the data. Previous approaches for automatically selecting the aspect ratio have been based on adjusting the orientations or angles of the line segments in the plot. In contrast, we recommend a simple, effective method for selecting the aspect ratio: minimize the arc length of the data curve while keeping the area of the plot constant. The approach is parameterization invariant, robust to a wide range of inputs, preserves visual symmetries in the data, and is a compromise between previously proposed techniques. Further, we demonstrate that it can be effectively used to select the aspect ratio of contour plots. We believe arc length should become the default aspect ratio selection method.",
+  "thumbnail": "images/thumbs/arclength-banking.png",
+  "figure": "images/figures/arclength-banking.png",
+  "caption": "Banking the same data set with two different dependency assumptions. The left plot is banked using a LOESS curve assuming Fertility is dependent on Education which emphasizes the negative relationship between the two variables. The right plot is banked using the contour lines of a 2D density estimation assuming Fertility and Education are independent variables. The resulting aspect ratio highlights the outliers from the main cluster of points.",
+  "web_name": "arclength-banking",
+  "visible": false,
+  "mod_date": "2011-08-05",
+  "note": "",
+  "pub_date": "2011-08-05",
+  "venue": "InfoVis",
+  "authors": [
+    {
+      "first_name": "Justin",
+      "last_name": "Talbot",
+      "url": "http://www.justintalbot.com/"
+    },
+    {
+      "first_name": "John",
+      "last_name": "Gerth",
+      "url": "http://graphics.stanford.edu/~gerth"
+    },
+    {
+      "first_name": "Pat",
+      "last_name": "Hanrahan",
+      "url": "http://graphics.stanford.edu/~hanrahan"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

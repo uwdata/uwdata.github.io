@@ -1,0 +1,49 @@
+{
+  "title": "SimpleScience: Lexical Simplification of Scientific Terminology",
+  "year": 2016,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2016-SimpleScience-EMNLP.pdf",
+  "abstract": "Lexical simplification of scientific terms represents a unique challenge due to the lack of a standard parallel corpora and fast rate at which vocabulary shift along with research. We introduce SimpleScience, a lexical simplification approach for scientific terminology. We use word embeddings to extract simplification rules from a parallel corpora containing scientific publications and Wikipedia. To evaluate our system we construct SimpleSciGold, a novel gold standard set for science-related simplifications. We find that our approach outperforms prior context-aware approaches at generating simplifications for scientific terms.",
+  "thumbnail": "images/thumbs/simplescience.png",
+  "figure": "",
+  "caption": "",
+  "web_name": "simple-science",
+  "visible": true,
+  "mod_date": "2016-09-25",
+  "note": null,
+  "pub_date": "2016-11-01",
+  "venue": "EMNLP",
+  "authors": [
+    {
+      "first_name": "Yea-Seul",
+      "last_name": "Kim",
+      "url": "https://pages.cs.wisc.edu/~yeaseulkim/"
+    },
+    {
+      "first_name": "Jessica",
+      "last_name": "Hullman",
+      "url": "http://faculty.washington.edu/jhullman"
+    },
+    {
+      "first_name": "Matthew",
+      "last_name": "Burgess"
+    },
+    {
+      "first_name": "Eytan",
+      "last_name": "Adar"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Data and Supplement",
+      "link": "https://github.com/yeaseulkim/simplescience"
+    }
+  ],
+  "tags": []
+}

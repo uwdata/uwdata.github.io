@@ -1,0 +1,38 @@
+{
+  "title": "Agency plus Automation: Designing Artificial Intelligence into Interactive Systems",
+  "year": 2019,
+  "start_page": 1844,
+  "end_page": 1850,
+  "volume": 116,
+  "issue": 6,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2019-AgencyPlusAutomation-PNAS.pdf",
+  "abstract": "Much contemporary rhetoric regards the prospects and pitfalls of using artificial intelligence techniques to automate an increasing range of tasks, especially those once considered the purview of people alone. These accounts are often wildly optimistic, understating outstanding challenges while turning a blind eye to the human labor that undergirds and sustains ostensibly “automated” services. This long-standing focus on purely automated methods unnecessarily cedes a promising design space: one in which computational assistance augments and enriches, rather than replaces, people’s intellectual work. This tension between human agency and machine automation poses vital challenges for design and engineering. In this work, we consider the design of systems that enable rich, adaptive interaction between people and algorithms. We seek to balance the often-complementary strengths and weaknesses of each, while promoting human control and skillful action. We share case studies of interactive systems we have developed in three arenas—data wrangling, exploratory analysis, and natural language translation—that integrate proactive computational support into interactive systems. To improve outcomes and support learning by both people and machines, we describe the use of shared representations of tasks augmented with predictive models of human capabilities and actions. We conclude with a discussion of future prospects and scientific frontiers for intelligence augmentation research.",
+  "thumbnail": "images/thumbs/agency-automation.png",
+  "figure": "",
+  "caption": "",
+  "web_name": "agency-automation",
+  "visible": true,
+  "mod_date": "2019-02-05",
+  "note": null,
+  "pub_date": "2019-02-05",
+  "venue": "PNAS",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Journal",
+      "link": "https://doi.org/10.1073/pnas.1807184115"
+    }
+  ],
+  "tags": [
+    "recommendation"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Proactive Wrangling: Mixed-Initiative End-User Programming of Data Transformation Scripts",
+  "year": 2011,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2011-Wrangler-UIST.pdf",
+  "abstract": "Analysts regularly wrangle data into a form suitable for computational tools through a tedious process that delays more substantive analysis. While interactive tools can assist data transformation, analysts must still conceptualize the desired output state, formulate a transformation strategy, and specify complex transforms. We present a model to proactively suggest data transforms which map input data to a relational format expected by analysis tools. To guide search through the space of transforms, we propose a metric that scores tables according to type homogeneity, sparsity and the presence of delimiters. When compared to \"ideal\" hand-crafted transformations, our model suggests over half of the needed steps; in these cases the top-ranked suggestion is preferred 77% of the time. User study results indicate that suggestions produced by our model can assist analysts' transformation tasks, but that users do not always value proactive assistance, instead preferring to maintain the initiative. We discuss some implications of these results for mixed-initiative interfaces.",
+  "thumbnail": "images/thumbs/proactive-wrangling.gif",
+  "figure": "images/figures/wrangler-pro-ui.png",
+  "caption": "The Wrangler User Interface. Clockwise from the top: (a) tool bar for transform specification, (b) data table display, (c) history viewer containing an exportable transformation script, (d) suggested transforms. The effect of the selected Fold transform is previewed in the data table display using before (top) and after (bottom) views.",
+  "web_name": "proactive-wrangling",
+  "visible": true,
+  "mod_date": "2011-08-05",
+  "note": "",
+  "pub_date": "2011-08-03",
+  "venue": "UIST",
+  "authors": [
+    {
+      "first_name": "Philip",
+      "last_name": "Guo"
+    },
+    {
+      "first_name": "Sean",
+      "last_name": "Kandel",
+      "url": "http://skandel.us"
+    },
+    {
+      "first_name": "Joseph",
+      "last_name": "Hellerstein",
+      "url": "http://db.cs.berkeley.edu/jmh/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Website",
+      "link": "http://vis.stanford.edu/wrangler"
+    }
+  ],
+  "tags": []
+}

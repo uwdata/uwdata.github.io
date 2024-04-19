@@ -1,0 +1,73 @@
+{
+  "title": "Visualizing Urban Accessibility: Investigating Multi-Stakeholder Perspectives through a Map-based Design Probe Study",
+  "year": 2022,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2022-VisualizingUrbanAccessibility-CHI.pdf",
+  "abstract": "Urban accessibility assessments are challenging: they involve varied stakeholders across decision-making contexts while serving a diverse population of people with disabilities. To better support urban accessibility assessment using data visualizations, we conducted a three-part interview study with 25 participants across five stakeholder groups using map visualization probes. We present a multi-stakeholder analysis of visualization needs and sensemaking processes to explore how interactive visualizations can support stakeholder decision making. In particular, we elaborate how stakeholders' varying levels of familiarity with accessibility, geospatial analysis, and specific geographic locations influences their sensemaking needs. We then contribute 10 design considerations for geovisual analytic tools for urban accessibility communication, planning, policymaking, and advocacy.",
+  "thumbnail": "images/thumbs/vis-urban-access.png",
+  "figure": "images/figures/vis-urban-access.png",
+  "caption": "Urban accessibility visualization types used in the study.",
+  "web_name": "vis-urban-access",
+  "visible": true,
+  "mod_date": "2022-04-01",
+  "note": null,
+  "pub_date": "2022-04-01",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Manaswi",
+      "last_name": "Saha",
+      "url": "https://homes.cs.washington.edu/~manaswi/"
+    },
+    {
+      "first_name": "Siddhant",
+      "last_name": "Patil"
+    },
+    {
+      "first_name": "Emily",
+      "last_name": "Cho"
+    },
+    {
+      "first_name": "Evie",
+      "last_name": "Cheng"
+    },
+    {
+      "first_name": "Chris",
+      "last_name": "Horng"
+    },
+    {
+      "first_name": "Devanshi",
+      "last_name": "Chauhan"
+    },
+    {
+      "first_name": "Rachel",
+      "last_name": "Kangas"
+    },
+    {
+      "first_name": "Richard",
+      "last_name": "McGovern"
+    },
+    {
+      "first_name": "Anthony",
+      "last_name": "Li"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Jon",
+      "last_name": "Froehlich",
+      "url": "https://jonfroehlich.github.io/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

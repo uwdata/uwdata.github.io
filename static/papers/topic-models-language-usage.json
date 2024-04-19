@@ -1,0 +1,53 @@
+{
+  "title": "Differentiating Language Usage through Topic Models",
+  "year": 2013,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "",
+  "abstract": "Sociologists wishing to employ topic models in their research need a helpful guide that describes the variety of topic modeling procedures, their issues, and various means of resolving them so as to convincingly answer sociological questions. We present this overview by recounting a series of our prior collaborative projects that have employed and developed various forms of topic models to understand language differentiation in academe. With each project, we encountered a variety of model-specific issues concerning the validity of topics and their suitability to our data and research questions. We developed a variety of novel visualization techniques to make sense of topic-solutions and used a variety of techniques to validate our results. In addition, we created a variety of new topic modeling techniques and procedures suitable to different kinds of data and research questions.",
+  "thumbnail": "images/thumbs/topic-models-language-usage.png",
+  "figure": "images/figures/word-borrowing.png",
+  "caption": "Language borrowing across academic fields, using dissertation abstracts from 2000–2010.",
+  "web_name": "topic-models-language-usage",
+  "visible": true,
+  "mod_date": "2013-10-24",
+  "note": "",
+  "pub_date": "2013-09-09",
+  "venue": "Poetics",
+  "authors": [
+    {
+      "first_name": "Dan",
+      "last_name": "McFarland"
+    },
+    {
+      "first_name": "Daniel",
+      "last_name": "Ramage"
+    },
+    {
+      "first_name": "Jason",
+      "last_name": "Chuang",
+      "url": "http://jason.chuang.info"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Christopher",
+      "last_name": "Manning"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Journal",
+      "link": "http://www.sciencedirect.com/science/article/pii/S0304422X13000442"
+    }
+  ],
+  "tags": []
+}

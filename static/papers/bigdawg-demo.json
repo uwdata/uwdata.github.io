@@ -1,0 +1,100 @@
+{
+  "title": "A Demonstration of the BigDAWG Polystore System",
+  "year": 2015,
+  "start_page": null,
+  "end_page": null,
+  "volume": 8,
+  "issue": 12,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2015-BigDAWGDemo-PVLDB.pdf",
+  "abstract": "This paper presents BigDAWG, a reference implementation of a new architecture for \"Big Data\" applications. Such applications not only call for large-scale analytics, but also for real-time streaming support, smaller analytics at interactive speeds, data visualization, and cross-storage-system queries. Guided by the principle that \"one size does not fit all\", we build on top of a variety of storage engines, each designed for a specialized use case. To illustrate the promise of this approach, we demonstrate its effectiveness on a hospital application using data from an intensive care unit (ICU). This complex application serves the needs of doctors and researchers and provides real-time support for streams of patient data. It showcases novel approaches for querying across multiple storage engines, data visualization, and scalable real-time analytics.",
+  "thumbnail": "images/thumbs/bigdawg-demo.png",
+  "figure": "images/figures/bigdawg-demo.png",
+  "caption": "The BigDAWG polystore architecture.",
+  "web_name": "bigdawg-demo",
+  "visible": true,
+  "mod_date": "2015-08-31",
+  "note": null,
+  "pub_date": "2015-08-31",
+  "venue": "PVLDB",
+  "authors": [
+    {
+      "first_name": "Aaron",
+      "last_name": "Elmore"
+    },
+    {
+      "first_name": "Jennie",
+      "last_name": "Duggan"
+    },
+    {
+      "first_name": "Michael",
+      "last_name": "Stonebraker"
+    },
+    {
+      "first_name": "Magdalena",
+      "last_name": "Balazinska"
+    },
+    {
+      "first_name": "Ugur",
+      "last_name": "Cetintemel"
+    },
+    {
+      "first_name": "Vijay",
+      "last_name": "Gadepally"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Bill",
+      "last_name": "Howe",
+      "url": "https://faculty.washington.edu/billhowe/"
+    },
+    {
+      "first_name": "Jeremy",
+      "last_name": "Kepner"
+    },
+    {
+      "first_name": "Tim",
+      "last_name": "Kraska"
+    },
+    {
+      "first_name": "Samuel",
+      "last_name": "Madden"
+    },
+    {
+      "first_name": "David",
+      "last_name": "Maier"
+    },
+    {
+      "first_name": "Timothy",
+      "last_name": "Mattson"
+    },
+    {
+      "first_name": "Stavros",
+      "last_name": "Papadopoulos"
+    },
+    {
+      "first_name": "Jeff",
+      "last_name": "Parkhurst"
+    },
+    {
+      "first_name": "Nesime",
+      "last_name": "Tatbul"
+    },
+    {
+      "first_name": "Manasi",
+      "last_name": "Vartak"
+    },
+    {
+      "first_name": "Stan",
+      "last_name": "Zdonik"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

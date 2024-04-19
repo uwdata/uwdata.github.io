@@ -1,0 +1,70 @@
+{
+  "title": "Does the Whole Exceed its Parts? The Efect of AI Explanations\non Complementary Team Performance",
+  "year": 2021,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2021-AIExplanationsTeamPerformance-CHI.pdf",
+  "abstract": "Many researchers motivate explainable AI with studies showing that human-AI team performance on decision-making tasks improves when the AI explains its recommendations. However, prior studies observed improvements from explanations only when the AI, alone, outperformed both the human and the best team. Can explanations help lead to complementary performance, where team\naccuracy is higher than either the human or the AI working solo? We conduct mixed-method user studies on three datasets, where an AI with accuracy comparable to humans helps participants solve a task (explaining itself in some conditions). While we observed complementary improvements from AI augmentation, they were not increased by explanations. Rather, explanations increased the chance that humans will accept the AI's recommendation, regardless of its correctness. Our result poses new challenges for human-centered AI: Can we develop explanatory approaches that encourage appropriate trust in AI, and therefore help generate (or improve) complementary performance?",
+  "thumbnail": "images/thumbs/ai-explanations-team-performance.png",
+  "figure": "",
+  "caption": "",
+  "web_name": "ai-explanations-team-performance",
+  "visible": true,
+  "mod_date": "2021-04-10",
+  "note": null,
+  "pub_date": "2021-04-10",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Gagan",
+      "last_name": "Bansal"
+    },
+    {
+      "first_name": "Tongshuang",
+      "last_name": "Wu",
+      "url": "https://homes.cs.washington.edu/~wtshuang/"
+    },
+    {
+      "first_name": "Joyce",
+      "last_name": "Zhou"
+    },
+    {
+      "first_name": "Raymond",
+      "last_name": "Fok"
+    },
+    {
+      "first_name": "Besmira",
+      "last_name": "Nushi"
+    },
+    {
+      "first_name": "Ece",
+      "last_name": "Kamar"
+    },
+    {
+      "first_name": "Marco",
+      "last_name": "Ribeiro",
+      "url": "https://homes.cs.washington.edu/~marcotcr/"
+    },
+    {
+      "first_name": "Dan",
+      "last_name": "Weld",
+      "url": "https://www.cs.washington.edu/people/faculty/weld"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Supplement",
+      "link": "https://github.com/uw-hai/Complementary-Performance"
+    },
+    {
+      "name": "Video",
+      "link": "https://www.youtube.com/watch?v=0k7FgDUIGjs"
+    }
+  ],
+  "tags": []
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Idyll Studio: A Structured Editor for Authoring Interactive & Data-Driven Articles",
+  "year": 2021,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2021-IdyllStudio-UIST.pdf",
+  "abstract": "Interactive articles are an effective medium of communication in education, journalism, and scientific publishing, yet are created using complex general-purpose programming tools. We present Idyll Studio, a structured editor for authoring and publishing interactive and data-driven articles. We extend the Idyll framework to support reflective documents, which can inspect and modify their underlying program at runtime, and show how this functionality can be used to reify the constituent parts of a reactive document model—components, text, state, and styles—in an expressive, interoperable, and easy-to-learn graphical interface. In a study with 18 diverse participants, all could perform basic editing and composition, use datasets and variables, and specify relationships between components. Most could choreograph interactive visualizations and dynamic text, although some struggled with advanced uses requiring unstructured code editing. Our findings suggest Idyll Studio lowers the threshold for non-experts to create interactive articles and allows experts to rapidly specify a wide range of article designs.",
+  "thumbnail": "images/thumbs/idyll-studio.png",
+  "figure": "images/figures/idyll-studio.png",
+  "caption": "A view of The Barnes-Hut Approximation, an existing explorable explanation reimplemented using Idyll Studio. A graphic stays fixed to the right side of the page as readers scroll, and responds to links and input widgets placed in the text.",
+  "web_name": "idyll-studio",
+  "visible": true,
+  "mod_date": "2021-10-12",
+  "note": null,
+  "pub_date": "2021-10-12",
+  "venue": "UIST",
+  "authors": [
+    {
+      "first_name": "Matt",
+      "last_name": "Conlen",
+      "url": "https://mathisonian.com/"
+    },
+    {
+      "first_name": "Megan",
+      "last_name": "Vo"
+    },
+    {
+      "first_name": "Alan",
+      "last_name": "Tan"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "https://github.com/idyll-lang/idyll-studio"
+    }
+  ],
+  "tags": []
+}

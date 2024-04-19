@@ -1,0 +1,62 @@
+{
+  "title": "Visualization of Heterogeneous Data",
+  "year": 2007,
+  "start_page": 1200,
+  "end_page": 1207,
+  "volume": 13,
+  "issue": 6,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2007-Cammarano-InfoVis.pdf",
+  "abstract": "Both the Resource Description Framework (RDF), used in the semantic web, and Maya Viz u-forms represent data as a graph of objects connected by labeled edges. Existing systems for ﬂexible visualization of this kind of data require manual speciﬁcation of the possible visualization roles for each data attribute. When the schema is large and unfamiliar, this requirement inhibits exploratory visualization by requiring a costly up-front data integration step. To eliminate this step, we propose an automatic technique for mapping data attributes to visualization attributes. We formulate this as a schema matching problem, ﬁnding appropriate paths in the data model for each required visualization attribute in a visualization template. ",
+  "thumbnail": "images/thumbs/visualization-heterogeneous-data.gif",
+  "figure": "images/figures/heterogeneous_timeline.png",
+  "caption": "A timeline of manned spaceﬂight. The data is extracted automatically from dbpedia and then displayed using the SIMILE timeline widget.",
+  "web_name": "visualization-heterogeneous-data",
+  "visible": false,
+  "mod_date": "2009-08-19",
+  "note": "",
+  "pub_date": "2007-10-02",
+  "venue": "InfoVis",
+  "authors": [
+    {
+      "first_name": "Mike",
+      "last_name": "Cammarano"
+    },
+    {
+      "first_name": "Xin",
+      "last_name": "Dong"
+    },
+    {
+      "first_name": "Bryan",
+      "last_name": "Chan"
+    },
+    {
+      "first_name": "Jeff",
+      "last_name": "Klingner",
+      "url": "http://graphics.stanford.edu/~klingner/"
+    },
+    {
+      "first_name": "Justin",
+      "last_name": "Talbot",
+      "url": "http://www.justintalbot.com/"
+    },
+    {
+      "first_name": "Alon",
+      "last_name": "Halevy"
+    },
+    {
+      "first_name": "Pat",
+      "last_name": "Hanrahan",
+      "url": "http://graphics.stanford.edu/~hanrahan"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Website",
+      "link": "http://graphics.stanford.edu/projects/vispedia"
+    }
+  ],
+  "tags": []
+}

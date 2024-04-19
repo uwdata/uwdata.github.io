@@ -1,0 +1,64 @@
+{
+  "title": "Living Papers: A Language Toolkit for Augmented Scholarly Communication",
+  "year": 2023,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2023-LivingPapers-UIST.pdf",
+  "abstract": "Computing technology has deeply shaped how academic articles are written and produced, yet article formats and affordances have changed little over centuries. The status quo consists of digital files optimized for printed paper — ill-suited to interactive reading aids, accessibility, dynamic figures, or easy information extraction and reuse. Guided by formative discussions with scholarly communication researchers and publishing tool developers, we present Living Papers, a language toolkit for producing augmented academic articles that span print, interactive, and computational media. Living Papers articles may include formatted text, references, executable code, and interactive components. Articles are parsed into a standardized document format from which a variety of outputs are generated, including static PDFs, dynamic web pages, and extraction APIs for paper content and metadata. We describe Living Papers’ architecture, document model, and reactive runtime, and detail key aspects such as citation processing and conversion of interactive components to static content. We demonstrate the use and extension of Living Papers through examples spanning traditional research papers, explorable explanations, information extraction, and reading aids such as enhanced citations, cross-references, and equations. Living Papers is available as an extensible, open source platform intended to support both article authors and researchers of augmented reading and writing experiences.",
+  "thumbnail": "images/thumbs/living-papers.png",
+  "figure": "images/figures/living-papers.png",
+  "caption": "Living Papers version of an IEEE VIS 2021 paper, with PDF (left) and HTML (center) output generated from the same source document. Web output includes reading aids for citations (top right) and cross-references (bottom right).",
+  "web_name": "living-papers",
+  "visible": true,
+  "mod_date": "2023-10-22",
+  "note": "Best Paper Honorable Mention",
+  "pub_date": "2023-10-22",
+  "venue": "UIST",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Matt",
+      "last_name": "Conlen",
+      "url": "https://mathisonian.com/"
+    },
+    {
+      "first_name": "Vishal",
+      "last_name": "Devireddy"
+    },
+    {
+      "first_name": "Tu",
+      "last_name": "Nguyen"
+    },
+    {
+      "first_name": "Josh",
+      "last_name": "Horowitz",
+      "url": "http://joshuahhh.com/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Video",
+      "link": "https://www.youtube.com/watch?v=5-4wd3dVtEk"
+    },
+    {
+      "name": "Supplement",
+      "link": "https://uwdata.github.io/living-papers-paper/"
+    },
+    {
+      "name": "Software",
+      "link": "https://github.com/uwdata/living-papers"
+    }
+  ],
+  "tags": [
+    "communication"
+  ]
+}

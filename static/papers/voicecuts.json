@@ -1,0 +1,44 @@
+{
+  "title": "Vocal Shortcuts for Creative Experts",
+  "year": 2019,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2019-VoiceCuts-CHI.pdf",
+  "abstract": "Vocal shortcuts, short spoken phrases to control interfaces, have the potential to reduce cognitive and physical costs of interactions. They may benefit expert users of creative applications (e.g., designers, illustrators) by helping them maintain creative focus. To aid the design of vocal shortcuts and gather use cases and design guidelines for speech interaction, we interviewed ten creative experts. Based on our findings, we built VoiceCuts, a prototype implementation of vocal shortcuts in the context of an existing creative application. In contrast to other speech interfaces, VoiceCuts targets experts' unique needs by handling short and partial commands and leverages document model and application context to disambiguate user utterances. We report on the viability and limitations of our approach based on feedback from creative experts.",
+  "thumbnail": "images/thumbs/voicecuts.png",
+  "figure": "images/figures/voicecuts.png",
+  "caption": "VoiceCuts interface and architecture, illustrating how speech interaction is supported throughout the system.",
+  "web_name": "voicecuts",
+  "visible": true,
+  "mod_date": "2019-05-03",
+  "note": null,
+  "pub_date": "2019-05-03",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Yea-Seul",
+      "last_name": "Kim",
+      "url": "https://pages.cs.wisc.edu/~yeaseulkim/"
+    },
+    {
+      "first_name": "Mira",
+      "last_name": "Dontcheva"
+    },
+    {
+      "first_name": "Eytan",
+      "last_name": "Adar"
+    },
+    {
+      "first_name": "Jessica",
+      "last_name": "Hullman",
+      "url": "http://faculty.washington.edu/jhullman"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

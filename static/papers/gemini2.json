@@ -1,0 +1,41 @@
+{
+  "title": "Gemini^2: Generating Keyframe-Oriented Animated Transitions Between Statistical Graphics",
+  "year": 2021,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2021-Gemini2-VIS.pdf",
+  "abstract": "Complex animated transitions may be easier to understand when divided into separate, consecutive stages. However, effective staging requires careful attention to both animation semantics and timing parameters. We present Gemini^2, a system for creating staged animations from a sequence of chart keyframes. Given only a start state and an end state, Gemini^2 can automatically recommend intermediate keyframes for designers to consider. The Gemini^2 recommendation engine leverages Gemini, our prior work, and GraphScape to itemize the given complex change into semantic edit operations and to recombine operations into stages with a guided order for clearly conveying the semantics. To evaluate Gemini^2's recommendations, we conducted a human-subject study in which participants ranked recommended animations from both Gemini^2 and Gemini. We find that Gemini^2's animation recommendation ranking is well aligned with subjects' preferences, and Gemini^2 can recommend favorable animations that Gemini cannot support.",
+  "thumbnail": "images/thumbs/gemini2.png",
+  "figure": "images/figures/gemini2.png",
+  "caption": "Staged animation timelines recommended by Gemini and Gemini2 for a transition where data are filtered and aggregated. The gray lines represents timelines, and the circles indicate start, end, and intermediate states. Gemini2 generates a keyframe chart (yellow circle) to separate two data transformations, which Gemini cannot do.",
+  "web_name": "gemini2",
+  "visible": true,
+  "mod_date": "2021-10-26",
+  "note": null,
+  "pub_date": "2021-10-26",
+  "venue": "VIS-Short",
+  "authors": [
+    {
+      "first_name": "Younghoon",
+      "last_name": "Kim",
+      "url": "https://yhoonkim.github.io/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "https://github.com/uwdata/gemini"
+    }
+  ],
+  "tags": []
+}

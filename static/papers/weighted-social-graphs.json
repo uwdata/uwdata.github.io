@@ -1,0 +1,44 @@
+{
+  "title": "All Friends are not Equal: Using Weights in Social Graphs to Improve Search",
+  "year": 2010,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2010-WeightsSocialGraphs-SNAKDD.pdf",
+  "abstract": "When searching for a person in an online social network, most contemporary networks return source-target paths, ranked only by degrees of separation. Not only does this fail to reflect social tie strength (how well two people know one another), it also does not model asymmetry in social relationships (i.e. just because one person pays attention to another, it does not mean the latter will reciprocate).\r\n\r\nWe propose that search in social networks can be made more effective by incorporating weighted and directed influence edges in the social graph, thus capturing both tie strength and asymmetry. Formally, the influence a person A has over person B is defined as the proportion of B’s investments B makes on A.\r\n\r\nWe study two large real-world networks, DBLP (a computer science bibliography network) and a network formed by one month of Twitter retweet data. Our experiments show that for these social networks, the best paths according to our influence metric are not necessarily the shortest paths: a longer path is better in 68% of searches in Twitter and 45% of searches in DBLP. Furthermore, even when the best and shortest path lengths are equal, we find that the best path is often better than a random shortest path of the same length by a significant margin.",
+  "thumbnail": "images/thumbs/weighted-social-graphs.png",
+  "figure": "",
+  "caption": "",
+  "web_name": "weighted-social-graphs",
+  "visible": true,
+  "mod_date": "2010-08-18",
+  "note": "",
+  "pub_date": "2010-07-28",
+  "venue": "SNAKDD",
+  "authors": [
+    {
+      "first_name": "Sudheendra",
+      "last_name": "Hangal"
+    },
+    {
+      "first_name": "Diana",
+      "last_name": "MacLean",
+      "url": "http://www.stanford.edu/~malcdi/"
+    },
+    {
+      "first_name": "Monica",
+      "last_name": "Lam"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Visualizing a Million Time Series with the Density Line Chart",
+  "year": 2018,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": 1808.06019,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2018-DenseLines-arXiv.pdf",
+  "abstract": "Data analysts often need to work with multiple series of data - conventionally shown as line charts - at once. Few visual representations allow analysts to view many lines simultaneously without becoming overwhelming or cluttered. In this paper, we introduce the DenseLines technique to calculate a discrete density representation of time series. DenseLines normalizes time series by the arc length to compute accurate densities. The derived density visualization allows users both to see the aggregate trends of multiple series and to identify anomalous extrema.",
+  "thumbnail": "images/thumbs/dense-lines.png",
+  "figure": "images/figures/dense-lines.png",
+  "caption": "The DenseLines algorithm for computing density for multiple time series has two steps. First, take a dataset of time series (A) and render each series in a discrete matrix (B.1). Set bins to 1 if the line passes through it (B.2). The matrix is then normalized by the sum in each column (B.3). In the second step, combine the normalized values into a single density map (C.1).",
+  "web_name": "dense-lines",
+  "visible": true,
+  "mod_date": "2018-08-17",
+  "note": null,
+  "pub_date": "2018-08-17",
+  "venue": "arXiv",
+  "authors": [
+    {
+      "first_name": "Dominik",
+      "last_name": "Moritz",
+      "url": "http://domoritz.de/"
+    },
+    {
+      "first_name": "Danyel",
+      "last_name": "Fisher",
+      "url": "https://danyelfisher.info/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Preprint",
+      "link": "https://arxiv.org/abs/1808.06019"
+    }
+  ],
+  "tags": []
+}

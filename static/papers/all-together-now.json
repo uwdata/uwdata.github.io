@@ -1,0 +1,35 @@
+{
+  "title": "All Together Now: Visualizing Local and Remote Actors of Localized Activity",
+  "year": 2004,
+  "start_page": 1107,
+  "end_page": 1110,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2004-ATN-CHI.pdf",
+  "abstract": "We present All Together Now (ATN), a tool for visualizing localized activities involving both local and remote actors. ATN presents each user with a webpage containing a common view of a shared virtual space modeled after the physical locus of the activity. Actors signal socially meaningful behavior by manipulating the spatial positions of their representations in this space. Local actors' positions are acquired automatically using computer vision. Remote actors indicate their positions with a mouse. Actors are not expressly identified. ATN exploits people's culturally established notions of spatial position to help them convey contextually relevant social cues to each other. Conveying just enough spatial and identity information helps optimize--without needlessly eliminating--the awareness asymmetries intrinsic to localized distance work.",
+  "thumbnail": "images/thumbs/all-together-now.gif",
+  "figure": "images/figures/atn.gif",
+  "caption": "",
+  "web_name": "all-together-now",
+  "visible": true,
+  "mod_date": "2009-08-04",
+  "note": null,
+  "pub_date": "2004-04-01",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Scott",
+      "last_name": "Lederer"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

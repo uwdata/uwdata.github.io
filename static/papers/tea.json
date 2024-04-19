@@ -1,0 +1,62 @@
+{
+  "title": "Tea: A High-level Language and Runtime System for Automating Statistical Analysis",
+  "year": 2019,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "  ",
+  "publisher": "  ",
+  "location": "  ",
+  "pdf": "https://idl.cs.washington.edu/files/2019-Tea-UIST.pdf",
+  "abstract": "Though statistical analyses are centered on research questions and hypotheses, current statistical analysis tools are not. Users must first translate their hypotheses into specific statistical tests and then perform API calls with functions and parameters. To do so accurately requires that users have statistical expertise. To lower this barrier to valid, replicable statistical analysis, we introduce Tea, a high-level declarative language and runtime system. In Tea, users express their study design, any parametric assumptions, and their hypotheses. Tea compiles these high-level specifications into a constraint satisfaction problem that determines the set of valid statistical tests and then executes them to test the hypothesis. We evaluate Tea using a suite of statistical analyses drawn from popular tutorials. We show that Tea generally matches the choices of experts while automatically switching to non-parametric tests when parametric assumptions are not met. We simulate the effect of mistakes made by non-expert users and show that Tea automatically avoids both false negatives and false positives that could be produced by the application of incorrect statistical tests.",
+  "thumbnail": "images/thumbs/tea.png",
+  "figure": "images/figures/tea.png",
+  "caption": "Sample Tea program. The specification outlines an experiment to analyze the relationship between geographic location (‘So’) and probability of imprisonment (‘Prob’) in a common USCrime data set [49, 24]. See Section 2 for an explanation of the code. Tea programs specify 1) data, 2) variables, 3) study design, 4) assumptions, and 5) hypotheses.",
+  "web_name": "tea",
+  "visible": true,
+  "mod_date": "2019-10-20",
+  "note": null,
+  "pub_date": "2019-10-20",
+  "venue": "UIST",
+  "authors": [
+    {
+      "first_name": "Eunice",
+      "last_name": "Jun",
+      "url": "https://homes.cs.washington.edu/~emjun/"
+    },
+    {
+      "first_name": "Maureen",
+      "last_name": "Daum"
+    },
+    {
+      "first_name": "Jared",
+      "last_name": "Roesch"
+    },
+    {
+      "first_name": "Sarah",
+      "last_name": "Chasins"
+    },
+    {
+      "first_name": "Emery",
+      "last_name": "Berger"
+    },
+    {
+      "first_name": "René",
+      "last_name": "Just",
+      "url": "https://homes.cs.washington.edu/~rjust/"
+    },
+    {
+      "first_name": "Katharina",
+      "last_name": "Reinecke",
+      "url": "https://homes.cs.washington.edu/~reinecke/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "https://tea-lang.org"
+    }
+  ],
+  "tags": []
+}

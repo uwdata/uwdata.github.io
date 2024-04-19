@@ -1,0 +1,82 @@
+{
+  "title": "Altair: Interactive Statistical Visualizations for Python",
+  "year": 2018,
+  "start_page": null,
+  "end_page": null,
+  "volume": 3,
+  "issue": 32,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2018-Altair-JOSS.pdf",
+  "abstract": "",
+  "thumbnail": "images/thumbs/altair.png",
+  "figure": "images/figures/altair.png",
+  "caption": "A chart supporting interactive exploration of Seattle weather over the course of a year. Brush selections along the x-axis allow viewers to easily see the distribution of weather types in a particular date range.",
+  "web_name": "altair",
+  "visible": true,
+  "mod_date": "2018-12-08",
+  "note": null,
+  "pub_date": "2018-12-08",
+  "venue": "JOSS",
+  "authors": [
+    {
+      "first_name": "Jacob",
+      "last_name": "VanderPlas",
+      "url": "http://vanderplas.com/"
+    },
+    {
+      "first_name": "Brian",
+      "last_name": "Granger"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Dominik",
+      "last_name": "Moritz",
+      "url": "http://domoritz.de/"
+    },
+    {
+      "first_name": "Kanit",
+      "last_name": "Wongsuphasawat",
+      "url": "https://kanitw.github.io/"
+    },
+    {
+      "first_name": "Arvind",
+      "last_name": "Satyanarayan",
+      "url": "http://arvindsatya.com/"
+    },
+    {
+      "first_name": "Eitan",
+      "last_name": "Lees"
+    },
+    {
+      "first_name": "Ilia",
+      "last_name": "Timofeev"
+    },
+    {
+      "first_name": "Ben",
+      "last_name": "Welsh"
+    },
+    {
+      "first_name": "Scott",
+      "last_name": "Sievert"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Journal",
+      "link": "https://doi.org/10.21105/joss.01057"
+    },
+    {
+      "name": "Software",
+      "link": "https://github.com/altair-viz/altair"
+    }
+  ],
+  "tags": [
+    "vega"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "title": "ReVision: Automated Classification, Analysis and Redesign of Chart Images",
+  "year": 2011,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2011-ReVision-UIST.pdf",
+  "abstract": "Poorly designed charts are prevalent in reports, magazines, books and on the Web. Most of these charts are only available as bitmap images; without access to the underlying data it is prohibitively difficult for viewers to create more effective visual representations. In response we present ReVision, a system that automatically redesigns visualizations to improve graphical perception. Given a bitmap image of a chart as input, ReVision applies computer vision and machine learning techniques to identify the chart type (e.g., pie chart, bar chart, scatterplot, etc). It then extracts the graphical marks and infers the underlying data. Using a corpus of images drawn from the web, ReVision achieves an image classification accuracy of 96% across ten chart categories. It also accurately extracts marks from 79% of bar charts and 62% of pie charts, and from these charts it successfully extracts the data from 71% of bar charts and 64% of pie charts. ReVision then applies perceptually-based design principles to populate an interactive gallery of redesigned charts. With this interface, users can view alternative chart designs and retarget content to different visual styles.",
+  "thumbnail": "images/thumbs/revision.gif",
+  "figure": "images/figures/revision-pie.png",
+  "caption": "Example ReVision redesigns for input pie charts.",
+  "web_name": "revision",
+  "visible": true,
+  "mod_date": "2011-10-19",
+  "note": "Notable Paper Award",
+  "pub_date": "2011-08-04",
+  "venue": "UIST",
+  "authors": [
+    {
+      "first_name": "Manolis",
+      "last_name": "Savva",
+      "url": "http://graphics.stanford.edu/~msavva/"
+    },
+    {
+      "first_name": "Nicholas",
+      "last_name": "Kong",
+      "url": "http://www.eecs.berkeley.edu/~nkong/"
+    },
+    {
+      "first_name": "Arti",
+      "last_name": "Chhajta"
+    },
+    {
+      "first_name": "Li",
+      "last_name": "Fei-Fei"
+    },
+    {
+      "first_name": "Maneesh",
+      "last_name": "Agrawala",
+      "url": "http://graphics.stanford.edu/~maneesh/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Image Corpus",
+      "link": "http://idl.cs.washington.edu/files/revision-corpus.zip"
+    }
+  ],
+  "tags": []
+}

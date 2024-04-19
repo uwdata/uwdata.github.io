@@ -1,0 +1,52 @@
+{
+  "title": "Capture & Analysis of Active Reading Behaviors for Interactive Articles on the Web",
+  "year": 2019,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2019-IdyllAnalytics-EuroVis.pdf",
+  "abstract": "Journalists, educators, and technical writers are increasingly publishing interactive content on the web. However, popular analytics tools provide only coarse information about how readers interact with individual pages, and laboratory studies often fail to capture the variability of a real-world audience. We contribute extensions to the Idyll markup language to automate the detailed instrumentation of interactive articles and corresponding visual analysis tools for inspecting reader behavior at both micro- and macro-levels. We present three case studies of interactive articles that were instrumented, posted online, and promoted via social media to reach broad audiences, and share data from over 50,000 reader sessions. We demonstrate the use of our tools to characterize article-specific interaction patterns, compare behavior across desktop and mobile devices, and reveal reading patterns common across articles. Our contributed findings, tools, and corpus of behavioral data can help advance and inform more comprehensive studies of narrative visualization.",
+  "thumbnail": "images/thumbs/idyll-analytics.png",
+  "figure": "images/figures/idyll-analytics.png",
+  "caption": "Interactive articles are becoming increasingly popular online, however their effectiveness at engaging readers and communicating a message has not been widely studied with real-world audiences. We developed tools for instrumentation and analysis to make it easier for researchers and publishers to understand how readers are reacting to this new media.",
+  "web_name": "idyll-analytics",
+  "visible": true,
+  "mod_date": "2019-06-04",
+  "note": null,
+  "pub_date": "2019-06-04",
+  "venue": "EuroVis",
+  "authors": [
+    {
+      "first_name": "Matt",
+      "last_name": "Conlen",
+      "url": "https://mathisonian.com/"
+    },
+    {
+      "first_name": "Alex",
+      "last_name": "Kale",
+      "url": "https://people.cs.uchicago.edu/~kalea/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Data",
+      "link": "https://s3-us-west-2.amazonaws.com/interactive-analytics-eurovis/data.zip"
+    },
+    {
+      "name": "Code",
+      "link": "https://github.com/idyll-lang/idyll-analytics"
+    }
+  ],
+  "tags": [
+    "communication"
+  ]
+}

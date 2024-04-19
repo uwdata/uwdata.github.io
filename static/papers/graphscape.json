@@ -1,0 +1,57 @@
+{
+  "title": "GraphScape: A Model for Automated Reasoning about Visualization Similarity and Sequencing",
+  "year": 2017,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2017-GraphScape-CHI.pdf",
+  "abstract": "We present GraphScape, a directed graph model of the visualization design space that supports automated reasoning about visualization similarity and sequencing. Graph nodes represent grammar-based chart specifications and edges represent edits that transform one chart to another. We weight edges with an estimated cost of the difficulty of interpreting a target visualization given a source visualization. We contribute (1) a method for deriving transition costs via a partial ordering of edit operations and the solution of a resulting linear program, and (2) a global weighting term that rewards consistency across transition subsequences. In a controlled experiment, subjects rated visualization sequences covering a taxonomy of common transition types. In all but one case, GraphScape’s highest-ranked suggestion aligns with subjects’ top-rated sequences. Finally, we demonstrate applications of GraphScape to automatically sequence visualization presentations, elaborate transition paths between visualizations, and recommend design alternatives (e.g., to improve scalability while minimizing design changes).",
+  "thumbnail": "images/thumbs/graphscape.png",
+  "figure": "images/figures/graphscape.png",
+  "caption": "A GraphScape model. Nodes represent Vega-Lite chart specifications, edges represent edit modifications between charts. Edge weights encode estimated transition costs between charts.",
+  "web_name": "graphscape",
+  "visible": true,
+  "mod_date": "2017-05-03",
+  "note": "Best Paper Honorable Mention",
+  "pub_date": "2017-05-03",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Younghoon",
+      "last_name": "Kim",
+      "url": "https://yhoonkim.github.io/"
+    },
+    {
+      "first_name": "Kanit",
+      "last_name": "Wongsuphasawat",
+      "url": "https://kanitw.github.io/"
+    },
+    {
+      "first_name": "Jessica",
+      "last_name": "Hullman",
+      "url": "http://faculty.washington.edu/jhullman"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "https://github.com/uwdata/graphscape"
+    },
+    {
+      "name": "Supplement",
+      "link": "http://idl.cs.washington.edu/files/2017-GraphScape-CHI-SuppMat.zip"
+    }
+  ],
+  "tags": [
+    "recommendation"
+  ]
+}
