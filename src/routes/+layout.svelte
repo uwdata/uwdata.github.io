@@ -36,7 +36,7 @@
 		'Visualization + Analysis';
 </script>
 
-<div class="p-0 m-0 font-sans pl-3 pt-2">
+<div class="p-0 m-0 font-sans pl-5 pt-2">
 	<div class="flex justify-between md:hidden">
 		{#each sections as section}
 			<a class="uppercase font-thin text-xs tracking-wider mb-2" href={section.href}
@@ -46,7 +46,7 @@
 	</div>
 
 	<div class="flex w-full md:w-fit md:max-w-5xl overflow-x-hidden">
-		<div class=" flex-col h-full hidden md:flex">
+		<div class="flex-col h-full hidden md:flex">
 			<Logo />
 			{#each sections as section}
 				<a class="uppercase font-thin text-xs tracking-wider mb-2" href={section.href}
@@ -73,9 +73,9 @@
 				>
 			</div>
 		</div>
-		<div class="flex flex-col w-full md:py-5 md:px-10">
+		<div class="flex flex-col w-full md:py-1.5 md:px-10">
 			<h1 class="flex-col md:flex-row items-center mb-4 header">
-				<div class="text-3xl md:mr-10 mark">
+				<div class="text-3xl md:mr-2 mark">
 					<span class="font-medium" style="color: #652c90">UW</span>
 					Interactive Data Lab
 				</div>
