@@ -100,7 +100,7 @@ test('All papers should have urls for their authors if possible', () => {
 		accessor: (course: Course): string => course.name
 	}
 ].forEach(({ key, dataset, accessor }) => {
-	test(`All ${key}s should have all values filled out`, () => {
+	test(`All ${key} values should be filled out`, () => {
 		const ajv = new Ajv({ allErrors: true });
 
 		const config = {
