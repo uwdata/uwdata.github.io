@@ -141,7 +141,7 @@ strong, b {
 
 .orgs a {
     display: block;
-    margin-top: 4px;
+    margin-top: 0.5em;
 }
 
 .orgs img {
