@@ -1,8 +1,9 @@
 <script lang="ts">
 	import about from './about.md?raw';
-	import snarkdown from 'snarkdown';
+	import markdownit from 'markdown-it';
+	let md = markdownit({ html: true, linkify: true, typographer: true });
 </script>
 
 <div class="about">
-	{@html snarkdown(about)}
+	{@html md.render(about)}
 </div>
