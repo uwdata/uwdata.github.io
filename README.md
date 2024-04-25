@@ -72,4 +72,4 @@ Go to featured-venues.json and add to the bottom. Make sure that you are using a
 
 - How do I deploy new changes?
 
-Just commit as normal and when your change lands on master it'll deploy itself.
+Just commit as normal and when your change lands on `main` it'll deploy itself.
