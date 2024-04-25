@@ -6,9 +6,10 @@
 <div>
 	{#each people as author, i}
 		{#if author.url}
-			<a href={author.url} class="underline"
-				>{`${author.first_name} ${author.last_name}`}</a
-			>{i < people.length - 1 ? ', ' : ''}
+			<a href={author.url} class="underline">{`${author.first_name} ${author.last_name}`}</a>{i <
+			people.length - 1
+				? ', '
+				: ''}
 		{:else}
 			{`${author.first_name} ${author.last_name}${i < people.length - 1 ? ', ' : ''}`}
 		{/if}
