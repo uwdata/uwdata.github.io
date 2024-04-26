@@ -25,6 +25,7 @@ export interface Paper {
 		name: string;
 		link: string;
 	}[];
+	doi: string | null;
 }
 
 export interface SmallPerson {

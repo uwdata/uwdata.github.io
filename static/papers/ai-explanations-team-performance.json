@@ -1,5 +1,5 @@
 {
-  "title": "Does the Whole Exceed its Parts? The Efect of AI Explanations\non Complementary Team Performance",
+  "title": "Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance",
   "year": 2021,
   "start_page": null,
   "end_page": null,
@@ -66,5 +66,6 @@
       "link": "https://www.youtube.com/watch?v=0k7FgDUIGjs"
     }
   ],
-  "tags": []
+  "tags": [],
+  "doi": "https://doi.org/10.1145/3411764.3445717"
 }

@@ -37,5 +37,6 @@
       "link": "https://github.com/uwdata/bayesian-surprise"
     }
   ],
-  "tags": []
+  "tags": [],
+  "doi": "https://doi.org/10.1109/TVCG.2016.2598618"
 }
