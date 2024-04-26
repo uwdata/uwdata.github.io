@@ -30,7 +30,8 @@
 			bibtex_attr('pages', pages),
 			bibtex_attr('publisher', p.publisher),
 			bibtex_attr('location', p.location),
-			bibtex_attr('url', HOST_URL + 'papers/' + p.web_name)
+			bibtex_attr('url', HOST_URL + 'papers/' + p.web_name),
+			bibtex_attr('doi', p.doi)
 		].filter((x) => x);
 		return `@${type}{${p.year}-${p.web_name},
 ${fields.join(',\n')}
