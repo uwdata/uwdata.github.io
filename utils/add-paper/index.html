@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IDL Paper Preparer</title>
+    <style>
+      body {
+        margin-left: 2em;
+      }
+      article {
+        margin-top: 1em;
+        border-top: 1px solid #ccc;
+      }
+      h1 {
+        font-size: 18pt;
+        font-weight: bold;
+      }
+      h2, h3 {
+        font-size: 14pt;
+        font-weight: bold;
+      }
+      section {
+        display: flex;
+        margin-bottom: 0.5em;
+      }
+      section label {
+        width: 80px;
+      }
+      section input[type="text"],
+      section textarea {
+        width: 400px;
+      }
+      section textarea {
+        height: 150px;
+      }
+      section button {
+        margin-left: 1em;
+      }
+      #authors button {
+        margin-top: 1.5em;
+      }
+      #material-entries div {
+        margin-bottom: 1.5em;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>IDL Paper Preparer</h1>
+    </header>
+    <article id="metadata">
+      <h2>Metadata</h2>
+      <section>
+        <label>Web Name</label>
+        <input id="_web_name" type="text" data:req="true" />
+      </section>
+      <section>
+        <label>DOI</label>
+        <input id="_doi" type="text" />
+        <button id="lookup">Lookup Info</button>
+      </section>
+      <section>
+        <label>Title</label>
+        <input id="_title" type="text" data:req="true" />
+      </section>
+      <section>
+        <label>Year</label>
+        <input id="_year" type="text" data:req="true" />
+      </section>
+      <section>
+        <label>Venue</label>
+        <input id="_venue" type="text" list="_venue-list" data:req="true" />
+        <datalist id="_venue-list"></datalist>
+      </section>
+      <section>
+        <label>Note</label>
+        <input id="_note" type="text" list="_note-list" />
+        <datalist id="_note-list">
+          <option value="Best Paper Award"></option>
+          <option value="Best Paper Honorable Mention"></option>
+        </datalist>
+      </section>
+      <section>
+        <label>Start Page</label>
+        <input id="_start_page" type="text" />
+      </section>
+      <section>
+        <label>End Page</label>
+        <input id="_end_page" type="text" />
+      </section>
+      <section>
+        <label>Volume</label>
+        <input id="_volume" type="text" />
+      </section>
+      <section>
+        <label>Issue</label>
+        <input id="_issue" type="text" />
+      </section>
+      <section>
+        <label>Publisher</label>
+        <input id="_publisher" type="text" />
+      </section>
+      <section>
+        <label>Location</label>
+        <input id="_location" type="text" />
+      </section>
+      <section>
+        <label>Abstract</label>
+        <textarea id="_abstract"></textarea>
+      </section>
+      <section>
+        <label>Pub Date</label>
+        <input id="_pub_date" type="text" />
+      </section>
+      <section>
+        <label>Mod Date</label>
+        <input id="_mod_date" type="text" />
+      </section>
+      <br/>
+    </article>
+    <article id="authors">
+      <h2>Authors</h2>
+      <datalist id="people-list"></datalist>
+      <div id="author-entries">
+      </div>
+      <button id="add-author">Add Author</button>
+    </article>
+    <article id="materials">
+      <h2>Materials</h2>
+      <datalist id="material-list">
+        <option value="Appendix"></option>
+        <option value="Benchmarks"></option>
+        <option value="Data"></option>
+        <option value="Preregistration"></option>
+        <option value="Software"></option>
+        <option value="Supplement"></option>
+        <option value="Video"></option>
+      </datalist>
+      <div id="material-entries">
+      </div>
+      <button id="add-material">Add Material</button>
+    </article>
+    <article>
+      <h2>Export</h2>
+      <button id="print">Print JSON in Console</button>
+      <button id="download">Download JSON</button>
+    </article>
+    <script type="module">
+      import { hydrate } from './add-paper.mjs';
+      hydrate();
+    </script>
+  </body>
+</html>
