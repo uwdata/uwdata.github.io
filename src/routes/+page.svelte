@@ -2,7 +2,7 @@
 	import { onDestroy, onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
 	import { base } from '$app/paths';
-	import snarkdown from 'snarkdown';
+	import markdownit from 'markdown-it';
 
 	import type { Paper, News, Spotlight, Venue, Course } from '../lib/app-types';
 	import SmallPaper from '$lib/small-paper.svelte';
@@ -12,6 +12,8 @@
 		spotlight: Spotlight[];
 		courses: Course[];
 	};
+
+	let md = markdownit({ html: true, linkify: true, typographer: true });
 
 	let currentSpotlightIndex = 0;
 	function next() {
@@ -65,7 +67,7 @@
 		{#each data.news as newsItem}
 			<div class="update text-sm">
 				<div class="italic">{toDate(newsItem.date)}</div>
-				<div class="news">{@html snarkdown(newsItem.text)}</div>
+				<div class="news">{@html md.render(newsItem.text)}</div>
 			</div>
 		{/each}
 

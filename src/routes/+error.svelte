@@ -1,11 +1,15 @@
 <script>
-	window.onload = () => {
-		const currentURL = window.location.href;
-		const lowerCaseURL = currentURL.toLowerCase();
-		if (currentURL != lowerCaseURL) {
-			location.replace(lowerCaseURL);
-		}
-	};
+	import { browser } from '$app/environment';
+
+	if (browser) {
+		window.onload = () => {
+			const currentURL = window.location.href;
+			const lowerCaseURL = currentURL.toLowerCase();
+			if (currentURL != lowerCaseURL) {
+				location.replace(lowerCaseURL);
+			}
+		};
+	}
 </script>
 
 <div class="container">

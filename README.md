@@ -9,6 +9,8 @@ After cloning, run the following standard web development commands
 ```sh
 # install the dependencies
 yarn
+# get the basic infra in place
+yarn test
 # start the dev server
 yarn dev
 ```
@@ -33,20 +35,16 @@ However! It is unlikely you will need to run the website locally. Mostly the bui
 
 ## Site refactor
 
-- [x] Implement build process
-- [x] Describe build process
-- [x] Add integrity checks for adding new people / new papers
-- [x] Mobile?
-- [x] Dark mode? Wont fix
-- [x] File stuff?
-- [x] github.io confusion
 - [ ] Add tags throughout
-- [ ] "YOU ARE GOING TO DIE" preservation issues
 - [ ] Point old site at new one
 
 ## FAQ
 
 All of the below how-to's assume that you are doing this via a pull-request.
+
+- What's all that stuff that runs when I try to commit?
+
+That's the system running the tests to try to prevent you from breaking the build. If you've done everything right then don't worry! Otherwise you'll get some hints on what to fix.
 
 - How do I add new paper?
 
