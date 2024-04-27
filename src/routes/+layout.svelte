@@ -36,7 +36,7 @@
 		'Visualization + Analysis';
 </script>
 
-<div class="p-0 m-0 font-sans pl-5 pt-2">
+<div class="p-0 m-0 font-sans pl-5 pr-5 pt-2 pb-6">
 	<div class="flex justify-between md:hidden">
 		{#each sections as section}
 			<a class="uppercase font-thin text-xs tracking-wider mb-2" href={section.href}
@@ -45,11 +45,11 @@
 		{/each}
 	</div>
 
-	<div class="flex w-full md:w-fit md:max-w-5xl overflow-x-hidden">
+	<div class="flex w-full md:w-fit md:max-w-4xl overflow-x-hidden">
 		<div class="flex-col h-full hidden md:flex">
 			<Logo />
 			{#each sections as section}
-				<a class="uppercase font-thin text-xs tracking-wider mb-2" href={section.href}
+				<a class="uppercase font-medium text-2xs tracking-extra mb-2" href={section.href}
 					>{section.name}</a
 				>
 			{/each}
@@ -73,7 +73,7 @@
 				>
 			</div>
 		</div>
-		<div class="flex flex-col w-full md:py-1.5 md:px-10">
+		<div class="flex flex-col w-full md:py-1.5 md:pr-10 md:pl-12">
 			<h1 class="flex-col md:flex-row items-center mb-4 header">
 				<div class="text-3xl md:mr-2 mark">
 					<span class="font-medium" style="color: #652c90">UW</span>

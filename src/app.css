@@ -15,9 +15,17 @@ strong, b {
 }
 
 .right {
-    margin-top: 2.0em;
+    margin-top: 0.4em;
     margin-left: 1em;
     float: right;
+}
+
+.text-2xs {
+    font-size: 0.65rem;
+}
+
+.tracking-extra {
+    letter-spacing: 0.15em;
 }
 
 /* --- */
@@ -236,10 +244,6 @@ div.lead {
     margin-top: 1.5em;
 }
 
-.recents {
-    width: 570px;
-}
-
 .allpubs {
     margin-left: 1em;
     font-size: 13px;
@@ -248,7 +252,7 @@ div.lead {
     letter-spacing: 0px;
 }
 
-.recents .event {
+.recent .event {
     font-weight: 500;
     margin-bottom: 1em;
     font-size: 14px;
@@ -478,8 +482,8 @@ pre.bibtex {
 .person .nickname {
     position: absolute;
     z-index: 2;
-    left: 12px;
-    bottom: 12px;
+    left: 14px;
+    bottom: 4px;
     color: black;
     font-size: 18px;
     font-weight: 500;
@@ -523,11 +527,11 @@ pre.bibtex {
     font-style: italic;
 }
 
-.about .para {
+.about p {
     margin-bottom: 0.5em;
 }
 
 .about .quote,
-.about .para {
+.about p {
     line-height: 24px;
 }

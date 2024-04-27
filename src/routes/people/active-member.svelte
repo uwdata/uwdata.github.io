@@ -12,7 +12,7 @@
 >
 	<a class="at" href={person.url}>
 		<div class="nickname">
-			{person.first_name}
+			{person.nickname}
 		</div>
 		<img
 			class="px-2"

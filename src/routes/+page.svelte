@@ -32,6 +32,7 @@
 
 	function toDate(dateString: string) {
 		return new Date(dateString).toLocaleDateString('en-US', {
+			timeZone: 'UTC',
 			year: 'numeric',
 			month: 'long',
 			day: 'numeric'
@@ -61,8 +62,8 @@
 	</div>
 </div>
 
-<div class=" mt-4 md:flex md:flex-row-reverse">
-	<div class="flex-col">
+<div class="mt-4 md:flex md:flex-row-reverse">
+	<div class="flex-col basis-3/12">
 		<div class="lead">Updates</div>
 		{#each data.news as newsItem}
 			<div class="update text-sm">
@@ -82,10 +83,10 @@
 		{/each}
 	</div>
 
-	<div class="flex flex-col pr-10">
-		<div class="flex">
+	<div class="flex flex-col pr-10 basis-9/12">
+		<div class="flex items-baseline">
 			<div class="lead">Recent Publications</div>
-			<div><a href={`${base}/papers`}>(View All Papers)</a></div>
+			<div class="ml-2 text-xs"><a href={`${base}/papers`}>(VIEW ALL PAPERS)</a></div>
 		</div>
 		{#each data.groupedPapers as group}
 			<div class="flex flex-col recent">

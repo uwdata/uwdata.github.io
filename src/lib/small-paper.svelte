@@ -18,23 +18,11 @@
 		</a>
 	</div>
 	<div class="entry">
-		<a class="at font-bold" href={`${base}/papers/${paper.web_name}`}> {paper.title}</a>
+		<a class="at font-semibold" href={`${base}/papers/${paper.web_name}`}>{paper.title}</a>
 		<div class="hidden md:block">
 			<AuthorList people={paper.authors} />
-			<div>{venue.fullName}, {paper.year}</div>
+			<div class="italic">{venue.fullName}, {paper.year}</div>
 			<Materials {paper} />
-			{#if paper.tags.length > 0}
-				<div class="flex">
-					<span class="font-bold mr-2">Tags:</span>
-					{#each paper.tags as tag}
-						<div>
-							<a class="tag" href={`${base}/papers-about/${tag}`}>
-								{tag}
-							</a>
-						</div>
-					{/each}
-				</div>
-			{/if}
 		</div>
 	</div>
 </div>

@@ -6,7 +6,7 @@
 <div>
 	{#each people as author, i}
 		{#if author.url}
-			<a href={author.url} class="underline">{`${author.first_name} ${author.last_name}`}</a>{i <
+			<a href={author.url}>{`${author.first_name} ${author.last_name}`}</a>{i <
 			people.length - 1
 				? ', '
 				: ''}
