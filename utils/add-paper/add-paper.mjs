@@ -111,8 +111,8 @@ function compileJSON() {
   const json = newPaper();
 
   // populate metadata fields
-  const meta = '#metadata > section input, #metadata > section textarea';
-  const inputs = $$(meta);
+  const prefix = '#metadata > section ';
+  const inputs = $$(`${prefix} input, ${prefix} textarea`);
   for (const input of inputs) {
     const name = input.getAttribute('id').slice(1);
     json[name] = input.value;
