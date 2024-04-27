@@ -47,7 +47,7 @@ export interface Person {
 	email: string;
 	url?: string;
 	// status: '' | '0F' | '4A' | '3C' | '99' | '2S';
-	status: 'lab-lead' | 'alumni' | 'collaborator' | 'other' | 'current-student';
+	status: 'faculty' | 'alumni' | 'collaborator' | 'other' | 'member';
 	visible: boolean;
 	image: string | null;
 	nickname: string | null;
