@@ -1,11 +1,10 @@
 <script lang="ts">
-	import { onDestroy, onMount } from 'svelte';
-	import { fade } from 'svelte/transition';
 	import { base } from '$app/paths';
 	import markdownit from 'markdown-it';
-
 	import type { Paper, News, Spotlight, Venue, Course } from '../lib/app-types';
 	import SmallPaper from '$lib/small-paper.svelte';
+	import Carousel from '$lib/carousel.svelte';
+
 	export let data: {
 		groupedPapers: { papers: { paper: Paper; venue: Venue }[]; event: string }[];
 		news: News[];
@@ -14,21 +13,6 @@
 	};
 
 	let md = markdownit({ html: true, linkify: true, typographer: true });
-
-	let currentSpotlightIndex = 0;
-	function next() {
-		currentSpotlightIndex = (currentSpotlightIndex + 1) % data.spotlight.length;
-	}
-	$: srcName = data.spotlight[currentSpotlightIndex].title;
-
-	let timer: any;
-	const timeout = 5000;
-	onMount(() => {
-		timer = setInterval(next, timeout);
-	});
-	onDestroy(() => {
-		clearInterval(timer);
-	});
 
 	function toDate(dateString: string) {
 		return new Date(dateString).toLocaleDateString('en-US', {
@@ -48,19 +32,7 @@
 	</a>
 </div>
 
-<!-- carousel -->
-<div class="w-full hidden md:flex h-52">
-	<div class="relative">
-		{#each data.spotlight as image, index (image)}
-			{#if index === currentSpotlightIndex}
-				<img src={image.image} alt="Image {index}" in:fade={{ duration: timeout }} />
-			{/if}
-		{/each}
-		<div class="absolute right-3 bottom-4 bg-white p-2 rounded-sm">
-			{srcName}
-		</div>
-	</div>
-</div>
+<Carousel projects={data.spotlight} />
 
 <div class="mt-4 md:flex md:flex-row-reverse">
 	<div class="flex-col basis-3/12">
