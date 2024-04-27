@@ -265,28 +265,23 @@
 		"visible": false
 	},
 	{
+		"text": "Congrats [Tongshuang (Sherry) Wu](https://homes.cs.washington.edu/~wtshuang/) for her [ACL 2020 Best Paper on CheckList](https://idl.cs.washington.edu/papers/check-list/)!",
+		"date": "2020-08-01",
+		"visible": false
+	},
+	{
 		"text": "Congrats [Alex Kale](http://students.washington.edu/kalea/) et al. for a [VIS 2020 Best Paper Award](papers/effect-size-judgments/)!",
 		"date": "2020-10-20",
-		"visible": true
+		"visible": false
 	},
 	{
 		"text": "Congrats (again) [Alex Kale](http://students.washington.edu/kalea/) et al. for a [VIS 2021 Best Paper Honorable Mention](papers/causal-support/)!",
 		"date": "2021-10-15",
-		"visible": true
-	},
-	{
-		"text": "[D3](papers/d3) wins an [InfoVis 10-Year Test-of-Time Award](http://ieeevis.org/year/2021/info/awards/test-of-time-awards)!",
-		"date": "2021-10-15",
-		"visible": true
+		"visible": false
 	},
 	{
 		"text": "Our work on [Narrative Visualization](papers/narrative/) won an [InfoVis 10-Year Test-of-Time Award](http://ieeevis.org/year/2020/info/awards/test-of-time-awards).",
 		"date": "2020-10-20",
-		"visible": true
-	},
-	{
-		"text": "Congrats [Tongshuang (Sherry) Wu](https://homes.cs.washington.edu/~wtshuang/) for her [ACL 2020 Best Paper on CheckList](https://idl.cs.washington.edu/papers/check-list/)!",
-		"date": "2020-08-01",
 		"visible": true
 	},
 	{
@@ -295,14 +290,38 @@
 		"visible": true
 	},
 	{
-		"text": "Congrats [Eunice Jun](https://eunicemjun.com/) for a [CHI 2022 Honorable Mention](papers/tisane)!",
+		"text": "[D3](papers/d3) wins an [InfoVis 10-Year Test-of-Time Award](http://ieeevis.org/year/2021/info/awards/test-of-time-awards)!",
+		"date": "2021-10-15",
+		"visible": true
+	},
+	{
+		"text": "[Tisane](papers/tisane) is a CHI'22 Honorable Mention. Congrats [Eunice](https://eunicemjun.com/)!",
 		"date": "2022-05-10",
 		"visible": true
 	},
-	{ "text": "Six new papers at VIS 2023!", "date": "2022-10-21", "visible": true },
+	{
+		"text": "[ScatterShot](papers/scattershot) earns an IUI'23 Honorable Mention.",
+		"date": "2023-03-27",
+		"visible": true
+	},
+	{
+		"text": "Six new papers at VIS 2023!",
+		"date": "2023-10-21",
+		"visible": true
+	},
 	{
 		"text": "Congrats to [Leilani Battle](https://homes.cs.washington.edu/~leibatt/bio.html) for the [2023 VGTC Significant New Researcher Award](https://ieeecs-media.computer.org/tc-media/sites/49/2023/10/09182427/award_visualization-significant-new-researcher-leilani.pdf)!",
 		"date": "2023-10-24",
 		"visible": true
+	},
+	{
+		"text": "[Living Papers](papers/living-papers/) received a UIST 2023 Honorable Mention.",
+		"date": "2023-10-30",
+		"visible": true
+	},
+	{
+		"text": "[rTisane](papers/rtisane) receives a CHI 2024 Best Paper Award!",
+		"date": "2024-04-26",
+		"visible": false
 	}
 ]

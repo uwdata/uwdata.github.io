@@ -9,7 +9,7 @@
 </script>
 
 <div class="pub">
-	<h1 class="font-bold">{paper.title}</h1>
+	<h1 class="font-semibold text-lg">{paper.title}</h1>
 	<AuthorList people={paper.authors} />
 	<div class="figure">
 		{#if paper.figure}
