@@ -5,6 +5,71 @@
 		"venueType": "conference"
 	},
 	{
+		"fullName": "IEEE Trans. Visualization & Comp. Graphics (Proc. VIS)",
+		"nickname": "VIS",
+		"venueType": "journal"
+	},
+	{
+		"fullName": "Computer Graphics Forum (Proc. EuroVis)",
+		"nickname": "EuroVis",
+		"venueType": "journal"
+	},
+	{
+		"fullName": "IEEE VIS Short Papers",
+		"nickname": "VIS-Short",
+		"venueType": "conference"
+	},
+	{
+		"fullName": "ACM User Interface Software & Technology (UIST)",
+		"nickname": "UIST",
+		"venueType": "conference"
+	},
+	{
+		"fullName": "ACM Computer-Supported Cooperative Work (CSCW)",
+		"nickname": "CSCW",
+		"venueType": "conference"
+	},
+	{
+		"fullName": "ACM Intelligent User Interfaces",
+		"nickname": "IUI",
+		"venueType": "conference"
+	},
+	{
+		"fullName": "ACM Trans. on Computer-Human Interaction",
+		"nickname": "ACM TOCHI",
+		"venueType": "journal"
+	},
+	{
+		"fullName": "Advanced Visual Interfaces",
+		"nickname": "AVI",
+		"venueType": "conference"
+	},
+	{
+		"fullName": "Conference on Innovative Data Systems Research (CIDR)",
+		"nickname": "CIDR",
+		"venueType": "conference"
+	},
+	{
+		"fullName": "Proc. Very Large Database Endowment (PVLDB)",
+		"nickname": "PVLDB",
+		"venueType": "journal"
+	},
+	{
+		"fullName": "Empirical Methods in Natural Language Processing",
+		"nickname": "EMNLP",
+		"venueType": "conference"
+	},
+	{
+		"fullName": "NAACL-HLT",
+		"nickname": "NAACL-HLT",
+		"venueType": "conference"
+	},
+	{
+		"fullName": "International Conference on Weblogs and Social Media (ICWSM)",
+		"nickname": "ICWSM",
+		"venueType": "conference"
+	},
+	{
 		"fullName": "IEEE Trans. Visualization & Comp. Graphics (Proc. InfoVis)",
 		"nickname": "InfoVis",
 		"venueType": "journal"
@@ -37,11 +102,6 @@
 	{
 		"fullName": "IEEE Information Visualization (InfoVis)",
 		"nickname": "InfoVis (Pre-TVCG)",
-		"venueType": "conference"
-	},
-	{
-		"fullName": "Advanced Visual Interfaces",
-		"nickname": "AVI",
 		"venueType": "conference"
 	},
 	{
@@ -90,33 +150,13 @@
 		"venueType": "workshop"
 	},
 	{
-		"fullName": "Intelligent User Interfaces",
-		"nickname": "IUI",
-		"venueType": "conference"
-	},
-	{
 		"fullName": "Mining Software Repositories",
 		"nickname": "MSR",
 		"venueType": "conference"
 	},
 	{
-		"fullName": "ACM User Interface Software & Technology (UIST)",
-		"nickname": "UIST",
-		"venueType": "conference"
-	},
-	{
-		"fullName": "ACM Trans. on Computer-Human Interaction",
-		"nickname": "ACM TOCHI",
-		"venueType": "journal"
-	},
-	{
 		"fullName": "Journal of Animal Ecology",
 		"nickname": "J Anim Eco",
-		"venueType": "journal"
-	},
-	{
-		"fullName": "Computer Graphics Forum (Proc. EuroVis)",
-		"nickname": "EuroVis",
 		"venueType": "journal"
 	},
 	{
@@ -152,36 +192,6 @@
 	{
 		"fullName": "User Modeling and User-Adapted Interaction (UMUAI)",
 		"nickname": "UMUAI",
-		"venueType": "journal"
-	},
-	{
-		"fullName": "International Conference on Weblogs and Social Media (ICWSM)",
-		"nickname": "ICWSM",
-		"venueType": "conference"
-	},
-	{
-		"fullName": "Empirical Methods in Natural Language Processing",
-		"nickname": "EMNLP",
-		"venueType": "conference"
-	},
-	{
-		"fullName": "ACM Computer-Supported Cooperative Work (CSCW)",
-		"nickname": "CSCW",
-		"venueType": "conference"
-	},
-	{
-		"fullName": "Conference on Innovative Data Systems Research (CIDR)",
-		"nickname": "CIDR",
-		"venueType": "conference"
-	},
-	{
-		"fullName": "NAACL-HLT",
-		"nickname": "NAACL-HLT",
-		"venueType": "conference"
-	},
-	{
-		"fullName": "Proc. Very Large Database Endowment (PVLDB)",
-		"nickname": "PVLDB",
 		"venueType": "journal"
 	},
 	{
@@ -237,16 +247,6 @@
 	{
 		"fullName": "Distill",
 		"nickname": "Distill",
-		"venueType": "journal"
-	},
-	{
-		"fullName": "IEEE VIS Short Papers",
-		"nickname": "VIS-Short",
-		"venueType": "conference"
-	},
-	{
-		"fullName": "IEEE Trans. Visualization & Comp. Graphics (Proc. VIS)",
-		"nickname": "VIS",
 		"venueType": "journal"
 	},
 	{
