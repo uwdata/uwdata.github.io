@@ -25,6 +25,11 @@
 		"link": "http://courses.cs.washington.edu/courses/cse547/"
 	},
 	{
+		"name": "CSE599: Interactive Analysis",
+		"level": "Graduate",
+		"link": "https://courses.cs.washington.edu/courses/cse599b/"
+	},
+	{
 		"name": "CSE440: Intro to HCI",
 		"level": "Undergraduate",
 		"link": "http://courses.cs.washington.edu/courses/cse440/"
