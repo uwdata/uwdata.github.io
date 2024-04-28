@@ -280,12 +280,12 @@
 		"visible": false
 	},
 	{
-		"text": "Our work on [Narrative Visualization](papers/narrative/) won an [InfoVis 10-Year Test-of-Time Award](http://ieeevis.org/year/2020/info/awards/test-of-time-awards).",
+		"text": "Our [Narrative Visualization](papers/narrative/) paper won an [InfoVis 10-Year Test-of-Time Award](http://ieeevis.org/year/2020/info/awards/test-of-time-awards).",
 		"date": "2020-10-20",
 		"visible": true
 	},
 	{
-		"text": "IDL is thrilled to welcome [Prof. Leilani Battle](https://homes.cs.washington.edu/~leibatt/bio.html) as a professor in CSE and co-director of the lab!",
+		"text": "IDL welcomes (back) [Leilani Battle](https://homes.cs.washington.edu/~leibatt/bio.html) as a UW CSE professor and lab co-director!",
 		"date": "2021-09-27",
 		"visible": true
 	},
@@ -297,6 +297,11 @@
 	{
 		"text": "[Tisane](papers/tisane) is a CHI'22 Honorable Mention. Congrats [Eunice](https://eunicemjun.com/)!",
 		"date": "2022-05-10",
+		"visible": true
+	},
+	{
+		"text": "Our [interview study of data analysts](papers/enterprise-analysis-interviews) received a [10-Year Test-of-Time Award](https://ieeevis.org/year/2022/info/awards/test-of-time-awards).",
+		"date": "2022-10-16",
 		"visible": true
 	},
 	{
@@ -315,13 +320,13 @@
 		"visible": true
 	},
 	{
-		"text": "[Living Papers](papers/living-papers/) received a UIST 2023 Honorable Mention.",
+		"text": "[Living Papers](papers/living-papers/) receives a UIST 2023 Honorable Mention.",
 		"date": "2023-10-30",
 		"visible": true
 	},
 	{
-		"text": "[rTisane](papers/rtisane) receives a CHI 2024 Best Paper Award!",
+		"text": "[rTisane](papers/rtisane) wins a CHI 2024 Best Paper Award!",
 		"date": "2024-04-26",
-		"visible": false
+		"visible": true
 	}
 ]

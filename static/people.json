@@ -4786,5 +4786,33 @@
 		"position": "PhD Student",
 		"interests": "Visualization, Generative AI",
 		"org": "UW CSE"
+	},
+	{
+		"first_name": "Edward",
+		"last_name": "Misback",
+		"display_name": "",
+		"email": "",
+		"url": "https://elmisback.github.io/",
+		"status": "other",
+		"visible": true,
+		"image": null,
+		"nickname": null,
+		"position": null,
+		"interests": null,
+		"org": null
+	},
+	{
+		"first_name": "Janice",
+		"last_name": "Teoh",
+		"display_name": "",
+		"email": "",
+		"url": "",
+		"status": "other",
+		"visible": true,
+		"image": null,
+		"nickname": null,
+		"position": null,
+		"interests": null,
+		"org": null
 	}
 ]
