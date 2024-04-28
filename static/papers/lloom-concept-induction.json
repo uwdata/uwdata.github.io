@@ -1,0 +1,60 @@
+{
+  "title": "Concept Induction: Analyzing Unstructured Text with High-Level Concepts Using LLooM",
+  "year": 2024,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2024-LLooM-CHI.pdf",
+  "abstract": "Data analysts have long sought to turn unstructured text data into meaningful concepts. Though common, topic modeling and clustering focus on lower-level keywords and require significant interpretative work. We introduce concept induction, a computational process that instead produces high-level concepts, defined by explicit inclusion criteria, from unstructured text. For a dataset of toxic online comments, where a state-of-the-art BERTopic model outputs “women, power, female,” concept induction produces high-level concepts such as “Criticism of traditional gender roles” and “Dismissal of women's concerns.” We present LLooM, a concept induction algorithm that leverages large language models to iteratively synthesize sampled text and propose human-interpretable concepts of increasing generality. We then instantiate LLooM in a mixed-initiative text analysis tool, enabling analysts to shift their attention from interpreting topics to engaging in theory-driven analysis. Through technical evaluations and four analysis scenarios ranging from literature review to content moderation, we find that LLooM’s concepts improve upon the prior art of topic models in terms of quality and data coverage. In expert case studies, LLooM helped researchers to uncover new insights even from familiar datasets, for example by suggesting a previously unnoticed concept of attacks on out-party stances in a political social media dataset.",
+  "thumbnail": "images/thumbs/lloom-concept-induction.png",
+  "figure": "images/figures/lloom-concept-induction.png",
+  "caption": "A summary of the LLooM concept induction algorithm. Status quo topic models tend to produce topics aligned with low-level keywords (e.g., “feminist, feminism”). We introduce LLooM, a concept induction algorithm that takes in unstructured text and produces high-level concepts (e.g., “Criticism of Feminism”) defined by explicit inclusion criteria. We instantiate this algorithm in the LLooM Workbench, a mixed-initiative text analysis tool that can amplify the work of analysts by automatically visualizing datasets in terms of interpretable, high-level concepts.",
+  "web_name": "lloom-concept-induction",
+  "visible": true,
+  "mod_date": "2024-05-11",
+  "note": "",
+  "pub_date": "2024-05-11",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Michelle",
+      "last_name": "Lam",
+      "url": "https://michelle123lam.github.io/"
+    },
+    {
+      "first_name": "Janice",
+      "last_name": "Teoh"
+    },
+    {
+      "first_name": "James",
+      "last_name": "Landay",
+      "url": "http://www.cs.washington.edu/homes/landay/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Michael",
+      "last_name": "Bernstein",
+      "url": "http://hci.stanford.edu/msb/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "https://stanfordhci.github.io/lloom/"
+    },
+    {
+      "name": "Demo",
+      "link": "https://stanfordhci.github.io/lloom/examples/pol-soc-media.html"
+    }
+  ],
+  "tags": [],
+  "doi": "https://doi.org/10.1145/3613904.3642830"
+}

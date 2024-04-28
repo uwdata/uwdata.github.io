@@ -1,0 +1,52 @@
+{
+  "title": "rTisane: Externalizing Conceptual Models for Data Analysis Prompts Reconsideration of Domain Assumptions and Facilitates Statistical Modeling",
+  "year": 2024,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2024-rTisane-CHI.pdf",
+  "abstract": "Statistical models should accurately reflect analysts’ domain knowledge about variables and their relationships. While recent tools let analysts express these assumptions and use them to produce a resulting statistical model, it remains unclear what analysts want to express and how externalization impacts statistical model quality. This paper addresses these gaps. We first conduct an exploratory study of analysts using a domain-specific language (DSL) to express conceptual models. We observe a preference for detailing how variables relate and a desire to allow, and then later resolve, ambiguity in their conceptual models. We leverage these findings to develop rTisane, a DSL for expressing conceptual models augmented with an interactive disambiguation process. In a controlled evaluation, we find that analysts reconsidered their assumptions, self-reported externalizing their assumptions accurately, and maintained analysis intent with rTisane. Additionally, rTisane enabled some analysts to author statistical models they were unable to specify manually. For others, rTisane resulted in models that better fit the data or enabled iterative improvement.",
+  "thumbnail": "images/thumbs/rtisane.png",
+  "figure": "images/figures/rtisane.png",
+  "caption": "rTisane provides a DSL for specifying conceptual models (left). Analysts validate and refine their conceptual models as the first step of a two-phase interactive disambiguation process. Interactive refinement updates the internal graph representation (middle). rTisane traverses this graph to formulate possible statistical models. Analysts learn about rTisane’s modeling decisions and can update them prior to getting a statistical modeling script as output (right).",
+  "web_name": "rtisane",
+  "visible": true,
+  "mod_date": "2024-05-12",
+  "note": "Best Paper Award",
+  "pub_date": "2024-05-11",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Eunice",
+      "last_name": "Jun",
+      "url": "https://homes.cs.washington.edu/~emjun/"
+    },
+    {
+      "first_name": "Edward",
+      "last_name": "Misback",
+      "url": "https://elmisback.github.io/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "René",
+      "last_name": "Just",
+      "url": "https://homes.cs.washington.edu/~rjust/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "https://www.tisane-stats.org"
+    }
+  ],
+  "tags": [],
+  "doi": "https://doi.org/10.1145/3613904.3642267"
+}
