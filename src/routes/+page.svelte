@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import markdownit from 'markdown-it';
-	import type { Paper, News, Spotlight, Venue, Course } from '../lib/app-types';
+	import type { Paper, News, Spotlight, Venue, Course } from '$lib/app-types';
 	import SmallPaper from '$lib/small-paper.svelte';
 	import Carousel from '$lib/carousel.svelte';
 
@@ -45,13 +45,13 @@
 		{/each}
 
 		<div class="lead">Courses</div>
-		<div class="level">Graduate</div>
+		<div class="text-sm italic">Graduate</div>
 		{#each data.courses.filter((x) => x.level === 'Graduate') as course}
-			<div class="class text-sm"><a class="at" href={course.link}>{course.name}</a></div>
+			<div class="text-sm"><a class="at" href={course.link}>{course.name}</a></div>
 		{/each}
-		<div class="level mt-4">Undergraduate</div>
+		<div class="text-sm italic mt-4">Undergraduate</div>
 		{#each data.courses.filter((x) => x.level === 'Undergraduate') as course}
-			<div class="class text-sm"><a class="at" href={course.link}>{course.name}</a></div>
+			<div class="text-sm"><a class="at" href={course.link}>{course.name}</a></div>
 		{/each}
 	</div>
 
