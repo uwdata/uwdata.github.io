@@ -9,17 +9,12 @@ async function generateIndex() {
 			.filter((person) => (person?.url || '').length)
 			.map((person) => [`${person.first_name} ${person.last_name}`, person.url])
 	);
-	const paperList = await fs.readdir('./static/papers', (err, files) => {
-		if (err) {
-			return console.log('Unable to scan directory: ' + err);
-		}
-		return files;
-	});
+	const paperList = await fs.readdir('./static/papers');
 
 	const papers = [] as Paper[];
 	for (const paper of paperList) {
 		const paperRaw = await fs
-			.readFile(`./static/papers/${paper}`)
+			.readFile(`./static/papers/${paper}`, 'utf8')
 			.then((x) => JSON.parse(x) as Paper);
 		const updatedAuthors = paperRaw.authors.map((author) => {
 			return {
@@ -36,6 +31,14 @@ async function generateIndex() {
 		}
 		await fs.writeFile(`./static/papers/${paper}`, JSON.stringify(updatedPaper, null, 2));
 	}
+	papers.sort((a, b) => {
+		const ad = a.mod_date;
+		const bd = b.mod_date;
+		const at = a.title;
+		const bt = b.title;
+		// sort by reverse mod date, break ties by alphabetic title order
+		return ad < bd ? 1 : ad > bd ? -1 : at < bt ? -1 : at > bt ? 1 : 0;
+	});
 	await fs.writeFile('./static/papers-index.json', JSON.stringify(papers, null, 2));
 }
 
