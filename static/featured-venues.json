@@ -134,17 +134,17 @@
 	{ "desc": "ACL 2019 - Florence, Italy", "venue_nickname": "ACL", "year": 2019, "visible": false },
 	{ "desc": "VIS 2019 - Vancouver, BC", "venue_nickname": "VIS", "year": 2020, "visible": false },
 	{ "desc": "IUI 2020 - Cagliari, Italy", "venue_nickname": "IUI", "year": 2020, "visible": false },
-	{ "desc": "CHI 2020 - Honolulu, HI", "venue_nickname": "CHI", "year": 2020, "visible": true },
+	{ "desc": "CHI 2020 - Honolulu, HI", "venue_nickname": "CHI", "year": 2020, "visible": false },
 	{
 		"desc": "VIS 2020 - Salt Lake City, UT",
 		"venue_nickname": "VIS",
 		"year": 2021,
-		"visible": true
+		"visible": false
 	},
-	{ "desc": "Distill 2020", "venue_nickname": "Distill", "year": 2020, "visible": true },
-	{ "desc": "ACL 2021", "venue_nickname": "ACL", "year": 2021, "visible": true },
-	{ "desc": "UIST 2021", "venue_nickname": "UIST", "year": 2021, "visible": true },
-	{ "desc": "VIS 2021", "venue_nickname": "VIS", "year": 2021, "visible": true },
+	{ "desc": "Distill 2020", "venue_nickname": "Distill", "year": 2020, "visible": false },
+	{ "desc": "ACL 2021", "venue_nickname": "ACL", "year": 2021, "visible": false },
+	{ "desc": "UIST 2021", "venue_nickname": "UIST", "year": 2021, "visible": false },
+	{ "desc": "VIS 2021", "venue_nickname": "VIS", "year": 2021, "visible": false },
 	{ "desc": "CHI 2022 - New Orleans, LA", "venue_nickname": "CHI", "year": 2022, "visible": true },
 	{
 		"desc": "IUI 2023 - Sydney, Australia",
