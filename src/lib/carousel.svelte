@@ -25,7 +25,7 @@
   {#each projects as image, index (image)}
     {#if index === currentSpotlightIndex}
       <a href={projectLink} in:fade={{ duration: 1000 }} out:fade={{ duration: 1000 }}>
-        <img src={image.image} alt="Image for {projectName}" />
+        <img class="halo" src={image.image} alt="Image for {projectName}" />
         <div>{projectName}</div>
       </a>
     {/if}
