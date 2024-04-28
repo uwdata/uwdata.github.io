@@ -10,12 +10,10 @@
 	});
 </script>
 
-<div>
-	<a href={`${paper.pdf}`}>PDF</a>
-	{#each links as link}
-		<span></span> | <a href={link.href}>{link.label}</a>
-	{/each}
-	{#if paper.note}
-		| <span class="font-medium">{paper.note}</span>
-	{/if}
-</div>
+<a href={`${paper.pdf}`}>PDF</a>
+{#each links as link}
+	<span></span> | <a href={link.href}>{link.label}</a>
+{/each}
+{#if paper.note}
+	| <span class="font-medium">{paper.note}</span>
+{/if}

@@ -137,4 +137,13 @@
 		height: 85px;
 		overflow: hidden;
 	}
+	.logo-i {
+    fill: #939597;
+	}
+	.logo-d {
+			fill: #652c90;
+	}
+	.logo-l {
+			fill: #d5a928;
+	}
 </style>
