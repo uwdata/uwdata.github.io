@@ -219,15 +219,6 @@ div.lead {
     font-weight: 500;
 }
 
-.update .date,
-.course .level {
-    font-style: italic;
-}
-
-.courses {
-    margin-top: 1.5em;
-}
-
 .allpubs {
     margin-left: 1em;
     font-size: 13px;
@@ -262,16 +253,16 @@ div.lead {
 }
 
 .pub>.figure {
-    margin: 1.5em 0 1.5em 25px;
+    margin: 1.5em 0;
 }
 
 .pub>.figure img {
-    max-width: 700px;
+    max-width: 98%;
 }
 
 .pub>.figure .caption {
-    font-size: 13px;
-    margin-right: 25px;
+    margin-top: 0.5em;
+    line-height: 1.4;
 }
 
 .pub .heading {
@@ -337,13 +328,6 @@ div.lead {
 
 .paper .note, .links .note {
     font-weight: 500;
-}
-
-pre.bibtex {
-    font-family: Courier New, monospace;
-    font-size: 16px;
-    line-height: 22px;
-    white-space: pre-wrap;
 }
 
 .project .teaser-img {
@@ -434,7 +418,7 @@ pre.bibtex {
     column-count: 3;
 }
 
-.person, .group {
+.person, .idlgroup {
     position: relative;
     display: inline-block;
     vertical-align: top;
@@ -445,11 +429,11 @@ pre.bibtex {
     overflow: hidden;
 }
 
-.group, .group img {
+.idlgroup, .idlgroup img {
     width: 242px;
 }
 
-.person a, .group a {
+.person a, .idlgroup a {
     position: absolute;
 }
 
@@ -481,18 +465,18 @@ pre.bibtex {
     text-shadow: 1px 1px 3px #000;
 }
 
-.group .name {
+.idlgroup .name {
     margin-top: 2em;
     font-size: 19px;
     font-weight: 500;
 }
 
-.group .affiliation {
+.idlgroup .affiliation {
     font-style: italic;
     font-size: 16px;
 }
 
-.group .interests {
+.idlgroup .interests {
     margin-top: 0.5em;
     font-size: 14px;
 }

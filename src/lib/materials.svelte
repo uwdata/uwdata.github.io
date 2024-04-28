@@ -3,14 +3,11 @@
 	import { base } from '$app/paths';
 	export let paper: Paper;
 
-	const links = [
-		...(paper.materials.map(material => {
-			const link = material.link.trim();
-			const href = link.startsWith('http') ? link : `${base}/${link}`;
-			return { href, label: material.name };
-		})),
-		{ href: `${base}/bibtex/${paper.web_name}`, label: 'BibTeX' },
-	];
+	const links = paper.materials.map(material => {
+		const link = material.link.trim();
+		const href = link.startsWith('http') ? link : `${base}/${link}`;
+		return { href, label: material.name };
+	});
 </script>
 
 <div>
@@ -19,6 +16,6 @@
 		<span></span> | <a href={link.href}>{link.label}</a>
 	{/each}
 	{#if paper.note}
-		| <span class="font-semibold">{paper.note}</span>
+		| <span class="font-medium">{paper.note}</span>
 	{/if}
 </div>

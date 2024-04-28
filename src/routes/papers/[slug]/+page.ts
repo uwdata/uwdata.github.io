@@ -1,7 +1,7 @@
 import { error } from '@sveltejs/kit';
 import { base } from '$app/paths';
 import type { PageLoad } from './$types';
-import type { Paper, Venue } from '../../../lib/app-types';
+import type { Paper, Venue } from '$lib/app-types';
 
 export const load: PageLoad = async ({ params, fetch }) => {
 	const venues = await fetch(`${base}/venues.json`).then(

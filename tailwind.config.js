@@ -4,8 +4,12 @@ export default {
 	theme: {
 		extend: {},
 		fontFamily: {
-			//         font-family: Avenir, Helvetica Neue, Helvetica, Arial;
 			sans: ['Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif']
+		}
+	},
+	variants: {
+		extend: {
+			visibility: ['group-hover']
 		}
 	},
 	plugins: []

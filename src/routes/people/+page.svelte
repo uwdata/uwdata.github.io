@@ -1,7 +1,8 @@
 <script lang="ts">
 	import type { Person } from '$lib/app-types';
-	export let data: { people: Person[] };
 	import ActiveMember from './active-member.svelte';
+
+	export let data: { people: Person[] };
 
 	const sortPeople = (a : Person, b : Person) => {
 		const u = a.last_name, v = b.last_name;
@@ -40,7 +41,7 @@
 	{#each members.slice(0, 6) as person}
 		<ActiveMember {person} hoverPerson={handleHover} />
 	{/each}
-	<div class="group flex items-center justify-center">
+	<div class="idlgroup flex items-center justify-center">
 		{#if hoveredPerson}
 			<div class="text-xl font-semibold">
 				{hoveredPerson.first_name}
