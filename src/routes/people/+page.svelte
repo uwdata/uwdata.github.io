@@ -82,7 +82,7 @@
 </div>
 
 <div class="lead mt-8">alumni</div>
-<div class="grid md:grid-cols-3 text-left">
+<div class="grid grid-cols-2 md:grid-cols-3 text-sm md:text-base text-left">
 	{#each groupsByStatus['alumni'] as person}
 		{#if person.url}
 			<a href={person.url}>{displayName(person)}</a>
@@ -93,7 +93,7 @@
 </div>
 
 <div class="lead mt-8">collaborators</div>
-<div class="grid md:grid-cols-3 text-left">
+<div class="grid grid-cols-2 md:grid-cols-3 text-sm md:text-base text-left">
 	{#each groupsByStatus['collaborator'] as person}
 		{#if person.url}
 			<a href={person.url}>{displayName(person)}</a>
