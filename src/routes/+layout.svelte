@@ -58,44 +58,52 @@
 	</div>
 
 	<div class="flex w-full md:w-fit md:max-w-4xl overflow-x-hidden">
-		<div class="flex-col h-full hidden md:flex">
-			<Logo />
-			{#each sections as section}
-				<a class="uppercase font-medium text-2xs tracking-extra mb-2" href={section.href}
-					>{section.name}</a
-				>
-			{/each}
-			<!-- svelte-ignore a11y-missing-content -->
-			<a class="twitter" title="Follow Us on Twitter" href="http://twitter.com/uwdata"></a>
-			<div class="fixed bottom-4">
+		<div class="hidden md:flex fixed top-0 flex-col justify-between" style="height: 100vh;">
+			<div class="flex flex-col mb-4">
+				<Logo />
+				{#each sections as section}
+					<a class="uppercase font-medium text-2xs tracking-extra mb-1.5" href={section.href}
+						>{section.name}</a
+					>
+				{/each}
+				<!-- svelte-ignore a11y-missing-content -->
+				<a class="twitter" title="Follow Us on Twitter" href="http://twitter.com/uwdata"></a>
+			</div>
+			<div class="mb-2">
 				<a
 					class="block"
 					href="http://dub.washington.edu/"
 					title="dub: Design, Use, Build - Human-Computer Interaction &amp; Design"
-					><img class="w-12 rounded halo" src={`${base}/images/logo/dub.png`} alt="dub logo" /></a
+					><img class="w-11 rounded halo" src={`${base}/images/logo/dub.png`} alt="dub logo" /></a
 				>
-				<a class="block mt-2" href="http://escience.washington.edu/" title="eScience Institute"
+				<a class="block mt-1.5" href="http://escience.washington.edu/" title="eScience Institute"
 					><img
-						class="w-12 rounded halo"
+						class="w-11 rounded halo"
 						src={`${base}/images/logo/escience.png`}
 						alt="e-science logo"
 						/></a
 				>
-				<a class="block mt-2" href="http://cs.washington.edu/" title="UW Computer Science &amp; Engineering"
+				<a class="block mt-1.5" href="http://cs.washington.edu/" title="UW Computer Science &amp; Engineering"
 					><img
-						class="w-12 rounded halo"
+						class="w-11 rounded halo"
 						src={`${base}/images/logo/cse.png`}
 						alt="computer science and engineering logo"
 					/></a
 				>
 			</div>
 		</div>
-		<div class="flex flex-col w-full md:py-1.5 md:pr-10 md:pl-12">
+		<div class="flex flex-col w-full md:py-1.5 md:pr-10 md:pl-24">
 			<h1 class="flex-col md:flex-row items-center mb-3 md:mb-4">
 				<div class="inline-block text-xl md:text-3xl mr-3">
+					<img
+					  class="md:hidden inline w-8 mr-1"
+						style="margin-top: -5px;"
+						src={`${base}/images/logo/idl-300.png`}
+						alt="IDL logo"
+					/>
 					<span class="font-medium text-uw">UW</span> Interactive Data Lab
 				</div>
-				<div class="hidden md:inline-block uppercase text-lg md:text-xl tracking-widest text-gray-500">{subtitle}</div>
+				<div class="hidden md:inline-block uppercase text-lg md:text-xl tracking-wider text-gray-500">{subtitle}</div>
 			</h1>
 			<div class="article">
 				<slot />

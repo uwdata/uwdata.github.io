@@ -127,23 +127,24 @@
 
 <style>
 	div {
-		height: 65px;
+		position: relative;
+		height: 72px;
 	}
 	a {
 		position: absolute;
-		left: -5px;
-		top: -9px;
+		left: -25px;
+		top: -10px;
 		width: 99px;
 		height: 85px;
 		overflow: hidden;
 	}
 	.logo-i {
-    fill: #939597;
+		fill: #939597;
 	}
 	.logo-d {
-			fill: #652c90;
+		fill: #652c90;
 	}
 	.logo-l {
-			fill: #d5a928;
+		fill: #d5a928;
 	}
 </style>
