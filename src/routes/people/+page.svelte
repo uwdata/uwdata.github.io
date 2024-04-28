@@ -60,19 +60,22 @@
 	{/each}
 </div>
 
-<div class="visible md:hidden">
-	<div class="lead">current members</div>
+<div class="md:hidden">
+	<div class="lead">members</div>
 	{#each members as person}
-		<div class="mt-8 w-full flex flex-col items-center">
-			<img
-				class="w-1/2"
-				src={person.image}
-				alt={`head shot of ${displayName(person)}`}
-			/>
-			<div class="text-xl font-semibold">{displayName(person)}</div>
-			<div class="italic">{person.position}, {person.org}</div>
-			<div class="text-sm text-center">
-				{person.interests}
+		<div class="mt-2 w-full flex">
+			<a class="block w-1/3 grow-0 shrink-0" href={person.url}>
+				<img
+					src={person.image}
+					alt={`head shot of ${displayName(person)}`}
+				/>
+			</a>
+			<div class="ml-2">
+				<div class="font-semibold">
+					<a class="at" href={person.url}>{displayName(person)}</a>
+				</div>
+				<div class="italic">{person.position}, {person.org}</div>
+				<div class="text-sm">{person.interests}</div>
 			</div>
 		</div>
 	{/each}

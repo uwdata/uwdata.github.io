@@ -31,3 +31,27 @@
     {/if}
   {/each}
 </div>
+
+<style>
+.spotlight a {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #000;
+}
+
+.spotlight div {
+    position: absolute;
+    bottom: 15px;
+    right: 35px;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid #ccc;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding: 4px 6px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 500;
+}
+</style>

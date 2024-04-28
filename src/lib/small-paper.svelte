@@ -7,8 +7,8 @@
 	export let venue: Venue;
 </script>
 
-<div class="flex paper text-md mb-6">
-	<div class="thumbnail mt-1 grow-0 shrink-0">
+<div class="md:flex paper text-md mb-6">
+	<div class="thumbnail mb-2 md:mt-1 grow-0 shrink-0">
 		<a href={`${base}/papers/${paper.web_name}`}>
 			<img
 			  class="halo rounded-lg"
@@ -17,19 +17,20 @@
 			/>
 		</a>
 	</div>
-	<div class="ml-5 leading-tight">
-		<a class="font-semibold" href={`${base}/papers/${paper.web_name}`}>{paper.title}</a>
+	<div class="md:ml-5 leading-tight">
 		<div class="hidden md:block">
-			<AuthorList people={paper.authors} />
+			<a class="font-semibold" href={`${base}/papers/${paper.web_name}`}>{paper.title}</a>
+			<div><AuthorList people={paper.authors} /></div>
 			<div class="italic">{venue.fullName}, {paper.year}</div>
-			<Materials {paper} />
+			<div class="mt-1"><Materials {paper} /></div>
+		</div>
+		<div class="md:hidden text-sm leading-tight">
+			<a class="font-semibold" href={`${base}/papers/${paper.web_name}`}>{paper.title}</a>.
+			<AuthorList people={paper.authors} />.
+			<span class="italic">{venue.fullName}, {paper.year}</span>
+			<div class="mt-1"><Materials {paper} /></div>
 		</div>
 	</div>
-</div>
-<div class="md:hidden mb-10">
-	<AuthorList people={paper.authors} />
-	<div class="italic">{venue.fullName}, {paper.year}</div>
-	<Materials {paper} />
 </div>
 
 <style>

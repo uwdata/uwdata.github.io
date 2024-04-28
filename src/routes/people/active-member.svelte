@@ -10,7 +10,7 @@
 	on:mouseenter={() => hoverPerson(person)}
 	on:mouseleave={() => hoverPerson(null)}
 >
-	<a class="at" href={person.url}>
+	<a href={person.url}>
 		<div class="nickname">
 			{person.nickname}
 		</div>

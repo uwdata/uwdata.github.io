@@ -28,12 +28,11 @@ strong, b {
     letter-spacing: 0.15em;
 }
 
-/* --- */
-
-#main {
-    width: 800px;
-    margin-left: 100px;
+.halo:hover {
+    box-shadow: 2px 2px 18px #8a5ed3;
 }
+
+/* --- */
 
 .heading {
     margin-bottom: 5px;
@@ -43,70 +42,6 @@ strong, b {
 }
 
 /* --- */
-
-.header {
-    margin-bottom: 18px;
-}
-
-.header .mark {
-    font-size: 28px;
-}
-
-.header .mark, #title {
-    display: inline-block;
-}
-
-.header #title {
-    margin-left: 12px;
-    font-size: 19px;
-    font-weight: 100;
-    color: #666;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-/* --- */
-
-.gutter {
-    position: fixed;
-    z-index: 5;
-    height: 100%;
-    background-color: white;
-    left: 0;
-    top: 0;
-    padding-left: 20px;
-    padding-top: 14px;
-    padding-right: 4px;
-}
-
-#logo {
-    position: absolute;
-    left: -5px;
-    top: -9px;
-    width: 99px;
-    height: 85px;
-    overflow: hidden;
-}
-
-.logo-i {
-    fill: #939597;
-}
-
-.logo-d {
-    fill: #652c90;
-}
-
-.logo-l {
-    fill: #d5a928;
-}
-
-#logo img, #logo svg {
-    position: absolute;
-}
-
-#logo svg {
-    cursor: pointer;
-}
 
 .nav {
     margin-top: 55px;
@@ -126,6 +61,10 @@ strong, b {
     font-size: 12px;
 }
 
+.text-uw {
+    color: #652c90;
+}
+
 .twitter {
     display: inline-block;
     vertical-align: middle;
@@ -142,39 +81,7 @@ strong, b {
     border-color: #8a5ed3;
 }
 
-.halo:hover {
-    box-shadow: 2px 2px 18px #8a5ed3;
-}
-
 /* --- */
-
-.mission {
-    margin-top: -3px;
-    margin-bottom: 0.8em;
-    font-size: 20px;
-}
-
-.spotlight a {
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    color: #000;
-}
-
-.spotlight div {
-    position: absolute;
-    bottom: 15px;
-    right: 35px;
-    background: rgba(255, 255, 255, 0.95);
-    border: 1px solid #ccc;
-    border-top-right-radius: 6px;
-    border-bottom-left-radius: 6px;
-    padding: 4px 6px;
-    text-align: right;
-    font-size: 14px;
-    font-weight: 500;
-}
 
 .lead {
     font-size: 15px;
