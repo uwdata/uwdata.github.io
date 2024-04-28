@@ -23,12 +23,12 @@
 			href: 'https://vimeo.com/channels/uwdata'
 		},
 		{
-			name: 'code',
-			href: 'https://github.com/uwdata'
-		},
-		{
 			name: 'blog',
 			href: 'https://medium.com/@uwdata'
+		},
+		{
+			name: 'code',
+			href: 'https://github.com/uwdata'
 		}
 	];
 	$: pageName =
@@ -55,18 +55,23 @@
 			{/each}
 			<!-- svelte-ignore a11y-missing-content -->
 			<a class="twitter" title="Follow Us on Twitter" href="http://twitter.com/uwdata"></a>
-			<div class="orgs">
+			<div class="orgs fixed bottom-4">
 				<a
+					class="block"
 					href="http://dub.washington.edu/"
 					title="dub: Design, Use, Build - Human-Computer Interaction &amp; Design"
-					><img class="w-12" src={`${base}/images/logo/dub.png`} alt="dub logo" /></a
+					><img class="w-12 rounded halo" src={`${base}/images/logo/dub.png`} alt="dub logo" /></a
 				>
-				<a href="http://escience.washington.edu/" title="eScience Institute"
-					><img class="w-12" src={`${base}/images/logo/escience.png`} alt="e-science logo" /></a
-				>
-				<a href="http://cs.washington.edu/" title="UW Computer Science &amp; Engineering"
+				<a class="block mt-2" href="http://escience.washington.edu/" title="eScience Institute"
 					><img
-						class="w-12"
+						class="w-12 rounded halo"
+						src={`${base}/images/logo/escience.png`}
+						alt="e-science logo"
+						/></a
+				>
+				<a class="block mt-2" href="http://cs.washington.edu/" title="UW Computer Science &amp; Engineering"
+					><img
+						class="w-12 rounded halo"
 						src={`${base}/images/logo/cse.png`}
 						alt="computer science and engineering logo"
 					/></a
@@ -87,3 +92,9 @@
 		</div>
 	</div>
 </div>
+
+<style>
+/* .orgs a img:hover {
+    box-shadow: 2px 2px 18px #8a5ed3;
+} */
+</style>

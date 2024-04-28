@@ -142,21 +142,7 @@ strong, b {
     border-color: #8a5ed3;
 }
 
-.orgs {
-    position: fixed;
-    bottom: 16px;
-}
-
-.orgs a {
-    display: block;
-    margin-top: 0.5em;
-}
-
-.orgs img {
-    border-radius: 4px;
-}
-
-.orgs a img:hover {
+.halo:hover {
     box-shadow: 2px 2px 18px #8a5ed3;
 }
 
@@ -174,10 +160,6 @@ strong, b {
     left: 0;
     top: 0;
     color: #000;
-}
-
-.spotlight:hover img {
-    box-shadow: 2px 2px 18px #8a5ed3;
 }
 
 .spotlight div {
@@ -290,113 +272,6 @@ div.lead {
     margin-left: 138px;
     margin-bottom: 10px;
     font-size: 15px;
-}
-
-.paper {
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 20px;
-    margin-bottom: 1.5em;
-    clear: left;
-}
-
-.paper .thumbnail {
-    float: left;
-    margin-top: 3px;
-}
-
-.paper .thumbnail a img {
-    border-radius: 8px;
-}
-
-.paper .thumbnail a img:hover {
-    box-shadow: 2px 2px 18px #8a5ed3;
-}
-
-.paper .entry {
-    margin-left: 138px;
-    line-height: 1.2em;
-}
-
-.paper .title {
-    font-weight: 600;
-}
-
-.paper .journal {
-    font-style: italic;
-}
-
-.paper .note, .links .note {
-    font-weight: 500;
-}
-
-.project .teaser-img {
-    position: relative;
-}
-
-.project .play-button {
-    position: absolute;
-    opacity: 0.7;
-    top: 110px;
-    left: 300px;
-    cursor: pointer;
-}
-
-.project .play-button:hover {
-    opacity: 0.8;
-}
-
-.project .teaser-video {
-    display: none;
-}
-
-.project .title sup {
-    font-weight: 100;
-    font-size: 12px;
-    color: #666;
-}
-
-.project .abstract a {
-    font-weight: 600;
-}
-
-.project .thumbnail {
-    float: left;
-    width: 350px;
-    margin: 0px 40px 20px 0;
-    text-align: center;
-}
-
-.project .thumbnail img {
-    width: 350px;
-    /*height: 200px;*/
-    padding: 5px;
-    border: 1px solid #ccc;
-}
-
-.project .thumbnail img:hover {
-    background: rgba(138, 94, 211, 0.5);
-}
-
-.project a.btn {
-    display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    border: 1px solid #652C90;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    border-radius: 4px;
-    color: #FFF;
-    background-color: #652C90;
-    margin: 10px 0;
-}
-
-.project .btn:hover {
-    background-color: #8A5ED3;
-    border-color: #8A5ED3;
 }
 
 /* --- */

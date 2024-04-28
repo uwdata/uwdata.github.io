@@ -7,18 +7,18 @@
 	export let venue: Venue;
 </script>
 
-<div class="paper">
-	<div class="thumbnail">
-		<a class="at" href={`${base}/papers/${paper.web_name}`}>
+<div class="flex paper text-md mb-6">
+	<div class="thumbnail mt-1 grow-0 shrink-0">
+		<a href={`${base}/papers/${paper.web_name}`}>
 			<img
-				class=""
+			  class="halo rounded-lg"
 				src={`${base}/${paper.thumbnail}`}
-				alt={`thumb nail image for ${paper.title}`}
+				alt={`thumbnail image for ${paper.title}`}
 			/>
 		</a>
 	</div>
-	<div class="entry">
-		<a class="at font-semibold" href={`${base}/papers/${paper.web_name}`}>{paper.title}</a>
+	<div class="ml-5 leading-tight">
+		<a class="font-semibold" href={`${base}/papers/${paper.web_name}`}>{paper.title}</a>
 		<div class="hidden md:block">
 			<AuthorList people={paper.authors} />
 			<div class="italic">{venue.fullName}, {paper.year}</div>
@@ -28,6 +28,17 @@
 </div>
 <div class="md:hidden mb-10">
 	<AuthorList people={paper.authors} />
-	<div>{venue.fullName}, {paper.year}</div>
+	<div class="italic">{venue.fullName}, {paper.year}</div>
 	<Materials {paper} />
 </div>
+
+<style>
+.paper {
+    font-size: 15px;
+}
+
+.paper .thumbnail img {
+    width: 120px;
+    height: 62px;
+}
+</style>
