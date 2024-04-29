@@ -4,7 +4,10 @@
     <title>IDL Paper Preparer</title>
     <style>
       body {
+        font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         margin-left: 2em;
+        margin-bottom: 4em;
+        max-width: 800px;
       }
       article {
         margin-top: 1em;
@@ -18,28 +21,36 @@
         font-size: 14pt;
         font-weight: bold;
       }
+      .controls {
+        margin-top: 1em;
+        margin-left: 90px;
+      }
       section {
         display: flex;
         margin-bottom: 0.5em;
       }
       section label {
-        width: 80px;
+        width: 90px;
       }
       section input[type="text"],
       section textarea {
         width: 400px;
       }
       section textarea {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-size: 0.7rem;
         height: 150px;
       }
       section button {
         margin-left: 1em;
       }
-      #authors button {
-        margin-top: 1.5em;
-      }
-      #material-entries div {
-        margin-bottom: 1.5em;
+      pre {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-size: 0.7rem;
+        padding: 8px;
+        border: 1px dashed rgb(51 65 85);
+        background-color: rgb(241 245 249);
+        white-space: pre-wrap;
       }
     </style>
   </head>
@@ -51,7 +62,7 @@
       <h2>Metadata</h2>
       <section>
         <label>Web Name</label>
-        <input id="_web_name" type="text" data:req="true" />
+        <input id="_web_name" type="text" placeholder="unique, short web name - required" data-req="true" />
       </section>
       <section>
         <label>DOI</label>
@@ -60,15 +71,15 @@
       </section>
       <section>
         <label>Title</label>
-        <input id="_title" type="text" data:req="true" />
+        <input id="_title" type="text" placeholder="required" data-req="true" />
       </section>
       <section>
         <label>Year</label>
-        <input id="_year" type="text" data:req="true" />
+        <input id="_year" type="text" placeholder="required" data-req="true" />
       </section>
       <section>
         <label>Venue</label>
-        <input id="_venue" type="text" list="_venue-list" data:req="true" />
+        <input id="_venue" type="text" list="_venue-list" placeholder="required" data-req="true" />
         <datalist id="_venue-list"></datalist>
       </section>
       <section>
@@ -109,11 +120,15 @@
       </section>
       <section>
         <label>Pub Date</label>
-        <input id="_pub_date" type="text" />
+        <input id="_pub_date" type="text" placeholder="required" data-req="true" />
       </section>
       <section>
         <label>Mod Date</label>
-        <input id="_mod_date" type="text" />
+        <input id="_mod_date" type="text"  placeholder="required" data-req="true" />
+      </section>
+      <section>
+        <label>Tags</label>
+        <input id="_tags" type="text" />
       </section>
       <br/>
     </article>
@@ -122,7 +137,16 @@
       <datalist id="people-list"></datalist>
       <div id="author-entries">
       </div>
-      <button id="add-author">Add Author</button>
+      <div class="controls">
+        <button id="add-author">Add Author</button>
+      </div>
+    </article>
+    <article id="figure">
+      <h2>Example Figure</h2>
+      <section>
+        <label>Caption</label>
+        <textarea id="_caption" placeholder="Leave blank for no figure"></textarea>
+      </section>
     </article>
     <article id="materials">
       <h2>Materials</h2>
@@ -137,12 +161,18 @@
       </datalist>
       <div id="material-entries">
       </div>
-      <button id="add-material">Add Material</button>
+      <div class="controls">
+        <button id="add-material">Add Material</button>
+      </div>
     </article>
     <article>
-      <h2>Export</h2>
-      <button id="print">Print JSON in Console</button>
-      <button id="download">Download JSON</button>
+      <h2>Export Paper JSON</h2>
+      <div>
+        <button id="print">Preview JSON</button>
+        <button id="copy">Copy JSON</button>
+        <button id="download">Download JSON</button>
+      </div>
+      <pre id="preview">Click "Preview JSON" to poulate preview</pre>
     </article>
     <script type="module">
       import { hydrate } from './add-paper.mjs';
