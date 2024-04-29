@@ -58,7 +58,7 @@
 	</div>
 
 	<div class="flex w-full md:w-fit md:max-w-4xl overflow-x-hidden">
-		<div class="hidden md:flex fixed top-0 flex-col justify-between" style="height: 100vh;">
+		<div class="hidden md:flex flex-col justify-between fixed top-0 h-screen">
 			<div class="flex flex-col mb-4">
 				<Logo />
 				{#each sections as section}
@@ -69,7 +69,7 @@
 				<!-- svelte-ignore a11y-missing-content -->
 				<a class="twitter" title="Follow Us on Twitter" href="http://twitter.com/uwdata"></a>
 			</div>
-			<div class="mb-2">
+			<div class="mb-4">
 				<a
 					class="block"
 					href="http://dub.washington.edu/"
