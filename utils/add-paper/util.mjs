@@ -10,7 +10,11 @@ export function $$(sel) {
 
 export function set(id, value) {
   if (!value) return;
-  $(`#_${id}`).value = value;
+  setValue(`#_${id}`, value);
+}
+
+export function setValue(sel, value) {
+  $(sel).value = value;
 }
 
 export function option({ value, label }) {
@@ -36,4 +40,46 @@ export function dateToParts(date) {
 export function dateString(parts) {
   const [y, m = 1, d = 1] = parts;
   return `${y}-${fmt.format(m)}-${fmt.format(d)}`;
+}
+
+export function slugify(text) {
+  return text
+    .toLowerCase()
+    .replace(/\d+/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/[^-\w]+/g, '')
+    .slice(0, 50)
+    .replace(/-$/, '');
+}
+
+export function addAuthorEntry() {
+  const index = $$(`input._author`).length + 1;
+  const entry = document.createElement('section');
+  entry.innerHTML = `
+    <label>Author ${index}</label>
+    <input data-index="${index}" class="_author" list="people-list" type="text" />
+  `;
+  $('#author-entries').appendChild(entry);
+}
+
+export function addMaterialEntry() {
+  const entry = document.createElement('div');
+  entry.innerHTML = `
+    <section>
+      <label>Type</label>
+      <input class="_material_type" list="material-list" type="text" />
+    </section>
+    <section>
+      <label>Link</label>
+      <input class="_material_link" type="text" />
+    </section>
+  `;
+  $('#material-entries').appendChild(entry);
+}
+
+export function ensureAuthorEntries(n) {
+  const diff = n - $$(`input._author`).length;
+  for (let i = 0; i < diff; ++i) {
+    addAuthorEntry();
+  }
 }

@@ -1,8 +1,10 @@
 import {
-  $, $$, download, set, option, dateToParts, dateString
+  $, $$, addAuthorEntry, addMaterialEntry, dateString, dateToParts,
+  download, option, set, slugify
 } from './util.mjs';
+import { doiLookup } from './doi-lookup.mjs';
 
-let authorEntries = 0;
+let venues = null;
 let people = null;
 let peopleMap = null;
 
@@ -33,8 +35,9 @@ export async function hydrate() {
   set('mod_date', date);
 
   // populate venue options
+  venues = await loadVenues();
   const venueList = $('#_venue-list');
-  for (const venue of await loadVenues()) {
+  for (const venue of venues) {
     venueList.appendChild(option(venue));
   }
 
@@ -50,17 +53,23 @@ export async function hydrate() {
 
   // register DOI lookup
   $('#lookup').addEventListener('click', () => {
-    const doi = doiURL($('#_doi').value);
-    lookupDOI(doi);
+    doiLookup($('#_doi').value, { people, venues, addAuthorEntry });
   });
 
   // register export methods
-  $('#print').addEventListener('click', () => {
-    console.log(JSON.stringify(compileJSON(), 0, 2));
+  $('#print').addEventListener('click', previewJSON);
+  $('#copy').addEventListener('click', async () => {
+    const json = previewJSON();
+    if (json) {
+      await navigator.clipboard.writeText(json);
+      alert('Copied JSON data to clipboard.');
+    }
   });
   $('#download').addEventListener('click', () => {
     const json = compileJSON();
-    download(`${json.web_name}.json`, JSON.stringify(json, 0, 2));
+    if (json) {
+      download(`${json.web_name}.json`, JSON.stringify(json, 0, 2));
+    }
   });
 }
 
@@ -69,7 +78,8 @@ async function loadVenues() {
   const data = await resp.json();
   return data.map(d => ({
     value: d.nickname,
-    label: `${d.fullName} -> ${d.nickname}`
+    label: `${d.fullName} -> ${d.nickname}`,
+    name: d.fullName
   }));
 }
 
@@ -82,33 +92,23 @@ async function loadPeople() {
   return data;
 }
 
-function addAuthorEntry() {
-  const index = ++authorEntries;
-  const entry = document.createElement('section');
-  entry.innerHTML = `
-    <label>Author ${index}</label>
-    <input class="_author" list="people-list" type="text" />
-  `;
-  $('#author-entries').appendChild(entry);
-}
-
-function addMaterialEntry() {
-  const entry = document.createElement('div');
-  entry.innerHTML = `
-    <section>
-      <label>Type</label>
-      <input class="_material_type" list="material-list" type="text" />
-    </section>
-    <section>
-      <label>Link</label>
-      <input class="_material_link" type="text" />
-    </section>
-  `;
-  $('#material-entries').appendChild(entry);
+function previewJSON() {
+  const data = compileJSON();
+  const json = JSON.stringify(data, 0, 2);
+  if (data) {
+    $('#preview').innerText = json;
+    return json;
+  }
+  return '';
 }
 
 function compileJSON() {
-  const json = newPaper();
+  const slug = slugify($('#_web_name').value || $('#_title').value);
+  if (!slug) {
+    alert('Missing web name! The web name field is required.');
+    return null;
+  }
+  const json = newPaper(slug);
 
   // populate metadata fields
   const prefix = '#metadata > section ';
@@ -117,19 +117,35 @@ function compileJSON() {
     const name = input.getAttribute('id').slice(1);
     json[name] = input.value;
   }
+  json.web_name = slug;
+
+  // populate figure data
+  const caption = $('#_caption').value;
+  if (caption) {
+    json.caption = caption;
+  } else {
+    json.figure = '';
+  }
 
   // populate author list
   json.authors = $$('input._author')
-    .map(el => el.value).filter(d => d)
+    .flatMap(el => el.value || [])
     .map(key => resolvePerson(key));
 
   // populate materials list
-  json.materials = $$('#material-entries > div').map(el => {
-    return {
-      name: el.querySelector('._material_type').value,
-      link: el.querySelector('._material_link').value
-    };
+  json.materials = $$('#material-entries > div').flatMap(el => {
+    const name = el.querySelector('._material_type').value;
+    const link = el.querySelector('._material_link').value;
+    return name && link ? { name, link } : [];
   });
+
+  // format tags
+  const tags = (json.tags ?? '')
+    .toLowerCase()
+    .split(/\s+|,|\s+,\s+/g) // split on space or comma
+    .map(s => s.replace(/[^\w]+/g, '')) // letters only
+    .filter(x => x);
+  json.tags = Array.from(new Set(tags)); // dedupe
 
   return json;
 }
@@ -153,47 +169,10 @@ function resolvePerson(name) {
   }
 }
 
-function doiURL(doi) {
-  return !doi ? null
-    : doi.startsWith('http') ? doi
-    : `https://doi.org/${doi}`; // TODO escaping?
-}
-
-export async function lookupDOI(url) {
-  const resp = await fetch(url, {
-    checkContentType: true,
-    method: 'GET',
-    headers: {
-      Accept: 'application/vnd.citationstyles.csl+json'
-    }
-  });
-  const data = await resp.json();
-
-  // handle title
-  const title = data.title + (data.subtitle?.length ? `: ${data.subtitle}` : '');
-  set('title', title.replace('&amp;', '&')); // TODO? other HTML escapes?
-
-  // handle date
-  const parts = data.published?.['date-parts'];
-  if (parts) {
-    set('year', parts[0]);
-    set('pub_date', dateString(parts));
-  }
-
-  set('publisher', data.publisher);
-  set('volume', data.volume);
-  set('issue', data.issue);
-
-  // TODO?
-  // Map authors to known people (given, family, ORCID)
-  // Map venues to known venues (container-title)
-  // Also try loading data from Semantic Scholar
-}
-
-function newPaper() {
+function newPaper(slug) {
   return {
     doi: null,
-    web_name: '',
+    web_name: slug,
     title: '',
     venue: '',
     year: -1,
@@ -205,10 +184,10 @@ function newPaper() {
     editors: '',
     publisher: '',
     location: '',
-    pdf: '',
+    pdf: '<<REPLACE WITH LINK TO PDF>>',
     abstract: '',
-    thumbnail: '',
-    figure: '',
+    thumbnail: `images/thumbs/${slug}.png`,
+    figure: `images/figures/${slug}.png`,
     caption: '',
     visible: true,
     pub_date: '',
