@@ -10,8 +10,8 @@ a:hover {
     fill: #8a5ed3;
 }
 
-img {
-    border: none;
+.halo:hover {
+    box-shadow: 2px 2px 18px #8a5ed3;
 }
 
 strong, b {
@@ -32,11 +32,19 @@ strong, b {
     letter-spacing: 0.15em;
 }
 
-.halo:hover {
-    box-shadow: 2px 2px 18px #8a5ed3;
+.text-uw {
+    color: #652c90;
 }
 
-/* --- */
+p {
+    margin-bottom: 0.5em;
+}
+
+.quote {
+    padding-right: 5px;
+    margin-bottom: 1em;
+    font-style: italic;
+}
 
 .heading {
     margin-bottom: 5px;
@@ -45,31 +53,14 @@ strong, b {
     letter-spacing: 1px;
 }
 
-/* --- */
-
-.nav {
-    margin-top: 55px;
-}
-
-.nav>a {
-    font-size: 10px;
-    font-weight: 500;
+h2 {
+    font-size: 15px;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-right: 0.5em;
-}
-
-.nav .sub {
-    margin-left: 2px;
     margin-bottom: 0.5em;
-    font-size: 12px;
+    margin-top: 1em;
 }
-
-.text-uw {
-    color: #652c90;
-}
-
-/* --- */
 
 .lead {
     font-size: 15px;
@@ -82,194 +73,6 @@ div.lead {
     margin-bottom: 0.5em;
 }
 
-.sidepanel {
-    float: right;
-    width: 200px;
-}
-
-.update, .course {
-    font-size: 14px;
-    margin-bottom: 1em;
-}
-
 .update a {
-    font-weight: 500;
-}
-
-.allpubs {
-    margin-left: 1em;
-    font-size: 13px;
-    line-height: 20px;
-    font-weight: 400;
-    letter-spacing: 0px;
-}
-
-.recent .event {
-    font-weight: 500;
-    margin-bottom: 1em;
-    font-size: 14px;
-}
-
-.recent .paper div.title,
-.recent .paper div.authors,
-.recent .paper div.venue {
-    display: inline;
-    margin-right: 0.4em;
-}
-
-/* --- */
-
-.pub>.title {
-    font-size: 19px;
-    font-weight: 600;
-}
-
-.pub>.authors {
-    font-size: 16px;
-    margin-bottom: 1em;
-}
-
-.pub>.figure {
-    margin: 1.5em 0;
-}
-
-.pub>.figure img {
-    max-width: 98%;
-}
-
-.pub>.figure .caption {
-    margin-top: 0.5em;
-    line-height: 1.4;
-}
-
-.pub .heading {
-    margin-top: 24px;
-    margin-bottom: 5px;
-    font-size: 12px;
-}
-
-.pub .text,
-.pub .materials {
-    font-size: 15px;
-    font-weight: 300;
-    margin-bottom: 1em;
-}
-
-.pub .player {
-    margin-top: 4px;
-}
-
-.papers {
-    margin-bottom: 2em;
-}
-
-.papers .heading {
-    margin-left: 138px;
-    margin-bottom: 10px;
-    font-size: 15px;
-}
-
-/* --- */
-
-.members {
-    width: 800px;
-}
-
-.people .heading {
-    margin-top: 1em;
-    margin-bottom: 10px;
-    font-size: 15px;
-}
-
-.people .list {
-    width: 790px;
-    -moz-column-count: 3;
-    -webkit-column-count: 3;
-    column-count: 3;
-}
-
-.person, .idlgroup {
-    position: relative;
-    display: inline-block;
-    vertical-align: top;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    width: 123px;
-    height: 170px;
-    overflow: hidden;
-}
-
-.idlgroup, .idlgroup img {
-    width: 242px;
-}
-
-.person a, .idlgroup a {
-    position: absolute;
-}
-
-.person img {
-    border-radius: 12px;
-    width: 123px;
-    opacity: 0.7;
-}
-
-.person img:hover {
-    opacity: 0.9;
-}
-
-.person .nickname {
-    position: absolute;
-    z-index: 2;
-    left: 16px;
-    bottom: 4px;
-    color: black;
-    font-size: 18px;
-    font-weight: 500;
-    color: #fff;
-    text-shadow: 1px 1px 3px #000;
-    pointer-events: none;
-}
-
-.person:hover .nickname {
-    color: #aa7ef3;
-    text-shadow: 1px 1px 3px #000;
-}
-
-.idlgroup .name {
-    margin-top: 2em;
-    font-size: 19px;
-    font-weight: 500;
-}
-
-.idlgroup .affiliation {
-    font-style: italic;
-    font-size: 16px;
-}
-
-.idlgroup .interests {
-    margin-top: 0.5em;
-    font-size: 14px;
-}
-
-.about a.b {
-    font-weight: 600;
-}
-
-.about .lead {
-    margin-top: 1.5em;
-}
-
-.about .quote {
-    padding-right: 5px;
-    margin-bottom: 1.3em;
-    font-style: italic;
-}
-
-.about p {
-    margin-bottom: 0.5em;
-}
-
-.about .quote,
-.about p {
-    line-height: 24px;
+	font-weight: 500;
 }

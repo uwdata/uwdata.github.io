@@ -46,8 +46,8 @@
 	$: subtitle = pageName === 'home' ? 'Visualization + Analysis' : pageName;
 </script>
 
-<div class="p-0 m-0 font-sans pl-5 pr-5 pt-2 pb-5">
-	<div class="md:hidden flex justify-between mb-3 text-xs tracking-wider uppercase">
+<div class="p-0 m-0 font-sans pl-5 pr-5 pt-3 pb-5">
+	<div class="md:hidden flex justify-between mb-2 text-xs tracking-wider uppercase">
 		{#each mobile as section}
 			{#if pageName === section.name}
 				<a class="font-semibold" href={section.href}>{section.name}</a>
@@ -74,37 +74,41 @@
 			</div>
 			<div class="mb-4">
 				<a
-					class="block"
+					class="block w-11"
 					href="http://dub.washington.edu/"
 					title="dub: Design, Use, Build - Human-Computer Interaction &amp; Design"
 					><img
-						class="w-11 rounded halo"
+						class="rounded halo"
 						src={`${base}/images/logo/dub.png`}
 						alt="dub logo"
 					/></a
 				>
-				<a class="block mt-3" href="http://cs.washington.edu/" title="UW Computer Science &amp; Engineering"
+				<a
+					class="block w-11 mt-3"
+					href="http://cs.washington.edu/"
+					title="UW Computer Science &amp; Engineering"
 					><img
-						class="w-11 rounded halo"
+						class="rounded halo"
 						src={`${base}/images/logo/cse.png`}
 						alt="uw computer science and engineering logo"
 					/></a
 				>
 			</div>
 		</div>
-		<div class="flex flex-col w-full md:py-1.5 md:pr-10 md:pl-24">
-			<h1 class="flex-col md:flex-row items-center mb-3 md:mb-4">
-				<div class="inline-block text-xl md:text-3xl mr-3">
+
+		<div class="flex flex-col w-full md:py-1 md:pr-10 md:pl-24">
+			<header class="flex flex-row justify-between mb-3 md:mb-3">
+				<div class="text-2xl md:text-3xl mt-1">
+					<span class="font-medium text-uw">UW</span> Interactive Data Lab
+					<span class="hidden md:inline ml-3 uppercase text-lg md:text-xl tracking-wider text-gray-500">{subtitle}</span>
+				</div>
+				<div class="md:hidden w-9">
 					<img
-					  class="md:hidden inline w-8 mr-1"
-						style="margin-top: -5px;"
 						src={`${base}/images/logo/idl-300.png`}
 						alt="IDL logo"
 					/>
-					<span class="font-medium text-uw">UW</span> Interactive Data Lab
 				</div>
-				<div class="hidden md:inline-block uppercase text-lg md:text-xl tracking-wider text-gray-500">{subtitle}</div>
-			</h1>
+			</header>
 			<div class="article">
 				<slot />
 			</div>

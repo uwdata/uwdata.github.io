@@ -17,7 +17,7 @@
 </script>
 
 {#each Object.keys(sectionedPapers).sort().reverse() as year}
-	<h2 class="heading">{year}</h2>
+	<div class="heading">{year}</div>
 	{#each sectionedPapers[year] as { paper, venue }}
 		<SmallPaper {paper} {venue} />
 	{/each}

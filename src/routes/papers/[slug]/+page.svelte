@@ -20,29 +20,30 @@
 		<div class="italic">{venue.fullName}, {paper.year}</div>
 	</div>
 
-	<div class="figure">
-		{#if paper.figure}
+	{#if paper.figure}
+		<figure class="mt-5">
 			<img
-				class="w-full md:max-w-3xl"
 				src={`../${paper.figure}`}
 				alt={`Figure for ${paper.title}`}
 			/>
-		{/if}
-		<div class="caption text-xs">{paper.caption}</div>
-	</div>
+			<figcaption class="mt-2 text-xs leading-4">
+				{paper.caption}
+			</figcaption>
+		</figure>
+	{/if}
 
 	<div>
-		<div class="heading">Materials</div>
+		<div class="heading mt-6 mb-2 text-xs">Materials</div>
 		<Materials {paper} />
 	</div>
 
 	<div class="abstract">
-		<div class="heading">Abstract</div>
-		<div class="text">{paper.abstract}</div>
+		<div class="heading mt-6 mb-2 text-xs">Abstract</div>
+		<div class="text-[15px]">{paper.abstract}</div>
 	</div>
 
 	<div>
-		<div class="heading">BibTeX</div>
+		<div class="heading mt-6 mb-2 text-xs">BibTeX</div>
 		<Bibtex {paper} {venue} />
 	</div>
 </div>
