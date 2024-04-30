@@ -15,9 +15,9 @@
   "caption": "An overview of how human annotators can use ScatterShot to iteratively collect effective in-context examples for temporal expression extraction and normalization. The function extracts phrases with temporal meaning from sentences (e.g.,“Oct. 23, 1999” in “Slepian was killed on Oct. 23, 1999”), and normalizes them into standard formats (“Oct. 23, 1999 == 1999-10-23”) — the red spans represent information deleted from the input, and the green ones represent information generated in the output. Given an in-context example set that is likely underspecifying the intended functionality (A), ScatterShot applies slice-based sampling to return unlabeled inputs that either have novel patterns or are difficult cases, and uses the existing examples to drive an LLM (e.g., GPT-3) to suggest (possibly noisy) annotations, such that humans can correct the suggested annotations and possibly expand the in-context example bucket. Compared to random sampling and manual labeling (B), ScatterShot helps humans re-allocate annotation budgets towards informative examples, and increases the in-context function performance.",
   "web_name": "scattershot",
   "visible": true,
-  "mod_date": "03-27-2023",
+  "mod_date": "2023-03-27",
   "note": "Best Paper Honorable Mention",
-  "pub_date": "03-27-2023",
+  "pub_date": "2023-03-27",
   "venue": "IUI",
   "authors": [
     {

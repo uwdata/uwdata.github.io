@@ -30,13 +30,10 @@ export const load: PageLoad = async ({ fetch }) => {
 					const featureYear = Number(x.year);
 					const featureVenue = x.venue_nickname;
 					const filteredPapers = papers.filter(({ paper, venue }) => {
-						const rightVenue = venue.nickname === featureVenue;
-						const paperYear = new Date(paper.pub_date || '').getFullYear();
-						const rightYear = paperYear === featureYear;
-						return rightVenue && rightYear;
+						return venue.nickname === featureVenue && paper.year === featureYear;
 					});
 					if (filteredPapers.length === 0) {
-						console.log(x.desc, 'has no papers');
+						console.error(x.desc, 'has no papers');
 					}
 					return {
 						papers: filteredPapers,
