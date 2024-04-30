@@ -41,8 +41,8 @@
 			<a class="ml-2 text-sm font-thin tracking-normal hidden md:inline-block" href={`${base}/papers`}>(VIEW ALL PAPERS)</a>
 		</div>
 		{#each data.groupedPapers as group}
-			<div class="flex flex-col recent">
-				<div class="event">{group.event}</div>
+			<div class="flex flex-col">
+				<div class="text-sm font-medium mb-3">{group.event}</div>
 				{#each group.papers as x}
 					<SmallPaper paper={x.paper} venue={x.venue} />
 				{/each}
@@ -54,7 +54,7 @@
 		<section>
 			<div class="lead">Updates</div>
 			{#each data.news as newsItem}
-				<div class="update text-sm">
+				<div class="update text-sm mb-3">
 					<div class="italic">{toDate(newsItem.date)}</div>
 					<div class="news">{@html md.render(newsItem.text)}</div>
 				</div>

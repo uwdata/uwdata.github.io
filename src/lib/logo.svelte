@@ -133,7 +133,7 @@
 	a {
 		position: absolute;
 		left: -25px;
-		top: -10px;
+		top: -9px;
 		width: 99px;
 		height: 85px;
 		overflow: hidden;

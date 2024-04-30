@@ -1,13 +1,16 @@
-<div class="quote">Nothing &mdash; not the careful logic of mathematics, not statistical models and theories, not the awesome arithmetic power of modern computers &mdash; nothing can substitute here for the flexibility of the informed human mind... Accordingly, both [analysis] approaches and techniques need to be structured so as to facilitate human involvement and intervention. &nbsp; &ndash; Tukey &amp; Wilk, Data Analysis &amp; Statistics, 1966</div>
+<blockquote class="quote">
+Nothing &mdash; not the careful logic of mathematics, not statistical models and theories, not the awesome arithmetic power of modern computers &mdash; nothing can substitute here for the flexibility of the informed human mind... Accordingly, both [analysis] approaches and techniques need to be structured so as to facilitate human involvement and intervention. &ndash; Tukey &amp; Wilk, Data Analysis &amp; Statistics, 1966
+</blockquote>
 
-The mission of the Interactive Data Lab is to enhance people's ability to **understand and communicate data** through the design of new **interactive systems** for data visualization and analysis. We study the perceptual, cognitive and social factors affecting data analysis in order to improve the efficiency and scale at which expert analysts work, and to lower barriers for non-experts.</br>
+Advances in computing and statistics provide new opportunities for data-driven discovery. However, breakthroughs in science and industry ultimately lie with the ability of empowered investigators to pursue questions, uncover domain-specific patterns, identify errors, and assess model outputs. Though voiced over 50 years ago, the sentiments of Tukey &amp; Wilk ring true today: _to facilitate effective human involvement at all stages of data analysis_ remains a grand challenge.
 
-Motivating questions include: How might we enable users to transform and integrate data with minimal programming? How can we support expressive and effective visualization designs? Can we build systems to query and visualize massive data sets at interactive rates? How might we enable domain experts to guide machine learning methods to produce better models? </br>
+The mission of the Interactive Data Lab is to enhance people's ability to **understand and communicate data** through the design of new **interactive systems** for data visualization and analysis. We study the perceptual, cognitive and social factors affecting data analysis in order to improve the efficiency and scale at which expert analysts work, and to lower barriers for non-experts.
 
-Advances in computing and statistics provide new opportunities for data-driven discovery. However, breakthroughs in science and industry ultimately lie with the ability of empowered investigators to pursue questions, uncover domain-specific patterns, identify errors, and assess model outputs. Though voiced nearly 50 years ago, the sentiments of Tukey &amp; Wilk ring true today: _to facilitate effective human involvement at all stages of data analysis_ remains a grand challenge.
+<!-- <div class="lead">Background</div> -->
 
-<div class="lead">background</div>
-<div class="right"><img src="/images/about/migration.png" /></div>
+## Background
+
+<img class="right" src="/images/about/migration.png" />
 
 The UW Interactive Data Lab began as the [**Stanford Visualization Group**](http://vis.stanford.edu), founded in the late 1990s by [Prof. Pat Hanrahan](http://graphics.stanford.edu/~hanrahan/). Early Stanford projects included the [**Polaris**](http://www.graphics.stanford.edu/projects/polaris/) system, now commercialized as [**Tableau Software**](http://www.tableausoftware.com/).</br>
 
