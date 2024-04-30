@@ -1,151 +1,10 @@
 [
 	{
-		"desc": "VisWeek 2009 - Atlantic City, NJ",
-		"venue_nickname": "VIS",
-		"year": 2009,
-		"visible": false
-	},
-	{ "desc": "CHI 2009 - Boston, MA", "venue_nickname": "CHI", "year": 2009, "visible": false },
-	{
-		"desc": "VisWeek 2010 - Salt Lake City, UT",
-		"venue_nickname": "VIS",
-		"year": 2010,
-		"visible": false
-	},
-	{ "desc": "CHI 2010 - Atlanta, GA", "venue_nickname": "CHI", "year": 2010, "visible": false },
-	{ "desc": "AVI 2010 - Rome, Italy", "venue_nickname": "AVI", "year": 2010, "visible": false },
-	{
-		"desc": "Intelligent User Interfaces 2011 - Stanford, CA",
-		"venue_nickname": "IUI",
-		"year": 2011,
-		"visible": false
-	},
-	{ "desc": "CHI 2011 - Vancouver, BC", "venue_nickname": "CHI", "year": 2011, "visible": false },
-	{
-		"desc": "UIST 2011 - Santa Barbara, CA",
-		"venue_nickname": "UIST",
-		"year": 2011,
-		"visible": false
-	},
-	{
-		"desc": "VisWeek 2011 - Providence, RI",
-		"venue_nickname": "VIS",
-		"year": 2011,
-		"visible": false
-	},
-	{ "desc": "CHI 2012 - Austin, TX", "venue_nickname": "CHI", "year": 2012, "visible": false },
-	{ "desc": "AVI 2012 - Capri, Italy", "venue_nickname": "AVI", "year": 2012, "visible": false },
-	{ "desc": "VisWeek 2012 - Seattle, WA", "venue_nickname": "VIS", "year": 2012, "visible": false },
-	{ "desc": "ACM TOCHI 2012", "venue_nickname": "ACM TOCHI", "year": 2012, "visible": false },
-	{ "desc": "CHI 2013 - Paris, France", "venue_nickname": "CHI", "year": 2013, "visible": false },
-	{ "desc": "JAMIA 2013", "venue_nickname": "JAMIA", "year": 2013, "visible": false },
-	{
-		"desc": "EuroVis 2013 - Leipzig, Germany",
-		"venue_nickname": "EuroVis",
-		"year": 2013,
-		"visible": false
-	},
-	{ "desc": "ICML 2013 - Atlanta, GA", "venue_nickname": "ICML", "year": 2013, "visible": false },
-	{ "desc": "VIS 2013 - Atlanta, GA", "venue_nickname": "VIS", "year": 2013, "visible": false },
-	{ "desc": "CHI 2014 - Toronto, Canada", "venue_nickname": "CHI", "year": 2014, "visible": false },
-	{
-		"desc": "EuroVis 2014 - Swansea, Wales",
-		"venue_nickname": "EuroVis",
-		"year": 2014,
-		"visible": false
-	},
-	{ "desc": "UIST 2014 - Honolulu, HI", "venue_nickname": "UIST", "year": 2014, "visible": false },
-	{ "desc": "VIS 2014 - Paris, France", "venue_nickname": "VIS", "year": 2014, "visible": false },
-	{ "desc": "EMNLP 2014 - Doha, Qatar", "venue_nickname": "EMNLP", "year": 2014, "visible": false },
-	{ "desc": "CIDR 2015 - Asilomar, CA", "venue_nickname": "CIDR", "year": 2015, "visible": false },
-	{
-		"desc": "CSCW 2015 - Vancouver, Canada",
-		"venue_nickname": "CSCW",
-		"year": 2015,
-		"visible": false
-	},
-	{
-		"desc": "EuroVis 2015 - Cagliari, Sardinia",
-		"venue_nickname": "EuroVis",
-		"year": 2015,
-		"visible": false
-	},
-	{
-		"desc": "NAACL-HLT 2015 - Denver, CO",
-		"venue_nickname": "NAACL-HLT",
-		"year": 2015,
-		"visible": false
-	},
-	{ "desc": "VIS 2015 - Chicago, IL", "venue_nickname": "VIS", "year": 2016, "visible": false },
-	{ "desc": "CHI 2016 - San Jose, CA", "venue_nickname": "CHI", "year": 2016, "visible": false },
-	{
-		"desc": "EuroVis 2016 - Groningen, Netherlands",
-		"venue_nickname": "EuroVis",
-		"year": 2016,
-		"visible": false
-	},
-	{ "desc": "VIS 2016 - Baltimore, MD", "venue_nickname": "VIS", "year": 2017, "visible": false },
-	{
-		"desc": "SIGMOD 2016 - San Francisco, CA",
-		"venue_nickname": "HILDA",
-		"year": 2016,
-		"visible": false
-	},
-	{ "desc": "CHI 2017 - Denver, CO", "venue_nickname": "CHI", "year": 2017, "visible": false },
-	{
-		"desc": "EuroVis 2017 - Barcelona, Spain",
-		"venue_nickname": "EuroVis",
-		"year": 2017,
-		"visible": false
-	},
-	{ "desc": "VIS 2017 - Phoenix, AZ", "venue_nickname": "VIS", "year": 2018, "visible": false },
-	{
-		"desc": "CHI 2018 - Montreal, Quebec",
+		"desc": "CHI 2022 - New Orleans, LA",
 		"venue_nickname": "CHI",
-		"year": 2018,
-		"visible": false
+		"year": 2022,
+		"visible": true
 	},
-	{
-		"desc": "EuroVis 2018 - Brno, Czech Republic",
-		"venue_nickname": "EuroVis",
-		"year": 2018,
-		"visible": false
-	},
-	{
-		"desc": "UIST 2018 - Berlin, Germany",
-		"venue_nickname": "UIST",
-		"year": 2018,
-		"visible": false
-	},
-	{ "desc": "VIS 2018 - Berlin, Germany", "venue_nickname": "VIS", "year": 2019, "visible": false },
-	{ "desc": "PNAS 2019", "venue_nickname": "PNAS", "year": 2019, "visible": false },
-	{
-		"desc": "CHI 2019 - Glasgow, Scotland",
-		"venue_nickname": "CHI",
-		"year": 2019,
-		"visible": false
-	},
-	{
-		"desc": "EuroVis 2019 - Porto, Portugal",
-		"venue_nickname": "EuroVis",
-		"year": 2019,
-		"visible": false
-	},
-	{ "desc": "ACL 2019 - Florence, Italy", "venue_nickname": "ACL", "year": 2019, "visible": false },
-	{ "desc": "VIS 2019 - Vancouver, BC", "venue_nickname": "VIS", "year": 2020, "visible": false },
-	{ "desc": "IUI 2020 - Cagliari, Italy", "venue_nickname": "IUI", "year": 2020, "visible": false },
-	{ "desc": "CHI 2020 - Honolulu, HI", "venue_nickname": "CHI", "year": 2020, "visible": false },
-	{
-		"desc": "VIS 2020 - Salt Lake City, UT",
-		"venue_nickname": "VIS",
-		"year": 2021,
-		"visible": false
-	},
-	{ "desc": "Distill 2020", "venue_nickname": "Distill", "year": 2020, "visible": false },
-	{ "desc": "ACL 2021", "venue_nickname": "ACL", "year": 2021, "visible": false },
-	{ "desc": "UIST 2021", "venue_nickname": "UIST", "year": 2021, "visible": false },
-	{ "desc": "VIS 2021", "venue_nickname": "VIS", "year": 2021, "visible": false },
-	{ "desc": "CHI 2022 - New Orleans, LA", "venue_nickname": "CHI", "year": 2022, "visible": true },
 	{
 		"desc": "IUI 2023 - Sydney, Australia",
 		"venue_nickname": "IUI",
@@ -155,7 +14,7 @@
 	{
 		"desc": "VIS 2023 - Melbourne,  Australia",
 		"venue_nickname": "VIS",
-		"year": 2023,
+		"year": 2024,
 		"visible": true
 	},
 	{
