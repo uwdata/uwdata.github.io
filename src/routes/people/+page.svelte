@@ -11,10 +11,12 @@
 		})
 		.reduce(
 			(acc, person) => {
-				if (!acc[person.status]) {
-					acc[person.status] = [];
+				if (person.visible) {
+					if (!acc[person.status]) {
+						acc[person.status] = [];
+					}
+					acc[person.status].push(person);
 				}
-				acc[person.status].push(person);
 				return acc;
 			},
 			{} as Record<Person['status'], Person[]>

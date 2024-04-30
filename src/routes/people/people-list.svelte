@@ -4,10 +4,10 @@
   export let displayName: (person: Person) => string;
 </script>
 
-<div class="grid grid-cols-2 md:grid-cols-3 text-sm md:text-base text-left">
+<div class="columns-2 md:columns-3 text-sm md:text-base text-left">
 	{#each people as person}
 		{#if person.url}
-			<a href={person.url}>{displayName(person)}</a>
+			<div><a href={person.url}>{displayName(person)}</a></div>
 		{:else}
 			<div>{displayName(person)}</div>
 		{/if}
