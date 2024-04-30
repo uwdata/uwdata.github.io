@@ -41,7 +41,7 @@
 	]
 
 	$: pageName =
-		$page.url.pathname.split('/').filter((x) => x && x !== 'idlweb')[0] ||
+		$page.url.pathname.split('/').filter((x) => x && x !== 'uwdata.github.io')[0] ||
 		'home';
 	$: subtitle = pageName === 'home' ? 'Visualization + Analysis' : pageName;
 </script>
