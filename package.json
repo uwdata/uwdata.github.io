@@ -7,7 +7,7 @@
 	"license": "UNLICENSED",
 	"scripts": {
 		"dev": "vite dev",
-		"build": "npm run integrity-enforcement && vite build",
+		"build": "npm run integrity-enforcement && vite build && cp 404.html build/404.html",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
