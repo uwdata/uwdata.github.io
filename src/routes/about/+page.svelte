@@ -1,9 +1,6 @@
 <script lang="ts">
-	import about from './about.md?raw';
-	import markdownit from 'markdown-it';
-	let md = markdownit({ html: true, linkify: true, typographer: true });
+	import Markdown from '$lib/markdown.svelte';
+	import content from './about.md?raw';
 </script>
 
-<div class="about">
-	{@html md.render(about)}
-</div>
+<Markdown {content} />
