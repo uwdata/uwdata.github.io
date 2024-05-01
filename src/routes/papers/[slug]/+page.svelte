@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Paper, Venue } from '../../../lib/app-types';
+	import type { Paper, Venue } from '$lib/app-types';
 	import AuthorList from '$lib/author-list.svelte';
 	import Bibtex from '$lib/bibtex.svelte';
 	import Materials from '$lib/materials.svelte';
