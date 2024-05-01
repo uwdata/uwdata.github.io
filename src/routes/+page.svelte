@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import markdownit from 'markdown-it';
 	import type { Paper, News, Spotlight, Venue, Course } from '$lib/app-types';
-	import SmallPaper from '$lib/small-paper.svelte';
 	import Carousel from '$lib/carousel.svelte';
+	import Markdown from '$lib/markdown.svelte';
+	import SmallPaper from '$lib/small-paper.svelte';
 
 	export let data: {
 		groupedPapers: { papers: { paper: Paper; venue: Venue }[]; event: string }[];
@@ -11,8 +11,6 @@
 		spotlight: Spotlight[];
 		courses: Course[];
 	};
-
-	let md = markdownit({ html: true, linkify: true, typographer: true });
 
 	function toDate(dateString: string) {
 		return new Date(dateString).toLocaleDateString('en-US', {
@@ -53,10 +51,10 @@
 	<div class="flex-col basis-3/12 pt-3 border-t md:pt-0 md:border-t-0">
 		<section>
 			<div class="lead">Updates</div>
-			{#each data.news as newsItem}
+			{#each data.news as item}
 				<div class="update text-sm mb-3">
-					<div class="italic">{toDate(newsItem.date)}</div>
-					<div class="news">{@html md.render(newsItem.text)}</div>
+					<div class="italic">{toDate(item.date)}</div>
+					<Markdown content={item.text} />
 				</div>
 			{/each}
 		</section>

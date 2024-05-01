@@ -53,15 +53,6 @@ p {
     letter-spacing: 1px;
 }
 
-h2 {
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 0.5em;
-    margin-top: 1em;
-}
-
 .lead {
     font-size: 15px;
     font-weight: 600;
@@ -75,4 +66,13 @@ div.lead {
 
 .update a {
 	font-weight: 500;
+}
+
+.markdown h2 {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
 }
