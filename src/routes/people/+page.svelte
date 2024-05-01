@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Person } from '$lib/app-types';
+	import { displayName } from '$lib/display-name';
 	import PeopleGrid from './people-grid.svelte';
 	import PeopleList from './people-list.svelte';
 	export let data: { people: Person[] };
@@ -24,14 +25,10 @@
 		...groupsByStatus['faculty'],
 		...groupsByStatus['member']
 	];
-
-	function displayName(person: Person) {
-		return person.display_name || `${person.first_name} ${person.last_name}`;
-	}
 </script>
 
 <div class="hidden md:block mt-0.5">
-	<PeopleGrid people={members} {displayName} />
+	<PeopleGrid people={members} />
 </div>
 
 <div class="md:hidden">
@@ -56,7 +53,7 @@
 </div>
 
 <div class="lead mt-6">alumni</div>
-<PeopleList people={groupsByStatus['alumni']} {displayName} />
+<PeopleList people={groupsByStatus['alumni']} />
 
 <div class="lead mt-6">collaborators</div>
-<PeopleList people={groupsByStatus['collaborator']} {displayName} />
+<PeopleList people={groupsByStatus['collaborator']} />

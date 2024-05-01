@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { Person } from '$lib/app-types';
+  import { displayName } from '$lib/display-name';
 	export let people: Person[];
-  export let displayName: (person: Person) => string;
 </script>
 
 <div class="grid grid-cols-2 md:grid-cols-3 text-sm md:text-base text-left">

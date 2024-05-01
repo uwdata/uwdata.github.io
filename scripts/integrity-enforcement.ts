@@ -4,10 +4,8 @@ import type { Paper, Person } from '../src/lib/app-types';
 
 async function generateIndex() {
 	const people = JSON.parse(peopleRaw) as Person[];
-	const authorUrls = Object.fromEntries(
-		people
-			.filter((person) => (person?.url || '').length)
-			.map((person) => [`${person.first_name} ${person.last_name}`, person.url])
+	const personMap = Object.fromEntries(
+		people.map((p) => [`${p.first_name} ${p.last_name}`, p])
 	);
 	const paperList = await fs.readdir('./static/papers');
 
@@ -17,9 +15,12 @@ async function generateIndex() {
 			.readFile(`./static/papers/${paper}`, 'utf8')
 			.then((x) => JSON.parse(x) as Paper);
 		const updatedAuthors = paperRaw.authors.map((author) => {
+			const key = `${author.first_name} ${author.last_name}`;
+			const { url, display_name } = personMap[key] || {};
 			return {
 				...author,
-				url: authorUrls[`${author.first_name} ${author.last_name}`]
+				display_name: display_name || undefined,
+				url: url || undefined
 			};
 		});
 		const updatedPaper = {
