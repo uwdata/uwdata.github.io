@@ -44,14 +44,16 @@
     {
       "first_name": "Scott",
       "last_name": "Klemmer",
-      "url": "http://hci.stanford.edu/srk"
+      "url": "http://hci.stanford.edu/srk",
+      "display_name": "Scott R. Klemmer"
     },
     {
       "first_name": "Talton",
-      "last_name": "Jerry"
+      "last_name": "Jerry",
+      "display_name": "Jerry O. Talton"
     }
   ],
   "materials": [],
   "tags": [],
-  "doi": "https://doi.org/10.1145/2470654.2466420"
+  "doi": "10.1145/2470654.2466420"
 }

@@ -37,7 +37,8 @@
     {
       "first_name": "Stuart",
       "last_name": "Card",
-      "url": "http://www2.parc.com/istl/groups/uir/people/stuart/stuart.htm"
+      "url": "http://www2.parc.com/istl/groups/uir/people/stuart/stuart.htm",
+      "display_name": "Stuart K. Card"
     }
   ],
   "materials": [
@@ -47,5 +48,5 @@
     }
   ],
   "tags": [],
-  "doi": "https://doi.org/10.1007/978-3-319-47024-5_3"
+  "doi": "10.1007/978-3-319-47024-5_3"
 }

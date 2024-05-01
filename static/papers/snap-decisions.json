@@ -27,7 +27,8 @@
     },
     {
       "first_name": "Joseph",
-      "last_name": "Kaye"
+      "last_name": "Kaye",
+      "display_name": "Jofish Kaye"
     },
     {
       "first_name": "John",
@@ -35,10 +36,11 @@
     },
     {
       "first_name": "David",
-      "last_name": "Shamma"
+      "last_name": "Shamma",
+      "display_name": "David A. Shamma"
     }
   ],
   "materials": [],
   "tags": [],
-  "doi": "https://doi.org/10.1145/2858036.2858451"
+  "doi": "10.1145/2858036.2858451"
 }

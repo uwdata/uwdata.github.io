@@ -9,7 +9,7 @@
   "publisher": "",
   "location": "",
   "pdf": "https://idl.cs.washington.edu/files/2007-Cammarano-InfoVis.pdf",
-  "abstract": "Both the Resource Description Framework (RDF), used in the semantic web, and Maya Viz u-forms represent data as a graph of objects connected by labeled edges. Existing systems for ﬂexible visualization of this kind of data require manual speciﬁcation of the possible visualization roles for each data attribute. When the schema is large and unfamiliar, this requirement inhibits exploratory visualization by requiring a costly up-front data integration step. To eliminate this step, we propose an automatic technique for mapping data attributes to visualization attributes. We formulate this as a schema matching problem, ﬁnding appropriate paths in the data model for each required visualization attribute in a visualization template. ",
+  "abstract": "Both the Resource Description Framework (RDF), used in the semantic web, and Maya Viz u-forms represent data as a graph of objects connected by labeled edges. Existing systems for ﬂexible visualization of this kind of data require manual speciﬁcation of the possible visualization roles for each data attribute. When the schema is large and unfamiliar, this requirement inhibits exploratory visualization by requiring a costly up-front data integration step. To eliminate this step, we propose an automatic technique for mapping data attributes to visualization attributes. We formulate this as a schema matching problem, ﬁnding appropriate paths in the data model for each required visualization attribute in a visualization template.",
   "thumbnail": "images/thumbs/visualization-heterogeneous-data.gif",
   "figure": "images/figures/heterogeneous_timeline.png",
   "caption": "A timeline of manned spaceﬂight. The data is extracted automatically from dbpedia and then displayed using the SIMILE timeline widget.",
@@ -26,7 +26,8 @@
     },
     {
       "first_name": "Xin",
-      "last_name": "Dong"
+      "last_name": "Dong",
+      "display_name": "Xin (Luna) Dong"
     },
     {
       "first_name": "Bryan",
@@ -59,5 +60,5 @@
     }
   ],
   "tags": [],
-  "doi": "https://doi.org/10.1109/TVCG.2007.70617"
+  "doi": "10.1109/TVCG.2007.70617"
 }

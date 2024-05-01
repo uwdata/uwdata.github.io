@@ -2,7 +2,7 @@
 	{
 		"first_name": "Jeffrey",
 		"last_name": "Heer",
-		"display_name": "Jeffrey Heer",
+		"display_name": null,
 		"email": "jheer@cs.stanford.edu",
 		"url": "http://homes.cs.washington.edu/~jheer/",
 		"status": "faculty",
@@ -16,7 +16,7 @@
 	{
 		"first_name": "Michael",
 		"last_name": "Bostock",
-		"display_name": "Michael Bostock",
+		"display_name": null,
 		"email": "mbostock@cs.stanford.edu",
 		"url": "http://bost.ocks.org/mike/",
 		"status": "alumni",
@@ -30,7 +30,7 @@
 	{
 		"first_name": "Maneesh",
 		"last_name": "Agrawala",
-		"display_name": "Maneesh Agrawala",
+		"display_name": null,
 		"email": "maneesh@cs.berkeley.edu",
 		"url": "http://graphics.stanford.edu/~maneesh/",
 		"status": "collaborator",
@@ -44,7 +44,7 @@
 	{
 		"first_name": "Martin",
 		"last_name": "Wattenberg",
-		"display_name": "Martin Wattenberg",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -72,7 +72,7 @@
 	{
 		"first_name": "Nicholas",
 		"last_name": "Kong",
-		"display_name": "",
+		"display_name": null,
 		"email": "nkong@cs.berkeley.edu",
 		"url": "http://www.eecs.berkeley.edu/~nkong/",
 		"status": "other",
@@ -86,7 +86,7 @@
 	{
 		"first_name": "George",
 		"last_name": "Robertson",
-		"display_name": "",
+		"display_name": null,
 		"email": "ggr@microsoft.com",
 		"url": "",
 		"status": "other",
@@ -100,7 +100,7 @@
 	{
 		"first_name": "Pat",
 		"last_name": "Hanrahan",
-		"display_name": "",
+		"display_name": null,
 		"email": "hanrahan@cs.stanford.edu",
 		"url": "http://graphics.stanford.edu/~hanrahan",
 		"status": "other",
@@ -114,7 +114,7 @@
 	{
 		"first_name": "John",
 		"last_name": "Gerth",
-		"display_name": "",
+		"display_name": null,
 		"email": "gerth@cs.stanford.edu",
 		"url": "http://graphics.stanford.edu/~gerth",
 		"status": "other",
@@ -128,7 +128,7 @@
 	{
 		"first_name": "Leslie",
 		"last_name": "Wu",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -142,7 +142,7 @@
 	{
 		"first_name": "Jason",
 		"last_name": "Chuang",
-		"display_name": "Jason Chuang",
+		"display_name": null,
 		"email": "jason@chuang.info",
 		"url": "http://jason.chuang.info",
 		"status": "alumni",
@@ -156,7 +156,7 @@
 	{
 		"first_name": "Justin",
 		"last_name": "Talbot",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://www.justintalbot.com/",
 		"status": "alumni",
@@ -170,7 +170,7 @@
 	{
 		"first_name": "Nam Wook",
 		"last_name": "Kim",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://namwkim.org/",
 		"status": "alumni",
@@ -184,7 +184,7 @@
 	{
 		"first_name": "Sharon",
 		"last_name": "Lin",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://graphics.stanford.edu/~sharonl/",
 		"status": "alumni",
@@ -198,7 +198,7 @@
 	{
 		"first_name": "Barbara",
 		"last_name": "Tversky",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://www-psych.stanford.edu/~bt/",
 		"status": "other",
@@ -226,7 +226,7 @@
 	{
 		"first_name": "Vidya",
 		"last_name": "Setlur",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -240,7 +240,7 @@
 	{
 		"first_name": "Nathan",
 		"last_name": "Sakunkoo",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://www.stanford.edu/~sakunkoo/nathan/",
 		"status": "other",
@@ -254,7 +254,7 @@
 	{
 		"first_name": "Jeff",
 		"last_name": "Klingner",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://graphics.stanford.edu/~klingner/",
 		"status": "other",
@@ -268,7 +268,7 @@
 	{
 		"first_name": "Chris",
 		"last_name": "Stolte",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://graphics.stanford.edu/~cstolte/",
 		"status": "other",
@@ -282,7 +282,7 @@
 	{
 		"first_name": "Jock",
 		"last_name": "Mackinlay",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://research.tableau.com/user/jock-mackinlay",
 		"status": "collaborator",
@@ -296,7 +296,7 @@
 	{
 		"first_name": "Constance",
 		"last_name": "Duong",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -310,7 +310,7 @@
 	{
 		"first_name": "Hyung-Suk",
 		"last_name": "Kim",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -324,7 +324,7 @@
 	{
 		"first_name": "Doantam",
 		"last_name": "Phan",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://graphics.stanford.edu/~dphan/",
 		"status": "other",
@@ -338,7 +338,7 @@
 	{
 		"first_name": "Tamara",
 		"last_name": "Munzner",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://www.cs.ubc.ca/~tmm/",
 		"status": "other",
@@ -352,7 +352,7 @@
 	{
 		"first_name": "Diane",
 		"last_name": "Tang",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://graphics.stanford.edu/~dtang/",
 		"status": "other",
@@ -366,7 +366,7 @@
 	{
 		"first_name": "David",
 		"last_name": "Akers",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://www.math.ups.edu/~dakers/",
 		"status": "other",
@@ -380,7 +380,7 @@
 	{
 		"first_name": "Wesley",
 		"last_name": "Willett",
-		"display_name": "",
+		"display_name": null,
 		"email": "willettw@cs.berkeley.edu",
 		"url": "http://vis.berkeley.edu/~willettw/portfolio/",
 		"status": "other",
@@ -394,7 +394,7 @@
 	{
 		"first_name": "Scott",
 		"last_name": "Carter",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -408,7 +408,7 @@
 	{
 		"first_name": "Jennifer",
 		"last_name": "Mankoff",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -422,7 +422,7 @@
 	{
 		"first_name": "Bongwon",
 		"last_name": "Suh",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -436,7 +436,7 @@
 	{
 		"first_name": "Bryan",
 		"last_name": "Pendleton",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -464,7 +464,7 @@
 	{
 		"first_name": "Noam",
 		"last_name": "Sagiv",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -478,7 +478,7 @@
 	{
 		"first_name": "Lynn",
 		"last_name": "Robertson",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -492,7 +492,7 @@
 	{
 		"first_name": "danah",
 		"last_name": "boyd",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -506,7 +506,7 @@
 	{
 		"first_name": "James",
 		"last_name": "Landay",
-		"display_name": "",
+		"display_name": "James A. Landay",
 		"email": "",
 		"url": "http://www.cs.washington.edu/homes/landay/",
 		"status": "collaborator",
@@ -520,7 +520,7 @@
 	{
 		"first_name": "Nathan",
 		"last_name": "Good",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -548,7 +548,7 @@
 	{
 		"first_name": "Marc",
 		"last_name": "Davis",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -562,7 +562,7 @@
 	{
 		"first_name": "Alan",
 		"last_name": "Newberger",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -576,7 +576,7 @@
 	{
 		"first_name": "Chris",
 		"last_name": "Beckmann",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -618,7 +618,7 @@
 	{
 		"first_name": "Adam",
 		"last_name": "Rosien",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -632,7 +632,7 @@
 	{
 		"first_name": "Sarah",
 		"last_name": "Waterson",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -646,7 +646,7 @@
 	{
 		"first_name": "Tim",
 		"last_name": "Sohn",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -660,7 +660,7 @@
 	{
 		"first_name": "Tara",
 		"last_name": "Matthews",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -674,7 +674,7 @@
 	{
 		"first_name": "Scott",
 		"last_name": "Lederer",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -688,7 +688,7 @@
 	{
 		"first_name": "Bryan",
 		"last_name": "Chan",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -702,7 +702,7 @@
 	{
 		"first_name": "Mike",
 		"last_name": "Cammarano",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -730,7 +730,7 @@
 	{
 		"first_name": "Alon",
 		"last_name": "Halevy",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -744,7 +744,7 @@
 	{
 		"first_name": "Ling",
 		"last_name": "Xiao",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://www.stanford.edu/~lingxiao/",
 		"status": "other",
@@ -758,7 +758,7 @@
 	{
 		"first_name": "Ron",
 		"last_name": "Yeh",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -772,7 +772,7 @@
 	{
 		"first_name": "Terry",
 		"last_name": "Winograd",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -786,7 +786,7 @@
 	{
 		"first_name": "Bongshin",
 		"last_name": "Lee",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -800,7 +800,7 @@
 	{
 		"first_name": "Ashish",
 		"last_name": "Kapoor",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -814,7 +814,7 @@
 	{
 		"first_name": "Desney",
 		"last_name": "Tan",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -828,7 +828,7 @@
 	{
 		"first_name": "Diana",
 		"last_name": "MacLean",
-		"display_name": "",
+		"display_name": null,
 		"email": "malcdi@cs.stanford.edu",
 		"url": "http://www.stanford.edu/~malcdi/",
 		"status": "alumni",
@@ -842,7 +842,7 @@
 	{
 		"first_name": "Sean",
 		"last_name": "Kandel",
-		"display_name": "",
+		"display_name": null,
 		"email": "skandel@cs.stanford.edu",
 		"url": "http://skandel.us",
 		"status": "alumni",
@@ -856,7 +856,7 @@
 	{
 		"first_name": "Vadim",
 		"last_name": "Ogievetsky",
-		"display_name": "",
+		"display_name": null,
 		"email": "vad@stanford.edu",
 		"url": "http://vadim.ogievetsky.com/",
 		"status": "alumni",
@@ -870,7 +870,7 @@
 	{
 		"first_name": "Edward",
 		"last_name": "Segel",
-		"display_name": "",
+		"display_name": null,
 		"email": "edward.segel@gmail.com",
 		"url": "",
 		"status": "alumni",
@@ -884,7 +884,7 @@
 	{
 		"first_name": "Daniel",
 		"last_name": "Chang",
-		"display_name": "",
+		"display_name": null,
 		"email": "dhchang@stanford.edu",
 		"url": "",
 		"status": "other",
@@ -898,7 +898,7 @@
 	{
 		"first_name": "Sudheendra",
 		"last_name": "Hangal",
-		"display_name": "",
+		"display_name": null,
 		"email": "hangal@cs.stanford.edu",
 		"url": "",
 		"status": "other",
@@ -926,7 +926,7 @@
 	{
 		"first_name": "Sep",
 		"last_name": "Kamvar",
-		"display_name": "",
+		"display_name": null,
 		"email": "sdkamvar@gmail.com",
 		"url": "http://kamvar.org/",
 		"status": "other",
@@ -940,7 +940,7 @@
 	{
 		"first_name": "Peter",
 		"last_name": "Khooshabeh",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -954,7 +954,7 @@
 	{
 		"first_name": "Maureen",
 		"last_name": "Stone",
-		"display_name": "",
+		"display_name": null,
 		"email": "stone@stonesc.com",
 		"url": "https://research.tableau.com/user/maureen-stone",
 		"status": "faculty",
@@ -968,7 +968,7 @@
 	{
 		"first_name": "Daniel",
 		"last_name": "Ramage",
-		"display_name": "",
+		"display_name": null,
 		"email": "dramage@stanford.edu",
 		"url": "",
 		"status": "other",
@@ -982,7 +982,7 @@
 	{
 		"first_name": "Evan",
 		"last_name": "Rosen",
-		"display_name": "",
+		"display_name": null,
 		"email": "emrosen@stanford.edu",
 		"url": "",
 		"status": "other",
@@ -1024,7 +1024,7 @@
 	{
 		"first_name": "Seng Keat",
 		"last_name": "Teh",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1038,7 +1038,7 @@
 	{
 		"first_name": "Andreas",
 		"last_name": "Paepcke",
-		"display_name": "",
+		"display_name": null,
 		"email": "paepcke@cs.stanford.edu",
 		"url": "",
 		"status": "other",
@@ -1052,7 +1052,7 @@
 	{
 		"first_name": "Joseph",
 		"last_name": "Hellerstein",
-		"display_name": "",
+		"display_name": null,
 		"email": "hellerstein@cs.berkeley.edu",
 		"url": "http://db.cs.berkeley.edu/jmh/",
 		"status": "collaborator",
@@ -1066,7 +1066,7 @@
 	{
 		"first_name": "Manolis",
 		"last_name": "Savva",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://graphics.stanford.edu/~msavva/",
 		"status": "alumni",
@@ -1080,7 +1080,7 @@
 	{
 		"first_name": "Ravi",
 		"last_name": "Parikh",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://www.ravi.io/",
 		"status": "alumni",
@@ -1094,7 +1094,7 @@
 	{
 		"first_name": "Sanjay",
 		"last_name": "Kairam",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://www.sanjaykairam.com/",
 		"status": "alumni",
@@ -1108,7 +1108,7 @@
 	{
 		"first_name": "Brandon",
 		"last_name": "Heller",
-		"display_name": "",
+		"display_name": null,
 		"email": "brandonh@stanford.edu",
 		"url": "",
 		"status": "other",
@@ -1122,7 +1122,7 @@
 	{
 		"first_name": "Eli",
 		"last_name": "Marschner",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1136,7 +1136,7 @@
 	{
 		"first_name": "Evan",
 		"last_name": "Rosenfeld",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1150,7 +1150,7 @@
 	{
 		"first_name": "Neema",
 		"last_name": "Moraveji",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1164,7 +1164,7 @@
 	{
 		"first_name": "Ben",
 		"last_name": "Olson",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1178,7 +1178,7 @@
 	{
 		"first_name": "Truc",
 		"last_name": "Nguyen",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1192,7 +1192,7 @@
 	{
 		"first_name": "Mahmoud",
 		"last_name": "Saadat",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1206,7 +1206,7 @@
 	{
 		"first_name": "Yaser",
 		"last_name": "Khalighi",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1220,7 +1220,7 @@
 	{
 		"first_name": "Roy",
 		"last_name": "Pea",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1234,7 +1234,7 @@
 	{
 		"first_name": "Arti",
 		"last_name": "Chhajta",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1248,7 +1248,7 @@
 	{
 		"first_name": "Li",
 		"last_name": "Fei-Fei",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1276,7 +1276,7 @@
 	{
 		"first_name": "David",
 		"last_name": "Selassie",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1290,7 +1290,7 @@
 	{
 		"first_name": "Adam",
 		"last_name": "Perer",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1304,7 +1304,7 @@
 	{
 		"first_name": "T. J.",
 		"last_name": "Purtell",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1318,7 +1318,7 @@
 	{
 		"first_name": "Catherine",
 		"last_name": "Plaisant",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1332,7 +1332,7 @@
 	{
 		"first_name": "Jessie",
 		"last_name": "Kennedy",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1346,7 +1346,7 @@
 	{
 		"first_name": "Frank",
 		"last_name": "van Ham",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1360,7 +1360,7 @@
 	{
 		"first_name": "Nathalie",
 		"last_name": "Henry Riche",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1374,7 +1374,7 @@
 	{
 		"first_name": "Chris",
 		"last_name": "Weaver",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1388,7 +1388,7 @@
 	{
 		"first_name": "Bongshin",
 		"last_name": "Lee",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1402,7 +1402,7 @@
 	{
 		"first_name": "Dominique",
 		"last_name": "Brodbeck",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1416,7 +1416,7 @@
 	{
 		"first_name": "Paolo",
 		"last_name": "Buono",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1430,7 +1430,7 @@
 	{
 		"first_name": "Florian",
 		"last_name": "Mueller",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1444,7 +1444,7 @@
 	{
 		"first_name": "Frank",
 		"last_name": "Vetere",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1458,7 +1458,7 @@
 	{
 		"first_name": "Martin",
 		"last_name": "Gibbs",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1472,7 +1472,7 @@
 	{
 		"first_name": "Darren",
 		"last_name": "Edge",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1486,7 +1486,7 @@
 	{
 		"first_name": "Stefan",
 		"last_name": "Agamanolis",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1500,7 +1500,7 @@
 	{
 		"first_name": "Jennifer",
 		"last_name": "Sheridan",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1514,7 +1514,7 @@
 	{
 		"first_name": "Spence",
 		"last_name": "Green",
-		"display_name": "",
+		"display_name": null,
 		"email": "spenceg@stanford.edu",
 		"url": "http://www.spencegreen.com/",
 		"status": "alumni",
@@ -1528,7 +1528,7 @@
 	{
 		"first_name": "Ranjitha",
 		"last_name": "Kumar",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1542,7 +1542,7 @@
 	{
 		"first_name": "Arvind",
 		"last_name": "Satyanarayan",
-		"display_name": "",
+		"display_name": null,
 		"email": "arvindsatya@cs.stanford.edu",
 		"url": "http://arvindsatya.com/",
 		"status": "alumni",
@@ -1556,7 +1556,7 @@
 	{
 		"first_name": "Cesar",
 		"last_name": "Torres",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1570,7 +1570,7 @@
 	{
 		"first_name": "Maxine",
 		"last_name": "Lim",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1584,7 +1584,7 @@
 	{
 		"first_name": "Salman",
 		"last_name": "Ahmad",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1626,7 +1626,7 @@
 	{
 		"first_name": "Amy",
 		"last_name": "Jang",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "alumni",
@@ -1640,7 +1640,7 @@
 	{
 		"first_name": "Ashley",
 		"last_name": "Jin",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "alumni",
@@ -1654,7 +1654,7 @@
 	{
 		"first_name": "Zhicheng",
 		"last_name": "Liu",
-		"display_name": "Zhicheng Liu",
+		"display_name": "Zhicheng (Leo) Liu",
 		"email": "",
 		"url": "http://www.zcliu.org/",
 		"status": "alumni",
@@ -1668,7 +1668,7 @@
 	{
 		"first_name": "Çağatay",
 		"last_name": "Demiralp",
-		"display_name": "",
+		"display_name": null,
 		"email": "cagatay@cs.stanford.edu",
 		"url": "https://cagataydemiralp.io/",
 		"status": "alumni",
@@ -1696,7 +1696,7 @@
 	{
 		"first_name": "Anna",
 		"last_name": "Pilko",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1724,7 +1724,7 @@
 	{
 		"first_name": "Biye",
 		"last_name": "Jiang",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1738,7 +1738,7 @@
 	{
 		"first_name": "Julie",
 		"last_name": "Fortuna",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1752,7 +1752,7 @@
 	{
 		"first_name": "Chinmay",
 		"last_name": "Kulkarni",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1766,7 +1766,7 @@
 	{
 		"first_name": "Sonal",
 		"last_name": "Gupta",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1780,7 +1780,7 @@
 	{
 		"first_name": "Carlos",
 		"last_name": "Scheidegger",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1794,7 +1794,7 @@
 	{
 		"first_name": "Gordon",
 		"last_name": "Kindlmann",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1808,7 +1808,7 @@
 	{
 		"first_name": "David",
 		"last_name": "Laidlaw",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1822,7 +1822,7 @@
 	{
 		"first_name": "Eric",
 		"last_name": "Hayden",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1836,7 +1836,7 @@
 	{
 		"first_name": "Jeff",
 		"last_name": "Hammerbacher",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1850,7 +1850,7 @@
 	{
 		"first_name": "Kanit",
 		"last_name": "Wongsuphasawat",
-		"display_name": "",
+		"display_name": null,
 		"email": "kanitw@cs.washington.edu",
 		"url": "https://kanitw.github.io/",
 		"status": "alumni",
@@ -1864,7 +1864,7 @@
 	{
 		"first_name": "Jeff",
 		"last_name": "Snyder",
-		"display_name": "",
+		"display_name": null,
 		"email": "jasnyder@uw.edu",
 		"url": "http://jsnyd.es",
 		"status": "alumni",
@@ -1878,7 +1878,7 @@
 	{
 		"first_name": "Gregory",
 		"last_name": "Nelson",
-		"display_name": "",
+		"display_name": null,
 		"email": "glnelson@uw.edu",
 		"url": "http://www.greglnelson.info",
 		"status": "alumni",
@@ -1906,7 +1906,7 @@
 	{
 		"first_name": "Jaime",
 		"last_name": "Teevan",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1920,7 +1920,7 @@
 	{
 		"first_name": "Dan",
 		"last_name": "Liebling",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1934,7 +1934,7 @@
 	{
 		"first_name": "Susan",
 		"last_name": "Dumais",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1962,7 +1962,7 @@
 	{
 		"first_name": "David",
 		"last_name": "Huffaker",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -1976,7 +1976,7 @@
 	{
 		"first_name": "Peter",
 		"last_name": "Pirolli",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2004,7 +2004,7 @@
 	{
 		"first_name": "Jure",
 		"last_name": "Leskovec",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2018,7 +2018,7 @@
 	{
 		"first_name": "Ben",
 		"last_name": "Shneiderman",
-		"display_name": "",
+		"display_name": null,
 		"email": "ben@cs.umd.edu",
 		"url": "http://www.cs.umd.edu/~ben/",
 		"status": "other",
@@ -2032,7 +2032,7 @@
 	{
 		"first_name": "Michael",
 		"last_name": "Bernstein",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://hci.stanford.edu/msb/",
 		"status": "collaborator",
@@ -2046,7 +2046,7 @@
 	{
 		"first_name": "Sida",
 		"last_name": "Wang",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2060,7 +2060,7 @@
 	{
 		"first_name": "Sebastian",
 		"last_name": "Schuster",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2074,7 +2074,7 @@
 	{
 		"first_name": "Anna",
 		"last_name": "Lembke",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2088,7 +2088,7 @@
 	{
 		"first_name": "Dominik",
 		"last_name": "Moritz",
-		"display_name": "",
+		"display_name": null,
 		"email": "domoritz@cs.washington.edu",
 		"url": "http://domoritz.de/",
 		"status": "alumni",
@@ -2102,7 +2102,7 @@
 	{
 		"first_name": "Jane",
 		"last_name": "Hoffswell",
-		"display_name": "",
+		"display_name": null,
 		"email": "jane.hoffswell@gmail.com",
 		"url": "https://jhoffswell.github.io/",
 		"status": "alumni",
@@ -2130,7 +2130,7 @@
 	{
 		"first_name": "Jessica",
 		"last_name": "Hullman",
-		"display_name": "",
+		"display_name": null,
 		"email": "jhullman@uw.edu",
 		"url": "http://faculty.washington.edu/jhullman",
 		"status": "alumni",
@@ -2144,7 +2144,7 @@
 	{
 		"first_name": "Bill",
 		"last_name": "Howe",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://faculty.washington.edu/billhowe/",
 		"status": "collaborator",
@@ -2158,7 +2158,7 @@
 	{
 		"first_name": "Daniel",
 		"last_name": "Halperin",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2172,7 +2172,7 @@
 	{
 		"first_name": "Steven",
 		"last_name": "Drucker",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2186,7 +2186,7 @@
 	{
 		"first_name": "Roland",
 		"last_name": "Fernandez",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2228,7 +2228,7 @@
 	{
 		"first_name": "Rebecca",
 		"last_name": "Weiss",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2242,7 +2242,7 @@
 	{
 		"first_name": "Dustin",
 		"last_name": "Tingley",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2256,7 +2256,7 @@
 	{
 		"first_name": "Justin",
 		"last_name": "Grimmer",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2270,7 +2270,7 @@
 	{
 		"first_name": "Matthew",
 		"last_name": "Kay",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2284,7 +2284,7 @@
 	{
 		"first_name": "Anushka",
 		"last_name": "Anand",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2298,7 +2298,7 @@
 	{
 		"first_name": "Ryan",
 		"last_name": "Russell",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2312,7 +2312,7 @@
 	{
 		"first_name": "Aaron",
 		"last_name": "Elmore",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2326,7 +2326,7 @@
 	{
 		"first_name": "Jennie",
 		"last_name": "Duggan",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2340,7 +2340,7 @@
 	{
 		"first_name": "Michael",
 		"last_name": "Stonebraker",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2354,7 +2354,7 @@
 	{
 		"first_name": "Magdalena",
 		"last_name": "Balazinska",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2368,7 +2368,7 @@
 	{
 		"first_name": "Ugur",
 		"last_name": "Cetintemel",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2382,7 +2382,7 @@
 	{
 		"first_name": "Vijay",
 		"last_name": "Gadepally",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2396,7 +2396,7 @@
 	{
 		"first_name": "Jeremy",
 		"last_name": "Kepner",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2410,7 +2410,7 @@
 	{
 		"first_name": "Tim",
 		"last_name": "Kraska",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2424,7 +2424,7 @@
 	{
 		"first_name": "Samuel",
 		"last_name": "Madden",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2438,7 +2438,7 @@
 	{
 		"first_name": "David",
 		"last_name": "Maier",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2452,7 +2452,7 @@
 	{
 		"first_name": "Timothy",
 		"last_name": "Mattson",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2466,7 +2466,7 @@
 	{
 		"first_name": "Stavros",
 		"last_name": "Papadopoulos",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2480,7 +2480,7 @@
 	{
 		"first_name": "Jeff",
 		"last_name": "Parkhurst",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2494,7 +2494,7 @@
 	{
 		"first_name": "Nesime",
 		"last_name": "Tatbul",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2508,7 +2508,7 @@
 	{
 		"first_name": "Manasi",
 		"last_name": "Vartak",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2522,7 +2522,7 @@
 	{
 		"first_name": "Stan",
 		"last_name": "Zdonik",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2536,7 +2536,7 @@
 	{
 		"first_name": "Jesse",
 		"last_name": "Cirimele",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2564,7 +2564,7 @@
 	{
 		"first_name": "Younghoon",
 		"last_name": "Kim",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://yhoonkim.github.io/",
 		"status": "alumni",
@@ -2578,7 +2578,7 @@
 	{
 		"first_name": "Jorge",
 		"last_name": "Poco",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://vgc.poly.edu/~jpocom/",
 		"status": "alumni",
@@ -2592,7 +2592,7 @@
 	{
 		"first_name": "Michael",
 		"last_name": "Correll",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://pages.cs.wisc.edu/~mcorrell/",
 		"status": "alumni",
@@ -2606,7 +2606,7 @@
 	{
 		"first_name": "Nicholas",
 		"last_name": "Diakopoulos",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2620,7 +2620,7 @@
 	{
 		"first_name": "Paul",
 		"last_name": "Resnick",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2634,7 +2634,7 @@
 	{
 		"first_name": "Eytan",
 		"last_name": "Adar",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2648,7 +2648,7 @@
 	{
 		"first_name": "Sean",
 		"last_name": "Munson",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2662,7 +2662,7 @@
 	{
 		"first_name": "Yea-Seul",
 		"last_name": "Kim",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://pages.cs.wisc.edu/~yeaseulkim/",
 		"status": "alumni",
@@ -2690,7 +2690,7 @@
 	{
 		"first_name": "Tara",
 		"last_name": "Kola",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2718,7 +2718,7 @@
 	{
 		"first_name": "John",
 		"last_name": "Guerra-Gomez",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2746,7 +2746,7 @@
 	{
 		"first_name": "Matthew",
 		"last_name": "Burgess",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2760,7 +2760,7 @@
 	{
 		"first_name": "Matt",
 		"last_name": "Conlen",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://mathisonian.com/",
 		"status": "alumni",
@@ -2788,7 +2788,7 @@
 	{
 		"first_name": "Jessica",
 		"last_name": "Schroeder",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2802,7 +2802,7 @@
 	{
 		"first_name": "Chia-Fang",
 		"last_name": "Chung",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2816,7 +2816,7 @@
 	{
 		"first_name": "James",
 		"last_name": "Fogarty",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://homes.cs.washington.edu/~jfogarty/",
 		"status": "collaborator",
@@ -2830,7 +2830,7 @@
 	{
 		"first_name": "Jasmine",
 		"last_name": "Zia",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2844,7 +2844,7 @@
 	{
 		"first_name": "Zening",
 		"last_name": "Qu",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://www.linkedin.com/in/zeningqu",
 		"status": "member",
@@ -2858,7 +2858,7 @@
 	{
 		"first_name": "Riley",
 		"last_name": "Chang",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2872,7 +2872,7 @@
 	{
 		"first_name": "Felix",
 		"last_name": "Ouk",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2886,7 +2886,7 @@
 	{
 		"first_name": "Katharina",
 		"last_name": "Reinecke",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://homes.cs.washington.edu/~reinecke/",
 		"status": "collaborator",
@@ -2900,7 +2900,7 @@
 	{
 		"first_name": "Danyel",
 		"last_name": "Fisher",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://danyelfisher.info/",
 		"status": "collaborator",
@@ -2914,7 +2914,7 @@
 	{
 		"first_name": "Bolin",
 		"last_name": "Ding",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2928,7 +2928,7 @@
 	{
 		"first_name": "Chi",
 		"last_name": "Wang",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2942,7 +2942,7 @@
 	{
 		"first_name": "Robert",
 		"last_name": "Kosara",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2956,7 +2956,7 @@
 	{
 		"first_name": "Heidi",
 		"last_name": "Lam",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2970,7 +2970,7 @@
 	{
 		"first_name": "Angela",
 		"last_name": "Mayhua",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2984,7 +2984,7 @@
 	{
 		"first_name": "Samana",
 		"last_name": "Shrestha",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -2998,7 +2998,7 @@
 	{
 		"first_name": "Daniel",
 		"last_name": "Smilkov",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3012,7 +3012,7 @@
 	{
 		"first_name": "James",
 		"last_name": "Wexler",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3026,7 +3026,7 @@
 	{
 		"first_name": "Jimbo",
 		"last_name": "Wilson",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3040,7 +3040,7 @@
 	{
 		"first_name": "Dandelion",
 		"last_name": "Mané",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3054,7 +3054,7 @@
 	{
 		"first_name": "Doug",
 		"last_name": "Fritz",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3068,7 +3068,7 @@
 	{
 		"first_name": "Dilip",
 		"last_name": "Krishnan",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3082,7 +3082,7 @@
 	{
 		"first_name": "Yang",
 		"last_name": "Liu",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://yangliu.life/",
 		"status": "alumni",
@@ -3096,7 +3096,7 @@
 	{
 		"first_name": "Leilani",
 		"last_name": "Battle",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://homes.cs.washington.edu/~leibatt/",
 		"status": "faculty",
@@ -3110,7 +3110,7 @@
 	{
 		"first_name": "Alex",
 		"last_name": "Kale",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://people.cs.uchicago.edu/~kalea/",
 		"status": "alumni",
@@ -3124,7 +3124,7 @@
 	{
 		"first_name": "Francis",
 		"last_name": "Nguyen",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3138,7 +3138,7 @@
 	{
 		"first_name": "Lauren",
 		"last_name": "Speers",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3152,7 +3152,7 @@
 	{
 		"first_name": "Michael",
 		"last_name": "Fernandes",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3166,7 +3166,7 @@
 	{
 		"first_name": "Logan",
 		"last_name": "Walls",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3180,7 +3180,7 @@
 	{
 		"first_name": "Sara",
 		"last_name": "Stalla",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3194,7 +3194,7 @@
 	{
 		"first_name": "Chelly",
 		"last_name": "Jin",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3208,7 +3208,7 @@
 	{
 		"first_name": "Maggie",
 		"last_name": "Hendrie",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3222,7 +3222,7 @@
 	{
 		"first_name": "Hillary",
 		"last_name": "Muskin",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3236,7 +3236,7 @@
 	{
 		"first_name": "Santiago",
 		"last_name": "Lombeyda",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3250,7 +3250,7 @@
 	{
 		"first_name": "Scott",
 		"last_name": "Davidoff",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3264,7 +3264,7 @@
 	{
 		"first_name": "Alan",
 		"last_name": "Borning",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://www.cs.washington.edu/people/faculty/borning",
 		"status": "collaborator",
@@ -3278,7 +3278,7 @@
 	{
 		"first_name": "Xiaoli",
 		"last_name": "Qiao",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3292,7 +3292,7 @@
 	{
 		"first_name": "Halden",
 		"last_name": "Lin",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://haldenl.com/",
 		"status": "alumni",
@@ -3306,7 +3306,7 @@
 	{
 		"first_name": "Chenglong",
 		"last_name": "Wang",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3334,7 +3334,7 @@
 	{
 		"first_name": "Jacob",
 		"last_name": "VanderPlas",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://vanderplas.com/",
 		"status": "collaborator",
@@ -3362,7 +3362,7 @@
 	{
 		"first_name": "Eitan",
 		"last_name": "Lees",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3376,7 +3376,7 @@
 	{
 		"first_name": "Ilia",
 		"last_name": "Timofeev",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3390,7 +3390,7 @@
 	{
 		"first_name": "Ben",
 		"last_name": "Welsh",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3404,7 +3404,7 @@
 	{
 		"first_name": "Scott",
 		"last_name": "Sievert",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3418,7 +3418,7 @@
 	{
 		"first_name": "Peter",
 		"last_name": "Krafft",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3432,7 +3432,7 @@
 	{
 		"first_name": "Mira",
 		"last_name": "Dontcheva",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3446,7 +3446,7 @@
 	{
 		"first_name": "Kyle",
 		"last_name": "Thayer",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3474,7 +3474,7 @@
 	{
 		"first_name": "Eunice",
 		"last_name": "Jun",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://homes.cs.washington.edu/~emjun/",
 		"status": "alumni",
@@ -3488,7 +3488,7 @@
 	{
 		"first_name": "Qisheng",
 		"last_name": "Li",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3530,7 +3530,7 @@
 	{
 		"first_name": "Donghao",
 		"last_name": "Ren",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://donghaoren.org/",
 		"status": "other",
@@ -3544,7 +3544,7 @@
 	{
 		"first_name": "John",
 		"last_name": "Stasko",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3572,7 +3572,7 @@
 	{
 		"first_name": "Matthew",
 		"last_name": "Brehmer",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3586,7 +3586,7 @@
 	{
 		"first_name": "Akshat",
 		"last_name": "Shrivastava",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://akshatsh.github.io/",
 		"status": "alumni",
@@ -3600,7 +3600,7 @@
 	{
 		"first_name": "René",
 		"last_name": "Just",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://homes.cs.washington.edu/~rjust/",
 		"status": "collaborator",
@@ -3628,7 +3628,7 @@
 	{
 		"first_name": "Tim",
 		"last_name": "Althoff",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://timalthoff.de/",
 		"status": "collaborator",
@@ -3642,7 +3642,7 @@
 	{
 		"first_name": "Selin",
 		"last_name": "Gülgöz",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3726,7 +3726,7 @@
 	{
 		"first_name": "Riley",
 		"last_name": "Lowe",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3740,7 +3740,7 @@
 	{
 		"first_name": "Chonghui",
 		"last_name": "Ji",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3782,7 +3782,7 @@
 	{
 		"first_name": "Wilmot",
 		"last_name": "Li",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://wilmotli.com/",
 		"status": "other",
@@ -3796,7 +3796,7 @@
 	{
 		"first_name": "Kayur",
 		"last_name": "Patel",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://www.kayur.org/",
 		"status": "other",
@@ -3810,7 +3810,7 @@
 	{
 		"first_name": "Chris",
 		"last_name": "DuBois",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://chrisdubois.org/",
 		"status": "other",
@@ -3824,7 +3824,7 @@
 	{
 		"first_name": "Alison",
 		"last_name": "Smith-Renner",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://www.cs.umd.edu/people/amsmit",
 		"status": "other",
@@ -3838,7 +3838,7 @@
 	{
 		"first_name": "Ron",
 		"last_name": "Fan",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3852,7 +3852,7 @@
 	{
 		"first_name": "Melissa",
 		"last_name": "Birchfield",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3866,7 +3866,7 @@
 	{
 		"first_name": "Jordan",
 		"last_name": "Boyd-Graber",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://users.umiacs.umd.edu/~jbg/",
 		"status": "other",
@@ -3880,7 +3880,7 @@
 	{
 		"first_name": "Leah",
 		"last_name": "Findlater",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://faculty.washington.edu/leahkf/",
 		"status": "other",
@@ -3894,7 +3894,7 @@
 	{
 		"first_name": "Chanwut",
 		"last_name": "Kittivorawang",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://chanwutk.github.io/",
 		"status": "other",
@@ -3908,7 +3908,7 @@
 	{
 		"first_name": "Fred",
 		"last_name": "Hohman",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://fredhohman.com/",
 		"status": "other",
@@ -3936,7 +3936,7 @@
 	{
 		"first_name": "Carlos",
 		"last_name": "Guestrin",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://homes.cs.washington.edu/~guestrin/",
 		"status": "other",
@@ -3950,7 +3950,7 @@
 	{
 		"first_name": "Sameer",
 		"last_name": "Singh",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://sameersingh.org/",
 		"status": "other",
@@ -3964,7 +3964,7 @@
 	{
 		"first_name": "Megan",
 		"last_name": "Vo",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3978,7 +3978,7 @@
 	{
 		"first_name": "Alan",
 		"last_name": "Tan",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -3992,7 +3992,7 @@
 	{
 		"first_name": "Yifan",
 		"last_name": "Wu",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4006,7 +4006,7 @@
 	{
 		"first_name": "Manaswi",
 		"last_name": "Saha",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://homes.cs.washington.edu/~manaswi/",
 		"status": "collaborator",
@@ -4020,7 +4020,7 @@
 	{
 		"first_name": "Devanshi",
 		"last_name": "Chauhan",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4034,7 +4034,7 @@
 	{
 		"first_name": "Siddhant",
 		"last_name": "Patil",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4048,7 +4048,7 @@
 	{
 		"first_name": "Rachel",
 		"last_name": "Kangas",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4062,7 +4062,7 @@
 	{
 		"first_name": "Gagan",
 		"last_name": "Bansal",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4076,7 +4076,7 @@
 	{
 		"first_name": "Joyce",
 		"last_name": "Zhou",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4090,7 +4090,7 @@
 	{
 		"first_name": "Raymond",
 		"last_name": "Fok",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4104,7 +4104,7 @@
 	{
 		"first_name": "Besmira",
 		"last_name": "Nushi",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4118,7 +4118,7 @@
 	{
 		"first_name": "Ece",
 		"last_name": "Kamar",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4132,7 +4132,7 @@
 	{
 		"first_name": "Madeleine",
 		"last_name": "Grunde-McLaughlin",
-		"display_name": "",
+		"display_name": null,
 		"email": "mgrunde@cs.washington.edu",
 		"url": "https://madeleinegrunde.github.io/",
 		"status": "member",
@@ -4146,7 +4146,7 @@
 	{
 		"first_name": "Luke",
 		"last_name": "Snyder",
-		"display_name": "",
+		"display_name": null,
 		"email": "snyderl@cs.washington.edu",
 		"url": "https://luke-s-snyder.github.io/",
 		"status": "member",
@@ -4160,7 +4160,7 @@
 	{
 		"first_name": "Josh",
 		"last_name": "Horowitz",
-		"display_name": "",
+		"display_name": null,
 		"email": "joho@cs.washington.edu",
 		"url": "http://joshuahhh.com/",
 		"status": "member",
@@ -4174,7 +4174,7 @@
 	{
 		"first_name": "Ameya",
 		"last_name": "Patil",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://ameyabp.github.io/",
 		"status": "member",
@@ -4188,7 +4188,7 @@
 	{
 		"first_name": "Hyekang",
 		"last_name": "Joo",
-		"display_name": "Hyekang Kevin Joo",
+		"display_name": "Hyekang (Kevin) Joo",
 		"email": "",
 		"url": "https://hyekangjoo.github.io/",
 		"status": "alumni",
@@ -4202,7 +4202,7 @@
 	{
 		"first_name": "Junran",
 		"last_name": "Yang",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "member",
@@ -4216,7 +4216,7 @@
 	{
 		"first_name": "Alisha",
 		"last_name": "Varma",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://www.linkedin.com/in/alisha-varma/",
 		"status": "alumni",
@@ -4230,7 +4230,7 @@
 	{
 		"first_name": "Zehua",
 		"last_name": "Zeng",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4244,7 +4244,7 @@
 	{
 		"first_name": "Phoebe",
 		"last_name": "Moh",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4258,7 +4258,7 @@
 	{
 		"first_name": "Fan",
 		"last_name": "Du",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4272,7 +4272,7 @@
 	{
 		"first_name": "Tak Yeon",
 		"last_name": "Lee",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4286,7 +4286,7 @@
 	{
 		"first_name": "Sana",
 		"last_name": "Malik",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4300,7 +4300,7 @@
 	{
 		"first_name": "Eunyee",
 		"last_name": "Koh",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4314,7 +4314,7 @@
 	{
 		"first_name": "Audrey",
 		"last_name": "Seo",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4342,7 +4342,7 @@
 	{
 		"first_name": "Maureen",
 		"last_name": "Daum",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4356,7 +4356,7 @@
 	{
 		"first_name": "Jared",
 		"last_name": "Roesch",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4384,7 +4384,7 @@
 	{
 		"first_name": "Emery",
 		"last_name": "Berger",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4398,7 +4398,7 @@
 	{
 		"first_name": "Michael",
 		"last_name": "Terry",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4426,7 +4426,7 @@
 	{
 		"first_name": "Martin",
 		"last_name": "Schweinsberg",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4454,7 +4454,7 @@
 	{
 		"first_name": "Emily",
 		"last_name": "Cho",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4482,7 +4482,7 @@
 	{
 		"first_name": "Chris",
 		"last_name": "Horng",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4496,7 +4496,7 @@
 	{
 		"first_name": "Richard",
 		"last_name": "McGovern",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4510,7 +4510,7 @@
 	{
 		"first_name": "Anthony",
 		"last_name": "Li",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4524,7 +4524,7 @@
 	{
 		"first_name": "Ge",
 		"last_name": "Zhang",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4538,7 +4538,7 @@
 	{
 		"first_name": "Mike",
 		"last_name": "Merrill",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4552,7 +4552,7 @@
 	{
 		"first_name": "Vishal",
 		"last_name": "Devireddy",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "alumni",
@@ -4566,7 +4566,7 @@
 	{
 		"first_name": "Tu",
 		"last_name": "Nguyen",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "alumni",
@@ -4594,7 +4594,7 @@
 	{
 		"first_name": "Zoe",
 		"last_name": "Rand",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4608,7 +4608,7 @@
 	{
 		"first_name": "Trevor",
 		"last_name": "Branch",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4622,7 +4622,7 @@
 	{
 		"first_name": "Alex",
 		"last_name": "Bäuerle",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4636,7 +4636,7 @@
 	{
 		"first_name": "Ziyang",
 		"last_name": "Guo",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4650,7 +4650,7 @@
 	{
 		"first_name": "Hua",
 		"last_name": "Shen",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",
@@ -4664,7 +4664,7 @@
 	{
 		"first_name": "Andrew",
 		"last_name": "McNutt",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://mcnutt.in/",
 		"status": "member",
@@ -4678,7 +4678,7 @@
 	{
 		"first_name": "Ken",
 		"last_name": "Gu",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://kenqgu.com/",
 		"status": "collaborator",
@@ -4692,7 +4692,7 @@
 	{
 		"first_name": "Mitchell",
 		"last_name": "Gordon",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://mgordon.me/",
 		"status": "member",
@@ -4706,7 +4706,7 @@
 	{
 		"first_name": "Michelle",
 		"last_name": "Lam",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://michelle123lam.github.io/",
 		"status": "collaborator",
@@ -4720,7 +4720,7 @@
 	{
 		"first_name": "Ranjay",
 		"last_name": "Krishna",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "http://ranjaykrishna.com/",
 		"status": "collaborator",
@@ -4748,7 +4748,7 @@
 	{
 		"first_name": "Medina",
 		"last_name": "Lamkin",
-		"display_name": "",
+		"display_name": null,
 		"email": "mlamkin@cs.washington.edu",
 		"url": "https://www.linkedin.com/in/medina-lamkin-9825611b5",
 		"status": "member",
@@ -4762,7 +4762,7 @@
 	{
 		"first_name": "Anthony",
 		"last_name": "Wise",
-		"display_name": "",
+		"display_name": null,
 		"email": "anthw85@cs.washington.edu",
 		"url": "",
 		"status": "member",
@@ -4790,7 +4790,7 @@
 	{
 		"first_name": "Edward",
 		"last_name": "Misback",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "https://elmisback.github.io/",
 		"status": "other",
@@ -4804,7 +4804,7 @@
 	{
 		"first_name": "Janice",
 		"last_name": "Teoh",
-		"display_name": "",
+		"display_name": null,
 		"email": "",
 		"url": "",
 		"status": "other",

@@ -27,7 +27,8 @@
     },
     {
       "first_name": "Meredith",
-      "last_name": "Morris"
+      "last_name": "Morris",
+      "display_name": "Meredith Ringel Morris"
     },
     {
       "first_name": "Jaime",
@@ -44,5 +45,5 @@
   ],
   "materials": [],
   "tags": [],
-  "doi": "http://www.aaai.org/ocs/index.php/ICWSM/ICWSM13/paper/view/6116"
+  "doi": "10.1609/icwsm.v7i1.14426"
 }

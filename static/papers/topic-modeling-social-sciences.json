@@ -35,11 +35,13 @@
     },
     {
       "first_name": "Christopher",
-      "last_name": "Manning"
+      "last_name": "Manning",
+      "display_name": "Christopher D. Manning"
     },
     {
       "first_name": "Dan",
-      "last_name": "McFarland"
+      "last_name": "McFarland",
+      "display_name": "Daniel A. McFarland"
     }
   ],
   "materials": [

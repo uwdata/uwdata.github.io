@@ -26,23 +26,28 @@
     },
     {
       "first_name": "Jessica",
-      "last_name": "Glazier"
+      "last_name": "Glazier",
+      "display_name": "Jessica J. Glazier"
     },
     {
       "first_name": "Elizabeth",
-      "last_name": "Enright"
+      "last_name": "Enright",
+      "display_name": "Elizabeth A. Enright"
     },
     {
       "first_name": "Daniel",
-      "last_name": "Alonso"
+      "last_name": "Alonso",
+      "display_name": "Daniel J. Alonso"
     },
     {
       "first_name": "Lily",
-      "last_name": "Durwood"
+      "last_name": "Durwood",
+      "display_name": "Lily J. Durwood"
     },
     {
       "first_name": "Anne",
-      "last_name": "Fast"
+      "last_name": "Fast",
+      "display_name": "Anne A. Fast"
     },
     {
       "first_name": "Riley",
@@ -59,11 +64,13 @@
     },
     {
       "first_name": "Carol",
-      "last_name": "Martin"
+      "last_name": "Martin",
+      "display_name": "Carol Lynn Martin"
     },
     {
       "first_name": "Kristina",
-      "last_name": "Olson"
+      "last_name": "Olson",
+      "display_name": "Kristina R. Olson"
     }
   ],
   "materials": [
@@ -77,5 +84,5 @@
     }
   ],
   "tags": [],
-  "doi": "https://doi.org/10.1073/pnas.1909367116"
+  "doi": "10.1073/pnas.1909367116"
 }

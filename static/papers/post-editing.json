@@ -32,10 +32,11 @@
     },
     {
       "first_name": "Christopher",
-      "last_name": "Manning"
+      "last_name": "Manning",
+      "display_name": "Christopher D. Manning"
     }
   ],
   "materials": [],
   "tags": [],
-  "doi": "https://doi.org/10.1145/2470654.2470718"
+  "doi": "10.1145/2470654.2470718"
 }

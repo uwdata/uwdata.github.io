@@ -27,7 +27,8 @@
     {
       "first_name": "Jason",
       "last_name": "Hong",
-      "url": "http://www.cs.cmu.edu/~jasonh/"
+      "url": "http://www.cs.cmu.edu/~jasonh/",
+      "display_name": "Jason I. Hong"
     },
     {
       "first_name": "Tim",
@@ -45,10 +46,11 @@
     {
       "first_name": "James",
       "last_name": "Landay",
-      "url": "http://www.cs.washington.edu/homes/landay/"
+      "url": "http://www.cs.washington.edu/homes/landay/",
+      "display_name": "James A. Landay"
     }
   ],
   "materials": [],
   "tags": [],
-  "doi": "https://doi.org/10.1145/1556262.1556276"
+  "doi": "10.1145/1556262.1556276"
 }

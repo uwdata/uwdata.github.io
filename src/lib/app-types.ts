@@ -31,6 +31,7 @@ export interface Paper {
 export interface SmallPerson {
 	first_name: string;
 	last_name: string;
+	display_name?: string;
 	url?: string;
 }
 
@@ -43,7 +44,7 @@ export interface Course {
 export interface Person {
 	first_name: string;
 	last_name: string;
-	display_name?: string;
+	display_name: string | null;
 	email: string;
 	url?: string;
 	// status: '' | '0F' | '4A' | '3C' | '99' | '2S';

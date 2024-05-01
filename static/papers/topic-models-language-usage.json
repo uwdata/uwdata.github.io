@@ -22,7 +22,8 @@
   "authors": [
     {
       "first_name": "Dan",
-      "last_name": "McFarland"
+      "last_name": "McFarland",
+      "display_name": "Daniel A. McFarland"
     },
     {
       "first_name": "Daniel",
@@ -40,7 +41,8 @@
     },
     {
       "first_name": "Christopher",
-      "last_name": "Manning"
+      "last_name": "Manning",
+      "display_name": "Christopher D. Manning"
     }
   ],
   "materials": [
@@ -50,5 +52,5 @@
     }
   ],
   "tags": [],
-  "doi": "https://doi.org/10.1016/j.poetic.2013.06.004"
+  "doi": "10.1016/j.poetic.2013.06.004"
 }

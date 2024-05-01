@@ -28,12 +28,14 @@
     {
       "first_name": "Stuart",
       "last_name": "Card",
-      "url": "http://www2.parc.com/istl/groups/uir/people/stuart/stuart.htm"
+      "url": "http://www2.parc.com/istl/groups/uir/people/stuart/stuart.htm",
+      "display_name": "Stuart K. Card"
     },
     {
       "first_name": "James",
       "last_name": "Landay",
-      "url": "http://www.cs.washington.edu/homes/landay/"
+      "url": "http://www.cs.washington.edu/homes/landay/",
+      "display_name": "James A. Landay"
     }
   ],
   "materials": [
@@ -47,5 +49,5 @@
     }
   ],
   "tags": [],
-  "doi": "https://doi.org/10.1145/1054972.1055031"
+  "doi": "10.1145/1054972.1055031"
 }

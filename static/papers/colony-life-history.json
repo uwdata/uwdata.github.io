@@ -22,7 +22,8 @@
   "authors": [
     {
       "first_name": "Krista",
-      "last_name": "Ingram"
+      "last_name": "Ingram",
+      "display_name": "Krista K. Ingram"
     },
     {
       "first_name": "Anna",
@@ -35,7 +36,8 @@
     },
     {
       "first_name": "Deborah",
-      "last_name": "Gordon"
+      "last_name": "Gordon",
+      "display_name": "Deborah M. Gordon"
     }
   ],
   "materials": [
@@ -45,5 +47,5 @@
     }
   ],
   "tags": [],
-  "doi": "https://doi.org/10.1111/1365-2656.12036"
+  "doi": "10.1111/1365-2656.12036"
 }

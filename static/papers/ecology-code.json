@@ -23,7 +23,8 @@
     {
       "first_name": "Allison",
       "last_name": "Smith",
-      "url": "http://www.kallisonsmith.us/"
+      "url": "http://www.kallisonsmith.us/",
+      "display_name": "K. Allison Smith"
     },
     {
       "first_name": "Jeffrey",
@@ -33,7 +34,8 @@
     {
       "first_name": "Ethan",
       "last_name": "White",
-      "url": "http://whitelab.weecology.org/"
+      "url": "http://whitelab.weecology.org/",
+      "display_name": "Ethan P. White"
     }
   ],
   "materials": [
@@ -43,5 +45,5 @@
     }
   ],
   "tags": [],
-  "doi": "https://doi.org/10.1016/j.tree.2015.11.006"
+  "doi": "10.1016/j.tree.2015.11.006"
 }

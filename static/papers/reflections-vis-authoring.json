@@ -45,7 +45,8 @@
     },
     {
       "first_name": "John",
-      "last_name": "Thompson"
+      "last_name": "Thompson",
+      "display_name": "John R. Thompson"
     },
     {
       "first_name": "Matthew",
@@ -54,10 +55,11 @@
     {
       "first_name": "Zhicheng",
       "last_name": "Liu",
-      "url": "http://www.zcliu.org/"
+      "url": "http://www.zcliu.org/",
+      "display_name": "Zhicheng (Leo) Liu"
     }
   ],
   "materials": [],
   "tags": [],
-  "doi": "https://doi.org/10.1109/TVCG.2019.2934281"
+  "doi": "10.1109/TVCG.2019.2934281"
 }

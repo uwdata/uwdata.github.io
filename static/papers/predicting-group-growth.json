@@ -27,7 +27,8 @@
     },
     {
       "first_name": "Dan",
-      "last_name": "Wang"
+      "last_name": "Wang",
+      "display_name": "Dan J. Wang"
     },
     {
       "first_name": "Jure",
@@ -36,5 +37,5 @@
   ],
   "materials": [],
   "tags": [],
-  "doi": "https://doi.org/10.1145/2124295.2124374"
+  "doi": "10.1145/2124295.2124374"
 }
