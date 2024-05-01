@@ -38,7 +38,8 @@
     {
       "first_name": "Duen Horng",
       "last_name": "Chau",
-      "url": "https://poloclub.github.io/polochau/"
+      "url": "https://poloclub.github.io/polochau/",
+      "display_name": "Duen Horng (Polo) Chau"
     }
   ],
   "materials": [
@@ -50,5 +51,5 @@
   "tags": [
     "communication"
   ],
-  "doi": "https://doi.org/10.23915/distill.00028"
+  "doi": "10.23915/distill.00028"
 }

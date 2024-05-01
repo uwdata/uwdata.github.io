@@ -1,18 +1,18 @@
 {
-  "title": "Hypothesis Formalization: Empirical Findings, Software Limitations, and Design Implications ",
+  "title": "Hypothesis Formalization: Empirical Findings, Software Limitations, and Design Implications",
   "year": 2022,
   "start_page": 1,
   "end_page": 28,
   "volume": 29,
   "issue": 1,
   "editors": "Kristina Hook",
-  "publisher": " ",
-  "location": " ",
+  "publisher": "",
+  "location": "",
   "pdf": "https://idl.cs.washington.edu/files/2022-HypothesisFormalization-TOCHI.pdf",
-  "abstract": "Data analysis requires translating higher level questions and hypotheses into computable statistical models. We present a mixed-methods study aimed at identifying the steps, considerations, and challenges involved in operationalizing hypotheses into statistical models, a process we refer to as hypothesis formalization. In a formative content analysis of 50 research papers, we find that researchers highlight decomposing a hypothesis into sub-hypotheses, selecting proxy variables, and formulating statistical models based on data collection design as key steps. In a lab study, we find that analysts fixated on implementation and shaped their analyses to fit familiar approaches, even if sub-optimal. In an analysis of software tools, we find that tools provide inconsistent, low-level abstractions that may limit the statistical models analysts use to formalize hypotheses. Based on these observations, we characterize hypothesis formalization as a dual-search process balancing conceptual and statistical considerations constrained by data and computation and discuss implications for future tools. ",
+  "abstract": "Data analysis requires translating higher level questions and hypotheses into computable statistical models. We present a mixed-methods study aimed at identifying the steps, considerations, and challenges involved in operationalizing hypotheses into statistical models, a process we refer to as hypothesis formalization. In a formative content analysis of 50 research papers, we find that researchers highlight decomposing a hypothesis into sub-hypotheses, selecting proxy variables, and formulating statistical models based on data collection design as key steps. In a lab study, we find that analysts fixated on implementation and shaped their analyses to fit familiar approaches, even if sub-optimal. In an analysis of software tools, we find that tools provide inconsistent, low-level abstractions that may limit the statistical models analysts use to formalize hypotheses. Based on these observations, we characterize hypothesis formalization as a dual-search process balancing conceptual and statistical considerations constrained by data and computation and discuss implications for future tools.",
   "thumbnail": "images/thumbs/hypothesis-formalization.png",
   "figure": "images/figures/hypothesis-formalization.png",
-  "caption": "Definition and overview of the hypothesis formalization steps and process. Hypothesis formalization is a dual-search process of translating a conceptual hypothesis into a statistical model implementation. Blue indicates steps and transitions that we identified. Black indicates steps and transitions discussed in prior work. “Mathematical Equation” (dashed box) was rarely an explicit step in our lab study but evident in our content analysis. Our findings (blue arrows) corroborate and subsume several of the transitions identified in prior work with greater granularity. When they do not, prior work’s transitions are included in black. For example, analysts may operationalize a conceptual hypothesis as a causal model (found in prior work, see Figure 2) by first decomposing the conceptual hypothesis into sub-hypotheses and then identifying proxy variables to incorporate in a causal model (blue arrows above). Our definition of hypothesis formalization is a consequence of our synthesis of prior work, content analysis, lab study, and analysis of tools. Hypothesis formalization is a non-linear process. Analysts iterate over conceptual steps to refine their hypothesis in a hypothesis refinement loop. Analysts also iterate over computational and implementation steps in a model implementation loop. Data collection and data properties may also prompt conceptual revisions and influence statistical model implementation. As analysts move toward model implementation, they increasingly rely on software tools, gain specificity, and create intermediate artifacts along the way (e.g., causal models, observations about data, etc.). ",
+  "caption": "Definition and overview of the hypothesis formalization steps and process. Hypothesis formalization is a dual-search process of translating a conceptual hypothesis into a statistical model implementation. Blue indicates steps and transitions that we identified. Black indicates steps and transitions discussed in prior work. “Mathematical Equation” (dashed box) was rarely an explicit step in our lab study but evident in our content analysis. Our findings (blue arrows) corroborate and subsume several of the transitions identified in prior work with greater granularity. When they do not, prior work’s transitions are included in black. For example, analysts may operationalize a conceptual hypothesis as a causal model (found in prior work, see Figure 2) by first decomposing the conceptual hypothesis into sub-hypotheses and then identifying proxy variables to incorporate in a causal model (blue arrows above). Our definition of hypothesis formalization is a consequence of our synthesis of prior work, content analysis, lab study, and analysis of tools. Hypothesis formalization is a non-linear process. Analysts iterate over conceptual steps to refine their hypothesis in a hypothesis refinement loop. Analysts also iterate over computational and implementation steps in a model implementation loop. Data collection and data properties may also prompt conceptual revisions and influence statistical model implementation. As analysts move toward model implementation, they increasingly rely on software tools, gain specificity, and create intermediate artifacts along the way (e.g., causal models, observations about data, etc.).",
   "web_name": "hypothesis-formalization",
   "visible": true,
   "mod_date": "2022-02-01",
@@ -31,7 +31,8 @@
     },
     {
       "first_name": "Nicole",
-      "last_name": "Moura"
+      "last_name": "Moura",
+      "display_name": "Nicole de Moura"
     },
     {
       "first_name": "Jeffrey",
@@ -51,5 +52,5 @@
     }
   ],
   "tags": [],
-  "doi": "https://doi.org/10.1145/3476980"
+  "doi": "10.1145/3476980"
 }

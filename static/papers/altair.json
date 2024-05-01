@@ -27,7 +27,8 @@
     },
     {
       "first_name": "Brian",
-      "last_name": "Granger"
+      "last_name": "Granger",
+      "display_name": "Brian E. Granger"
     },
     {
       "first_name": "Jeffrey",
@@ -79,5 +80,5 @@
   "tags": [
     "vega"
   ],
-  "doi": "https://doi.org/10.21105/joss.01057"
+  "doi": "10.21105/joss.01057"
 }

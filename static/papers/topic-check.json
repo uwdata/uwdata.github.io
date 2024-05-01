@@ -27,11 +27,13 @@
     },
     {
       "first_name": "Margaret",
-      "last_name": "Roberts"
+      "last_name": "Roberts",
+      "display_name": "Margaret E. Roberts"
     },
     {
       "first_name": "Brandon",
-      "last_name": "Stewart"
+      "last_name": "Stewart",
+      "display_name": "Brandon M. Stewart"
     },
     {
       "first_name": "Rebecca",
@@ -53,5 +55,5 @@
   ],
   "materials": [],
   "tags": [],
-  "doi": "https://doi.org/10.3115/v1/n15-1018"
+  "doi": "10.3115/v1/n15-1018"
 }

@@ -26,7 +26,8 @@
     },
     {
       "first_name": "Péter",
-      "last_name": "Gyarmati"
+      "last_name": "Gyarmati",
+      "display_name": "Péter Ferenc Gyarmati"
     },
     {
       "first_name": "Zehua",
@@ -47,5 +48,5 @@
   "tags": [
     "recommendation"
   ],
-  "doi": "https://doi.org/10.1109/VIS54172.2023.00042"
+  "doi": "10.1109/VIS54172.2023.00042"
 }

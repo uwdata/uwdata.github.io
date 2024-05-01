@@ -45,10 +45,11 @@
     {
       "first_name": "Jon",
       "last_name": "Froehlich",
-      "url": "https://jonfroehlich.github.io/"
+      "url": "https://jonfroehlich.github.io/",
+      "display_name": "Jon E. Froehlich"
     }
   ],
   "materials": [],
   "tags": [],
-  "doi": "https://doi.org/10.1145/3432908"
+  "doi": "10.1145/3432908"
 }

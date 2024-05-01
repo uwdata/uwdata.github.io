@@ -28,10 +28,11 @@
     {
       "first_name": "Zhicheng",
       "last_name": "Liu",
-      "url": "http://www.zcliu.org/"
+      "url": "http://www.zcliu.org/",
+      "display_name": "Zhicheng (Leo) Liu"
     }
   ],
   "materials": [],
   "tags": [],
-  "doi": "https://doi.org/10.1145/3290605.3300523"
+  "doi": "10.1145/3290605.3300523"
 }

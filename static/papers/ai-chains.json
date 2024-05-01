@@ -23,7 +23,8 @@
     {
       "first_name": "Tongshuang",
       "last_name": "Wu",
-      "url": "https://homes.cs.washington.edu/~wtshuang/"
+      "url": "https://homes.cs.washington.edu/~wtshuang/",
+      "display_name": "Tongshuang (Sherry) Wu"
     },
     {
       "first_name": "Michael",
@@ -31,10 +32,11 @@
     },
     {
       "first_name": "Carrie",
-      "last_name": "Cai"
+      "last_name": "Cai",
+      "display_name": "Carrie J. Cai"
     }
   ],
   "materials": [],
   "tags": [],
-  "doi": "https://doi.org/10.1145/3491102.3517582"
+  "doi": "10.1145/3491102.3517582"
 }

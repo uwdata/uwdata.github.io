@@ -31,7 +31,8 @@
     },
     {
       "first_name": "Christopher",
-      "last_name": "Manning"
+      "last_name": "Manning",
+      "display_name": "Christopher D. Manning"
     },
     {
       "first_name": "Jeffrey",
@@ -46,5 +47,5 @@
     }
   ],
   "tags": [],
-  "doi": "http://proceedings.mlr.press/v28/chuang13.html"
+  "doi": null
 }

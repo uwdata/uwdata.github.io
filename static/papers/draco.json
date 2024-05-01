@@ -41,7 +41,8 @@
     },
     {
       "first_name": "Adam",
-      "last_name": "Smith"
+      "last_name": "Smith",
+      "display_name": "Adam M. Smith"
     },
     {
       "first_name": "Bill",
@@ -63,5 +64,5 @@
   "tags": [
     "recommendation"
   ],
-  "doi": "https://doi.org/10.1109/TVCG.2018.2865240"
+  "doi": "10.1109/TVCG.2018.2865240"
 }

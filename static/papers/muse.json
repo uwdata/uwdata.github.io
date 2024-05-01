@@ -26,7 +26,8 @@
     },
     {
       "first_name": "Monica",
-      "last_name": "Lam"
+      "last_name": "Lam",
+      "display_name": "Monica S. Lam"
     },
     {
       "first_name": "Jeffrey",
@@ -41,5 +42,5 @@
     }
   ],
   "tags": [],
-  "doi": "https://doi.org/10.1145/2047196.2047206"
+  "doi": "10.1145/2047196.2047206"
 }

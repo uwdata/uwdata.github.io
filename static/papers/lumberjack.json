@@ -22,7 +22,8 @@
   "authors": [
     {
       "first_name": "Ed",
-      "last_name": "Chi"
+      "last_name": "Chi",
+      "display_name": "Ed H. Chi"
     },
     {
       "first_name": "Adam",
@@ -36,5 +37,5 @@
   ],
   "materials": [],
   "tags": [],
-  "doi": "https://doi.org/10.1007/978-3-540-39663-5_1"
+  "doi": "10.1007/978-3-540-39663-5_1"
 }

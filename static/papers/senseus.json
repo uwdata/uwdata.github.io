@@ -27,7 +27,8 @@
     },
     {
       "first_name": "Fernanda",
-      "last_name": "Viégas"
+      "last_name": "Viégas",
+      "display_name": "Fernanda B. Viégas"
     },
     {
       "first_name": "Martin",
@@ -41,5 +42,5 @@
     }
   ],
   "tags": [],
-  "doi": "https://doi.org/10.1145/1240624.1240781"
+  "doi": "10.1145/1240624.1240781"
 }

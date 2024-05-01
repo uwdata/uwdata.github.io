@@ -27,7 +27,8 @@
     },
     {
       "first_name": "Michael",
-      "last_name": "Brzozowski"
+      "last_name": "Brzozowski",
+      "display_name": "Michael J. Brzozowski"
     },
     {
       "first_name": "David",
@@ -35,10 +36,11 @@
     },
     {
       "first_name": "Ed",
-      "last_name": "Chi"
+      "last_name": "Chi",
+      "display_name": "Ed H. Chi"
     }
   ],
   "materials": [],
   "tags": [],
-  "doi": "https://doi.org/10.1145/2207676.2208552"
+  "doi": "10.1145/2207676.2208552"
 }

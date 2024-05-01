@@ -9,7 +9,7 @@
   "publisher": "",
   "location": "",
   "pdf": "https://idl.cs.washington.edu/files/2003-liquid-UbiComp.pdf",
-  "abstract": "As low-level architectural support for context-aware computing matures, we are ready to explore more general and powerful means of accessing context data. Information required by a context-aware application may be partitioned by any number of physical, organizational, or privacy boundaries. This suggests the need for mechanisms by which applications can issue context-sensitive queries without having to explicitly manage the complex storage layout and access policies of the underlying data. To address this need, we have developed liquid, a prototype query service that supports distributed, continuous query processing of context data. This paper articulates the current need for such systems, describes the design of the liquid system, and presents both a room-awareness application and notiﬁcation service demonstrating its functionality. ",
+  "abstract": "As low-level architectural support for context-aware computing matures, we are ready to explore more general and powerful means of accessing context data. Information required by a context-aware application may be partitioned by any number of physical, organizational, or privacy boundaries. This suggests the need for mechanisms by which applications can issue context-sensitive queries without having to explicitly manage the complex storage layout and access policies of the underlying data. To address this need, we have developed liquid, a prototype query service that supports distributed, continuous query processing of context data. This paper articulates the current need for such systems, describes the design of the liquid system, and presents both a room-awareness application and notiﬁcation service demonstrating its functionality.",
   "thumbnail": "images/thumbs/liquid-queries.gif",
   "figure": "",
   "caption": "",
@@ -36,10 +36,11 @@
     {
       "first_name": "Jason",
       "last_name": "Hong",
-      "url": "http://www.cs.cmu.edu/~jasonh/"
+      "url": "http://www.cs.cmu.edu/~jasonh/",
+      "display_name": "Jason I. Hong"
     }
   ],
   "materials": [],
   "tags": [],
-  "doi": "https://doi.org/10.1007/978-3-540-39653-6_11"
+  "doi": "10.1007/978-3-540-39653-6_11"
 }

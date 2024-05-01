@@ -23,7 +23,8 @@
     {
       "first_name": "Zhicheng",
       "last_name": "Liu",
-      "url": "http://www.zcliu.org/"
+      "url": "http://www.zcliu.org/",
+      "display_name": "Zhicheng (Leo) Liu"
     },
     {
       "first_name": "Biye",
@@ -48,5 +49,5 @@
   "tags": [
     "scalable"
   ],
-  "doi": "https://doi.org/10.1111/cgf.12129"
+  "doi": "10.1111/cgf.12129"
 }

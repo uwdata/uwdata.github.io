@@ -35,7 +35,8 @@
     },
     {
       "first_name": "Evie",
-      "last_name": "Cheng"
+      "last_name": "Cheng",
+      "display_name": "Evie Yu-Yen Cheng"
     },
     {
       "first_name": "Chris",
@@ -65,10 +66,11 @@
     {
       "first_name": "Jon",
       "last_name": "Froehlich",
-      "url": "https://jonfroehlich.github.io/"
+      "url": "https://jonfroehlich.github.io/",
+      "display_name": "Jon E. Froehlich"
     }
   ],
   "materials": [],
   "tags": [],
-  "doi": "https://doi.org/10.1145/3491102.3517460"
+  "doi": "10.1145/3491102.3517460"
 }

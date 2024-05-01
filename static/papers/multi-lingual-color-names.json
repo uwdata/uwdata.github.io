@@ -31,7 +31,8 @@
     },
     {
       "first_name": "Gabriella",
-      "last_name": "Gorsky"
+      "last_name": "Gorsky",
+      "display_name": "Gabriella Silva Gorsky"
     },
     {
       "first_name": "Jeffrey",
@@ -46,5 +47,5 @@
     }
   ],
   "tags": [],
-  "doi": "https://doi.org/10.2312/evs.20191166"
+  "doi": "10.2312/evs.20191166"
 }

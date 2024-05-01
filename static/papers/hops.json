@@ -12,7 +12,7 @@
   "abstract": "Many visual depictions of probability distributions, such as error bars, are difficult for users to accurately interpret. We present and study an alternative representation, Hypothetical Outcome Plots (HOPs), that animates a finite set of individual draws. In contrast to the statistical background required to interpret many static representations of distributions, HOPs require relatively little background knowledge to interpret. Instead, HOPs enables viewers to infer properties of the distribution using mental processes like counting and integration. We conducted an experiment comparing HOPs to error bars and violin plots. With HOPs, people made much more accurate judgments about plots of two and three quantities. Accuracy was similar with all three representations for most questions about distributions of a single quantity.",
   "thumbnail": "images/thumbs/hops.png",
   "figure": "images/figures/hops-three-part.png",
-  "caption": "(A) Representations of uncertainty compared in our study, (B) HOPs limiting case, (C) HOPs can express properties of a joint distribution. ",
+  "caption": "(A) Representations of uncertainty compared in our study, (B) HOPs limiting case, (C) HOPs can express properties of a joint distribution.",
   "web_name": "hops",
   "visible": true,
   "mod_date": "2015-11-01",
@@ -41,5 +41,5 @@
     }
   ],
   "tags": [],
-  "doi": "https://doi.org/10.1371/journal.pone.0142444"
+  "doi": "10.1371/journal.pone.0142444"
 }

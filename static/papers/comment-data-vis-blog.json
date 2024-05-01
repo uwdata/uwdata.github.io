@@ -31,7 +31,8 @@
     },
     {
       "first_name": "Elaheh",
-      "last_name": "Roochi"
+      "last_name": "Roochi",
+      "display_name": "Elaheh Momeni Roochi"
     },
     {
       "first_name": "Eytan",
@@ -40,5 +41,5 @@
   ],
   "materials": [],
   "tags": [],
-  "doi": "https://doi.org/10.1145/2675133.2675207"
+  "doi": "10.1145/2675133.2675207"
 }

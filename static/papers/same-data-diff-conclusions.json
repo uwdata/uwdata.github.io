@@ -46,10 +46,11 @@
     },
     {
       "first_name": "Eric",
-      "last_name": "Uhlmann"
+      "last_name": "Uhlmann",
+      "display_name": "Eric Luis Uhlmann"
     }
   ],
   "materials": [],
   "tags": [],
-  "doi": "https://doi.org/10.1016/j.obhdp.2021.02.003"
+  "doi": "10.1016/j.obhdp.2021.02.003"
 }
