@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { Person } from '$lib/app-types';
+  import { displayName } from '$lib/display-name';
 	export let people: Person[];
-  export let displayName: (person: Person) => string;
 
   let hoveredPerson: Person | null = null;
 	function handleHover(person: Person | null) {
