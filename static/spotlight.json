@@ -1,86 +1,50 @@
 [
 	{
-		"title": "Data-Driven Documents (D3.js)",
-		"paper": "d3",
-		"image": "images/spotlight/d3.png",
-		"date": "2013-11-18",
+		"title": "LLooM: Text Analysis via Concept Induction",
+		"paper": "lloom-concept-induction",
+		"image": "images/spotlight/lloom.png",
 		"visible": true
 	},
 	{
-		"title": "Data Wrangler",
-		"paper": "wrangler",
-		"image": "images/spotlight/wrangler.png",
-		"date": "2013-11-18",
+		"title": "Mosaic: Scalable, Interactive Visualization",
+		"paper": "mosaic",
+		"image": "images/spotlight/mosaic.png",
 		"visible": true
 	},
 	{
-		"title": "Model-Driven Text Visualization",
-		"paper": "designing-model-driven-vis",
-		"image": "images/spotlight/dissertations.png",
-		"date": "2013-11-18",
+		"title": "Living Papers: Augmented Scholarly Communication",
+		"paper": "living-papers",
+		"image": "images/spotlight/living-papers.png",
 		"visible": true
 	},
 	{
-		"title": "Narrative Visualization",
-		"paper": "narrative",
-		"image": "images/spotlight/narrative.png",
-		"date": "2013-11-18",
-		"visible": false
-	},
-	{
-		"title": "imMens: Visual Querying of Big Data",
-		"paper": "immens",
-		"image": "images/spotlight/immens.png",
-		"date": "2013-11-18",
-		"visible": true
-	},
-	{
-		"title": "Lyra: A Visualization Design Environment",
-		"paper": "lyra",
-		"image": "images/spotlight/lyra.png",
-		"date": "2014-09-29",
-		"visible": true
-	},
-	{
-		"title": "Predictive Translation Memory",
-		"paper": "ptm",
-		"image": "images/spotlight/ptm.png",
-		"date": "2014-09-29",
-		"visible": true
-	},
-	{
-		"title": "Color Naming Models",
-		"paper": "color-naming-models",
-		"image": "images/spotlight/colornames.png",
-		"date": "2014-09-29",
+		"title": "Boba: Visualize Multiverse Analyses",
+		"paper": "boba",
+		"image": "images/spotlight/boba.png",
 		"visible": true
 	},
 	{
 		"title": "Vega-Lite: A Grammar of Interactive Graphics",
 		"paper": "vega-lite",
 		"image": "images/spotlight/vegalite.png",
-		"date": "2018-11-13",
 		"visible": true
 	},
 	{
-		"title": "Voyager: Exploratory Analysis with Visualization Recommendations",
+		"title": "Voyager: Analysis with Visualization Recommendations",
 		"paper": "voyager2",
 		"image": "images/spotlight/voyager.png",
-		"date": "2018-11-13",
 		"visible": true
 	},
 	{
-		"title": "Idyll: A Markup Language for Interactive Articles",
-		"paper": "idyll",
-		"image": "images/spotlight/idyll.png",
-		"date": "2018-11-13",
+		"title": "D3: Data-Driven Documents",
+		"paper": "d3",
+		"image": "images/spotlight/d3.png",
 		"visible": true
 	},
 	{
-		"title": "Reverse-Engineering Visualizations from Chart Images",
-		"paper": "reverse-engineering-vis",
-		"image": "images/spotlight/rev.png",
-		"date": "2017-06-01",
+		"title": "Narrative Visualization: Telling Stories with Data",
+		"paper": "narrative",
+		"image": "images/spotlight/narrative.png",
 		"visible": true
 	}
 ]
