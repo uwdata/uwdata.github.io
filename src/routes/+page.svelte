@@ -22,7 +22,7 @@
 	}
 </script>
 
-<div class="mission md:text-xl mb-4">
+<div class="mission md:text-xl md:-mt-1 mb-4">
 	<a href={`${base}/about`}>
 		<span class="lead">our mission</span> is to enhance people's ability to
 		<strong>understand and communicate data</strong>
@@ -30,13 +30,18 @@
 	</a>
 </div>
 
-<Carousel projects={data.spotlight} />
+<div class="hidden md:block">
+	<Carousel projects={data.spotlight} />
+</div>
 
-<div class="mt-4 md:flex">
+<div class="mt-6 md:flex">
 	<div class="flex flex-col pr-10 basis-9/12 pt-3 border-t md:pt-0 md:border-t-0">
 		<div class="lead">
 			Recent Publications
-			<a class="ml-2 text-sm font-thin tracking-normal hidden md:inline-block" href={`${base}/papers`}>(VIEW ALL PAPERS)</a>
+			<a
+				class="hidden md:inline-block ml-2 text-sm font-thin tracking-normal"
+				href={`${base}/papers`}
+			>(VIEW ALL PAPERS)</a>
 		</div>
 		{#each data.groupedPapers as group}
 			<div class="flex flex-col">
