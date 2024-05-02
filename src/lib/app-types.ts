@@ -67,7 +67,6 @@ export interface Spotlight {
 	title: string;
 	paper: string;
 	image: string;
-	date: string;
 	visible: boolean;
 }
 
