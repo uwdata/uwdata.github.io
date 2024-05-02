@@ -16,9 +16,11 @@
 	);
 </script>
 
-{#each Object.keys(sectionedPapers).sort().reverse() as year}
-	<div class="heading">{year}</div>
-	{#each sectionedPapers[year] as { paper, venue }}
-		<SmallPaper {paper} {venue} />
+<div class="md:pr-10">
+	{#each Object.keys(sectionedPapers).sort().reverse() as year}
+		<div class="heading">{year}</div>
+		{#each sectionedPapers[year] as { paper, venue }}
+			<SmallPaper {paper} {venue} />
+		{/each}
 	{/each}
-{/each}
+</div>

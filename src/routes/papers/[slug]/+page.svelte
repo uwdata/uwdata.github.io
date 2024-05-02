@@ -8,7 +8,7 @@
 	$: venue = data.venue;
 </script>
 
-<div class="pub">
+<div>
 	<h1 class="font-semibold md:text-lg md:leading-snug leading-snug">{paper.title}</h1>
 
 	<div class="md:hidden text-sm mt-1">

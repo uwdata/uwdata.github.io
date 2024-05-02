@@ -1,6 +1,6 @@
 <script lang="ts">
-	import type { Paper, Venue } from '../lib/app-types';
 	import { base } from '$app/paths';
+	import type { Paper, Venue } from './app-types';
 	import AuthorList from './author-list.svelte';
 	import Materials from './materials.svelte';
 	export let paper: Paper;

@@ -1,9 +1,9 @@
 <script lang="ts">
-	import type { Paper, Venue } from '$lib/app-types';
-	export let paper : Paper;
-  export let venue : Venue;
+	import type { Paper, Venue } from './app-types';
+	export let paper: Paper;
+	export let venue: Venue;
 
-  const HOST_URL = 'https://uwdata.github.io/uwdata';
+	const HOST_URL = 'https://uwdata.github.io/uwdata';
 
 	function formatBibtex(p: Paper, v: Venue) {
 		const venue = v.venueType == 'journal' ? 'journal' : 'booktitle';

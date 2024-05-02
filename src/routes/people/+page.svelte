@@ -29,7 +29,7 @@
 	];
 </script>
 
-<div class="hidden md:block mt-0.5">
+<div class="hidden md:block">
 	<PeopleGrid people={members} />
 </div>
 
@@ -37,7 +37,7 @@
 	<div class="lead">members</div>
 	{#each members as person}
 		<div class="mt-2 w-full flex">
-			<a class="block w-1/3 grow-0 shrink-0" href={person.url}>
+			<a class="block grow-0 shrink-0" href={person.url}>
 				<img
 					src={person.image}
 					alt={`head shot of ${displayName(person)}`}

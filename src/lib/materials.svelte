@@ -1,6 +1,6 @@
 <script lang="ts">
-	import type { Paper } from '../lib/app-types';
 	import { base } from '$app/paths';
+	import type { Paper } from './app-types';
 	export let paper: Paper;
 
 	const links = paper.materials.map(material => {
