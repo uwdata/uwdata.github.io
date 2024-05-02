@@ -18,7 +18,7 @@
 		"visible": true
 	},
 	{
-		"title": "Boba: Visualize Multiverse Analyses",
+		"title": "Boba: Authoring and Visualizing Multiverse Analyses",
 		"paper": "boba",
 		"image": "images/spotlight/boba.png",
 		"visible": true
@@ -30,7 +30,7 @@
 		"visible": true
 	},
 	{
-		"title": "Voyager: Analysis with Visualization Recommendations",
+		"title": "Voyager: Exploratory Analysis with Visualization Recommendations",
 		"paper": "voyager2",
 		"image": "images/spotlight/voyager.png",
 		"visible": true
