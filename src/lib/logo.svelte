@@ -24,7 +24,11 @@
 		[3, -4, 2],
 		[5, -4, 2]
 	];
-	const letter = ['i', 'd', 'l'];
+	const colors = [
+		'#939597', // i
+		'#652c90', // d
+		'#d5a928'  // l
+	];
 	const faded = 0.15;
 	const space = 25;
 	const power = -100;
@@ -94,14 +98,16 @@
 	});
 </script>
 
-<div>
-	<a href={`/${base}`}>
+<div class="relative h-[72px]">
+	<a
+		class="absolute -left-[25px] -top-[9px] -width-[99px] -height[85px] overflow-hidden"
+		href={`/${base}`}>
 		<svg width={w} height={h} bind:this={svg}>
 			<g transform={`translate(${tx}, ${ty})`}>
 				<g fill-opacity={faded}>
 					{#each data as node}
 						<rect
-							class={`logo-${letter[node[2]]}`}
+							fill={colors[node[2]]}
 							x={Math.round(node[0] * 0.5 * cell)}
 							y={Math.round(node[1] * 0.5 * -cell)}
 							height={cell - pad}
@@ -112,7 +118,7 @@
 				<g class="active">
 					{#each data as node}
 						<rect
-							class={`logo-${letter[node[2]]}`}
+							fill={colors[node[2]]}
 							x={Math.round(node[0] * 0.5 * cell)}
 							y={Math.round(node[1] * 0.5 * -cell)}
 							height={cell - pad}
@@ -124,27 +130,3 @@
 		</svg>
 	</a>
 </div>
-
-<style>
-	div {
-		position: relative;
-		height: 72px;
-	}
-	a {
-		position: absolute;
-		left: -25px;
-		top: -9px;
-		width: 99px;
-		height: 85px;
-		overflow: hidden;
-	}
-	.logo-i {
-		fill: #939597;
-	}
-	.logo-d {
-		fill: #652c90;
-	}
-	.logo-l {
-		fill: #d5a928;
-	}
-</style>

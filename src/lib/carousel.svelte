@@ -18,36 +18,20 @@
   });
 </script>
 
-<div class="spotlight relative w-full flex h-48">
+<div class="relative w-full h-48">
   {#each projects as project, index (project)}
     {#if index === currentIndex}
-      <a href={`papers/${project.paper}`} in:fade={{ duration: 750 }} out:fade={{ duration: 750 }}>
+      <a
+        class="block absolute left-0 top-0 w-full h-48"
+        href={`papers/${project.paper}`}
+        in:fade={{ duration: 750 }}
+        out:fade={{ duration: 750 }}
+      >
         <img class="halo" src={project.image} alt="Image for {project.title}" />
-        <div>{project.title}</div>
+        <div class="absolute bottom-3 right-3 px-1.5 py-1 font-medium text-sm text-black bg-white border border-gray-300 rounded-tr-md rounded-bl-md">
+          {project.title}
+        </div>
       </a>
     {/if}
   {/each}
 </div>
-
-<style>
-.spotlight a {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: #000;
-}
-
-.spotlight div {
-  position: absolute;
-  bottom: 5%;
-  right: 2%;
-  background: rgba(255, 255, 255, 0.95);
-  border: 1px solid #ccc;
-  border-top-right-radius: 6px;
-  border-bottom-left-radius: 6px;
-  padding: 4px 6px;
-  font-size: 13px;
-  font-weight: 500;
-}
-</style>

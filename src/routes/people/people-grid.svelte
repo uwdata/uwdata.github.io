@@ -9,7 +9,7 @@
 	}
 </script>
 
-<div class="grid grid-cols-6">
+<div class="grid grid-cols-6 w-full">
   <div class="row-start-2 col-start-1 col-end-3 p-1 pr-2">
 		{#if hoveredPerson}
 			<div class="text-xl font-semibold mt-6">
@@ -23,7 +23,7 @@
 	</div>
 	{#each people as person}
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
-    <div class="relative person p-1"
+    <div class="relative p-1 min-h-36"
       on:mouseenter={() => handleHover(person)}
       on:mouseleave={() => handleHover(null)}
     >

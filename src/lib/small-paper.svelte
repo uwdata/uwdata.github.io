@@ -7,11 +7,11 @@
 	export let venue: Venue;
 </script>
 
-<div class="md:flex paper text-md mb-6">
+<div class="md:flex paper text-[15px] mb-6">
 	<div class="thumbnail mb-2 md:mt-1 grow-0 shrink-0">
 		<a href={`${base}/papers/${paper.web_name}`}>
 			<img
-			  class="halo rounded-lg"
+			  class="halo rounded-lg w-[120px] h-[62px]"
 				src={`${base}/${paper.thumbnail}`}
 				alt={`thumbnail image for ${paper.title}`}
 			/>
@@ -32,14 +32,3 @@
 		</div>
 	</div>
 </div>
-
-<style>
-.paper {
-    font-size: 15px;
-}
-
-.paper .thumbnail img {
-    width: 120px;
-    height: 62px;
-}
-</style>
