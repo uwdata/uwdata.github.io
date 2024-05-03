@@ -29,6 +29,13 @@
 	];
 </script>
 
+<svelte:head>
+	<!-- preload people images -->
+	{#each members as person}
+		<link rel="preload" as="image" href={person.image} />
+	{/each}
+</svelte:head>
+
 <div class="hidden md:block">
 	<PeopleGrid people={members} />
 </div>

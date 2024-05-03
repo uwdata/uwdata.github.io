@@ -22,6 +22,13 @@
 	}
 </script>
 
+<svelte:head>
+	<!-- preload project images -->
+	{#each data.spotlight as project}
+		<link rel="preload" as="image" href={project.image} media="(min-width: 768px)" />
+	{/each}
+</svelte:head>
+
 <div class="mission md:text-xl md:-mt-1 mb-4">
 	<a href={`${base}/about`}>
 		<span class="lead">our mission</span> is to enhance people's ability to
