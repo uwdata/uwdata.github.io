@@ -3,10 +3,31 @@
 	import AuthorList from '$lib/author-list.svelte';
 	import Bibtex from '$lib/bibtex.svelte';
 	import Materials from '$lib/materials.svelte';
+	import { displayName } from '$lib/display-name';
+	import { base } from '$app/paths';
 	export let data: { paper: Paper; venue: Venue };
 	$: paper = data.paper;
 	$: venue = data.venue;
 </script>
+
+<svelte:head>
+	<!-- add citation metadata -->
+	<meta property="og:title" content={paper.title} />
+	<meta property="og:type" content="article" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@uwdata" />
+	<meta property="twitter:title" content={paper.title} />
+	<meta property="og:image" content={`${base}/${paper.thumbnail}`} />
+	<meta property="twitter:image" content={`${base}/${paper.thumbnail}`} />
+	{#if paper.doi}<meta name="citation_doi" content={paper.doi} />{/if}
+	<meta name="citation_title" content={paper.title} />
+	<meta name="citation_{venue.venueType === 'journal' ? 'journal' : 'inbook'}_title" content={venue.fullName} />
+	<meta name="citation_year" content={`${paper.year}`} />
+	<meta name="citation_pdf_url" content={paper.pdf} />
+	{#each paper.authors as author}
+		<meta name="citation_author" content={displayName(author)} />
+	{/each}
+</svelte:head>
 
 <div>
 	<h1 class="font-semibold md:text-lg md:leading-snug leading-snug">{paper.title}</h1>
