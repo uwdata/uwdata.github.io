@@ -1,0 +1,51 @@
+{
+  "doi": "https://doi.org/10.48550/arXiv.2301.03109",
+  "web_name": "cinematic-visualization",
+  "title": "Cinematic Techniques in Narrative Visualization",
+  "venue": "arXiv",
+  "year": 2023,
+  "note": "",
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "arXiv",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2023-CinematicVis-arXiv.pdf",
+  "abstract": "The many genres of narrative visualization (e.g. data comics, data videos) each offer a unique set of affordances and constraints. To better understand a genre that we call cinematic visualizations-3D visualizations that make highly deliberate use of a camera to convey a narrative-we gathered 50 examples and analyzed their traditional cinematic aspects to identify the benefits and limitations of the form. While the cinematic visualization approach can violate traditional rules of visualization, we find that through careful control of the camera, cinematic visualizations enable immersion in data-driven, anthropocentric environments, and can naturally incorporate in-situ narrators, concrete scales, and visual analogies. Our analysis guides our design of a series of cinematic visualizations, created for NASA's Earth Science Communications team. We present one as a case study to convey design guidelines covering cinematography, lighting, set design, and sound, and discuss challenges in creating cinematic visualizations.",
+  "thumbnail": "images/thumbs/cinematic-visualization.png",
+  "figure": "images/figures/cinematic-visualization.png",
+  "caption": "How Much is a Gigatonne? shows one gigatonne of ice in Central Park, New York. A digital set (A) is designed including multiple cameras, lighting, and data-driven and contextual elements. Footage from the various cameras is composed to create the final sequence (B-E). This was one of several videos that we developed for an article published on NASA’s climate website.",
+  "visible": true,
+  "pub_date": "2023-01-08",
+  "mod_date": "2023-01-08",
+  "authors": [
+    {
+      "first_name": "Matt",
+      "last_name": "Conlen",
+      "url": "https://mathisonian.com/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Hillary",
+      "last_name": "Mushkin",
+      "url": "http://www.hillarymushkin.com/"
+    },
+    {
+      "first_name": "Scott",
+      "last_name": "Davidoff"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Supplement",
+      "link": "https://cinematic-visualization.github.io/"
+    }
+  ],
+  "tags": []
+}
