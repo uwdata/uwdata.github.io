@@ -3,7 +3,7 @@
 	export let paper: Paper;
 	export let venue: Venue;
 
-	const HOST_URL = 'https://uwdata.github.io/uwdata';
+	const HOST_URL = 'https://uwdata.github.io/';
 
 	function formatBibtex(p: Paper, v: Venue) {
 		const venue = v.venueType == 'journal' ? 'journal' : 'booktitle';
