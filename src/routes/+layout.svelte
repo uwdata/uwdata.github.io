@@ -46,7 +46,7 @@
 	$: subtitle = pageName === 'home' ? 'Visualization + Analysis' : pageName;
 </script>
 
-<div class="w-full md:max-w-4xl m-0 font-sans px-4 py-3 overflow-x-hidden">
+<div class="w-full md:max-w-4xl m-0 font-sans px-4 py-3 overflow-x-clip">
 	<nav class="md:hidden flex justify-between mb-2 text-xs tracking-wider uppercase">
 		{#each mobile as section}
 			{#if pageName === section.name}
