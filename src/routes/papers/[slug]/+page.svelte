@@ -42,7 +42,7 @@
 	</div>
 
 	{#if paper.figure}
-		<figure class="mt-5">
+		<figure class="mt-6">
 			<img
 				src={`../${paper.figure}`}
 				alt={`Figure for ${paper.title}`}
@@ -55,7 +55,7 @@
 
 	<div>
 		<div class="heading mt-6 mb-2 text-xs">Materials</div>
-		<Materials {paper} />
+		<div class="text-[15px]"><Materials {paper} /></div>
 	</div>
 
 	<div class="abstract">
