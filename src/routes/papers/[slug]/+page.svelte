@@ -14,11 +14,13 @@
 	<!-- add citation metadata -->
 	<meta property="og:title" content={paper.title} />
 	<meta property="og:type" content="article" />
+	<meta property="og:image" content={`${hostname}/${paper.thumbnail}`} />
+	<meta property="og:url" content={`${hostname}/papers/${paper.web_name}`} />
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@uwdata" />
 	<meta property="twitter:title" content={paper.title} />
-	<meta property="og:image" content={`${hostname}/${paper.thumbnail}`} />
 	<meta property="twitter:image" content={`${hostname}/${paper.thumbnail}`} />
+	<meta property="twitter:image:alt" content="Project thumbnail image." />
 	{#if paper.doi}<meta name="citation_doi" content={paper.doi} />{/if}
 	<meta name="citation_title" content={paper.title} />
 	<meta name="citation_{venue.venueType === 'journal' ? 'journal' : 'inbook'}_title" content={venue.fullName} />
