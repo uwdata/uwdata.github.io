@@ -4,7 +4,7 @@
 	import Bibtex from '$lib/bibtex.svelte';
 	import Materials from '$lib/materials.svelte';
 	import { displayName } from '$lib/display-name';
-	import { base } from '$app/paths';
+	import { hostname } from '$lib/hostname';
 	export let data: { paper: Paper; venue: Venue };
 	$: paper = data.paper;
 	$: venue = data.venue;
@@ -17,8 +17,8 @@
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@uwdata" />
 	<meta property="twitter:title" content={paper.title} />
-	<meta property="og:image" content={`${base}/${paper.thumbnail}`} />
-	<meta property="twitter:image" content={`${base}/${paper.thumbnail}`} />
+	<meta property="og:image" content={`${hostname}/${paper.thumbnail}`} />
+	<meta property="twitter:image" content={`${hostname}/${paper.thumbnail}`} />
 	{#if paper.doi}<meta name="citation_doi" content={paper.doi} />{/if}
 	<meta name="citation_title" content={paper.title} />
 	<meta name="citation_{venue.venueType === 'journal' ? 'journal' : 'inbook'}_title" content={venue.fullName} />
