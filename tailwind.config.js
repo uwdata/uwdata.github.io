@@ -7,10 +7,5 @@ export default {
 			sans: ['Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif']
 		}
 	},
-	variants: {
-		extend: {
-			visibility: ['group-hover']
-		}
-	},
 	plugins: []
 };
