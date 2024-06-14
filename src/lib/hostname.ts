@@ -1,1 +1,1 @@
-export const hostname = 'https://uwdata.github.io';
+export const hostname = 'https://idl.uw.edu';
