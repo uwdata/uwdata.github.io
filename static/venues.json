@@ -15,6 +15,11 @@
 		"venueType": "journal"
 	},
 	{
+		"fullName": "EuroVis Short Papers",
+		"nickname": "EuroVis-Short",
+		"venueType": "conference"
+	},
+	{
 		"fullName": "IEEE VIS Short Papers",
 		"nickname": "VIS-Short",
 		"venueType": "conference"

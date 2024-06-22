@@ -4842,5 +4842,19 @@
 		"position": null,
 		"interests": null,
 		"org": null
+	},
+	{
+		"first_name": "Ryan",
+		"last_name": "Rossi",
+		"display_name": "Ryan A. Rossi",
+		"email": "",
+		"url": "http://ryanrossi.com/",
+		"status": "other",
+		"visible": true,
+		"image": null,
+		"nickname": null,
+		"position": null,
+		"interests": null,
+		"org": null
 	}
 ]

@@ -1,0 +1,57 @@
+{
+  "doi": "10.2312/evs.20241057",
+  "web_name": "mobile-vis-interaction-techniques",
+  "title": "Interaction Techniques for Exploratory Data Visualization on Mobile Devices",
+  "venue": "EuroVis-Short",
+  "year": 2024,
+  "note": "",
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "The Eurographics Association",
+  "location": "",
+  "pdf": "http://arxiv.org/pdf/2404.11602",
+  "abstract": "The ubiquity and on-the-go availability of mobile devices makes them central to many tasks such as interpersonal communication and media consumption. However, despite the potential of mobile devices for on-demand exploratory data visualization, existing mobile interactions are difficult, often using highly custom interactions, complex gestures, or multi-modal input. We synthesize limitations from the literature and outline four motivating principles for improved mobile interaction: leverage ubiquitous modalities, prioritize discoverability, enable rapid in-context data exploration, and promote graceful recovery. We then contribute thirteen interaction candidates and conduct a formative study with twelve participants who experienced our interactions in a testbed prototype. Based on these interviews, we discuss design considerations and tradeoffs from four main themes: precise and rapid inspection, focused navigation, single-touch and fixed orientation interaction, and judicious use of motion.",
+  "thumbnail": "images/thumbs/mobile-vis-interaction-techniques.png",
+  "figure": "images/figures/mobile-vis-interaction-techniques.png",
+  "caption": "Interactions for mobile exploratory data visualization: (A) a stacked bar chart of US population data by age, with the menu opened on the right; (B) the user drags along both axes to INSPECT the data via a tooltip; (C) the user drags along the x-axis to INSPECT and taps to SELECT the states with the highest population (CA, FL, NY, TX); (D) to aid comparison, the user double taps to FOCUS on the selected marks and drags along both axes to further INSPECT them; (E) to return to the initial view from Step 1, the user shakes their device to RESET, and taps the AGGREGATE button to show the MAX(population) for each age group; the user then taps the age < 10 mark; (F) to INSPECT the selected mark in the original context, the user taps the AGGREGATE button again to return to the unaggregated view, which shows that CA has the largest population for age < 10.",
+  "visible": true,
+  "pub_date": "2024-06-22",
+  "mod_date": "2024-06-22",
+  "authors": [
+    {
+      "first_name": "Luke",
+      "last_name": "Snyder",
+      "url": "https://luke-s-snyder.github.io/"
+    },
+    {
+      "first_name": "Ryan",
+      "last_name": "Rossi",
+      "display_name": "Ryan A. Rossi",
+      "url": "http://ryanrossi.com/"
+    },
+    {
+      "first_name": "Eunyee",
+      "last_name": "Koh"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Jane",
+      "last_name": "Hoffswell",
+      "url": "https://jhoffswell.github.io/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Video",
+      "link": "https://osf.io/u9mtd"
+    }
+  ],
+  "tags": []
+}
