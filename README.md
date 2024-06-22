@@ -42,7 +42,7 @@ That's the system running the tests to try to prevent you from breaking the buil
 
 - How do I add a new paper?
 
-Go to `static/papers/` and add a new paper. One way to start is by copying a previous file. Or, you can use the [`prepare-paper` app](https://uwdata.github.io/prepare-paper/) to fill out a form, download a JSON data file for your publication, and edit it as nedded. If your paper already has an assigned [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier), the prepare app can even load paper metadata for you!
+Go to `static/papers/` and add a new paper. One way to start is by copying a previous file. Or, you can use the [`prepare-paper` app](https://idl.uw.edu/prepare-paper/) to fill out a form, download a JSON data file for your publication, and edit it as nedded. If your paper already has an assigned [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier), the prepare app can even load paper metadata for you!
 
 The `web_name` of your paper *must* match the file name for the paper JSON: if your web name is "reactive-vega" you should make a file called `static/papers/reactive-vega.json`. The `web_name` attribute must be unique across all papers.
 
