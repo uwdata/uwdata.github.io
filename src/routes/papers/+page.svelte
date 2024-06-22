@@ -16,6 +16,10 @@
 	);
 </script>
 
+<svelte:head>
+	<title>UW Interactive Data Lab | Papers</title>
+</svelte:head>
+
 <div class="md:pr-10">
 	{#each Object.keys(sectionedPapers).sort().reverse() as year}
 		<div class="heading">{year}</div>

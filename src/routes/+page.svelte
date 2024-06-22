@@ -23,6 +23,7 @@
 </script>
 
 <svelte:head>
+	<title>UW Interactive Data Lab</title>
 	<!-- preload project images -->
 	{#each data.spotlight as project}
 		<link rel="preload" as="image" href={project.image} media="(min-width: 768px)" />
