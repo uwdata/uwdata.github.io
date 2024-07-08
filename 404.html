@@ -86,6 +86,9 @@
     </div>
   </body>
   <script>
-    console.log("404: Not Found");
+    // if there is a trailing slash in the url then remove it and redirect
+    if (window.location.pathname.endsWith('/')) {
+      window.location.replace(window.location.pathname.slice(0, -1));
+    }
   </script>
 </html>
