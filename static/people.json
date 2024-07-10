@@ -955,14 +955,14 @@
 		"first_name": "Maureen",
 		"last_name": "Stone",
 		"display_name": null,
-		"email": "stone@stonesc.com",
-		"url": "https://research.tableau.com/user/maureen-stone",
+		"email": "mcstone@cs.uwashington.edu",
+		"url": "https://mcstone.github.io/",
 		"status": "faculty",
 		"visible": true,
 		"image": "images/people/mcstone.jpg",
 		"nickname": "Maureen",
 		"position": "Affiliate Professor",
-		"interests": "Color, Visualization",
+		"interests": "Color, Visualization, Visual Design, Music, Gardens, Cats",
 		"org": "UW CSE"
 	},
 	{
