@@ -4671,7 +4671,7 @@
 		"visible": true,
 		"image": "images/people/mcnutt.jpg",
 		"nickname": "Andrew",
-		"position": "Post-Doc",
+		"position": "alumni",
 		"interests": "Visualization, HCI, PL, Zines",
 		"org": "UW CSE"
 	},
@@ -4699,7 +4699,7 @@
 		"visible": true,
 		"image": "images/people/mgord.jpg",
 		"nickname": "Mitchell",
-		"position": "Post-Doc",
+		"position": "alumni",
 		"interests": "Human-AI Interaction",
 		"org": "UW CSE"
 	},
