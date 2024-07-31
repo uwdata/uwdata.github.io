@@ -1,0 +1,42 @@
+{
+  "title": "Considering Visualization Example Galleries",
+  "year": 2024,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://arxiv.org/pdf/2407.20571",
+  "abstract": "Example galleries are often used to teach, document, and advertise visually-focused domain-specific languages and libraries, such as those producing visualizations, diagrams, or webpages. Despite their ubiquity, there is no consensus on the role of \"example galleries\", let alone what the best practices might be for their creation or curation. To understand gallery meaning and usage, we interviewed the creators (N=11) and users (N=9) of prominent visualization-adjacent tools. From these interviews we synthesized strategies and challenges for gallery curation and management (e.g. weighing the costs/benefits of adding new examples and trade-offs in richness vs ease of use), highlighted the differences between planned and actual gallery usage (e.g. opportunistic reuse vs search-engine optimization), and reflected on parts of the gallery design space not explored (e.g. highlighting the potential of tool assistance). We found that galleries are multi-faceted structures whose form and content are motivated to accommodate different usages--ranging from marketing material to test suite to extended documentation. This work offers a foundation for future support tools by characterizing gallery design and management, as well as by highlighting challenges and opportunities in the space (such as how more diverse galleries make reuse tasks simpler, but complicate upkeep).",
+  "thumbnail": "images/thumbs/gallery.png",
+  "figure": "images/figures/gallery.png",
+  "caption": "Gallery organization and content depend on the goals and scope of the project they describe. Larger galleries are often categorized by features or task. To wit, Vega groups the examples as bar chart, line charts and so on, whereas Plot.ly groups by data domain like finance or statistics. In contrast Idyll's gallery is bifurcated into large high-level article examples and small low-level component examples.",
+  "web_name": "gallery",
+  "visible": true,
+  "mod_date": "2024-07-31",
+  "note": "",
+  "pub_date": "2024-07-31",
+  "venue": "VL/HCC",
+  "authors": [
+    {
+      "first_name": "Junran",
+      "last_name": "Yang",
+      "url": "https://homes.cs.washington.edu/~junran/"
+    },
+    {
+      "first_name": "Andrew",
+      "last_name": "McNutt",
+      "url": "http://mcnutt.in/"
+    },
+    {
+      "first_name": "Leilani",
+      "last_name": "Battle",
+      "url": "https://homes.cs.washington.edu/~leibatt/"
+    }
+  ],
+  "materials": [],
+  "tags": [],
+  "doi": "10.48550/arXiv.2407.20571"
+}

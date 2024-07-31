@@ -1,0 +1,53 @@
+{
+  "doi": "10.1145/3639276",
+  "web_name": "vega-plus",
+  "title": "Optimizing Dataflow Systems for Scalable Interactive Visualization",
+  "venue": "SIGMOD",
+  "year": 2024,
+  "note": "",
+  "start_page": null,
+  "end_page": null,
+  "volume": 2,
+  "issue": 1,
+  "editors": "",
+  "publisher": "Association for Computing Machinery (ACM)",
+  "location": "",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3639276",
+  "abstract": "Supporting the interactive exploration of large datasets is a popular and challenging use case for data management systems. Traditionally, the interface and the back-end system are built and optimized separately, and interface design and system optimization require different skill sets that are difficult for one person to master. To enable analysts to focus on visualization design, we contribute VegaPlus, a system that automatically optimizes interactive dashboards to support large datasets. To achieve this, VegaPlus leverages two core ideas. First, we introduce an optimizer that can reason about execution plans in Vega, a back-end DBMS, or a mix of both environments. The optimizer also considers how user interactions may alter execution plan performance, and can partially or fully rewrite the plans when needed. Through a series of benchmark experiments on seven different dashboard designs, our results show that VegaPlus provides superior performance and versatility compared to standard dashboard optimization techniques.",
+  "thumbnail": "images/figures/vega-plus.png",
+  "figure": "images/figures/vega-plus.png",
+  "caption": "The architecture diagram.",
+  "visible": true,
+  "pub_date": "2024,3,12-01-01",
+  "mod_date": "2024-07-30",
+  "authors": [
+    {
+      "first_name": "Junran",
+      "last_name": "Yang",
+      "url": "https://homes.cs.washington.edu/~junran/"
+    },
+    {
+      "first_name": "Hyekang",
+      "last_name": "Joo",
+      "display_name": "Hyekang (Kevin) Joo",
+      "url": "https://hyekangjoo.github.io/"
+    },
+    {
+      "first_name": "Sai",
+      "last_name": "Yerramreddy",
+      "display_name": "Sai Yerramreddy"
+    },
+    {
+      "first_name": "Dominik",
+      "last_name": "Moritz",
+      "url": "http://domoritz.de/"
+    },
+    {
+      "first_name": "Leilani",
+      "last_name": "Battle",
+      "url": "https://homes.cs.washington.edu/~leibatt/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

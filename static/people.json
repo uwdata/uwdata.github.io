@@ -4200,17 +4200,31 @@
 		"org": "UMD CS"
 	},
 	{
+		"first_name": "Sai",
+		"last_name": "Yerramreddy",
+		"display_name": "Sai Yerramreddy",
+		"email": "",
+		"url": "",
+		"status": "collaborator",
+		"visible": true,
+		"image": null,
+		"nickname": null,
+		"position": null,
+		"interests": null,
+		"org": null
+	},
+	{
 		"first_name": "Junran",
 		"last_name": "Yang",
 		"display_name": null,
 		"email": "",
-		"url": "",
+		"url": "https://homes.cs.washington.edu/~junran/",
 		"status": "member",
 		"visible": true,
 		"image": "images/people/junran.jpg",
 		"nickname": "Junran",
 		"position": "PhD Student",
-		"interests": "Visualization, Data Management, HCI, Painting",
+		"interests": "Visualization, Data Management, Tennis, Painting",
 		"org": "UW CSE"
 	},
 	{

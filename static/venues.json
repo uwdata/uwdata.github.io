@@ -268,5 +268,15 @@
 		"fullName": "EPJ Data Science",
 		"nickname": "EPJ-DS",
 		"venueType": "journal"
+	},
+	{
+		"fullName": "IEEE Symposium on Visual Languages and Human Centric Computing (VL/HCC)",
+		"nickname": "VL/HCC",
+		"venueType": "conference"
+	},
+	{
+		"fullName": "Proceedings of the ACM on Management of Data (SIGMOD)",
+		"nickname": "SIGMOD",
+		"venueType": "journal"
 	}
 ]
