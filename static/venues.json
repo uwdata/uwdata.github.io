@@ -278,5 +278,10 @@
 		"fullName": "Proceedings of the ACM on Management of Data (SIGMOD)",
 		"nickname": "SIGMOD",
 		"venueType": "journal"
-	}
+	},
+	{
+		"fullName": "IEEE Trans. Visualization & Comp. Graphics",
+		"nickname": "TVCG",
+		"venueType": "journal"
+	},
 ]
