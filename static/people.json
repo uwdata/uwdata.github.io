@@ -3574,14 +3574,14 @@
 		"last_name": "Brehmer",
 		"display_name": null,
 		"email": "",
-		"url": "",
+		"url": "https://mattbrehmer.ca/",
 		"status": "other",
 		"visible": true,
 		"image": null,
 		"nickname": null,
 		"position": null,
 		"interests": null,
-		"org": null
+		"org": "University of Waterloo"
 	},
 	{
 		"first_name": "Akshat",
@@ -4884,5 +4884,33 @@
 		"position": null,
 		"interests": null,
 		"org": "Washington University in St. Louis"
+	},
+	{
+		"first_name": "Hyeok",
+		"last_name": "Kim",
+		"display_name": null,
+		"email": "hyeokk@cs.washington.edu",
+		"url": "https://hyeok.me/",
+		"status": "member",
+		"visible": true,
+		"image": "images/people/hyeok.png",
+		"nickname": "Hyeok",
+		"position": "Post-Doc",
+		"interests": "Multi-context data visualization, qunatum computing interface, design, & caffein-free diet coke",
+		"org": "UW CSE"
+	},
+	{
+		"first_name": "Arjun",
+		"last_name": "Srinivasan",
+		"display_name": null,
+		"email": "",
+		"url": "https://arjun010.github.io/",
+		"status": "other",
+		"visible": true,
+		"image": null,
+		"nickname": null,
+		"position": null,
+		"interests": null,
+		"org": "Databricks"
 	}
 ]
