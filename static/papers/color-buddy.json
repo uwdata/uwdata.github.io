@@ -1,0 +1,51 @@
+{
+	"title": "Mixing Linters with GUIs: A Color Palette Design Probe",
+	"year": 2024,
+	"start_page": null,
+	"end_page": null,
+	"volume": null,
+	"issue": null,
+	"editors": "",
+	"publisher": "",
+	"location": "",
+	"pdf": "https://arxiv.org/pdf/2407.21285",
+	"abstract": "Visualization linters are end-user facing evaluators that automatically identify potential chart issues. These spell-checker like systems offer a blend of interpretability and customization that is not found in other forms of automated assistance. However, existing linters do not model context and have primarily targeted users who do not need assistance, resulting in obvious -- even annoying -- advice. We investigate these issues within the domain of color palette design, which serves as a microcosm of visualization design concerns. We contribute a GUI-based color palette linter as a design probe that covers perception, accessibility, context, and other design criteria, and use it to explore visual explanations, integrated fixes, and user defined linting rules. Through a formative interview study and theory-driven analysis, we find that linters can be meaningfully integrated into graphical contexts thereby addressing many of their core issues. We discuss implications for integrating linters into visualization tools, developing improved assertion languages, and supporting end-user tunable advice -- all laying the groundwork for more effective visualization linters in any context.",
+	"thumbnail": "images/thumbs/color-buddy.png",
+	"figure": "images/figures/color-buddy.png",
+	"caption": "Diagram explaining the linter used in our system.",
+	"web_name": "color-buddy",
+	"visible": true,
+	"mod_date": "2024-10-15",
+	"note": "",
+	"pub_date": "2024-10-15",
+	"venue": "VIS",
+	"authors": [
+		{
+			"first_name": "Andrew",
+			"last_name": "McNutt",
+			"url": "http://mcnutt.in/"
+		},
+		{
+			"first_name": "Maureen",
+			"last_name": "Stone",
+			"url": "https://mcstone.github.io/"
+		},
+		{
+			"first_name": "Jeffrey",
+			"last_name": "Heer",
+			"url": "http://homes.cs.washington.edu/~jheer/"
+		}
+	],
+	"materials": [
+		{
+			"name": "Software",
+			"link": "https://github.com/mcnuttandrew/color-buddy"
+		},
+		{
+			"name": "Live",
+			"link": "https://color-buddy.netlify.app/"
+		}
+	],
+	"tags": [],
+	"doi": "10.1109/TVCG.2024.3456317"
+}
