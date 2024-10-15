@@ -1,0 +1,49 @@
+{
+  "doi": "10.1109/VIS55277.2024.00024",
+  "web_name": "philo",
+  "title": "Bringing Data into the Conversation: Adapting Content from Business Intelligence Dashboards for Threaded Collaboration Platforms",
+  "venue": "VIS-Short",
+  "year": 2024,
+  "note": "",
+  "start_page": 76,
+  "end_page": 80,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "location": "",
+  "pdf": "https://arxiv.org/abs/2408.00242",
+  "abstract": "To enable data-driven decision-making across organizations, data professionals need to share insights with their colleagues in context-appropriate communication channels. Many of their colleagues rely on data but are not themselves analysts; furthermore, their colleagues are reluctant or unable to use dedicated analytical applications or dashboards, and they expect communication to take place within threaded collaboration platforms such as Slack or Microsoft Teams. In this paper, we introduce a set of six strategies for adapting content from business intelligence (BI) dashboards into appropriate formats for sharing on collaboration platforms, formats that we refer to as dashboard snapshots. Informed by prior studies of enterprise communication around data, these strategies go beyond redesigning or restyling by considering varying levels of data literacy across an organization, introducing affordances for self-service question-answering, and anticipating the post-sharing lifecycle of data artifacts. These strategies involve the use of templates that are matched to common communicative intents, serving to reduce the workload of data professionals. We contribute a formal representation of these strategies and demonstrate their applicability in a comprehensive enterprise communication scenario featuring multiple stakeholders that unfolds over the span of months.",
+  "thumbnail": "images/thumbs/philo-thumbnail.png",
+  "figure": "images/figures/philo-preview.png",
+  "caption": "A pipeline for making selections from a dashboard, retargeting them as components, combining the components into a dashboard snapshot, sharing and updating the snapshot on a collaboration platform.",
+  "visible": true,
+  "pub_date": "2024-10-24",
+  "mod_date": "2024-10-24",
+  "authors": [
+    {
+      "first_name": "Hyeok",
+      "last_name": "Kim",
+      "url": "https://hyeok.me/"
+    },
+    {
+      "first_name": "Arjun",
+      "last_name": "Srinivasan",
+      "url": "https://arjun010.github.io/"
+    },
+    {
+      "first_name": "Matthew",
+      "last_name": "Brehmer",
+      "url": "https://mattbrehmer.ca/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Supplementary",
+      "link": "https://dashboard-snapshot.github.io/"
+    }
+  ],
+  "tags": [
+    "retargeting"
+  ]
+}
