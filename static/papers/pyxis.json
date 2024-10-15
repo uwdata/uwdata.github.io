@@ -2,8 +2,8 @@
   "doi": "10.1109/TVCG.2023.3326698",
   "web_name": "pyxis",
   "title": "What Do We Mean When We Say “Insight”? A Formal Synthesis of Existing Theory",
-  "venue": "VIS",
-  "year": 2023,
+  "venue": "TVCG",
+  "year": 2024,
   "note": "",
   "start_page": null,
   "end_page": null,
@@ -18,8 +18,8 @@
   "figure": "images/figures/pyxis.png",
   "caption": "Our formalism defines insight as the joining of analytical results derived from a dataset (analytic knowledge) with contextual information that gives these results meaning (domain knowledge). In this example, we apply our formalism to an analysis of reported crimes in the city of Baltimore. We observe a peak in total crimes in April 2015, representing analytic knowledge. This peak correlates with protests and political unrest in response to Gray's mistreatment and conflicting reports from the Baltimore Police Department.",
   "visible": true,
-  "pub_date": "2024-10-15",
-  "mod_date": "2024-10-15",
+  "pub_date": "2024-10-24",
+  "mod_date": "2024-10-24",
   "authors": [
     {
       "first_name": "Leilani",
