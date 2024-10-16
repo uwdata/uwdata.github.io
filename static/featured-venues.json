@@ -12,7 +12,7 @@
 		"visible": true
 	},
 	{
-		"desc": "VIS 2023 - Melbourne,  Australia",
+		"desc": "VIS 2023 - Melbourne, Australia",
 		"venue_nickname": "VIS",
 		"year": 2024,
 		"visible": true
@@ -27,6 +27,12 @@
 		"desc": "CHI 2024 - Honolulu, HI",
 		"venue_nickname": "CHI",
 		"year": 2024,
+		"visible": true
+	},
+	{
+		"desc": "VIS 2024",
+		"venue_nickname": "VIS",
+		"year": 2025,
 		"visible": true
 	}
 ]
