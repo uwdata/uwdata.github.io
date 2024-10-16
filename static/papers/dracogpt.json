@@ -1,0 +1,57 @@
+{
+  "doi": "10.1109/TVCG.2024.3456350",
+  "web_name": "dracogpt",
+  "title": "DracoGPT: Extracting Visualization Design Preferences from Large Language Models",
+  "venue": "VIS",
+  "year": 2025,
+  "note": "",
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://arxiv.org/pdf/2408.06845v1",
+  "abstract": "Trained on vast corpora, Large Language Models (LLMs) have the potential to encode visualization design knowledge and best practices. However, if they fail to do so, they might provide unreliable visualization recommendations. What visualization design preferences, then, have LLMs learned? We contribute DracoGPT, a method for extracting, modeling, and assessing visualization design preferences from LLMs. To assess varied tasks, we develop two pipelines—DracoGPT-Rank and DracoGPT-Recommend—to model LLMs prompted to either rank or recommend visual encoding specifications. We use Draco as a shared knowledge base in which to represent LLM design preferences and compare them to best practices from empirical research. We demonstrate that DracoGPT can accurately model the preferences expressed by LLMs, enabling analysis in terms of Draco design constraints. Across a suite of backing LLMs, we find that DracoGPT-Rank and DracoGPT-Recommend moderately agree with each other, but both substantially diverge from guidelines drawn from human subjects experiments. Future work can build on our approach to expand Draco’s knowledge base to model a richer set of preferences and to provide a robust and cost-effective stand-in for LLMs.",
+  "thumbnail": "images/thumbs/dracogpt.png",
+  "figure": "images/figures/Rank-Diagram.png",
+  "caption": "Overview of the DracoGPT-Rank pipeline: (1) User provides prompt templates for an LLM to rank chart pairs; (2) Draco featurizes charts and produces feature vectors consisting of constraint counts; (3) Draco learns constraint weights over LLM-labeled chart pairs by fitting a RankSVM model; (4) The fitted Draco model can be applied to score charts. Results at each stage of the pipeline afford insight into LLM ranking preferences.",
+  "visible": true,
+  "pub_date": "2024-10-15",
+  "mod_date": "2024-10-15",
+  "authors": [
+    {
+      "first_name": "Will",
+      "last_name": "Wang",
+      "display_name": "Will (Huichen) Wang",
+      "url": "https://homes.cs.washington.edu/~wwill/"
+    },
+    {
+      "first_name": "Mitchell",
+      "last_name": "Gordon",
+      "url": "https://mgordon.me/"
+    },
+    {
+      "first_name": "Leilani",
+      "last_name": "Battle",
+      "url": "https://homes.cs.washington.edu/~leibatt/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "https://github.com/wwwhhhccc/DracoGPT"
+    }
+  ],
+  "tags": [
+    "LLM",
+    "Visualization Design",
+    "Perception"
+  ]
+}
