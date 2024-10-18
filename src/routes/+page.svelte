@@ -48,8 +48,8 @@
 			Recent Publications
 			<a
 				class="hidden md:inline-block ml-2 text-sm font-thin tracking-normal"
-				href={`${base}/papers`}
-			>(VIEW ALL PAPERS)</a>
+				href={`${base}/papers`}>(VIEW ALL PAPERS)</a
+			>
 		</div>
 		{#each data.groupedPapers as group}
 			<div class="flex flex-col">

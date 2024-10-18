@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { Person } from '$lib/app-types';
-  import { displayName } from '$lib/display-name';
+	import { displayName } from '$lib/display-name';
 	export let people: Person[];
 </script>
 

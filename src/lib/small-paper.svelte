@@ -11,7 +11,7 @@
 	<div class="thumbnail mb-2 md:mt-1 grow-0 shrink-0">
 		<a href={`${base}/papers/${paper.web_name}`}>
 			<img
-			  class="halo rounded-lg w-[120px] h-[62px]"
+				class="halo rounded-lg w-[120px] h-[62px]"
 				src={`${base}/${paper.thumbnail}`}
 				alt={`thumbnail image for ${paper.title}`}
 			/>

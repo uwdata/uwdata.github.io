@@ -4,9 +4,7 @@ import type { Paper, Person } from '../src/lib/app-types';
 
 async function generateIndex() {
 	const people = JSON.parse(peopleRaw) as Person[];
-	const personMap = Object.fromEntries(
-		people.map((p) => [`${p.first_name} ${p.last_name}`, p])
-	);
+	const personMap = Object.fromEntries(people.map((p) => [`${p.first_name} ${p.last_name}`, p]));
 	const paperList = await fs.readdir('./static/papers');
 
 	const papers = [] as Paper[];

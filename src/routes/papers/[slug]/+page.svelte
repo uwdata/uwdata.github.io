@@ -24,7 +24,10 @@
 	<meta property="twitter:image:alt" content="Project thumbnail image." />
 	{#if paper.doi}<meta name="citation_doi" content={paper.doi} />{/if}
 	<meta name="citation_title" content={paper.title} />
-	<meta name="citation_{venue.venueType === 'journal' ? 'journal' : 'inbook'}_title" content={venue.fullName} />
+	<meta
+		name="citation_{venue.venueType === 'journal' ? 'journal' : 'inbook'}_title"
+		content={venue.fullName}
+	/>
 	<meta name="citation_year" content={`${paper.year}`} />
 	<meta name="citation_pdf_url" content={paper.pdf} />
 	{#each paper.authors as author}
@@ -37,7 +40,7 @@
 
 	<div class="md:hidden text-sm mt-1">
 		<AuthorList people={paper.authors} />.
-		<span class="italic">{venue.fullName}, {paper.year}
+		<span class="italic">{venue.fullName}, {paper.year} </span>
 	</div>
 	<div class="hidden md:block mt-1">
 		<div><AuthorList people={paper.authors} /></div>
@@ -46,10 +49,7 @@
 
 	{#if paper.figure}
 		<figure class="mt-6">
-			<img
-				src={`../${paper.figure}`}
-				alt={`Figure for ${paper.title}`}
-			/>
+			<img src={`../${paper.figure}`} alt={`Figure for ${paper.title}`} />
 			<figcaption class="mt-2 text-xs leading-4">
 				{paper.caption}
 			</figcaption>

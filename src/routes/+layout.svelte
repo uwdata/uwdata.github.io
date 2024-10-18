@@ -37,12 +37,11 @@
 			name: 'home',
 			href: `${base}/`
 		},
-		...sections.filter(s => !['video'].includes(s.name))
-	]
+		...sections.filter((s) => !['video'].includes(s.name))
+	];
 
 	$: pageName =
-		$page.url.pathname.split('/').filter((x) => x && x !== 'uwdata.github.io')[0] ||
-		'home';
+		$page.url.pathname.split('/').filter((x) => x && x !== 'uwdata.github.io')[0] || 'home';
 	$: subtitle = pageName === 'home' ? 'Visualization + Analysis' : pageName;
 </script>
 
@@ -67,7 +66,9 @@
 			{/each}
 			<a class="social w-4 rounded" title="@uwdata on Twitter/X" href="http://twitter.com/uwdata">
 				<svg viewBox="0 0 24 24" aria-hidden="true">
-					<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+					<path
+						d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+					></path>
 				</svg>
 			</a>
 		</nav>
@@ -76,11 +77,7 @@
 				class="block w-11"
 				href="http://dub.washington.edu/"
 				title="dub: Design, Use, Build - Human-Computer Interaction &amp; Design"
-				><img
-					class="rounded halo"
-					src={`${base}/images/logo/dub.png`}
-					alt="dub logo"
-				/></a
+				><img class="rounded halo" src={`${base}/images/logo/dub.png`} alt="dub logo" /></a
 			>
 			<a
 				class="block w-11 mt-3"
@@ -99,13 +96,12 @@
 		<header class="flex flex-row justify-between mb-3">
 			<div class="text-2xl md:text-3xl mt-1">
 				<span class="font-medium text-uw">UW</span> Interactive Data Lab
-				<span class="hidden md:inline ml-3 uppercase text-xl tracking-wider text-gray-500">{subtitle}</span>
+				<span class="hidden md:inline ml-3 uppercase text-xl tracking-wider text-gray-500"
+					>{subtitle}</span
+				>
 			</div>
 			<div class="md:hidden w-9">
-				<img
-					src={`${base}/images/logo/idl-300.png`}
-					alt="IDL logo"
-				/>
+				<img src={`${base}/images/logo/idl-300.png`} alt="IDL logo" />
 			</div>
 		</header>
 		<div class="md:pt-2">

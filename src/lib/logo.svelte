@@ -27,7 +27,7 @@
 	const colors = [
 		'#939597', // i
 		'#652c90', // d
-		'#d5a928'  // l
+		'#d5a928' // l
 	];
 	const faded = 0.15;
 	const space = 25;
@@ -87,7 +87,8 @@
 			let point = svg.createSVGPoint();
 			point.x = event.clientX;
 			point.y = event.clientY;
-			point = point.matrixTransform(svg.getScreenCTM()!.inverse());
+			const val = svg.getScreenCTM() as any;
+			point = point.matrixTransform(val.inverse());
 			updatePointer(point.x - tx, point.y - ty);
 		});
 
@@ -101,7 +102,8 @@
 <div class="relative h-[72px]">
 	<a
 		class="absolute -left-[25px] -top-[9px] -width-[99px] -height[85px] overflow-hidden"
-		href={`/${base}`}>
+		href={`/${base}`}
+	>
 		<svg width={w} height={h} bind:this={svg}>
 			<g transform={`translate(${tx}, ${ty})`}>
 				<g fill-opacity={faded}>

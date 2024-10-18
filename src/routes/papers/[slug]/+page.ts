@@ -13,7 +13,7 @@ export const load: PageLoad = async ({ params, fetch }) => {
 		.then((response) => response.json() as Promise<Paper>)
 		.then((x) => {
 			if (x) {
-				return { paper: x, venue: venues.find((venue) => venue.nickname === x.venue)! };
+				return { paper: x, venue: venues.find((venue) => venue.nickname === x.venue) };
 			}
 			return error(404, `Specific Paper (${params.slug}) Not found`);
 		})

@@ -6,10 +6,7 @@
 
 {#each people as author, i}
 	{#if author.url}
-		<a href={author.url}>{displayName(author)}</a>{i <
-		people.length - 1
-			? ', '
-			: ''}
+		<a href={author.url}>{displayName(author)}</a>{i < people.length - 1 ? ', ' : ''}
 	{:else}
 		{`${displayName(author)}${i < people.length - 1 ? ', ' : ''}`}
 	{/if}

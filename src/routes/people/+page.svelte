@@ -5,9 +5,11 @@
 	import PeopleList from './people-list.svelte';
 	export let data: { people: Person[] };
 
-	const groupsByStatus = data.people.slice()
-		.sort((a : Person, b : Person) => {
-			const u = a.last_name, v = b.last_name;
+	const groupsByStatus = data.people
+		.slice()
+		.sort((a: Person, b: Person) => {
+			const u = a.last_name,
+				v = b.last_name;
 			return u < v ? -1 : u > v ? 1 : 0;
 		})
 		.reduce(
@@ -23,10 +25,7 @@
 			{} as Record<Person['status'], Person[]>
 		);
 
-	const members = [
-		...groupsByStatus['faculty'],
-		...groupsByStatus['member']
-	];
+	const members = [...groupsByStatus['faculty'], ...groupsByStatus['member']];
 </script>
 
 <svelte:head>
@@ -46,10 +45,7 @@
 	{#each members as person}
 		<div class="mt-2 w-full flex">
 			<a class="block grow-0 shrink-0" href={person.url}>
-				<img
-					src={person.image}
-					alt={`head shot of ${displayName(person)}`}
-				/>
+				<img src={person.image} alt={`head shot of ${displayName(person)}`} />
 			</a>
 			<div class="ml-2">
 				<div class="font-semibold">

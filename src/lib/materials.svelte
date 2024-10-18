@@ -3,7 +3,7 @@
 	import type { Paper } from './app-types';
 	export let paper: Paper;
 
-	const links = paper.materials.map(material => {
+	const links = paper.materials.map((material) => {
 		const link = material.link.trim();
 		const href = link.startsWith('http') ? link : `${base}/${link}`;
 		return { href, label: material.name };
