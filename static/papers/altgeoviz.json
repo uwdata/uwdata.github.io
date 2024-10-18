@@ -1,0 +1,68 @@
+{
+  "doi": "10.48550/arXiv.2406.13853",
+  "web_name": "altgeoviz",
+  "title": "AltGeoViz: Facilitating Accessible Geovisualization",
+  "venue": "VIS-Short",
+  "year": 2024,
+  "note": "",
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://arxiv.org/pdf/2406.13853",
+  "abstract": "Geovisualizations are powerful tools for exploratory spatial analysis, enabling sighted users to discern patterns, trends, and relationships within geographic data. However, these visual tools have remained largely inaccessible to screen-reader users. We present AltGeoViz, a new system we designed to facilitate geovisualization exploration for these users. AltGeoViz dynamically generates alt-text descriptions based on the user's current map view, providing summaries of spatial patterns and descriptive statistics. In a study of five screen-reader users, we found that AltGeoViz enabled them to interact with geovisualizations in previously infeasible ways. Participants demonstrated a clear understanding of data summaries and their location context, and they could synthesize spatial understandings of their explorations. Moreover, we identified key areas for improvement, such as the addition of intuitive spatial navigation controls and comparative analysis features.",
+  "thumbnail": "images/thumbs/altgeoviz.png",
+  "figure": "images/figures/altgeoviz.png",
+  "caption": "AltGeoViz enables screen-reader users to interact with dynamic geovisualizations. Upon loading, users are presented with the title, a summary of the general spatial pattern, and extrema and average data values (Left). As users move and zoom, the information is updated, and they can hear the boundary of their current viewport (Center). Data can be shown at different geographic units (e.g., state or county level) depending on the zoom level (Right).",
+  "visible": true,
+  "pub_date": "2024-10-24",
+  "mod_date": "2024-10-24",
+  "authors": [
+    {
+      "first_name": "Chu",
+      "last_name": "Li",
+      "url": "https://www.chu-li.me/"
+    },
+    {
+      "first_name": "Rock",
+      "last_name": "Pang",
+      "url": "https://homes.cs.washington.edu/~ypang2/",
+      "display_name": "Rock Yuren Pang"
+    },
+    {
+      "first_name": "Ather",
+      "last_name": "Sharif",
+      "url": "https://www.athersharif.com/"
+    },
+    {
+      "first_name": "Arnavi",
+      "last_name": "Chheda-Kothary",
+      "url": "https://arnavick.com/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Jon",
+      "last_name": "Froehlich",
+      "display_name": "Jon E. Froehlich",
+      "url": "https://jonfroehlich.github.io/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Video",
+      "link": "https://www.youtube.com/watch?v=EE1w8Ynm1dk"
+    },
+    {
+      "name": "Software",
+      "link": "https://github.com/makeabilitylab/altgeoviz"
+    }
+  ],
+  "tags": []
+}

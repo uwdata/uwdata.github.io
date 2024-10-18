@@ -4912,5 +4912,61 @@
 		"position": null,
 		"interests": null,
 		"org": "Databricks"
+	},
+	{
+		"first_name": "Chu",
+		"last_name": "Li",
+		"display_name": null,
+		"email": "",
+		"url": "https://www.chu-li.me/",
+		"status": "other",
+		"visible": true,
+		"image": null,
+		"nickname": null,
+		"position": null,
+		"interests": null,
+		"org": null
+	},
+	{
+		"first_name": "Rock",
+		"last_name": "Pang",
+		"display_name": "Rock Yuren Pang",
+		"email": "",
+		"url": "https://homes.cs.washington.edu/~ypang2/",
+		"status": "other",
+		"visible": true,
+		"image": null,
+		"nickname": null,
+		"position": null,
+		"interests": null,
+		"org": null
+	},
+	{
+		"first_name": "Ather",
+		"last_name": "Sharif",
+		"display_name": null,
+		"email": "",
+		"url": "https://www.athersharif.com/",
+		"status": "other",
+		"visible": true,
+		"image": null,
+		"nickname": null,
+		"position": null,
+		"interests": null,
+		"org": null
+	},
+	{
+		"first_name": "Arnavi",
+		"last_name": "Chheda-Kothary",
+		"display_name": null,
+		"email": "",
+		"url": "https://arnavick.com/",
+		"status": "other",
+		"visible": true,
+		"image": null,
+		"nickname": null,
+		"position": null,
+		"interests": null,
+		"org": null
 	}
 ]
