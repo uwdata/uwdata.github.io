@@ -43,7 +43,5 @@
       "link": "https://dashboard-snapshot.github.io/"
     }
   ],
-  "tags": [
-    "retargeting"
-  ]
+  "tags": ["retargeting"]
 }

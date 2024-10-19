@@ -1,337 +1,337 @@
 [
-	{
-		"text": "[Protovis](http://vis.stanford.edu/protovis) was featured in [MIT Technology Review](http://www.technologyreview.com/computing/22927/).",
-		"date": "2009-06-25",
-		"visible": false
-	},
-	{
-		"text": "Take a tour through the [Visualization Zoo](http://queue.acm.org/detail.cfm?id=1805128)!",
-		"date": "2010-05-13",
-		"visible": false
-	},
-	{
-		"text": "[Protovis 3.2](http://vis.stanford.edu/protovis) has been released! New layouts, behaviors, and maps.",
-		"date": "2010-05-28",
-		"visible": false
-	},
-	{
-		"text": "Jeff and <a class=\"normal\" href=\"http://www.cs.berkeley.edu/~hellerstein\">Joe Hellerstein</a> led a [Data Visualization tutorial](http://vldb2009.org/?q=node/17#1) at [VLDB 2009](http://vldb2009.org/). ",
-		"date": "2009-06-25",
-		"visible": false
-	},
-	{
-		"text": "[ACM Queue's interview](http://queue.acm.org/detail.cfm?id=1744741) with <a class=\"normal\" href=\"http://hci.stanford.edu/jheer\">Jeff Heer</a>, <a class=\"normal\" href=\"http://www.bewitched.com/\">Martin Wattenberg</a> and <a class=\"normal\" href=\"http://fernandaviegas.com/\">Fernanda Vi&eacute;gas</a>.",
-		"date": "2010-03-23",
-		"visible": false
-	},
-	{
-		"text": "Congrats to [Mike Bostock](http://graphics.stanford.edu/~mbostock), <a class=\"normal\" href=\"http://stamen.com\">Stamen</a>, and <a class=\"normal\" href=\"http://simplegeo.com/\">SimpleGeo</a> on the release of [Polymaps](http://polymaps.org).",
-		"date": "2010-08-20",
-		"visible": false
-	},
-	{
-		"text": "Four new papers at [InfoVis 2010](http://vis.computer.org/VisWeek2010/infovis/sessions_papers.html), including two best paper nominees!",
-		"date": "2010-10-10",
-		"visible": false
-	},
-	{
-		"text": "Music fan? See Eddie Segel's [Pitchfork Year in Reviews](http://www.yearinreviews.com/).",
-		"date": "2011-01-07",
-		"visible": false
-	},
-	{
-		"text": "Two [new](http://vis.stanford.edu/papers/wrangler) [papers](http://vis.stanford.edu/papers/commentspace) at CHI 2011, and [another](http://vis.stanford.edu/papers/mining-social-topologies) at IUI 2011.",
-		"date": "2011-01-27",
-		"visible": false
-	},
-	{
-		"text": "Check out [Data Wrangler](http://vis.stanford.edu/wrangler), our new system for visual data cleaning and transformation!",
-		"date": "2011-02-04",
-		"visible": false
-	},
-	{
-		"text": "SocialFlows was featured in [MIT Technology Review](http://technologyreview.com/communications/32394/page2/)!",
-		"date": "2011-02-18",
-		"visible": false
-	},
-	{
-		"text": "[Wrangler](/wrangler) and [Protovis](/protovis), along with other data tools, were featured in [ComputerWorld](http://www.computerworld.com/s/article/9215504/22_free_tools_for_data_visualization_and_analysis).",
-		"date": "2011-04-20",
-		"visible": false
-	},
-	{
-		"text": "[Data-Driven Documents (D3)](http://vis.stanford.edu/d3) is our latest web-based visualization tool and the successor to [Protovis](http://vis.stanford.edu/protovis).",
-		"date": "2011-06-28",
-		"visible": false
-	},
-	{
-		"text": "A flurry of research! Four new papers at [UIST 2011](http://www.acm.org/uist/uist2011/program/index.html), plus four more at [VisWeek 2011](http://visweek.org/visweek/2011/paper-session/all/all).",
-		"date": "2011-09-14",
-		"visible": false
-	},
-	{
-		"text": "[D3](http://vis.stanford.edu/d3) was named the [#1 data visualization project of the year](http://flowingdata.com/2011/12/21/the-best-data-visualization-projects-of-2011/) by [Flowing Data](http://flowingdata.com/)!",
-		"date": "2011-12-21",
-		"visible": false
-	},
-	{
-		"text": "Four new papers at [CHI 2012](http://chi2012.acm.org/).",
-		"date": "2012-02-14",
-		"visible": false
-	},
-	{
-		"text": "The New York Times uses [D3](http://vis.stanford.edu/d3) to visualize [Obama's Budget Proposal](http://www.nytimes.com/interactive/2012/02/13/us/politics/2013-budget-proposal-graphic.html).",
-		"date": "2012-02-12",
-		"visible": false
-	},
-	{
-		"text": "Our article for ACM catalogs [Interactive Dynamics for Visual Analysis](http://queue.acm.org/detail.cfm?id=2146416).",
-		"date": "2012-03-02",
-		"visible": false
-	},
-	{
-		"text": "Two new systems released: the [Datavore in-browser database](http://vis.stanford.edu/projects/datavore) and [C3 library for color naming models](http://vis.stanford.edu/color-names).",
-		"date": "2012-03-17",
-		"visible": false
-	},
-	{
-		"text": "[Three](http://vis.stanford.edu/papers/graphprism) [new](http://vis.stanford.edu/papers/profiler) [papers](http://vis.stanford.edu/papers/termite) at AVI '12.",
-		"date": "2012-04-03",
-		"visible": false
-	},
-	{
-		"text": "Jeff sat down for an [interview on Data Stories](http://datastori.es/episode-8-interview-jeff-heer/).",
-		"date": "2012-06-28",
-		"visible": false
-	},
-	{
-		"text": "We discuss [Interactive Analysis of Big Data](http://xrds.acm.org/article.cfm?aid=2331058) in ACM XRDS.",
-		"date": "2012-09-20",
-		"visible": false
-	},
-	{
-		"text": "At VisWeek 2012: studies of [slope judgments](http://vis.stanford.edu/papers/slope-ratio-comparison) (InfoVis) and [enterprise analysts](http://vis.stanford.edu/papers/enterprise-analysis-interviews) (VAST best paper nominee).",
-		"date": "2012-10-15",
-		"visible": false
-	},
-	{
-		"text": "[D3.js](http://d3js.org) wins [Online News Association award](http://journalists.org/2013/10/19/guardian-boston-globe-axisphilly-texas-tribune-take-home-2013-online-journalism-awards/)!",
-		"date": "2013-10-19",
-		"visible": false
-	},
-	{
-		"text": "UW, Berkeley, and NYU collaborate on [$37.8M data science initiative](http://news.cs.washington.edu/2013/11/12/uw-berkeley-nyu-collaborate-on-37-8m-data-science-initiative/).",
-		"date": "2013-11-12",
-		"visible": false
-	},
-	{
-		"text": "The [Stanford Vis Group](http://vis.stanford.edu) is now the [UW Interactive Data Lab](http://idl.cs.washington.edu)! For updates, [follow us on Twitter at @uwdata](http://twitter.com/uwdata).",
-		"date": "2013-11-19",
-		"visible": false
-	},
-	{
-		"text": "Join our [Language Learning, Visualization, and Interfaces workshop](http://nlp.stanford.edu/events/illvi2014/) at ACL 2014!",
-		"date": "2013-11-20",
-		"visible": false
-	},
-	{
-		"text": "Join us at the [UW Data Science Seminar](http://data.uw.edu/seminar)!",
-		"date": "2014-04-16",
-		"visible": false
-	},
-	{
-		"text": "Two new papers at [EuroVis 2014](http://eurovis.swansea.ac.uk/): [Lyra](/papers/lyra) and [Ellipsis](/papers/ellipsis).",
-		"date": "2014-05-22",
-		"visible": false
-	},
-	{
-		"text": "[Watch Arvind present](https://www.youtube.com/watch?v=io7BSu6RIYM) our [Lyra](/projects/lyra) system at OpenVisConf!",
-		"date": "2014-05-30",
-		"visible": false
-	},
-	{
-		"text": "New papers on [perceptual design](http://idl.cs.washington.edu/papers/perceptual-kernels/), [effects of latency](http://idl.cs.washington.edu/papers/latency/), [declarative interaction](http://idl.cs.washington.edu/papers/reactive-vega/), and [language](http://idl.cs.washington.edu/papers/interactive-translation/) [translation](http://idl.cs.washington.edu/papers/ptm/).",
-		"date": "2014-09-30",
-		"visible": false
-	},
-	{
-		"text": "Jeff was selected as a [Moore Investigator in Data-Driven Discovery](http://www.moore.org/programs/science/data-driven-discovery/investigators)! Thanks to the Moore Foundation for their generous support.",
-		"date": "2014-10-02",
-		"visible": false
-	},
-	{
-		"text": "[Come join us!](/positions) We're looking for talented PhD students and Post-Docs to join our group.",
-		"date": "2014-11-08",
-		"visible": false
-	},
-	{
-		"text": "Diana's [analysis of addiction recovery in online forums](/papers/forum77) was selected as a Best Paper Honorable Mention at CSCW!",
-		"date": "2015-01-14",
-		"visible": false
-	},
-	{
-		"text": "Watch Jeff's keynote talks at [Strata](https://www.youtube.com/watch?v=vc1bq0qIKoA) and [OpenVis Conf](https://www.youtube.com/watch?v=GdoDLuPe-Wg).",
-		"date": "2015-06-01",
-		"visible": false
-	},
-	{
-		"text": "[Three](/papers/voyager)\n[new](/papers/beyond-webers-law)\n[papers](/papers/reactive-vega-architecture)\nat [VIS 2015](http://ieeevis.org/)!",
-		"date": "2015-08-12",
-		"visible": false
-	},
-	{
-		"text": "We started an [IDL blog](https://medium.com/@uwdata)!",
-		"date": "2015-12-17",
-		"visible": false
-	},
-	{
-		"text": "Watch [Arvind](https://www.youtube.com/watch?v=Y8Fp9z-9DWc) and [Jessica](https://www.youtube.com/watch?v=pTVAn4oLvbc) present at [OpenVis Conf 2016](https://openvisconf.com/).",
-		"date": "2016-05-17",
-		"visible": false
-	},
-	{
-		"text": "Our [re-analysis of correlation perception data](http://idl.cs.washington.edu/papers/beyond-webers-law/) won a best paper honorable mention at InfoVis 2015!",
-		"date": "2015-10-30",
-		"visible": false
-	},
-	{
-		"text": "New papers at [InfoVis 2016](http://ieeevis.org/year/2016/info/call-participation/infovis-papers): [Vega-Lite](/papers/vega-lite) and [Surprise Maps](/papers/surprise-maps).",
-		"date": "2016-08-05",
-		"visible": false
-	},
-	{
-		"text": "Jeff speaks about [Interactive Data Analysis](http://schedule.sxsw.com/2017/events/PP64388) at SXSW 2017.",
-		"date": "2017-03-01",
-		"visible": false
-	},
-	{
-		"text": "[Five](papers/voyager2) [new](papers/graphscape) <a  href=\"papers/explaining-the-gap\">papers</a> [at](papers/regression-by-eye) [CHI'17](papers/trust-but-verify), including [best paper](papers/explaining-the-gap) and [honorable mention](papers/graphscape) winners!",
-		"date": "2017-03-15",
-		"visible": false
-	},
-	{
-		"text": "Papers at [EuroVis 2017](http://eurovis2017.virvig.es/): [reverse-engineering visualizations](papers/reverse-engineering-vis) and [chart sequencing strategies](papers/sequence-structure).",
-		"date": "2017-04-17",
-		"visible": false
-	},
-	{
-		"text": "Watch Ham, Dom &amp; Arvind present [Vega-Lite: A Grammar of Interactive Graphics](https://www.youtube.com/watch?v=9uaHRWj04D4) at OpenVis Conf 2017!",
-		"date": "2017-05-25",
-		"visible": false
-	},
-	{
-		"text": "[Five](http://idl.cs.washington.edu/papers/tfgraph/) [new](http://idl.cs.washington.edu/papers/consistency/) [papers](http://idl.cs.washington.edu/papers/others-expectations/) [at](http://idl.cs.washington.edu/papers/imagining-replications/) [VIS'17](http://idl.cs.washington.edu/papers/extracting-color-mappings/), including [VAST Best Paper](http://idl.cs.washington.edu/papers/tfgraph/) and [InfoVis Honorable Mention](http://idl.cs.washington.edu/papers/consistency/) award winners!",
-		"date": "2017-09-07",
-		"visible": false
-	},
-	{
-		"text": "[Five](http://idl.cs.washington.edu/papers/concrete-reexpression/) [new](http://idl.cs.washington.edu/papers/uncertainty-bus/) [papers](http://idl.cs.washington.edu/papers/quantitative-color/) [at](http://idl.cs.washington.edu/papers/insitu-code-vis/) [CHI'18](http://idl.cs.washington.edu/papers/uncertainty-palettes/)!",
-		"date": "2018-02-20",
-		"visible": false
-	},
-	{
-		"text": "EuroVis'18 papers on [SetCoLa for custom graph layout](http://idl.cs.washington.edu/papers/setcola/) and [the effects of task and data on visual encoding effectiveness](http://idl.cs.washington.edu/papers/task-data-effectiveness/).\n",
-		"date": "2018-05-10",
-		"visible": false
-	},
-	{
-		"text": "[Three](http://idl.cs.washington.edu/papers/draco/) [new](http://idl.cs.washington.edu/papers/hops-trends/) [papers](http://idl.cs.washington.edu/papers/uncertainty-eval-survey/) at VIS'18, including an [InfoVis Best Paper Award for Draco](http://idl.cs.washington.edu/papers/draco/)!",
-		"date": "2018-08-16",
-		"visible": false
-	},
-	{
-		"text": "Catch our paper on the [Idyll language for interactive articles](http://idl.cs.washington.edu/papers/idyll) at ACM UIST 2018!",
-		"date": "2018-08-15",
-		"visible": false
-	},
-	{
-		"text": "[Two](http://idl.cs.washington.edu/papers/falcon/) [papers](http://idl.cs.washington.edu/papers/table-repair/) at CHI 2019!",
-		"date": "2019-02-18",
-		"visible": false
-	},
-	{
-		"text": "IUI 2020 paper on [interactive learning for text sequences](/papers/iseql/).",
-		"date": "2020-02-10",
-		"visible": false
-	},
-	{
-		"text": "New CHI papers on [responsive design](/papers/responsive-vis/), [analysis decisions](/papers/analysis-decision-points/), [vis recommenders](/papers/dziban), [query analysis](/papers/tempura), and [ML explainability](/papers/explain-feedback).",
-		"date": "2020-02-25",
-		"visible": false
-	},
-	{
-		"text": "Congrats [Jane Hoffswell](https://homes.cs.washington.edu/~jhoffs/) et al. for a [CHI Best Paper Award](/papers/responsive-vis)!",
-		"date": "2020-03-09",
-		"visible": false
-	},
-	{
-		"text": "Congrats [Tongshuang (Sherry) Wu](https://homes.cs.washington.edu/~wtshuang/) for her [ACL 2020 Best Paper on CheckList](https://idl.cs.washington.edu/papers/check-list/)!",
-		"date": "2020-08-01",
-		"visible": false
-	},
-	{
-		"text": "Congrats [Alex Kale](http://students.washington.edu/kalea/) et al. for a [VIS 2020 Best Paper Award](papers/effect-size-judgments/)!",
-		"date": "2020-10-20",
-		"visible": false
-	},
-	{
-		"text": "Congrats (again) [Alex Kale](http://students.washington.edu/kalea/) et al. for a [VIS 2021 Best Paper Honorable Mention](papers/causal-support/)!",
-		"date": "2021-10-15",
-		"visible": false
-	},
-	{
-		"text": "Our [Narrative Visualization](papers/narrative/) paper won an [InfoVis 10-Year Test-of-Time Award](http://ieeevis.org/year/2020/info/awards/test-of-time-awards).",
-		"date": "2020-10-20",
-		"visible": true
-	},
-	{
-		"text": "IDL welcomes (back) [Leilani Battle](https://homes.cs.washington.edu/~leibatt/bio.html) as a UW CSE professor and lab co-director!",
-		"date": "2021-09-27",
-		"visible": true
-	},
-	{
-		"text": "[D3](papers/d3) wins an [InfoVis 10-Year Test-of-Time Award](http://ieeevis.org/year/2021/info/awards/test-of-time-awards)!",
-		"date": "2021-10-15",
-		"visible": true
-	},
-	{
-		"text": "[Tisane](papers/tisane) is a CHI'22 Honorable Mention. Congrats [Eunice](https://eunicemjun.com/)!",
-		"date": "2022-05-10",
-		"visible": true
-	},
-	{
-		"text": "Our [interview study of data analysts](papers/enterprise-analysis-interviews) received a [10-Year Test-of-Time Award](https://ieeevis.org/year/2022/info/awards/test-of-time-awards).",
-		"date": "2022-10-16",
-		"visible": true
-	},
-	{
-		"text": "[ScatterShot](papers/scattershot) earns an IUI'23 Honorable Mention.",
-		"date": "2023-03-27",
-		"visible": true
-	},
-	{
-		"text": "Six new papers at VIS 2023!",
-		"date": "2023-10-21",
-		"visible": true
-	},
-	{
-		"text": "Congrats to [Leilani Battle](https://homes.cs.washington.edu/~leibatt/bio.html) for the [2023 VGTC Significant New Researcher Award](https://ieeecs-media.computer.org/tc-media/sites/49/2023/10/09182427/award_visualization-significant-new-researcher-leilani.pdf)!",
-		"date": "2023-10-24",
-		"visible": true
-	},
-	{
-		"text": "[Living Papers](papers/living-papers/) receives a UIST 2023 Honorable Mention.",
-		"date": "2023-10-30",
-		"visible": true
-	},
-	{
-		"text": "[rTisane](papers/rtisane) wins a CHI 2024 Best Paper Award!",
-		"date": "2024-04-26",
-		"visible": true
-	},
-	{
-		"text": "IDL alum [Dominik Moritz](https://www.domoritz.de/) won a [2024 VGTC Significant New Researcher Award](https://ieeevis.org/year/2024/program/awards/awards.html)!",
-		"date": "2024-10-16",
-		"visible": true
-	}
+  {
+    "text": "[Protovis](http://vis.stanford.edu/protovis) was featured in [MIT Technology Review](http://www.technologyreview.com/computing/22927/).",
+    "date": "2009-06-25",
+    "visible": false
+  },
+  {
+    "text": "Take a tour through the [Visualization Zoo](http://queue.acm.org/detail.cfm?id=1805128)!",
+    "date": "2010-05-13",
+    "visible": false
+  },
+  {
+    "text": "[Protovis 3.2](http://vis.stanford.edu/protovis) has been released! New layouts, behaviors, and maps.",
+    "date": "2010-05-28",
+    "visible": false
+  },
+  {
+    "text": "Jeff and <a class=\"normal\" href=\"http://www.cs.berkeley.edu/~hellerstein\">Joe Hellerstein</a> led a [Data Visualization tutorial](http://vldb2009.org/?q=node/17#1) at [VLDB 2009](http://vldb2009.org/). ",
+    "date": "2009-06-25",
+    "visible": false
+  },
+  {
+    "text": "[ACM Queue's interview](http://queue.acm.org/detail.cfm?id=1744741) with <a class=\"normal\" href=\"http://hci.stanford.edu/jheer\">Jeff Heer</a>, <a class=\"normal\" href=\"http://www.bewitched.com/\">Martin Wattenberg</a> and <a class=\"normal\" href=\"http://fernandaviegas.com/\">Fernanda Vi&eacute;gas</a>.",
+    "date": "2010-03-23",
+    "visible": false
+  },
+  {
+    "text": "Congrats to [Mike Bostock](http://graphics.stanford.edu/~mbostock), <a class=\"normal\" href=\"http://stamen.com\">Stamen</a>, and <a class=\"normal\" href=\"http://simplegeo.com/\">SimpleGeo</a> on the release of [Polymaps](http://polymaps.org).",
+    "date": "2010-08-20",
+    "visible": false
+  },
+  {
+    "text": "Four new papers at [InfoVis 2010](http://vis.computer.org/VisWeek2010/infovis/sessions_papers.html), including two best paper nominees!",
+    "date": "2010-10-10",
+    "visible": false
+  },
+  {
+    "text": "Music fan? See Eddie Segel's [Pitchfork Year in Reviews](http://www.yearinreviews.com/).",
+    "date": "2011-01-07",
+    "visible": false
+  },
+  {
+    "text": "Two [new](http://vis.stanford.edu/papers/wrangler) [papers](http://vis.stanford.edu/papers/commentspace) at CHI 2011, and [another](http://vis.stanford.edu/papers/mining-social-topologies) at IUI 2011.",
+    "date": "2011-01-27",
+    "visible": false
+  },
+  {
+    "text": "Check out [Data Wrangler](http://vis.stanford.edu/wrangler), our new system for visual data cleaning and transformation!",
+    "date": "2011-02-04",
+    "visible": false
+  },
+  {
+    "text": "SocialFlows was featured in [MIT Technology Review](http://technologyreview.com/communications/32394/page2/)!",
+    "date": "2011-02-18",
+    "visible": false
+  },
+  {
+    "text": "[Wrangler](/wrangler) and [Protovis](/protovis), along with other data tools, were featured in [ComputerWorld](http://www.computerworld.com/s/article/9215504/22_free_tools_for_data_visualization_and_analysis).",
+    "date": "2011-04-20",
+    "visible": false
+  },
+  {
+    "text": "[Data-Driven Documents (D3)](http://vis.stanford.edu/d3) is our latest web-based visualization tool and the successor to [Protovis](http://vis.stanford.edu/protovis).",
+    "date": "2011-06-28",
+    "visible": false
+  },
+  {
+    "text": "A flurry of research! Four new papers at [UIST 2011](http://www.acm.org/uist/uist2011/program/index.html), plus four more at [VisWeek 2011](http://visweek.org/visweek/2011/paper-session/all/all).",
+    "date": "2011-09-14",
+    "visible": false
+  },
+  {
+    "text": "[D3](http://vis.stanford.edu/d3) was named the [#1 data visualization project of the year](http://flowingdata.com/2011/12/21/the-best-data-visualization-projects-of-2011/) by [Flowing Data](http://flowingdata.com/)!",
+    "date": "2011-12-21",
+    "visible": false
+  },
+  {
+    "text": "Four new papers at [CHI 2012](http://chi2012.acm.org/).",
+    "date": "2012-02-14",
+    "visible": false
+  },
+  {
+    "text": "The New York Times uses [D3](http://vis.stanford.edu/d3) to visualize [Obama's Budget Proposal](http://www.nytimes.com/interactive/2012/02/13/us/politics/2013-budget-proposal-graphic.html).",
+    "date": "2012-02-12",
+    "visible": false
+  },
+  {
+    "text": "Our article for ACM catalogs [Interactive Dynamics for Visual Analysis](http://queue.acm.org/detail.cfm?id=2146416).",
+    "date": "2012-03-02",
+    "visible": false
+  },
+  {
+    "text": "Two new systems released: the [Datavore in-browser database](http://vis.stanford.edu/projects/datavore) and [C3 library for color naming models](http://vis.stanford.edu/color-names).",
+    "date": "2012-03-17",
+    "visible": false
+  },
+  {
+    "text": "[Three](http://vis.stanford.edu/papers/graphprism) [new](http://vis.stanford.edu/papers/profiler) [papers](http://vis.stanford.edu/papers/termite) at AVI '12.",
+    "date": "2012-04-03",
+    "visible": false
+  },
+  {
+    "text": "Jeff sat down for an [interview on Data Stories](http://datastori.es/episode-8-interview-jeff-heer/).",
+    "date": "2012-06-28",
+    "visible": false
+  },
+  {
+    "text": "We discuss [Interactive Analysis of Big Data](http://xrds.acm.org/article.cfm?aid=2331058) in ACM XRDS.",
+    "date": "2012-09-20",
+    "visible": false
+  },
+  {
+    "text": "At VisWeek 2012: studies of [slope judgments](http://vis.stanford.edu/papers/slope-ratio-comparison) (InfoVis) and [enterprise analysts](http://vis.stanford.edu/papers/enterprise-analysis-interviews) (VAST best paper nominee).",
+    "date": "2012-10-15",
+    "visible": false
+  },
+  {
+    "text": "[D3.js](http://d3js.org) wins [Online News Association award](http://journalists.org/2013/10/19/guardian-boston-globe-axisphilly-texas-tribune-take-home-2013-online-journalism-awards/)!",
+    "date": "2013-10-19",
+    "visible": false
+  },
+  {
+    "text": "UW, Berkeley, and NYU collaborate on [$37.8M data science initiative](http://news.cs.washington.edu/2013/11/12/uw-berkeley-nyu-collaborate-on-37-8m-data-science-initiative/).",
+    "date": "2013-11-12",
+    "visible": false
+  },
+  {
+    "text": "The [Stanford Vis Group](http://vis.stanford.edu) is now the [UW Interactive Data Lab](http://idl.cs.washington.edu)! For updates, [follow us on Twitter at @uwdata](http://twitter.com/uwdata).",
+    "date": "2013-11-19",
+    "visible": false
+  },
+  {
+    "text": "Join our [Language Learning, Visualization, and Interfaces workshop](http://nlp.stanford.edu/events/illvi2014/) at ACL 2014!",
+    "date": "2013-11-20",
+    "visible": false
+  },
+  {
+    "text": "Join us at the [UW Data Science Seminar](http://data.uw.edu/seminar)!",
+    "date": "2014-04-16",
+    "visible": false
+  },
+  {
+    "text": "Two new papers at [EuroVis 2014](http://eurovis.swansea.ac.uk/): [Lyra](/papers/lyra) and [Ellipsis](/papers/ellipsis).",
+    "date": "2014-05-22",
+    "visible": false
+  },
+  {
+    "text": "[Watch Arvind present](https://www.youtube.com/watch?v=io7BSu6RIYM) our [Lyra](/projects/lyra) system at OpenVisConf!",
+    "date": "2014-05-30",
+    "visible": false
+  },
+  {
+    "text": "New papers on [perceptual design](http://idl.cs.washington.edu/papers/perceptual-kernels/), [effects of latency](http://idl.cs.washington.edu/papers/latency/), [declarative interaction](http://idl.cs.washington.edu/papers/reactive-vega/), and [language](http://idl.cs.washington.edu/papers/interactive-translation/) [translation](http://idl.cs.washington.edu/papers/ptm/).",
+    "date": "2014-09-30",
+    "visible": false
+  },
+  {
+    "text": "Jeff was selected as a [Moore Investigator in Data-Driven Discovery](http://www.moore.org/programs/science/data-driven-discovery/investigators)! Thanks to the Moore Foundation for their generous support.",
+    "date": "2014-10-02",
+    "visible": false
+  },
+  {
+    "text": "[Come join us!](/positions) We're looking for talented PhD students and Post-Docs to join our group.",
+    "date": "2014-11-08",
+    "visible": false
+  },
+  {
+    "text": "Diana's [analysis of addiction recovery in online forums](/papers/forum77) was selected as a Best Paper Honorable Mention at CSCW!",
+    "date": "2015-01-14",
+    "visible": false
+  },
+  {
+    "text": "Watch Jeff's keynote talks at [Strata](https://www.youtube.com/watch?v=vc1bq0qIKoA) and [OpenVis Conf](https://www.youtube.com/watch?v=GdoDLuPe-Wg).",
+    "date": "2015-06-01",
+    "visible": false
+  },
+  {
+    "text": "[Three](/papers/voyager)\n[new](/papers/beyond-webers-law)\n[papers](/papers/reactive-vega-architecture)\nat [VIS 2015](http://ieeevis.org/)!",
+    "date": "2015-08-12",
+    "visible": false
+  },
+  {
+    "text": "We started an [IDL blog](https://medium.com/@uwdata)!",
+    "date": "2015-12-17",
+    "visible": false
+  },
+  {
+    "text": "Watch [Arvind](https://www.youtube.com/watch?v=Y8Fp9z-9DWc) and [Jessica](https://www.youtube.com/watch?v=pTVAn4oLvbc) present at [OpenVis Conf 2016](https://openvisconf.com/).",
+    "date": "2016-05-17",
+    "visible": false
+  },
+  {
+    "text": "Our [re-analysis of correlation perception data](http://idl.cs.washington.edu/papers/beyond-webers-law/) won a best paper honorable mention at InfoVis 2015!",
+    "date": "2015-10-30",
+    "visible": false
+  },
+  {
+    "text": "New papers at [InfoVis 2016](http://ieeevis.org/year/2016/info/call-participation/infovis-papers): [Vega-Lite](/papers/vega-lite) and [Surprise Maps](/papers/surprise-maps).",
+    "date": "2016-08-05",
+    "visible": false
+  },
+  {
+    "text": "Jeff speaks about [Interactive Data Analysis](http://schedule.sxsw.com/2017/events/PP64388) at SXSW 2017.",
+    "date": "2017-03-01",
+    "visible": false
+  },
+  {
+    "text": "[Five](papers/voyager2) [new](papers/graphscape) <a  href=\"papers/explaining-the-gap\">papers</a> [at](papers/regression-by-eye) [CHI'17](papers/trust-but-verify), including [best paper](papers/explaining-the-gap) and [honorable mention](papers/graphscape) winners!",
+    "date": "2017-03-15",
+    "visible": false
+  },
+  {
+    "text": "Papers at [EuroVis 2017](http://eurovis2017.virvig.es/): [reverse-engineering visualizations](papers/reverse-engineering-vis) and [chart sequencing strategies](papers/sequence-structure).",
+    "date": "2017-04-17",
+    "visible": false
+  },
+  {
+    "text": "Watch Ham, Dom &amp; Arvind present [Vega-Lite: A Grammar of Interactive Graphics](https://www.youtube.com/watch?v=9uaHRWj04D4) at OpenVis Conf 2017!",
+    "date": "2017-05-25",
+    "visible": false
+  },
+  {
+    "text": "[Five](http://idl.cs.washington.edu/papers/tfgraph/) [new](http://idl.cs.washington.edu/papers/consistency/) [papers](http://idl.cs.washington.edu/papers/others-expectations/) [at](http://idl.cs.washington.edu/papers/imagining-replications/) [VIS'17](http://idl.cs.washington.edu/papers/extracting-color-mappings/), including [VAST Best Paper](http://idl.cs.washington.edu/papers/tfgraph/) and [InfoVis Honorable Mention](http://idl.cs.washington.edu/papers/consistency/) award winners!",
+    "date": "2017-09-07",
+    "visible": false
+  },
+  {
+    "text": "[Five](http://idl.cs.washington.edu/papers/concrete-reexpression/) [new](http://idl.cs.washington.edu/papers/uncertainty-bus/) [papers](http://idl.cs.washington.edu/papers/quantitative-color/) [at](http://idl.cs.washington.edu/papers/insitu-code-vis/) [CHI'18](http://idl.cs.washington.edu/papers/uncertainty-palettes/)!",
+    "date": "2018-02-20",
+    "visible": false
+  },
+  {
+    "text": "EuroVis'18 papers on [SetCoLa for custom graph layout](http://idl.cs.washington.edu/papers/setcola/) and [the effects of task and data on visual encoding effectiveness](http://idl.cs.washington.edu/papers/task-data-effectiveness/).\n",
+    "date": "2018-05-10",
+    "visible": false
+  },
+  {
+    "text": "[Three](http://idl.cs.washington.edu/papers/draco/) [new](http://idl.cs.washington.edu/papers/hops-trends/) [papers](http://idl.cs.washington.edu/papers/uncertainty-eval-survey/) at VIS'18, including an [InfoVis Best Paper Award for Draco](http://idl.cs.washington.edu/papers/draco/)!",
+    "date": "2018-08-16",
+    "visible": false
+  },
+  {
+    "text": "Catch our paper on the [Idyll language for interactive articles](http://idl.cs.washington.edu/papers/idyll) at ACM UIST 2018!",
+    "date": "2018-08-15",
+    "visible": false
+  },
+  {
+    "text": "[Two](http://idl.cs.washington.edu/papers/falcon/) [papers](http://idl.cs.washington.edu/papers/table-repair/) at CHI 2019!",
+    "date": "2019-02-18",
+    "visible": false
+  },
+  {
+    "text": "IUI 2020 paper on [interactive learning for text sequences](/papers/iseql/).",
+    "date": "2020-02-10",
+    "visible": false
+  },
+  {
+    "text": "New CHI papers on [responsive design](/papers/responsive-vis/), [analysis decisions](/papers/analysis-decision-points/), [vis recommenders](/papers/dziban), [query analysis](/papers/tempura), and [ML explainability](/papers/explain-feedback).",
+    "date": "2020-02-25",
+    "visible": false
+  },
+  {
+    "text": "Congrats [Jane Hoffswell](https://homes.cs.washington.edu/~jhoffs/) et al. for a [CHI Best Paper Award](/papers/responsive-vis)!",
+    "date": "2020-03-09",
+    "visible": false
+  },
+  {
+    "text": "Congrats [Tongshuang (Sherry) Wu](https://homes.cs.washington.edu/~wtshuang/) for her [ACL 2020 Best Paper on CheckList](https://idl.cs.washington.edu/papers/check-list/)!",
+    "date": "2020-08-01",
+    "visible": false
+  },
+  {
+    "text": "Congrats [Alex Kale](http://students.washington.edu/kalea/) et al. for a [VIS 2020 Best Paper Award](papers/effect-size-judgments/)!",
+    "date": "2020-10-20",
+    "visible": false
+  },
+  {
+    "text": "Congrats (again) [Alex Kale](http://students.washington.edu/kalea/) et al. for a [VIS 2021 Best Paper Honorable Mention](papers/causal-support/)!",
+    "date": "2021-10-15",
+    "visible": false
+  },
+  {
+    "text": "Our [Narrative Visualization](papers/narrative/) paper won an [InfoVis 10-Year Test-of-Time Award](http://ieeevis.org/year/2020/info/awards/test-of-time-awards).",
+    "date": "2020-10-20",
+    "visible": true
+  },
+  {
+    "text": "IDL welcomes (back) [Leilani Battle](https://homes.cs.washington.edu/~leibatt/bio.html) as a UW CSE professor and lab co-director!",
+    "date": "2021-09-27",
+    "visible": true
+  },
+  {
+    "text": "[D3](papers/d3) wins an [InfoVis 10-Year Test-of-Time Award](http://ieeevis.org/year/2021/info/awards/test-of-time-awards)!",
+    "date": "2021-10-15",
+    "visible": true
+  },
+  {
+    "text": "[Tisane](papers/tisane) is a CHI'22 Honorable Mention. Congrats [Eunice](https://eunicemjun.com/)!",
+    "date": "2022-05-10",
+    "visible": true
+  },
+  {
+    "text": "Our [interview study of data analysts](papers/enterprise-analysis-interviews) received a [10-Year Test-of-Time Award](https://ieeevis.org/year/2022/info/awards/test-of-time-awards).",
+    "date": "2022-10-16",
+    "visible": true
+  },
+  {
+    "text": "[ScatterShot](papers/scattershot) earns an IUI'23 Honorable Mention.",
+    "date": "2023-03-27",
+    "visible": true
+  },
+  {
+    "text": "Six new papers at VIS 2023!",
+    "date": "2023-10-21",
+    "visible": true
+  },
+  {
+    "text": "Congrats to [Leilani Battle](https://homes.cs.washington.edu/~leibatt/bio.html) for the [2023 VGTC Significant New Researcher Award](https://ieeecs-media.computer.org/tc-media/sites/49/2023/10/09182427/award_visualization-significant-new-researcher-leilani.pdf)!",
+    "date": "2023-10-24",
+    "visible": true
+  },
+  {
+    "text": "[Living Papers](papers/living-papers/) receives a UIST 2023 Honorable Mention.",
+    "date": "2023-10-30",
+    "visible": true
+  },
+  {
+    "text": "[rTisane](papers/rtisane) wins a CHI 2024 Best Paper Award!",
+    "date": "2024-04-26",
+    "visible": true
+  },
+  {
+    "text": "IDL alum [Dominik Moritz](https://www.domoritz.de/) won a [2024 VGTC Significant New Researcher Award](https://ieeevis.org/year/2024/program/awards/awards.html)!",
+    "date": "2024-10-16",
+    "visible": true
+  }
 ]

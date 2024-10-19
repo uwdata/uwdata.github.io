@@ -51,8 +51,6 @@
       "link": "https://vega.github.io/vega-lite"
     }
   ],
-  "tags": [
-    "vega"
-  ],
+  "tags": ["vega"],
   "doi": "10.1109/TVCG.2016.2599030"
 }

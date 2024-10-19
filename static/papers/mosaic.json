@@ -45,8 +45,6 @@
       "link": "https://github.com/uwdata/mosaic"
     }
   ],
-  "tags": [
-    "scalable"
-  ],
+  "tags": ["scalable"],
   "doi": "10.1109/TVCG.2023.3327189"
 }

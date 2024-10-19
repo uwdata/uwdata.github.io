@@ -44,9 +44,9 @@ That's the system running the tests to try to prevent you from breaking the buil
 
 Go to `static/papers/` and add a new paper. One way to start is by copying a previous file. Or, you can use the [`prepare-paper` app](https://idl.uw.edu/prepare-paper/) to fill out a form, download a JSON data file for your publication, and edit it as nedded. If your paper already has an assigned [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier), the prepare app can even load paper metadata for you!
 
-The `web_name` of your paper *must* match the file name for the paper JSON: if your web name is "reactive-vega" you should make a file called `static/papers/reactive-vega.json`. The `web_name` attribute must be unique across all papers.
+The `web_name` of your paper _must_ match the file name for the paper JSON: if your web name is "reactive-vega" you should make a file called `static/papers/reactive-vega.json`. The `web_name` attribute must be unique across all papers.
 
-If there are authors who are not yet included in `static/people.json`, you will need to add them to that file. Make sure you get everyone's name right! The `first_name` and `last_name` fields in the paper JSON data must exactly match the corresponding fields in the `people.json` dataset.  When adding authors to a paper's JSON file, you should not include `url` or `display_name` fields, as these are copied from `people.json` automatically. Note that you'll also get a warning from the test suite if you have not added people correctly.
+If there are authors who are not yet included in `static/people.json`, you will need to add them to that file. Make sure you get everyone's name right! The `first_name` and `last_name` fields in the paper JSON data must exactly match the corresponding fields in the `people.json` dataset. When adding authors to a paper's JSON file, you should not include `url` or `display_name` fields, as these are copied from `people.json` automatically. Note that you'll also get a warning from the test suite if you have not added people correctly.
 
 Speaking of: make sure to run the tests! If you are adding via a pull request (which is absolutely what you should be doing!), then the tests will run automatically on your GitHub branch. Meanwhile, tests will be run for you locally before you are able to commit. You can also run them your self via `yarn test`.
 

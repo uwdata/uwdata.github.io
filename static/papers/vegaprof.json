@@ -50,8 +50,6 @@
       "link": "https://github.com/cagataydemiralp/vegaprof"
     }
   ],
-  "tags": [
-    "vega"
-  ],
+  "tags": ["vega"],
   "doi": "10.1145/3586183.3606790"
 }

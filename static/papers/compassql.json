@@ -56,8 +56,6 @@
       "link": "https://github.com/vega/compassql"
     }
   ],
-  "tags": [
-    "recommendation"
-  ],
+  "tags": ["recommendation"],
   "doi": "10.1145/2939502.2939506"
 }

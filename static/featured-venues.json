@@ -1,38 +1,38 @@
 [
-	{
-		"desc": "CHI 2022 - New Orleans, LA",
-		"venue_nickname": "CHI",
-		"year": 2022,
-		"visible": true
-	},
-	{
-		"desc": "IUI 2023 - Sydney, Australia",
-		"venue_nickname": "IUI",
-		"year": 2023,
-		"visible": true
-	},
-	{
-		"desc": "VIS 2023 - Melbourne, Australia",
-		"venue_nickname": "VIS",
-		"year": 2024,
-		"visible": true
-	},
-	{
-		"desc": "UIST 2023 - San Francisco, CA",
-		"venue_nickname": "UIST",
-		"year": 2023,
-		"visible": true
-	},
-	{
-		"desc": "CHI 2024 - Honolulu, HI",
-		"venue_nickname": "CHI",
-		"year": 2024,
-		"visible": true
-	},
-	{
-		"desc": "VIS 2024",
-		"venue_nickname": "VIS",
-		"year": 2025,
-		"visible": true
-	}
+  {
+    "desc": "CHI 2022 - New Orleans, LA",
+    "venue_nickname": "CHI",
+    "year": 2022,
+    "visible": true
+  },
+  {
+    "desc": "IUI 2023 - Sydney, Australia",
+    "venue_nickname": "IUI",
+    "year": 2023,
+    "visible": true
+  },
+  {
+    "desc": "VIS 2023 - Melbourne, Australia",
+    "venue_nickname": "VIS",
+    "year": 2024,
+    "visible": true
+  },
+  {
+    "desc": "UIST 2023 - San Francisco, CA",
+    "venue_nickname": "UIST",
+    "year": 2023,
+    "visible": true
+  },
+  {
+    "desc": "CHI 2024 - Honolulu, HI",
+    "venue_nickname": "CHI",
+    "year": 2024,
+    "visible": true
+  },
+  {
+    "desc": "VIS 2024",
+    "venue_nickname": "VIS",
+    "year": 2025,
+    "visible": true
+  }
 ]

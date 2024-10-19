@@ -3,76 +3,77 @@
 @tailwind utilities;
 
 a:hover {
-    color: #8a5ed3;
+  color: #8a5ed3;
 }
 
 .social:hover path {
-    fill: #8a5ed3;
+  fill: #8a5ed3;
 }
 
 .halo:hover {
-    box-shadow: 2px 2px 18px #8a5ed3;
+  box-shadow: 2px 2px 18px #8a5ed3;
 }
 
-strong, b {
-    font-weight: 600;
+strong,
+b {
+  font-weight: 600;
 }
 
 .right {
-    margin-top: 0.4em;
-    margin-left: 1em;
-    float: right;
+  margin-top: 0.4em;
+  margin-left: 1em;
+  float: right;
 }
 
 .text-2xs {
-    font-size: 0.65rem;
+  font-size: 0.65rem;
 }
 
 .tracking-extra {
-    letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
 }
 
 .text-uw {
-    color: #652c90;
+  color: #652c90;
 }
 
 p {
-    margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .quote {
-    padding-right: 5px;
-    margin-bottom: 1em;
-    font-style: italic;
+  padding-right: 5px;
+  margin-bottom: 1em;
+  font-style: italic;
 }
 
 .heading {
-    margin-bottom: 5px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .lead {
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 div.lead {
-    margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .update a {
-	font-weight: 500;
+  font-weight: 500;
 }
 
 .markdown h2 {
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 0.5em;
-    margin-top: 1em;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
 }
