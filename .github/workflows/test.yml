@@ -13,5 +13,6 @@ jobs:
 
       - name: Test
         run: |
+          yarn lint
           yarn test
           npm run check
