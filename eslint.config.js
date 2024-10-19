@@ -1,5 +1,5 @@
 // https://github.com/sveltejs/eslint-plugin-svelte/issues/732
-// import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
+import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 import eslintPluginSvelte from 'eslint-plugin-svelte';
 import js from '@eslint/js';
 import svelteParser from 'svelte-eslint-parser';
@@ -15,7 +15,7 @@ export default [
   js.configs.recommended,
   ...tsEslint.configs.strict,
   ...eslintPluginSvelte.configs['flat/recommended'],
-  // eslintPluginPrettierRecommended, // must be last to override conflicting rules.
+  eslintPluginPrettierRecommended, // must be last to override conflicting rules.
   {
     languageOptions: {
       globals: {

@@ -38,5 +38,7 @@
       "link": "https://github.com/leibatt/pyxis"
     }
   ],
-  "tags": ["insight"]
+  "tags": [
+    "insight"
+  ]
 }
