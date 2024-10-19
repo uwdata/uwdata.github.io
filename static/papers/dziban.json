@@ -42,8 +42,6 @@
       "link": "https://www.github.com/uwdata/dziban"
     }
   ],
-  "tags": [
-    "recommendation"
-  ],
+  "tags": ["recommendation"],
   "doi": "10.1145/3313831.3376880"
 }

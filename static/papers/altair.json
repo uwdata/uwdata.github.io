@@ -77,8 +77,6 @@
       "link": "https://github.com/altair-viz/altair"
     }
   ],
-  "tags": [
-    "vega"
-  ],
+  "tags": ["vega"],
   "doi": "10.21105/joss.01057"
 }
