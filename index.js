@@ -1,10 +1,10 @@
 // AM: does the file need to exist?
 // cache pre-existing global values
 var globals = ['d3'],
-	globalValues = {};
+  globalValues = {};
 
 globals.forEach(function (g) {
-	if (g in global) globalValues[g] = global[g];
+  if (g in global) globalValues[g] = global[g];
 });
 
 // ensure availability of d3 in global namespace
@@ -19,6 +19,6 @@ module.exports = idl;
 
 // restore pre-existing global values
 globals.forEach(function (g) {
-	if (g in globalValues) global[g] = globalValues[g];
-	else delete global[g];
+  if (g in globalValues) global[g] = globalValues[g];
+  else delete global[g];
 });
