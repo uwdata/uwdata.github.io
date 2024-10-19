@@ -46,6 +46,8 @@
       "link": "https://github.com/cmudig/draco2"
     }
   ],
-  "tags": ["recommendation"],
+  "tags": [
+    "recommendation"
+  ],
   "doi": "10.1109/VIS54172.2023.00042"
 }

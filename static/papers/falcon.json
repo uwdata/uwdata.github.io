@@ -42,6 +42,8 @@
       "link": "https://github.com/uwdata/falcon"
     }
   ],
-  "tags": ["scalable"],
+  "tags": [
+    "scalable"
+  ],
   "doi": "10.1145/3290605.3300924"
 }

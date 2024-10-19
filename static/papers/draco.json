@@ -61,6 +61,8 @@
       "link": "https://uwdata.github.io/draco"
     }
   ],
-  "tags": ["recommendation"],
+  "tags": [
+    "recommendation"
+  ],
   "doi": "10.1109/TVCG.2018.2865240"
 }

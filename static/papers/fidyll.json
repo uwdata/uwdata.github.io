@@ -32,6 +32,8 @@
     }
   ],
   "materials": [],
-  "tags": ["communication"],
+  "tags": [
+    "communication"
+  ],
   "doi": "10.48550/arXiv.2205.09858"
 }
