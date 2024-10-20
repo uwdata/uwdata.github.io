@@ -1,0 +1,104 @@
+{
+  "doi": "10.48550/arXiv.2408.09667",
+  "web_name": "blade",
+  "title": "BLADE: Benchmarking Language Model Agents for Data-Driven Science",
+  "venue": "EMNLP",
+  "year": 2024,
+  "note": "",
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://arxiv.org/pdf/2408.09667",
+  "abstract": "Data-driven scientific discovery requires the iterative integration of scientific domain knowledge, statistical expertise, and an understanding of data semantics to make nuanced analytical decisions, e.g., about which variables, transformations, and statistical models to consider. LM-based agents equipped with planning, memory, and code execution capabilities have the potential to support data-driven science. However, evaluating agents on such open-ended tasks is challenging due to multiple valid approaches, partially correct steps, and different ways to express the same decisions. To address these challenges, we present BLADE, a benchmark to automatically evaluate agents' multifaceted approaches to open-ended research questions. BLADE consists of 12 datasets and research questions drawn from existing scientific literature, with ground truth collected from independent analyses by expert data scientists and researchers. To automatically evaluate agent responses, we developed corresponding computational methods to match different representations of analyses to this ground truth. Though language models possess considerable world knowledge, our evaluation shows that they are often limited to basic analyses. However, agents capable of interacting with the underlying data demonstrate improved, but still non-optimal, diversity in their analytical decision making. Our work enables the evaluation of agents for data-driven science and provides researchers deeper insights into agents' analysis approaches.",
+  "thumbnail": "images/thumbs/blade.png",
+  "figure": "images/figures/blade.png",
+  "caption": "Overview of BLADE. We gathered research questions and datasets from existing research papers, crowd-sourced analysis studies and statistic textbooks as well as analyses from expert annotators (boxes 1-2-3). Given a research question and dataset, LM agents generate a full analysis containing the relevant conceptual variables, a data transform function, and a statistical modeling function (boxes 1-4-5). BLADE automatically evaluates this against the ground truth (box 6).",
+  "visible": true,
+  "pub_date": "2024-11-12",
+  "mod_date": "2024-11-12",
+  "authors": [
+    {
+      "first_name": "Ken",
+      "last_name": "Gu",
+      "url": "https://kenqgu.com/"
+    },
+    {
+      "first_name": "Ruoxi",
+      "last_name": "Shang"
+    },
+    {
+      "first_name": "Ruien",
+      "last_name": "Jiang"
+    },
+    {
+      "first_name": "Keying",
+      "last_name": "Kuang"
+    },
+    {
+      "first_name": "Richard-John",
+      "last_name": "Lin"
+    },
+    {
+      "first_name": "Donghe",
+      "last_name": "Lyu"
+    },
+    {
+      "first_name": "Yue",
+      "last_name": "Mao"
+    },
+    {
+      "first_name": "Youran",
+      "last_name": "Pan"
+    },
+    {
+      "first_name": "Teng",
+      "last_name": "Wu"
+    },
+    {
+      "first_name": "Jiaqian",
+      "last_name": "Yu"
+    },
+    {
+      "first_name": "Yikun",
+      "last_name": "Zhang"
+    },
+    {
+      "first_name": "Tianmai",
+      "last_name": "Zhang",
+      "display_name": "Tianmai M. Zhang"
+    },
+    {
+      "first_name": "Lanyi",
+      "last_name": "Zhu"
+    },
+    {
+      "first_name": "Mike",
+      "last_name": "Merrill"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Tim",
+      "last_name": "Althoff",
+      "url": "http://timalthoff.de/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "https://github.com/behavioral-data/BLADE"
+    },
+    {
+      "name": "Website",
+      "link": "https://blade-bench.github.io/"
+    }
+  ],
+  "tags": []
+}
