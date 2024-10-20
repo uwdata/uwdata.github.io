@@ -3,7 +3,7 @@
     "desc": "CHI 2022 - New Orleans, LA",
     "venue_nickname": "CHI",
     "year": 2022,
-    "visible": true
+    "visible": false
   },
   {
     "desc": "IUI 2023 - Sydney, Australia",
@@ -33,6 +33,12 @@
     "desc": "VIS 2024",
     "venue_nickname": "VIS",
     "year": 2025,
+    "visible": true
+  },
+  {
+    "desc": "EMNLP 2024 - Miami, FL",
+    "venue_nickname": "EMNLP",
+    "year": 2024,
     "visible": true
   }
 ]
