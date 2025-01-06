@@ -4228,6 +4228,20 @@
     "org": "UW CSE"
   },
   {
+    "first_name": "Emily",
+    "last_name": "Reif",
+    "display_name": null,
+    "email": "",
+    "url": "https://emilyreif.com/",
+    "status": "member",
+    "visible": true,
+    "image": "images/people/emily.jpg",
+    "nickname": "Emily",
+    "position": "PhD Student",
+    "interests": "Visualization, Data-centric AI, Ceramics",
+    "org": "UW CSE"
+  },
+  {
     "first_name": "Alisha",
     "last_name": "Varma",
     "display_name": null,
