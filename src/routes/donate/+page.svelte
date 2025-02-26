@@ -6,12 +6,18 @@
 
 <div class="md:hidden">
   <p>
-    Join us to support cutting-edge research, student development, and impactful open source software. <a class="font-semibold" href="https://www.washington.edu/giving/make-a-gift/?page=make&code=FND-152008">Make a gift</a> to the Interactive Data Lab!
+    Join us to support cutting-edge research, student development, and impactful open source
+    software. <a
+      class="font-semibold"
+      href="https://www.washington.edu/giving/make-a-gift/?page=make&code=FND-152008">Make a gift</a
+    > to the Interactive Data Lab!
   </p>
   <div class="text-center pt-6 pb-8">
     <a
       href="https://www.washington.edu/giving/make-a-gift/?page=make&code=FND-152008"
-      class="rounded-md bg-violet-800 px-3.5 py-2.5 text-2xl font-semibold text-white shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 hover:bg-violet-100  focus-visible:outline-violet">Donate Now</a>
+      class="rounded-md bg-violet-800 px-3.5 py-2.5 text-2xl font-semibold text-white shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 hover:bg-violet-100 focus-visible:outline-violet"
+      >Donate Now</a
+    >
   </div>
 </div>
 
@@ -19,10 +25,16 @@
   <div class="w-48 flex-none text-center">
     <a
       href="https://www.washington.edu/giving/make-a-gift/?page=make&code=FND-152008"
-      class="rounded-md bg-violet-800 px-3.5 py-2.5 text-lg font-semibold text-white shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 hover:bg-violet-100  focus-visible:outline-violet">Donate Now</a>
+      class="rounded-md bg-violet-800 px-3.5 py-2.5 text-lg font-semibold text-white shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 hover:bg-violet-100 focus-visible:outline-violet"
+      >Donate Now</a
+    >
   </div>
   <div class="flex-auto pr-10">
-    Join us to support cutting-edge research, successful students, and impactful open source software. <a class="font-semibold" href="https://www.washington.edu/giving/make-a-gift/?page=make&code=FND-152008">Make a gift</a> to the Interactive Data Lab!
+    Join us to support cutting-edge research, student development, and impactful open source
+    software. <a
+      class="font-semibold"
+      href="https://www.washington.edu/giving/make-a-gift/?page=make&code=FND-152008">Make a gift</a
+    > to the Interactive Data Lab!
   </div>
 </div>
 
