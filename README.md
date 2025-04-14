@@ -67,3 +67,46 @@ Go to `featured-venues.json` and add to the bottom. Make sure that you are using
 - How do I deploy new changes?
 
 Create a new branch (`git checkout -b my-branch-name`), commit as normal, then push your branch and open a PR. When your change lands on `main` it will be deployed to the web automatically.
+
+- How do I add a new blog post?
+
+Create a markdown file under `static/blog-assets/posts`. The filename will be the slug in the URL. It can technically be anything, but the convention is `year-month-date-keyword.md` for consistency. Write a post by taking the following steps:
+
+1. Write meta data for sorting and linking. At the top of your markdown file, write meta data between `---` and `---` in YAML format.
+
+```yaml
+---
+date: 2017-10-31 # required. year-month-date
+title: "Introducing Vega-Lite 2.0" # required. in quotes
+banner: "../blog-assets/images/2017-10-31-vegalite2-banner.webp" # optional. if provided, it appears before the title.
+paper: vega-lite # optional paper keyword. if provided, it will create a link to the paper under the title. 
+headlinener: "..." # optional if you want to have some special summary for your post. Make sure it is about 100 letters. If external is provided (see below), it is required. 
+external: URL # if it is posted on an external blog, then just provide that url here. While you are still need to say something in the post for parsing purposes, it will be ignored. To do so, headliner must be provided.
+---
+```
+
+2. Write your post below the meta data. Use common markdown formatting options. Here are some special cases:
+
+  a. Image caption:
+
+```
+![alt text](image url)
+*your caption goes here.*
+```
+
+  b. Horizontally placing images (the line changes are all intentional):
+
+```
+<div class="image image-flex">
+
+![](../blog-assets/images/image-1) 
+
+![](../blog-assets/images/image-2)
+</div>
+
+*Your caption goes here.*
+```
+
+3. Store images in `static/blog-assets/images` directory. For maintenence purposes, name your images starting with your post's file name.
+
+4. Supported headlines `<h2>` (`##`) and `<h3>` (`###`).

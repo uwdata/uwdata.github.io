@@ -1,0 +1,198 @@
+[
+  {
+    "meta": {
+      "date": "2019-08-12",
+      "display_date": "Aug 12, 2019",
+      "title": "Errudite: Scalable, Reproducible, and Testable Error Analysis",
+      "web_name": "2019-08-12-errudite",
+      "paper": "errudite",
+      "recent": true
+    },
+    "post": "Error analysis is a compass, and we need it to be accurate.\nError analysis — the attempt to analyze ",
+    "first_image": "../blog-assets/images/2019-08-12-errudite-1.webp"
+  },
+  {
+    "meta": {
+      "date": "2018-10-22",
+      "display_date": "Oct 22, 2018",
+      "title": "Draco: Representing, Applying & Learning Visualization Design Guidelines",
+      "web_name": "2018-10-22-draco",
+      "paper": "draco",
+      "recent": true
+    },
+    "post": "From academic courses to online articles, discussions of visualization often abound with design guid",
+    "first_image": "../blog-assets/images/2018-10-22-draco-1.webp"
+  },
+  {
+    "meta": {
+      "date": "2018-10-16",
+      "display_date": "Oct 16, 2018",
+      "title": "Hypothetical Outcome Plots (HOPs) Help Users Separate Signal from Noise",
+      "web_name": "2018-10-16-hops",
+      "paper": "hops-trends",
+      "recent": true
+    },
+    "post": "\nIn daily life, we often find ourselves trying to separate signal from noise. For example, does the ",
+    "first_image": "../blog-assets/images/2018-10-16-hops-1.webp"
+  },
+  {
+    "meta": {
+      "date": "2018-07-19",
+      "display_date": "Jul 19, 2018",
+      "title": "Value-Suppressing Uncertainty Palettes",
+      "web_name": "2018-07-19-value-suppressing",
+      "headliner": "The real world is full of uncertainty, but it can be tough to communicate that uncertainty.",
+      "paper": "uncertainty-palettes",
+      "recent": true
+    },
+    "post": "\n\n\n\nFig. 1. A bivariate map (left) and a Value-Suppressing Uncertainty Palette (VSUP, right), showin",
+    "first_image": "../blog-assets/images/2018-07-19-value-suppressing-1.webp"
+  },
+  {
+    "meta": {
+      "date": "2018-04-02",
+      "display_date": "Apr 2, 2018",
+      "title": "Multiple Perspectives on the Multiple Comparisons Problem in Visual Analysis",
+      "web_name": "2018-04-02-multi-comparison",
+      "banner": "../blog-assets/images/2018-04-02-multi-comparison-1.webp",
+      "headliner": "The more visual comparisons an analyst makes, the more likely they are to find spurious patterns — a version of the Multiple Comparisons Problem (MCP) well known in statistical hypothesis testing.",
+      "external": "https://medium.com/hci-design-at-uw/multiple-perspectives-on-the-multiple-comparisons-problem-in-visual-analysis-df7493818bbd",
+      "recent": true
+    },
+    "post": "This is an external post.\n",
+    "first_image": "../blog-assets/images/2018-04-02-multi-comparison-1.webp"
+  },
+  {
+    "meta": {
+      "date": "2017-10-31",
+      "display_date": "Oct 31, 2017",
+      "title": "Introducing Vega-Lite 2.0",
+      "web_name": "2017-10-31-vegalite2",
+      "banner": "../blog-assets/images/2017-10-31-vegalite2-banner.webp",
+      "paper": "vega-lite",
+      "recent": false
+    },
+    "post": "We are excited to announce the official version 2 release of Vega-Lite, a high-level language for ra",
+    "first_image": "../blog-assets/images/2017-10-31-vegalite2-banner.webp"
+  },
+  {
+    "meta": {
+      "date": "2017-07-11",
+      "display_date": "Jul 11, 2017",
+      "title": "Explaining the Gap: Visualizing One’s Predictions Improves Recall and Comprehension of Data",
+      "web_name": "2017-07-11-gap",
+      "banner": "../blog-assets/images/2017-07-11-gap-1.webp",
+      "headliner": "What if Visualizations Asked Users to Predict the Data First?",
+      "external": "https://medium.com/hci-design-at-uw/explaining-the-gap-visualizing-ones-predictions-improves-recall-and-comprehension-of-data-ec848d5861d9",
+      "paper": "explaining-the-gap",
+      "recent": false
+    },
+    "post": "This is an external post.\n",
+    "first_image": "../blog-assets/images/2017-07-11-gap-1.webp"
+  },
+  {
+    "meta": {
+      "date": "2017-05-23",
+      "display_date": "May 23, 2017",
+      "title": "GraphScape: Modeling Similarity & Sequence among Charts",
+      "web_name": "2017-05-23-graphscape",
+      "banner": "../blog-assets/images/2017-05-23-graphscape-1.gif",
+      "headliner": "A single chart is often not enough to understand data and to convey a story.",
+      "external": "https://medium.com/hci-design-at-uw/graphscape-modeling-similarity-sequence-among-charts-bd82cdbe866d",
+      "paper": "graphscape",
+      "recent": false
+    },
+    "post": "This is an external post.\n",
+    "first_image": "../blog-assets/images/2017-05-23-graphscape-1.gif"
+  },
+  {
+    "meta": {
+      "date": "2017-05-02",
+      "display_date": "May 2, 2017",
+      "title": "Regression by Eye",
+      "web_name": "2017-05-02-regression-by-eye",
+      "paper": "regression-by-eye",
+      "recent": false
+    },
+    "post": "William Playfair was an early pioneer of information visualization. Here is one of his charts, a 178",
+    "first_image": "../blog-assets/images/2017-05-02-regression-by-eye-1.webp"
+  },
+  {
+    "meta": {
+      "date": "2016-09-27",
+      "display_date": "Sep 27, 2016",
+      "title": "Surprise Maps: Showing the Unexpected",
+      "web_name": "2016-09-27-surprise",
+      "paper": "surprise-maps",
+      "recent": false
+    },
+    "post": "\nIn 1977, Jerry Ehman — an astronomer working with the SETI project to seek out alien life — came ac",
+    "first_image": "../blog-assets/images/2016-09-27-surprise-1.webp"
+  },
+  {
+    "meta": {
+      "date": "2016-07-21",
+      "display_date": "Jul 21, 2016",
+      "title": "Atlas of Me: Personalized Spatial Analogy Maps for Unfamiliar Measurements",
+      "web_name": "2016-07-21-atlas",
+      "banner": "../blog-assets/images/2016-07-21-atlas-1.webp",
+      "headliner": "We created Atlas of Me, a Chrome plugin that generates personalized spatial analogy maps for distances and areas.",
+      "external": "https://medium.com/hci-design-at-uw/atlas-of-me-personalized-spatial-analogy-maps-for-unfamiliar-measurements-e20566d94b52",
+      "recent": false
+    },
+    "post": "This is an external post.\n",
+    "first_image": "../blog-assets/images/2016-07-21-atlas-1.webp"
+  },
+  {
+    "meta": {
+      "date": "2016-04-06",
+      "display_date": "Apr 6, 2016",
+      "title": "Author’s Response to Stephen Few’s critique of Hypothetical Outcome Plots",
+      "web_name": "2016-04-06-resposne",
+      "recent": false
+    },
+    "post": "Hypothetical outcome plots (HOPs) are an approach to visualizing uncertainty using a set of discrete",
+    "first_image": null
+  },
+  {
+    "meta": {
+      "date": "2016-02-23",
+      "display_date": "Feb 23, 2016",
+      "title": "Introducing Vega-Lite",
+      "web_name": "2016-02-23-vegalite",
+      "banner": "../blog-assets/images/2016-02-23-vegalite-banner.webp",
+      "headliner": "Today we are excited to announce the official 1.0 release of Vega-Lite, a high-level format for rapidly creating visualizations for analysis and presentation.",
+      "external": "https://medium.com/hci-design-at-uw/introducing-vega-lite-438f9215f09e",
+      "paper": "vega-lite",
+      "recent": false
+    },
+    "post": "This is an external post.\n",
+    "first_image": "../blog-assets/images/2016-02-23-vegalite-banner.webp"
+  },
+  {
+    "meta": {
+      "date": "2016-01-26",
+      "display_date": "Jan 26, 2016",
+      "title": "Hypothetical Outcome Plots: Experiencing the Uncertain",
+      "web_name": "2016-01-26-hops",
+      "banner": "../blog-assets/images/2016-01-26-hops.gif",
+      "headliner": "If you are like most people, including many data analysts, interpreting visualizations of uncertainty feels hard and abstract.",
+      "external": "https://medium.com/hci-design-at-uw/hypothetical-outcomes-plots-experiencing-the-uncertain-b9ea60d7c740",
+      "paper": "hops",
+      "recent": false
+    },
+    "post": "This is an external post.\n",
+    "first_image": "../blog-assets/images/2016-01-26-hops.gif"
+  },
+  {
+    "meta": {
+      "date": "2015-12-17",
+      "display_date": "Dec 17, 2015",
+      "title": "Next Steps for Data Visualization Research",
+      "web_name": "2015-12-17-next-steps",
+      "recent": false
+    },
+    "post": "Given its youth and interdisciplinary nature, research methods and training in the field of data vis",
+    "first_image": "../blog-assets/images/2015-12-17-next-steps-1.webp"
+  }
+]

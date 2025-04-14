@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest';
-import type { Paper, Person, Spotlight, FeaturedVenue, News, Venue, Course } from './lib/app-types';
+import type { Paper, Person, Spotlight, FeaturedVenue, News, Venue, Course, BlogPostMeta, BlogPost } from './lib/app-types';
 
 import papersIndexRaw from '../static/papers-index.json?raw';
 import peopleRaw from '../static/people.json?raw';
@@ -8,6 +8,7 @@ import featuredVenuesRaw from '../static/featured-venues.json?raw';
 import venuesRaw from '../static/venues.json?raw';
 import newsRaw from '../static/news.json?raw';
 import courseRaw from '../static/courses.json?raw';
+import postIndexRaw from "../static/blog-index.json?raw";
 
 import tsj from 'ts-json-schema-generator';
 import Ajv from 'ajv';
@@ -20,6 +21,7 @@ const featuredVenues = JSON.parse(featuredVenuesRaw) as FeaturedVenue[];
 const venues = JSON.parse(venuesRaw) as Venue[];
 const news = JSON.parse(newsRaw) as Paper[];
 const courses = JSON.parse(courseRaw) as Course[];
+const postIndex = JSON.parse(postIndexRaw) as BlogPostMeta[];
 
 test('Web names should be unique', () => {
   const webNames = new Set(papers.map((paper) => paper.web_name));
@@ -67,6 +69,16 @@ test('All papers should have urls for their authors if possible', () => {
   expect(updatedPapers).toEqual(papers);
 });
 
+test('All blog posts should have date and title', () => {
+  const postsWithMissingData = postIndex.filter((p) =>
+    // check if date, title, post (user-provided), and web name (auto-gen) are provided
+    !(p.meta.date && p.meta.title && p.meta.web_name && p.post)
+    // check if an external post has a headliner for preview
+    && (!p.meta.external || p.meta.headliner)
+  );
+  expect(postsWithMissingData).toEqual([]);
+});
+
 [
   { key: 'Paper', dataset: papers, accessor: (paper: Paper): string => paper.web_name },
   {
@@ -98,7 +110,8 @@ test('All papers should have urls for their authors if possible', () => {
     key: 'Course',
     dataset: courses as Course[],
     accessor: (course: Course): string => course.name
-  }
+  },
+  { key: 'BlogPost', dataset: postIndex, accessor: (post: BlogPost): string => post.meta.web_name }
 ].forEach(({ key, dataset, accessor }) => {
   test(`All ${key} values should be filled out`, () => {
     const ajv = new Ajv({ allErrors: true });
