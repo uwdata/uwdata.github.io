@@ -9,7 +9,7 @@
       "recent": true
     },
     "post": "Error analysis is a compass, and we need it to be accurate.\nError analysis — the attempt to analyze ",
-    "first_image": "../blog-assets/images/2019-08-12-errudite-1.webp"
+    "first_image": "blog-assets/images/2019-08-12-errudite-1.webp"
   },
   {
     "meta": {
@@ -21,7 +21,7 @@
       "recent": true
     },
     "post": "From academic courses to online articles, discussions of visualization often abound with design guid",
-    "first_image": "../blog-assets/images/2018-10-22-draco-1.webp"
+    "first_image": "blog-assets/images/2018-10-22-draco-1.webp"
   },
   {
     "meta": {
@@ -33,7 +33,7 @@
       "recent": true
     },
     "post": "\nIn daily life, we often find ourselves trying to separate signal from noise. For example, does the ",
-    "first_image": "../blog-assets/images/2018-10-16-hops-1.webp"
+    "first_image": "blog-assets/images/2018-10-16-hops-1.webp"
   },
   {
     "meta": {
@@ -46,7 +46,7 @@
       "recent": true
     },
     "post": "\n\n\n\nFig. 1. A bivariate map (left) and a Value-Suppressing Uncertainty Palette (VSUP, right), showin",
-    "first_image": "../blog-assets/images/2018-07-19-value-suppressing-1.webp"
+    "first_image": "blog-assets/images/2018-07-19-value-suppressing-1.webp"
   },
   {
     "meta": {
@@ -60,7 +60,7 @@
       "recent": true
     },
     "post": "This is an external post.\n",
-    "first_image": "../blog-assets/images/2018-04-02-multi-comparison-1.webp"
+    "first_image": "blog-assets/images/2018-04-02-multi-comparison-1.webp"
   },
   {
     "meta": {
@@ -73,7 +73,7 @@
       "recent": false
     },
     "post": "We are excited to announce the official version 2 release of Vega-Lite, a high-level language for ra",
-    "first_image": "../blog-assets/images/2017-10-31-vegalite2-banner.webp"
+    "first_image": "blog-assets/images/2017-10-31-vegalite2-banner.webp"
   },
   {
     "meta": {
@@ -88,7 +88,7 @@
       "recent": false
     },
     "post": "This is an external post.\n",
-    "first_image": "../blog-assets/images/2017-07-11-gap-1.webp"
+    "first_image": "blog-assets/images/2017-07-11-gap-1.webp"
   },
   {
     "meta": {
@@ -103,7 +103,7 @@
       "recent": false
     },
     "post": "This is an external post.\n",
-    "first_image": "../blog-assets/images/2017-05-23-graphscape-1.gif"
+    "first_image": "blog-assets/images/2017-05-23-graphscape-1.gif"
   },
   {
     "meta": {
@@ -115,7 +115,7 @@
       "recent": false
     },
     "post": "William Playfair was an early pioneer of information visualization. Here is one of his charts, a 178",
-    "first_image": "../blog-assets/images/2017-05-02-regression-by-eye-1.webp"
+    "first_image": "blog-assets/images/2017-05-02-regression-by-eye-1.webp"
   },
   {
     "meta": {
@@ -127,7 +127,7 @@
       "recent": false
     },
     "post": "\nIn 1977, Jerry Ehman — an astronomer working with the SETI project to seek out alien life — came ac",
-    "first_image": "../blog-assets/images/2016-09-27-surprise-1.webp"
+    "first_image": "blog-assets/images/2016-09-27-surprise-1.webp"
   },
   {
     "meta": {
@@ -141,7 +141,7 @@
       "recent": false
     },
     "post": "This is an external post.\n",
-    "first_image": "../blog-assets/images/2016-07-21-atlas-1.webp"
+    "first_image": "blog-assets/images/2016-07-21-atlas-1.webp"
   },
   {
     "meta": {
@@ -167,7 +167,7 @@
       "recent": false
     },
     "post": "This is an external post.\n",
-    "first_image": "../blog-assets/images/2016-02-23-vegalite-banner.webp"
+    "first_image": "blog-assets/images/2016-02-23-vegalite-banner.webp"
   },
   {
     "meta": {
@@ -182,7 +182,7 @@
       "recent": false
     },
     "post": "This is an external post.\n",
-    "first_image": "../blog-assets/images/2016-01-26-hops.gif"
+    "first_image": "blog-assets/images/2016-01-26-hops.gif"
   },
   {
     "meta": {
@@ -193,6 +193,6 @@
       "recent": false
     },
     "post": "Given its youth and interdisciplinary nature, research methods and training in the field of data vis",
-    "first_image": "../blog-assets/images/2015-12-17-next-steps-1.webp"
+    "first_image": "blog-assets/images/2015-12-17-next-steps-1.webp"
   }
 ]

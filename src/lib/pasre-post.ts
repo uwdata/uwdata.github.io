@@ -27,7 +27,8 @@ export function parsePostData(text: string, web_name: string): BlogPost {
   
   const md = markdownit({ html: true, linkify: true });
   const rendered_post = md.render(post)
-  const first_image = meta.banner ?? rendered_post.match(/<img[^<>]*src=\"([^<>\"]+)\"[^<>]*>/i)?.[1] ?? null;
+  let first_image = meta.banner ?? rendered_post.match(/<img[^<>]*src=\"([^<>\"]+)\"[^<>]*>/i)?.[1] ?? null;
+  if (first_image && first_image.startsWith("../")) first_image = first_image.replace("../", "");
 
   return { meta, post: rendered_post, first_image };
 }
