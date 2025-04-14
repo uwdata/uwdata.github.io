@@ -11,7 +11,7 @@ export const load: PageLoad = async ({ params, fetch }) => {
     .then((response) => response.text() as Promise<string>)
     .then((x) => {
       if (x) {
-        let { meta, post, first_image } = parsePostData(x, web_name);
+        const { meta, post, first_image } = parsePostData(x, web_name);
         return { post, meta, first_image };
       }
       return error(404, `Blog Post Not found`);
