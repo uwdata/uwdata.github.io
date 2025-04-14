@@ -264,4 +264,12 @@
   button:hover {
     color: #8a5ed3;
   }
+
+  :global(p a) {
+    text-decoration: underline;
+  }
+
+  :global(p) {
+    color: #454545;
+  }
 </style>
