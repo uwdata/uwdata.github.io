@@ -69,7 +69,9 @@
 {#if !meta.external}
   <Markdown {content} />
 {:else}
-  This is an external post. Click <a href={meta.external} target="_blank" rel="noopener noreferrer">here</a> for redirection.
+  This is an external post. Click <a href={meta.external} target="_blank" rel="noopener noreferrer"
+    >here</a
+  > for redirection.
 {/if}
 
 <!-- share -->
@@ -106,6 +108,7 @@
     </button>
     <a
       target="_blank"
+      rel="noopener noreferrer"
       href={'https://bsky.app/intent/compose?text=' +
         encodeURIComponent(`Blog post from UW IDL: "${meta.title}" ${url}`)}
     >
