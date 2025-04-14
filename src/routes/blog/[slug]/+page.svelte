@@ -69,7 +69,7 @@
 {#if !meta.external}
   <Markdown {content} />
 {:else}
-  This is an external post. Click <a href={meta.external} target="_blank">here</a> for redirection.
+  This is an external post. Click <a href={meta.external} target="_blank" rel="noopener noreferrer">here</a> for redirection.
 {/if}
 
 <!-- share -->

@@ -3,12 +3,12 @@ import { parse as parseYAML } from 'yaml';
 import markdownit from 'markdown-it'
 
 export function parsePostData(text: string, web_name: string): BlogPost {
-  let parts = text.split("---\n");
-  let metaRaw = parseYAML(parts.length == 3 ? parts[1] : "") as { [key: string]: any };
+  const parts = text.split("---\n");
+  const metaRaw = parseYAML(parts.length == 3 ? parts[1] : "") as { [key: string]: any };
   if (!metaRaw.title) {
     console.error("Untitled blog post.")
   }
-  let meta: BlogPostMeta = {
+  const meta: BlogPostMeta = {
     date: metaRaw.date,
     display_date: metaRaw.date ? (new Date(metaRaw.date + " PST")).toLocaleDateString("us-EN", {
       year: "numeric",
@@ -23,11 +23,11 @@ export function parsePostData(text: string, web_name: string): BlogPost {
   if (metaRaw.external) meta.external = metaRaw.external;
   if (metaRaw.paper) meta.paper = metaRaw.paper;
   
-  let post = parts.length == 3 ? parts[2] : parts[0];
+  const post = parts.length == 3 ? parts[2] : parts[0];
   
   const md = markdownit({ html: true, linkify: true });
   const rendered_post = md.render(post)
-  let first_image = meta.banner ?? rendered_post.match(/<img[^<>]*src=\"([^<>\"]+)\"[^<>]*>/i)?.[1] ?? null;
+  let first_image = meta.banner ?? rendered_post.match(/<img[^<>]*src="([^<>"]+)"[^<>]*>/i)?.[1] ?? null;
   if (first_image && first_image.startsWith("../")) first_image = first_image.replace("../", "");
 
   return { meta, post: rendered_post, first_image };
