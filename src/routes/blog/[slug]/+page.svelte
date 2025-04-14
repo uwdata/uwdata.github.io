@@ -107,7 +107,7 @@
     <a
       target="_blank"
       href={'https://bsky.app/intent/compose?text=' +
-        encodeURIComponent(`Blog post from UW IDL: "${meta.title}" + ${url}`)}
+        encodeURIComponent(`Blog post from UW IDL: "${meta.title}" ${url}`)}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

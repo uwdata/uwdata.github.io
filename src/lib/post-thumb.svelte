@@ -13,7 +13,7 @@
     <div class="thumbnail mb-2 md:mt-1 grow-0 shrink-0 mr-5">
       <div
         class="rounded-lg w-[120px] h-[80px] post-thumb-image"
-        style={`background-image: url(${base}/${post.first_image})`}
+        style={`background-image: url(${post.first_image})`}
       ></div>
     </div>
   {/if}
