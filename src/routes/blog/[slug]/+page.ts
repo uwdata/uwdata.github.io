@@ -24,7 +24,6 @@ export const load: PageLoad = async ({ params, fetch }) => {
   // find paper
   const paper = post.meta.paper ? await fetch(`${base}/papers/${post.meta.paper}.json`)
     .then((x) => x ? x.json() as Promise<Paper[]> : null) : null;
-  console.log(paper)
   
   const posts = await fetch(`${base}/blog-index.json`)
     .then((x) => x.json() as Promise<BlogPost[]>);

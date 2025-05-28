@@ -23,7 +23,6 @@
     await navigator.clipboard.writeText(url);
     alert('Copied the URL to clipboard.');
   }
-  console.log(paper);
 </script>
 
 <svelte:head>
@@ -69,9 +68,7 @@
 {#if !meta.external}
   <Markdown {content} />
 {:else}
-  This is an external post. Click <a href={meta.external} target="_blank" rel="noopener noreferrer"
-    >here</a
-  > for redirection.
+  This is an external post. Click <a href={meta.external} target="_blank" rel="noopener noreferrer">here</a> for redirection.
 {/if}
 
 <!-- share -->

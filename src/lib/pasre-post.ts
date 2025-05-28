@@ -10,7 +10,7 @@ export function parsePostData(text: string, web_name: string): BlogPost {
   }
   const meta: BlogPostMeta = {
     date: metaRaw.date,
-    display_date: metaRaw.date ? (new Date(metaRaw.date + " PST")).toLocaleDateString("us-EN", {
+    display_date: metaRaw.date ? (new Date(metaRaw.date.replace(/-/g, "/") + " PST")).toLocaleDateString("us-EN", {
       year: "numeric",
       month: "short",
       day: "numeric",
@@ -21,6 +21,9 @@ export function parsePostData(text: string, web_name: string): BlogPost {
   if (metaRaw.banner) meta.banner = metaRaw.banner;
   if (metaRaw.headliner) meta.headliner = metaRaw.headliner;
   if (metaRaw.external) meta.external = metaRaw.external;
+  if (meta.external && !meta.headliner) {
+    console.error("An external post must have a headliner.");
+  }
   if (metaRaw.paper) meta.paper = metaRaw.paper;
   
   const post = parts.length == 3 ? parts[2] : parts[0];
