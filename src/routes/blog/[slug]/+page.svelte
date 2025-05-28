@@ -17,7 +17,7 @@
   $: prevPost = data.prevPost;
   $: nextPost = data.nextPost;
   $: top_image = data.post.first_image;
-  $: url = `${hostname}${base}/blog/${meta.web_name}`;
+  $: url = `${hostname}/blog/${meta.web_name}`;
   $: paper = data.paper;
   async function copyLink() {
     await navigator.clipboard.writeText(url);
