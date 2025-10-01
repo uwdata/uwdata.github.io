@@ -67,3 +67,65 @@ Go to `featured-venues.json` and add to the bottom. Make sure that you are using
 - How do I deploy new changes?
 
 Create a new branch (`git checkout -b my-branch-name`), commit as normal, then push your branch and open a PR. When your change lands on `main` it will be deployed to the web automatically.
+
+- How do I add a new blog post?
+
+Create a markdown file under `static/blog-assets/posts`. The filename will be the slug in the URL. It can technically be anything, but the convention is `year-month-date-keyword.md` for consistency (e.g., `2015-12-17-next-steps.md`). In that file, write a post by taking the following steps:
+
+1. Sepcify meta data in YAML format, between `---` and `---`, at the top of your markdown post file. This is necessary for linking and sorting.
+
+```yaml
+---
+date: 2017-10-31 # required. year-month-date, in numbers.
+title: "Introducing Vega-Lite 2.0" # required. in double-quotes
+banner: "../blog-assets/images/2017-10-31-vegalite2-banner.webp" # optional. if provided, it appears before the title.
+paper: vega-lite # optional. if provided, it will create a link to the paper under the title (in the post page). 
+headliner: "..." # (1) optional, if your post is not external (i.e., there is content below this meta data section) and you want to have some custom summary for your post
+                 # (2) required, if your post is external (i.e., the below `external' field is provided) 
+                 # For both cases, make sure it is about 100 letters for the layout purposes. 
+external: URL # if it is posted on an external blog, then just provide that url here. While you are still need to say something in the post for the parsing purposes (put something like "external post"), it will be ignored. When this field is provided, then the above "headliner" field is required. This will be checked when you run the test script.
+---
+```
+
+2. Write your post below the meta data. Use common markdown formatting options. Here are some special cases:
+
+  a. Image caption:
+
+```
+![alt text](image url)
+*your caption goes here.*
+```
+
+  b. Horizontally placing images (the line changes are all intentional):
+
+```
+<div class="image image-flex">
+
+![](../blog-assets/images/image-1) 
+
+![](../blog-assets/images/image-2)
+</div>
+
+*Your caption goes here.*
+```
+
+  c. A display text:
+```
+<p class="display">Some text</p>
+```
+
+  d. A quote (Note: markdown formatting does not work within a `<blockquote>` tag, so any formatting, such as boldface or italic, must be specified using HTML):
+```
+<blockquote>
+Some text <em>italic</em> and <strong>bold</em>
+</blockquote>
+```
+
+  e. A space divider (This will be rendered as a short, center-aligned horizontal line):
+```
+* * *
+```
+
+3. Store images in `static/blog-assets/images` directory. For maintenence purposes, name your images starting with your post's file name.
+
+4. Supported headings `<h2>` (`##`) and `<h3>` (`###`).
