@@ -5150,5 +5150,19 @@
     "position": null,
     "interests": null,
     "org": null
+  },
+  {
+    "first_name": "Teanna",
+    "last_name": "Barrett",
+    "display_name": null,
+    "email": "teannb@uw.edu",
+    "url": "https://tbarrett553.github.io/acad_web/",
+    "status": "member",
+    "visible": true,
+    "image": "images/people/tbarrett.jpg",
+    "nickname": "Teanna",
+    "position": "PhD Student",
+    "interests": "Data Ethics",
+    "org": "UW CSE"
   }
 ]
