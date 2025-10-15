@@ -1,0 +1,50 @@
+{
+  "doi": "10.1145/3722212.3725117",
+  "web_name": "mosaic-sigmod-demo",
+  "title": "Mosaic: An Architecture for Linking Databases and Scalable Interactive Visualizations",
+  "venue": "SIGMOD-Demo",
+  "year": 2025,
+  "note": "Best Demo Honorable Mention",
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "ACM",
+  "location": "",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3722212.3725117",
+  "abstract": "Real-time interaction and visualization over large data volumes requires careful coordination of data queries and visual updates. Mosaic is an architecture for optimizing scalable and interoperable visualizations backed by a database, providing a platform for developing and deploying optimizations that span both visualization clients and backing databases. Mosaic applications consist of data-consuming clients that publish data needs as declarative queries, parameterized by shared filtering selections. These queries are managed and automatically optimized by a coordinator that proxies access to a scalable data store. For example, by analyzing selection predicates and client queries, the coordinator automatically constructs materialized views to perform selection updates over pre-aggregated data at interactive rates. Given only a high-level specification, Mosaic automatically enables orders-of-magnitude performance improvements over standard update queries.",
+  "thumbnail": "images/thumbs/mosaic-sigmod-demo.png",
+  "figure": "images/figures/mosaic-sigmod-demo.png",
+  "caption": "Interactive maps of 1.3B taxi pick-ups and drop-offs in New York City, cross-filtered by pickup time and location.",
+  "visible": true,
+  "pub_date": "2025-06-22",
+  "mod_date": "2025-06-22",
+  "authors": [
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Dominik",
+      "last_name": "Moritz",
+      "url": "http://domoritz.de/"
+    },
+    {
+      "first_name": "Ron",
+      "last_name": "Pechuk"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Examples",
+      "link": "https://idl.uw.edu/mosaic"
+    },
+    {
+      "name": "Software",
+      "link": "https://github.com/uwdata/mosaic"
+    }
+  ],
+  "tags": []
+}

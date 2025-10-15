@@ -1,6 +1,6 @@
 [
   {
-    "fullName": "ACM Human Factors in Computing Systems (CHI)",
+    "fullName": "Proc. ACM Human Factors in Computing Systems (CHI)",
     "nickname": "CHI",
     "venueType": "conference"
   },
@@ -15,27 +15,27 @@
     "venueType": "journal"
   },
   {
-    "fullName": "EuroVis Short Papers",
+    "fullName": "Proc. EuroVis Short Papers",
     "nickname": "EuroVis-Short",
     "venueType": "conference"
   },
   {
-    "fullName": "IEEE VIS Short Papers",
+    "fullName": "Proc. IEEE VIS Short Papers",
     "nickname": "VIS-Short",
     "venueType": "conference"
   },
   {
-    "fullName": "ACM User Interface Software & Technology (UIST)",
+    "fullName": "Proc. ACM User Interface Software & Technology (UIST)",
     "nickname": "UIST",
     "venueType": "conference"
   },
   {
-    "fullName": "ACM Computer-Supported Cooperative Work (CSCW)",
+    "fullName": "Proc. ACM Computer-Supported Cooperative Work (CSCW)",
     "nickname": "CSCW",
     "venueType": "conference"
   },
   {
-    "fullName": "ACM Intelligent User Interfaces",
+    "fullName": "Proc. ACM Intelligent User Interfaces",
     "nickname": "IUI",
     "venueType": "conference"
   },
@@ -45,12 +45,12 @@
     "venueType": "journal"
   },
   {
-    "fullName": "Advanced Visual Interfaces",
+    "fullName": "Proc. Advanced Visual Interfaces",
     "nickname": "AVI",
     "venueType": "conference"
   },
   {
-    "fullName": "Conference on Innovative Data Systems Research (CIDR)",
+    "fullName": "Proc. Conference on Innovative Data Systems Research (CIDR)",
     "nickname": "CIDR",
     "venueType": "conference"
   },
@@ -60,17 +60,17 @@
     "venueType": "journal"
   },
   {
-    "fullName": "Empirical Methods in Natural Language Processing",
+    "fullName": "Proc. Empirical Methods in Natural Language Processing",
     "nickname": "EMNLP",
     "venueType": "conference"
   },
   {
-    "fullName": "NAACL-HLT",
+    "fullName": "Proc. NAACL-HLT",
     "nickname": "NAACL-HLT",
     "venueType": "conference"
   },
   {
-    "fullName": "International Conference on Weblogs and Social Media (ICWSM)",
+    "fullName": "Proc. International Conference on Weblogs and Social Media (ICWSM)",
     "nickname": "ICWSM",
     "venueType": "conference"
   },
@@ -90,7 +90,7 @@
     "venueType": "journal"
   },
   {
-    "fullName": "IEEE Visual Analytics Science & Technology (VAST)",
+    "fullName": "Proc. IEEE Visual Analytics Science & Technology (VAST)",
     "nickname": "VAST",
     "venueType": "conference"
   },
@@ -100,24 +100,24 @@
     "venueType": "journal"
   },
   {
-    "fullName": "Hawaii International Conference on Systems Sciences (HICSS)",
+    "fullName": "Proc. Hawaii International Conference on Systems Sciences (HICSS)",
     "nickname": "HICSS",
     "venueType": "conference"
   },
   {
-    "fullName": "IEEE Information Visualization (InfoVis)",
+    "fullName": "Proc. IEEE Information Visualization (InfoVis)",
     "nickname": "InfoVis (Pre-TVCG)",
     "venueType": "conference"
   },
   {
-    "fullName": "Ubiquitous Computing",
+    "fullName": "Proc. Ubiquitous Computing",
     "nickname": "UbiComp",
     "venueType": "conference"
   },
   {
-    "fullName": "WEBKDD",
+    "fullName": "Proc. WEBKDD Workshop",
     "nickname": "WEBKDD",
-    "venueType": "conference"
+    "venueType": "workshop"
   },
   {
     "fullName": "ACM Trans. on Information Systems",
@@ -130,32 +130,32 @@
     "venueType": "journal"
   },
   {
-    "fullName": "Workshop on Social Network Mining & Analysis, ACM KDD",
+    "fullName": "Proc. Workshop on Social Network Mining & Analysis, ACM KDD",
     "nickname": "SNAKDD",
-    "venueType": "conference"
+    "venueType": "workshop"
   },
   {
-    "fullName": "Social Visualization Workshop, ACM CHI",
+    "fullName": "Proc. Social Visualization Workshop, ACM CHI",
     "nickname": "CHI Social Vis",
     "venueType": "workshop"
   },
   {
-    "fullName": "AVI Workshop on Invisible & Transparent Interfaces",
+    "fullName": "Proc. AVI Workshop on Invisible & Transparent Interfaces",
     "nickname": "AVI ITI",
     "venueType": "workshop"
   },
   {
-    "fullName": "Color Imaging Conference",
+    "fullName": "Proc. Color Imaging Conference",
     "nickname": "Color Imaging Conf.",
     "venueType": "conference"
   },
   {
-    "fullName": "Workshop on Applications for Topic Models, NIPS",
+    "fullName": "Proc. Workshop on Applications for Topic Models, NIPS",
     "nickname": "NIPS Topic Model Ws",
     "venueType": "workshop"
   },
   {
-    "fullName": "Mining Software Repositories",
+    "fullName": "Proc. Mining Software Repositories",
     "nickname": "MSR",
     "venueType": "conference"
   },
@@ -170,7 +170,7 @@
     "venueType": "journal"
   },
   {
-    "fullName": "International Conference on Machine Learning (ICML)",
+    "fullName": "Proc. International Conference on Machine Learning (ICML)",
     "nickname": "ICML",
     "venueType": "conference"
   },
@@ -180,7 +180,7 @@
     "venueType": "journal"
   },
   {
-    "fullName": "IEEE Biological Data Visualization (BioVis)",
+    "fullName": "Proc. IEEE Biological Data Visualization (BioVis)",
     "nickname": "BioVis",
     "venueType": "conference"
   },
@@ -190,17 +190,17 @@
     "venueType": "journal"
   },
   {
-    "fullName": "ACM Web Search and Data Mining (WSDM)",
+    "fullName": "Proc. ACM Web Search and Data Mining (WSDM)",
     "nickname": "WSDM",
     "venueType": "conference"
   },
   {
-    "fullName": "User Modeling and User-Adapted Interaction (UMUAI)",
+    "fullName": "Proc. User Modeling and User-Adapted Interaction (UMUAI)",
     "nickname": "UMUAI",
     "venueType": "journal"
   },
   {
-    "fullName": "Workshop on Eye Tracking and Visualization (ETVIS)",
+    "fullName": "Proc. Workshop on Eye Tracking and Visualization (ETVIS)",
     "nickname": "ETVIS",
     "venueType": "workshop"
   },
@@ -215,7 +215,7 @@
     "venueType": "journal"
   },
   {
-    "fullName": "ACM SIGMOD Human-in-the-Loop Data Analysis (HILDA)",
+    "fullName": "Proc. ACM SIGMOD Human-in-the-Loop Data Analysis (HILDA)",
     "nickname": "HILDA",
     "venueType": "workshop"
   },
@@ -225,7 +225,7 @@
     "venueType": "journal"
   },
   {
-    "fullName": "Workshop on Dealing with Cognitive Biases in Visualisations (DECISIVe), IEEE VIS",
+    "fullName": "Proc. Workshop on Dealing with Cognitive Biases in Visualisations (DECISIVe), IEEE VIS",
     "nickname": "DECISIVe",
     "venueType": "workshop"
   },
@@ -270,18 +270,33 @@
     "venueType": "journal"
   },
   {
-    "fullName": "IEEE Symposium on Visual Languages and Human Centric Computing (VL/HCC)",
+    "fullName": "Proc. IEEE Symposium on Visual Languages and Human Centric Computing (VL/HCC)",
     "nickname": "VL/HCC",
     "venueType": "conference"
   },
   {
-    "fullName": "Proceedings of the ACM on Management of Data (SIGMOD)",
+    "fullName": "Proc. ACM Management of Data (SIGMOD)",
     "nickname": "SIGMOD",
-    "venueType": "journal"
+    "venueType": "conference"
+  },
+  {
+    "fullName": "Companion of ACM Management of Data (SIGMOD)",
+    "nickname": "SIGMOD-Demo",
+    "venueType": "conference"
   },
   {
     "fullName": "IEEE Trans. Visualization & Comp. Graphics",
     "nickname": "TVCG",
     "venueType": "journal"
+  },
+  {
+    "fullName": "Proc. ACM Creativity & Cognition",
+    "nickname": "C&C",
+    "venueType": "conference"
+  },
+  {
+    "fullName": "Workshop on Intelligent and Interactive Writing Assistants (In2Writing)",
+    "nickname": "In2Writing",
+    "venueType": "workshop"
   }
 ]
