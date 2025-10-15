@@ -1,0 +1,36 @@
+{
+  "doi": "",
+  "web_name": "publish-time-optimizations",
+  "title": "Publish-Time Optimizations for Web-Based Visualizations",
+  "venue": "VIS-Short",
+  "year": 2025,
+  "note": "Best Paper Honorable Mention",
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2025-PublishTimeOpt-VIS.pdf",
+  "abstract": "Fast loading and responsive interaction lead to more effective web-based visualizations. While run-time optimizations such as caching and data tiling improve interaction latency, these approaches leave initial load performance unoptimized. In this work, we investigate _publish-time optimizations_ that shift computational work ahead of user sessions to accelerate both loading and interaction. We organize the space of publish-time optimizations into categories of data preparation, pre-computation of data assets for optimization, and pre-rendering; and then reason about tradeoffs in terms of time-to-render (TTR), time-to-activation (TTA), and storage cost (SC). To assess their effectiveness, we implement publish-time optimizations for the open-source Mosaic architecture and evaluate their impact across varied visualizations and dataset sizes. On average, publish-time strategies reduced rendering latency by 83.7% and activation latency by 33.3%, demonstrating their value for improving the performance of web-based visualizations.",
+  "thumbnail": "images/thumbs/publish-time-optimizations.png",
+  "figure": "images/figures/publish-time-optimizations.png",
+  "caption": "Overview of publish-time optimization strategies for interactive visualizations. Shifting data preparation, optimization computations, and rendering to publish time improves both time-to-render (TTR) and time-to-activation (TTA).",
+  "visible": true,
+  "pub_date": "2025-11-04",
+  "mod_date": "2025-11-04",
+  "authors": [
+    {
+      "first_name": "Ron",
+      "last_name": "Pechuk"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

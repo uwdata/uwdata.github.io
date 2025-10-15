@@ -1,0 +1,48 @@
+{
+  "doi": "10.1145/3690712.3690727",
+  "web_name": "preserving-writer-values",
+  "title": "Preserving Writer Values in AI Writing Assistance Tools",
+  "venue": "In2Writing",
+  "year": 2024,
+  "note": "",
+  "start_page": 58,
+  "end_page": 61,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "ACM",
+  "location": "",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3690712.3690727",
+  "abstract": "Many creative writers see writing as a deeply personal, human endeavor rather than a means to an end. As LLMs stand to transform how we conduct and perceive writing, how can AI writing tools assist creative writers without conflicting with the values they hold dear? We interview 8 creative writers who extensively use AI writing tools to understand their core writing values and how these shape their use of AI. Our preliminary findings indicate writers prioritize personal values of authentic self-expression and love of process when deciding if and how to employ AI writing aids. We conclude by proposing design implications for AI assistants that uphold writers’ values.",
+  "thumbnail": "images/thumbs/preserving-writer-values.png",
+  "figure": "",
+  "caption": "",
+  "visible": true,
+  "pub_date": "2024-10-15",
+  "mod_date": "2024-10-15",
+  "authors": [
+    {
+      "first_name": "Alicia",
+      "last_name": "Guo",
+      "url": "https://www.aliciaguo.com/"
+    },
+    {
+      "first_name": "Leijie",
+      "last_name": "Wang",
+      "url": "https://homes.cs.washington.edu/~leijiew/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    },
+    {
+      "first_name": "Amy",
+      "last_name": "Zhang",
+      "display_name": "Amy X. Zhang",
+      "url": "https://homes.cs.washington.edu/~axz/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

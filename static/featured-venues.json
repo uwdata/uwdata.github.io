@@ -9,7 +9,7 @@
     "desc": "IUI 2023 - Sydney, Australia",
     "venue_nickname": "IUI",
     "year": 2023,
-    "visible": true
+    "visible": false
   },
   {
     "desc": "VIS 2023 - Melbourne, Australia",
@@ -39,6 +39,24 @@
     "desc": "EMNLP 2024 - Miami, FL",
     "venue_nickname": "EMNLP",
     "year": 2024,
+    "visible": true
+  },
+  {
+    "desc": "Creativity & Cognition 2025",
+    "venue_nickname": "C&C",
+    "year": 2025,
+    "visible": true
+  },
+  {
+    "desc": "UIST 2025 - Busan, South Korea",
+    "venue_nickname": "UIST",
+    "year": 2025,
+    "visible": true
+  },
+  {
+    "desc": "VIS 2025 - Vienna, Austria",
+    "venue_nickname": "VIS",
+    "year": 2026,
     "visible": true
   }
 ]
