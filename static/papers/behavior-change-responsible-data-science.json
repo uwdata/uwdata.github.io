@@ -1,0 +1,47 @@
+{
+  "title": "Evaluating Behavior Change Interventions for Responsible Data Science",
+  "year": 2026,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://dl.acm.org/doi/epdf/10.1145/3772318.3791566",
+  "abstract": "The adoption of responsible data science (RDS) practices in AI development remains inadequate despite growing awareness of algorithmic harms. One measure of success is by observing practitioners’ behaviors – namely, their adoption of responsible sequences of behaviors in their model building practice. This paper evaluates two interventions for changing problematic behaviors: (i) a motivational priming intervention that introduces short, relevant stories, and (ii) a fairness toolkit (Aequitas)—to bridge the gap between ethical principles and practitioner behavior. Through a mixed-methods study with data scientists (N=12), we assess how these interventions influence fairness practices, model outcomes, and cognitive load across credit risk and income classification tasks. Results indicate that both interventions were efficient in promoting responsible data science behaviors and improving the delivered models’ fairness, while maintaining baseline accuracy. We argue that effective behavior change interventions must balance technical tooling with motivational scaffolding to provide actionable insights for fostering sustainable RDS practices.",
+  "thumbnail": "images/thumbs/behavior-change-responsible-data-science.png",
+  "figure": "images/figures/behavior-change-responsible-data-science.png",
+  "caption": "We conducted a user study to evaluate behavior change interventions for responsible data science. We tested two different behavior interventions against a control condition, enabling us to isolate specific mechanisms through which behavior change occurs in responsible data science scenarios.",
+  "web_name": "behavior-change-responsible-data-science",
+  "visible": true,
+  "mod_date": "2026-04-13",
+  "note": "",
+  "pub_date": "2026-04-13",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Ziwei",
+      "last_name": "Dong",
+      "url": "https://www.linkedin.com/in/ziwei-dong-8867a0152"
+    },
+    {
+      "first_name": "Keke",
+      "last_name": "Wu",
+      "url": "https://www.kekewu.me/"
+    },
+    {
+      "first_name": "Leilani",
+      "last_name": "Battle",
+      "url": "https://homes.cs.washington.edu/~leibatt/"
+    },
+    {
+      "first_name": "Emily",
+      "last_name": "Wall",
+      "url": "https://emilywall.github.io/"
+    }
+  ],
+  "materials": [],
+  "tags": [],
+  "doi": "10.1145/3772318.3791566"
+}

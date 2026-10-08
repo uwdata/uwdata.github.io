@@ -58,5 +58,11 @@
     "venue_nickname": "VIS",
     "year": 2026,
     "visible": true
+  },
+  {
+    "desc": "CHI 2026 - Barcelona, Spain",
+    "venue_nickname": "CHI",
+    "year": 2026,
+    "visible": true
   }
 ]
