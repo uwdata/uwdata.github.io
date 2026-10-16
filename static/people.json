@@ -5234,5 +5234,19 @@
     "position": null,
     "interests": null,
     "org": null
+  },
+  {
+    "first_name": "Nicole",
+    "last_name": "Sullivan",
+    "display_name": null,
+    "email": "nsulliv@cs.washington.edu",
+    "url": "https://nicolesullivan.xyz/",
+    "status": "member",
+    "visible": true,
+    "image": "images/people/nsulliv.png",
+    "nickname": "Nicole",
+    "position": "PhD Student",
+    "interests": "HCI, Databases, Yoga",
+    "org": "UW CSE"
   }
 ]
