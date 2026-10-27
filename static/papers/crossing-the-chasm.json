@@ -1,0 +1,47 @@
+{
+  "doi": "10.1109/TVCG.2026.3671259",
+  "web_name": "crossing-the-chasm",
+  "title": "Crossing the Chasm: Bridging Visual Augmentations and Designer Intent",
+  "venue": "TVCG",
+  "year": 2026,
+  "note": "",
+  "start_page": 5608,
+  "end_page": 5625,
+  "volume": 32,
+  "issue": 7,
+  "editors": "",
+  "publisher": "IEEE",
+  "location": "",
+  "pdf": "https://idl.cs.washington.edu/files/2026-CrossingTheChasm-TVCG.pdf",
+  "abstract": "To direct attention and communicate context, visualization designers often employ augmentations such as annotations, animated transitions, and stylistic layouts. While graphical perception principles can helpfully prescribe effective low-level representations of data, they lack guidance for augmentations that service higher-level communication goals. To bridge this gap, we contribute a design space that frames designer intent as viewer-oriented cognitive behaviors, grounding communicative aims in actionable visualization design techniques, including both visual encodings and augmentations. This design space consists of common augmentation tactics (annotation, animation, stylized encodings, etc.) that implement design strategies (spotlighting, sequencing, association, etc.) to achieve higher-level design goals (observe, interpret, introspect), often simultaneously. We demonstrate the analytic and generative value of our design space with examples across varied designer objectives. We discuss how our contributions help align designer intent with reader takeaways, pave the way for readers to learn more effectively, and enable future (semi-)automated systems to support visualization designers in achieving their communication goals.",
+  "thumbnail": "images/thumbs/crossing-the-chasm.png",
+  "figure": "images/figures/crossing-the-chasm.png",
+  "caption": "Overview of augmentations by Objective (Observe, Interpret, Introspect), Strategy (Sequence, Spotlight, Relate, Associate, Contextualize, Reflect, Repair), and Tactic (Transform, Animate, Layout, Annotate, Encode, Symbolize, Guide, Query, Predict, Explain, Evaluate, Simulate). The objectives span from lower-level perceptual aims to higher-level cognitive aims: observation goals seek to direct attention by emphasizing and sequencing content; interpretation aids add supplemental information affecting inference; and introspection helps readers assess and update their understanding.",
+  "visible": true,
+  "pub_date": "2026-07-01",
+  "mod_date": "2026-10-07",
+  "authors": [
+    {
+      "first_name": "Luke",
+      "last_name": "Snyder",
+      "url": "https://luke-s-snyder.github.io/"
+    },
+    {
+      "first_name": "Maureen",
+      "last_name": "Stone",
+      "url": "https://mcstone.github.io/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Appendix",
+      "link": "https://idl.cs.washington.edu/files/2026-CrossingTheChasm-TVCG-Appendix.pdf"
+    }
+  ],
+  "tags": []
+}
