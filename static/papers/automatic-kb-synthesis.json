@@ -1,0 +1,52 @@
+{
+  "title": "Automatic Synthesis of Visualization Design Knowledge Bases",
+  "year": 2026,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://arxiv.org/pdf/2601.19237",
+  "abstract": "Formal representations of the visualization design space, such as knowledge bases and graphs, consolidate design practices into a shared resource and enable automated reasoning and interpretable design recommendations. However, prior approaches typically depend on fixed, manually authored rules, making it difficult to build novel representations or extend them for different visualization domains. Instead, we propose data-driven methods that automatically synthesize visualization design knowledge bases. Specifically, our methods (1) extract candidate design features from a visualization corpus, (2) select features forward and backward, and (3) render the final knowledge base. In our benchmark evaluation compared to Draco 2, our synthesized knowledge base offers general and interpretable design features and improves the accuracy of predicting effective designs by 1-15% in varied training and test sets. When we apply our approach to genomics visualization, the synthesized knowledge base includes sensible features with accuracy up to 97%, demonstrating the applicability of our approach to other visualization domains.",
+  "thumbnail": "images/thumbs/automatic-kb-synthesis.png",
+  "figure": "images/figures/automatic-kb-synthesis.png",
+  "caption": "Given a visualization design corpus (1), our methods extract raw features (2), select some of them through forward and backward iterations (3), and then render the selected features into formal representations for further computation, such as visualization design recommendations (4). We evaluate our methods via a benchmark study (5) against an existing visualization design knowledge base (Draco 2 [55]) and by synthesizing a novel genomics visualization knowledge base from scratch (6).",
+  "web_name": "automatic-kb-synthesis",
+  "visible": true,
+  "mod_date": "2026-04-13",
+  "note": "",
+  "pub_date": "2026-04-13",
+  "venue": "CHI",
+  "authors": [
+    {
+      "first_name": "Hyeok",
+      "last_name": "Kim",
+      "url": "https://hyeok.me/"
+    },
+    {
+      "first_name": "Sehi",
+      "last_name": "L'yi",
+      "url": "https://sehilyi.com/"
+    },
+    {
+      "first_name": "Nils",
+      "last_name": "Gehlenborg",
+      "url": "https://hidivelab.org/team/members/nils-gehlenborg/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Code and data",
+      "link": "https://osf.io/q7xmu"
+    }
+  ],
+  "tags": [],
+  "doi": "10.1145/3772318.3790286"
+}

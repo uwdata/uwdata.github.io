@@ -83,3 +83,21 @@ export type Venue = {
   // venueType: 'C' | 'J' | 'B' | 'W';
   venueType: 'conference' | 'journal' | 'book' | 'workshop';
 };
+
+export type BlogPost = {
+  meta: BlogPostMeta;
+  post: string;
+  first_image?: string | null;
+};
+
+export type BlogPostMeta = {
+  date: string;
+  display_date: string;
+  title: string;
+  web_name: string;
+  recent?: boolean;
+  headliner?: string;
+  banner?: string;
+  paper?: string;
+  [key: string]: any;
+}

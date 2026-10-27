@@ -24,7 +24,7 @@
     },
     {
       name: 'blog',
-      href: 'https://medium.com/@uwdata'
+      href: `${base}/blog` // 'https://medium.com/@uwdata'
     },
     {
       name: 'code',

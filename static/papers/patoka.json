@@ -1,0 +1,47 @@
+{
+  "doi": "10.1145/3706598.3713370",
+  "web_name": "patoka",
+  "title": "Toward Human-Quantum Computer Interaction: Interface Techniques for Usable Quantum Computing",
+  "venue": "CHI",
+  "year": 2025,
+  "note": "",
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "Association for Computing Machinery (ACM)",
+  "location": "",
+  "pdf": "https://arxiv.org/abs/2502.00202",
+  "abstract": "By leveraging quantum-mechanical properties like superposition, entanglement, and interference, quantum computing (QC) offers promising solutions for problems that classical computing has not been able to solve efficiently, such as drug discovery, cryptography, and physical simulation. Unfortunately, adopting QC remains difficult for potential users like QC beginners and application-specific domain experts, due to limited theoretical and practical knowledge, the lack of integrated interface-wise support, and poor documentation. For example, to use quantum computers, one has to convert conceptual logic into low-level codes, analyze quantum program results, and share programs and results. To support the wider adoption of QC, we, as designers and QC experts, propose interaction techniques for QC through design iterations. These techniques include writing quantum codes conceptually, comparing initial quantum programs with optimized programs, sharing quantum program results, and exploring quantum machines. We demonstrate the feasibility and utility of these techniques via use cases with high-fidelity prototypes.",
+  "thumbnail": "images/thumbs/patoka.png",
+  "figure": "images/figures/patoka.png",
+  "caption": "Example interface techniques for quantum computing. (A) Writing quantum circuits conceptually and with in-situ verification and documentation. (B) Cross-highlighting across logical circuits, physical circuits, and on-machine quantum operations for reviewing circuit optimization outcomes. (C) A dashboard for navigating properties of quantum machines and generating reusable code for retrieving machine properties of interest. (D) Problem-specific visualizations for interpreting quantum program outcomes.",
+  "visible": true,
+  "pub_date": "2025-04-25",
+  "mod_date": "2025-04-25",
+  "authors": [
+    {
+      "first_name": "Hyeok",
+      "last_name": "Kim",
+      "url": "https://hyeok.me/"
+    },
+    {
+      "first_name": "Mingyoung",
+      "last_name": "Jeng"
+    },
+    {
+      "first_name": "Kaitlin N.",
+      "last_name": "Smith"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Software",
+      "link": "https://see-mike-out.github.io/patoka/"
+    }
+  ],
+  "tags": [
+    "quantum computing"
+  ]
+}
