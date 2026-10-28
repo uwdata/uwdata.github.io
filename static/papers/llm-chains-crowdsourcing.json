@@ -1,25 +1,25 @@
 {
-  "doi": "10.48550/arXiv.2312.11681",
+  "doi": "10.1145/3716134",
   "web_name": "llm-chains-crowdsourcing",
   "title": "Designing LLM Chains by Adapting Techniques from Crowdsourcing Workflows",
-  "venue": "arXiv",
-  "year": 2024,
+  "venue": "ACM TOCHI",
+  "year": 2025,
   "note": "",
   "start_page": null,
   "end_page": null,
-  "volume": null,
-  "issue": null,
+  "volume": 32,
+  "issue": 3,
   "editors": "",
-  "publisher": "arXiv",
+  "publisher": "Association for Computing Machinery (ACM)",
   "location": "",
-  "pdf": "https://arxiv.org/pdf/2312.11681",
-  "abstract": "LLM chains enable complex tasks by decomposing work into a sequence of subtasks. Similarly, the more established techniques of crowdsourcing workflows decompose complex tasks into smaller tasks for human crowdworkers. Chains address LLM errors analogously to the way crowdsourcing workflows address human error. To characterize opportunities for LLM chaining, we survey 107 papers across the crowdsourcing and chaining literature to construct a design space for chain development. The design space covers a designer's objectives and the tactics used to build workflows. We then surface strategies that mediate how workflows use tactics to achieve objectives. To explore how techniques from crowdsourcing may apply to chaining, we adapt crowdsourcing workflows to implement LLM chains across three case studies: creating a taxonomy, shortening text, and writing a short story. From the design space and our case studies, we identify takeaways for effective chain design and raise implications for future research and development.",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3716134",
+  "abstract": "LLM chains enable complex tasks by decomposing work into a sequence of subtasks. Similarly, the more established techniques of crowdsourcing workflows decompose complex tasks into smaller tasks for human crowdworkers. Chains address LLM errors analogously to the way crowdsourcing workflows address human error. To characterize opportunities for LLM chaining, we survey 107 papers across the crowdsourcing and chaining literature to construct a design space for chain development. The design space covers a designer’s objectives and the tactics used to build workflows. We then surface strategies that mediate how workflows use tactics to achieve objectives. To explore how techniques from crowdsourcing may apply to chaining, we adapt crowdsourcing workflows to implement LLM chains across three case studies: creating a taxonomy, shortening text, and writing a short story. From the design space and our case studies, we identify takeaways for effective chain design and raise implications for future research and development.",
   "thumbnail": "images/thumbs/llm-chains-crowdsourcing.png",
   "figure": "images/figures/llm-chains-crowdsourcing.png",
   "caption": "We contribute (1) a design space, (2) case studies, and (3) a discussion of techniques for LLM chains informed by crowdsourcing workflows. This scaffolding can help designers navigate the large possible space of LLM chains. For example, (Left) given a task of shortening text, as in Soylent, our design space aids an LLM chain designer in identifying relevant high-level objectives. These objectives incorporate elements of creativity and accuracy i.e., creatively shortening input text while verifying its faithfulness to the original. To support these objectives, the designer can lean upon concrete strategies, such as validation and user guidance. These strategies in turn point to lower-level tactics, such as allowing users to transform outputs. (Right) The designer can produce LLM chains to support the objectives by implementing strategies using tactics, as outlined in our design space. For example, generating diverse responses with the parallel generation tactic employed by Soylent creates an LLM chain that gives users control over the length of the shortened text via a directly manipulable slider.",
   "visible": true,
-  "pub_date": "2024-05-09",
-  "mod_date": "2024-05-09",
+  "pub_date": "2025-06-14",
+  "mod_date": "2025-06-14",
   "authors": [
     {
       "first_name": "Madeleine",
@@ -48,11 +48,6 @@
       "url": "http://homes.cs.washington.edu/~jheer/"
     }
   ],
-  "materials": [
-    {
-      "name": "Preprint",
-      "link": "https://arxiv.org/abs/2312.11681"
-    }
-  ],
+  "materials": [],
   "tags": []
 }

@@ -1,0 +1,47 @@
+{
+  "doi": "10.1145/3746059.3747651",
+  "web_name": "sculpin",
+  "title": "Sculpin: Direct-Manipulation Transformation of JSON",
+  "venue": "UIST",
+  "year": 2025,
+  "note": "",
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "ACM",
+  "location": "",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3746059.3747651",
+  "abstract": "Many end-user programming tasks require programmatically processing JSON, wrangling it from one format to another or building interactive applications atop it. But end-users are impeded by the indirectness and steep learning curve of textual code. We present Sculpin, a direct-manipulation environment supporting a broad range of JSON-transformation tasks. A user of Sculpin transforms JSON data step by step, recording a program in the process. Sculpin makes three design commitments to ensure directness and versatility: (1) steps are small and precise, not inferred; (2) steps are general-purpose and open to re-appropriation; (3) steps operate on JSON itself, rather than on a limited intermediate representation. To support these commitments, Sculpin introduces a mechanism of sculptable selections: the user can direct their action by guiding a selection on top of the data through small steps like generalization and hierarchical navigation. Sculpin also extends JSON with embedded interface elements like form inputs and buttons, allowing applications to be sculpted incrementally from source data. We demonstrate the breadth and directness of Sculpin in use-cases ranging from wrangling data to building applications. We evaluate Sculpin through a heuristic analysis, situating it in a broad space of programming systems and surfacing limitations such as difficulties editing preexisting programs.",
+  "thumbnail": "images/thumbs/sculpin.png",
+  "figure": "images/figures/sculpin.png",
+  "caption": "Sculpin is a programming-by-demonstration (PbD) system for JSON. Sculpin is versatile: it can wrangle and extract sub parts of JSON (1), or create interfaces atop it (2). In Sculpin, a user refines a selection and uses it to perform actions on the data underneath. User actions are recorded into a timeline, which forms a reusable program.",
+  "visible": true,
+  "pub_date": "2025-09-27",
+  "mod_date": "2025-10-14",
+  "authors": [
+    {
+      "first_name": "Josh",
+      "last_name": "Horowitz",
+      "url": "http://joshuahhh.com/"
+    },
+    {
+      "first_name": "Devamardeep",
+      "last_name": "Hayatpur",
+      "url": "https://hayatpur.dev/"
+    },
+    {
+      "first_name": "Haijun",
+      "last_name": "Xia",
+      "url": "https://hci.ucsd.edu/haijunxia"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}

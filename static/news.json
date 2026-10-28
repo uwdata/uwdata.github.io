@@ -282,32 +282,32 @@
   {
     "text": "Our [Narrative Visualization](papers/narrative/) paper won an [InfoVis 10-Year Test-of-Time Award](http://ieeevis.org/year/2020/info/awards/test-of-time-awards).",
     "date": "2020-10-20",
-    "visible": true
+    "visible": false
   },
   {
     "text": "IDL welcomes (back) [Leilani Battle](https://homes.cs.washington.edu/~leibatt/bio.html) as a UW CSE professor and lab co-director!",
     "date": "2021-09-27",
-    "visible": true
+    "visible": false
   },
   {
     "text": "[D3](papers/d3) wins an [InfoVis 10-Year Test-of-Time Award](http://ieeevis.org/year/2021/info/awards/test-of-time-awards)!",
     "date": "2021-10-15",
-    "visible": true
+    "visible": false
   },
   {
     "text": "[Tisane](papers/tisane) is a CHI'22 Honorable Mention. Congrats [Eunice](https://eunicemjun.com/)!",
     "date": "2022-05-10",
-    "visible": true
+    "visible": false
   },
   {
     "text": "Our [interview study of data analysts](papers/enterprise-analysis-interviews) received a [10-Year Test-of-Time Award](https://ieeevis.org/year/2022/info/awards/test-of-time-awards).",
     "date": "2022-10-16",
-    "visible": true
+    "visible": false
   },
   {
     "text": "[ScatterShot](papers/scattershot) earns an IUI'23 Honorable Mention.",
     "date": "2023-03-27",
-    "visible": true
+    "visible": false
   },
   {
     "text": "Six new papers at VIS 2023!",
@@ -332,6 +332,21 @@
   {
     "text": "IDL alum [Dominik Moritz](https://www.domoritz.de/) won a [2024 VGTC Significant New Researcher Award](https://ieeevis.org/year/2024/program/awards/awards)!",
     "date": "2024-10-16",
+    "visible": true
+  },
+  {
+    "text": "Our [Mosaic demo](papers/mosaic-sigmod-demo) received a SIGMOD 2025 Best Demo Honorable Mention.",
+    "date": "2025-06-27",
+    "visible": true
+  },
+  {
+    "text": "[Publish-Time Optimizations for Web-Based Visualization](papers/publish-time-optimizations) won a VIS 2025 Best Short Paper Honorable Mention.",
+    "date": "2025-10-01",
+    "visible": true
+  },
+  {
+    "text": "[Voyager](papers/voyager) won a VIS 10 Year Test-of-Time Award!",
+    "date": "2025-10-03",
     "visible": true
   }
 ]

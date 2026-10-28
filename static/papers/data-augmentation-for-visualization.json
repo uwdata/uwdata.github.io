@@ -1,0 +1,37 @@
+{
+  "doi": "10.48550/arXiv.2508.02216",
+  "web_name": "data-augmentation-for-visualization",
+  "title": "Data Augmentation for Visualization Design Knowledge Bases",
+  "venue": "VIS",
+  "year": 2026,
+  "note": "",
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "IEEE",
+  "location": "",
+  "pdf": "https://www.arxiv.org/pdf/2508.02216",
+  "abstract": "Visualization knowledge bases enable computational reasoning and recommendation over a visualization design space. These systems evaluate design trade-offs using numeric weights assigned to different features (e.g., binning a variable). Feature weights can be learned automatically by fitting a model to a collection of chart pairs, in which one chart is deemed preferable to the other. To date, labeled chart pairs have been drawn from published empirical research results; however, such pairs are not comprehensive, resulting in a training corpus that lacks many design variants and fails to systematically assess potential trade-offs. To improve knowledge base coverage and accuracy, we contribute data augmentation techniques for generating and labeling chart pairs. We present methods to generate novel chart pairs based on design permutations and by identifying under-assessed features -- leading to an expanded corpus with thousands of new chart pairs, now in need of labels. Accordingly, we next compare varied methods to scale labeling efforts to annotate chart pairs, in order to learn updated feature weights. We evaluate our methods in the context of the Draco knowledge base, demonstrating improvements to both feature coverage and chart recommendation performance.",
+  "thumbnail": "images/thumbs/data-augmentation-for-visualization.png",
+  "figure": "images/figures/data-augmentation-for-visualization.png",
+  "caption": "Our work introduces data augmentation techniques for updating a visualization design knowledge base using example design pairs, in which one chart is deemed preferable to another. Given (A) an original set of design pairs obtained from empirical studies or example cases, (B) primitive augmentation produces variations of the original designs by enumerating pairs that exhibit the same differences in low-level design primitives as an original design pair (e.g., the use of the x channel); (C) feature augmentation extends the original pairs by adding new pairs that exhibit high-level design features (e.g., binning on the color channel) that the original pairs do not cover; lastly, (D) seed augmentation enumerates design pairs that the current knowledge base reasons about well.",
+  "visible": true,
+  "pub_date": "2026-01-01",
+  "mod_date": "2026-01-01",
+  "authors": [
+    {
+      "first_name": "Hyeok",
+      "last_name": "Kim",
+      "url": "https://hyeok.me/"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Heer",
+      "url": "http://homes.cs.washington.edu/~jheer/"
+    }
+  ],
+  "materials": [],
+  "tags": []
+}
